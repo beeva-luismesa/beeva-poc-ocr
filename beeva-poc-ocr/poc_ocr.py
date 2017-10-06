@@ -1,14 +1,12 @@
 import argparse
-import fnmatch
 import importlib.machinery
 import logging
 import os
-import re
 import types
 from datetime import datetime
 
-from controller.ffmpeg_controller import FFmpegController
-from controller.youtube_dl_controller import YoutubeDLController
+from controller.poc_ocr_controller import PoCOCRController
+from util.poc_ocr_util import is_youtube_url
 
 
 class PoCOCR:
@@ -16,29 +14,14 @@ class PoCOCR:
         loader = importlib.machinery.SourceFileLoader(settings_path, settings_path)
         self.__settings = types.ModuleType(loader.name)
         loader.exec_module(self.__settings)
-        self.__youtube_dl_controller = YoutubeDLController(self.__settings)
-        self.__ffmpeg_controller = FFmpegController(self.__settings)
+        self.__poc_ocr_controller = PoCOCRController(self.__settings)
 
-    def run_poc_ocr(self, video, output_path, threshold):
+    def run(self, video, output_path, threshold, ocr):
         try:
-            if is_youtube_url(video):
-                video_info = self.__youtube_dl_controller.get_info_from_youtube(video)
-                self.__youtube_dl_controller.download_from_youtube(video)
-                youtube_local_files = find_local_file("*{}.{}".format(video_info['id'], video_info['ext']), "./")
-                output_folder = self.generate_frames_from_video(youtube_local_files[0], output_path, threshold)
-                os.remove(youtube_local_files[0])
-            else:
-                output_folder = self.generate_frames_from_video(video, output_path, threshold)
+            self.__poc_ocr_controller.run_poc_ocr(video, output_path, threshold, ocr)
         except Exception as ex:
             logging.exception("[PoC OCR] Exception: {}".format(ex))
             exit(-1)
-
-    def generate_frames_from_video(self, video_file, output_path, threshold):
-        output_folder = self.__ffmpeg_controller.generate_frames_from_video(video_file, output_path, threshold)
-        if not output_folder:
-            raise Exception("Failed while trying to generate frames from video")
-        else:
-            return output_folder
 
 
 def main():
@@ -52,13 +35,18 @@ def main():
     parser.add_argument('--output_path', type=valid_local_path, help='Local path to store output.', required=True)
     parser.add_argument('--scene_threshold', type=valid_threshold,
                         help='Threshold for scene change detection. A number between 0 and 100. Default: 50.', required=False, default=0.5)
+    parser.add_argument('--ocr', choices=[settings.TESSERACT, settings.GOOGLE_CLOUD_VISION, settings.OCR_SPACE],
+                        help="OCR choices. '{}' as a local choice. '{}' and '{}' as an external API choices.".format(settings.TESSERACT,
+                                                                                                                     settings.GOOGLE_CLOUD_VISION,
+                                                                                                                     settings.OCR_SPACE),
+                        required=True)
 
     args = parser.parse_args()
     logging.info("Params <{}>".format(args))
     logging.info("Starting process")
     try:
         poc_ocr = PoCOCR("config/settings.py")
-        poc_ocr.run_poc_ocr(args.video, args.output_path, args.scene_threshold)
+        poc_ocr.run(args.video, args.output_path, args.scene_threshold, args.ocr)
     except Exception as ex_main:
         logging.error("ERROR: An error raised and the process ended: {}".format(ex_main))
         exit(-1)
@@ -98,20 +86,6 @@ def valid_threshold(i):
     except ValueError:
         msg = "Not a valid integer: '{0}'. Value must be between 1 and 100.".format(i)
         raise argparse.ArgumentTypeError(msg)
-
-
-def is_youtube_url(url):
-    pattern = re.compile('^(https?\:\/\/)?(www\.)?(youtube\.com|youtu\.?be)\/.+$')
-    return pattern.match(url)
-
-
-def find_local_file(pattern, path):
-    result = []
-    for root, dirs, files in os.walk(path):
-        for name in files:
-            if fnmatch.fnmatch(name, pattern):
-                result.append(os.path.join(root, name))
-    return result
 
 
 if __name__ == '__main__':
