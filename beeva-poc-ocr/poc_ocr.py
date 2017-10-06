@@ -16,9 +16,9 @@ class PoCOCR:
         loader.exec_module(self.__settings)
         self.__poc_ocr_controller = PoCOCRController(self.__settings)
 
-    def run(self, video, output_path, threshold, ocr):
+    def run(self, video, output_path, threshold, ocr, lang):
         try:
-            self.__poc_ocr_controller.run_poc_ocr(video, output_path, threshold, ocr)
+            self.__poc_ocr_controller.run_poc_ocr(video, output_path, threshold, ocr, lang)
         except Exception as ex:
             logging.exception("[PoC OCR] Exception: {}".format(ex))
             exit(-1)
@@ -40,13 +40,16 @@ def main():
                                                                                                                      settings.GOOGLE_CLOUD_VISION,
                                                                                                                      settings.OCR_SPACE),
                         required=True)
+    parser.add_argument('--lang', choices=settings.TESSERACT_TOOL_DESIRED_LANGS,
+                        help="OCR language selected. '{}' by default".format(settings.PREFERRED_LANG), required=False,
+                        default=settings.PREFERRED_LANG)
 
     args = parser.parse_args()
     logging.info("Params <{}>".format(args))
     logging.info("Starting process")
     try:
         poc_ocr = PoCOCR("config/settings.py")
-        poc_ocr.run(args.video, args.output_path, args.scene_threshold, args.ocr)
+        poc_ocr.run(args.video, args.output_path, args.scene_threshold, args.ocr, args.lang)
     except Exception as ex_main:
         logging.error("ERROR: An error raised and the process ended: {}".format(ex_main))
         exit(-1)
