@@ -1,6 +1,7 @@
 import logging
 import os
 
+from controller.cloud_vision_controller import CloudVisionController
 from controller.ffmpeg_controller import FFmpegController
 from controller.ocr_space_controller import OCRSpaceController
 from controller.py_ocr_controller import PyOCRController
@@ -14,8 +15,7 @@ class PoCOCRController(object):
         self.__settings = settings
         self.__youtube_dl_controller = YoutubeDLController(self.__settings)
         self.__ffmpeg_controller = FFmpegController(self.__settings)
-        self.__py_ocr_controller = PyOCRController(self.__settings)
-        self.__ocr_space_controller = OCRSpaceController(self.__settings)
+        self.__ocr_controller = None
 
     def run_poc_ocr(self, video, output_path, threshold, ocr, lang):
         try:
@@ -40,17 +40,24 @@ class PoCOCRController(object):
         if not os.path.exists(text_subfolder):
             os.makedirs(text_subfolder)
 
+        if ocr == self.__settings.TESSERACT:
+            self.__ocr_controller = PyOCRController(self.__settings)
+        elif ocr == self.__settings.OCR_SPACE:
+            self.__ocr_controller = OCRSpaceController(self.__settings)
+        else:
+            self.__ocr_controller = CloudVisionController(self.__settings)
+
         for image in os.listdir(images_subfolder):
             image_path = os.path.abspath(
                 os.path.join(output_folder, self.__settings.IMAGES_SUBFOLDER, image))
             file_name = os.path.splitext(os.path.basename(image_path))[0]
 
             if ocr == self.__settings.TESSERACT:
-                self.__py_ocr_controller.perform_local_ocr(image_path, text_subfolder, file_name, lang)
+                self.__ocr_controller.perform_local_ocr(image_path, text_subfolder, file_name, lang)
             elif ocr == self.__settings.OCR_SPACE:
-                self.__ocr_space_controller.perform_ocr_space(image_path, text_subfolder, file_name, lang)
+                self.__ocr_controller.perform_ocr_space(image_path, text_subfolder, file_name, lang)
             else:
-                "Do Google CloudVision"
+                self.__ocr_controller.perform_cloud_vision(image_path, text_subfolder, file_name)
 
     def generate_frames_from_video(self, video_file, output_path, threshold):
         output_folder = self.__ffmpeg_controller.generate_frames_from_video(video_file, output_path, threshold)
