@@ -1,2 +1,3 @@
-pyocr
 youtube-dl
+requests
+pyocr
