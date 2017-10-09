@@ -23,18 +23,7 @@ class PoCOCRController(object):
                 youtube_local_files = find_local_file("*{}.{}".format(video_info['id'], video_info['ext']), "./")
                 output_folder = self.generate_frames_from_video(youtube_local_files[0], output_path, threshold)
                 if ocr == self.__settings.TESSERACT:
-                    tool = self.__py_ocr_controller.get_ocr_tool()
-                    if tool:
-                        text_subfolder = os.path.join(output_folder, self.__settings.TEXT_SUBFOLDER)
-                        if not os.path.exists(text_subfolder):
-                            os.makedirs(text_subfolder)
-                        for image in os.listdir(os.path.join(output_folder, self.__settings.IMAGES_SUBFOLDER)):
-                            image_path = os.path.abspath(
-                                os.path.join(output_folder, self.__settings.IMAGES_SUBFOLDER, image))
-                            text = self.__py_ocr_controller.extract_text_from_image(tool, lang, image_path)
-                            file_name = os.path.splitext(os.path.basename(image_path))[0]
-                            with open(os.path.join(text_subfolder, "{}{}".format(file_name, self.__settings.TXT_EXTENSION)), "w") as text_file:
-                                print(text, file=text_file)
+                    self.__py_ocr_controller.perform_local_ocr(output_folder, lang)
                 elif ocr == self.__setings.OCR_SPACE:
                     "Do OCR Space"
                 else:
