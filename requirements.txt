@@ -1,4 +1,4 @@
 youtube-dl
 requests
 pyocr
-google-cloud
+google-api-python-client

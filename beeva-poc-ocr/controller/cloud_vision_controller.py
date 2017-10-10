@@ -1,15 +1,14 @@
-import io
+import base64
 import logging
 import os
 
-from google.cloud import vision
-from google.cloud.vision import types
+from googleapiclient.discovery import build
 
 
 class CloudVisionController(object):
     def __init__(self, settings):
         self.__settings = settings
-        self.__client = vision.ImageAnnotatorClient(credentials=self.__settings.GOOGLE_CREDENTIALS)
+        self.__google_service = build('vision', 'v1', developerKey=self.__settings.GOOGLE_CREDENTIALS, cache_discovery=False)
 
     def perform_cloud_vision(self, image_path, text_subfolder, file_name):
         text = self.call_cloud_vision_with_local_file(image_path)
@@ -20,18 +19,27 @@ class CloudVisionController(object):
 
         text_result = str()
         try:
-            with io.open(image_path, 'rb') as image_file:
-                content = image_file.read()
+            with open(image_path, "rb") as imageFile:
+                image_file = imageFile.read()
+                image_bytes = bytearray(image_file)
 
-            image = types.Image(content=content)
+                image_b64 = base64.b64encode(image_bytes).decode()
+                r = self.__google_service.images().annotate(body={
+                    'requests': [{
+                        'image': {
+                            'content': image_b64
+                        },
+                        'features': [{
+                            'type': 'DOCUMENT_TEXT_DETECTION',
+                            'maxResults': 5,
+                        }]
+                    }]
+                }).execute()
 
-            response = self.__client.text_detection(image=image)
-            texts = response.text_annotations
-
-            for text in texts:
-                text_result += '\n"{}"'.format(text.description)
-
+                if r and r['responses'] and r['responses'][0] and r['responses'][0]['fullTextAnnotation'] and r['responses'][0]['fullTextAnnotation'][
+                    'text']:
+                    text_result = r['responses'][0]['fullTextAnnotation']['text']
         except Exception as ex:
-            logging.error("ERROR reading text from Cloud Vision: {}".format(ex))
+            logging.error("ERROR reading text from Google Cloud Vision: {}".format(ex))
 
         return text_result
