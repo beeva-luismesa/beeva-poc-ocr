@@ -1,3 +1,4 @@
+import logging
 import os
 import subprocess
 
@@ -15,6 +16,7 @@ class FFmpegController(object):
         out_abspath_with_frame_name = os.path.join(out_subfolder_abspath, self.__settings.FRAME_NAME_PATTERN)
         cmd = self.__settings.FFMPEG_CMD.format(self.generate_quoted_path(os.path.abspath(video_path)), fr_threshold,
                                                 self.generate_quoted_path(out_abspath_with_frame_name))
+        logging.info("Calling ffmpeg command: {}".format(cmd))
         try:
             exit_code = subprocess.check_call(cmd, shell=True)
             if exit_code == 0:

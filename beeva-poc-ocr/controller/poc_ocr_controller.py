@@ -20,6 +20,7 @@ class PoCOCRController(object):
     def run_poc_ocr(self, video, output_path, threshold, ocr, lang):
         try:
             if is_youtube_url(video):
+                logging.info("It's a youtube video! Here we go!")
                 video_info = self.__youtube_dl_controller.get_info_from_youtube(video)
                 self.__youtube_dl_controller.download_from_youtube(video)
                 youtube_local_files = find_local_file("*{}.{}".format(video_info['id'], video_info['ext']), "./")
@@ -27,6 +28,7 @@ class PoCOCRController(object):
                 self.perform_ocr_subprocess(ocr, output_folder, lang)
                 os.remove(youtube_local_files[0])
             else:
+                logging.info("It's a local video! Here we go!")
                 output_folder = self.generate_frames_from_video(video, output_path, threshold)
                 self.perform_ocr_subprocess(ocr, output_folder, lang)
         except Exception as ex:
@@ -34,12 +36,16 @@ class PoCOCRController(object):
             exit(-1)
 
     def perform_ocr_subprocess(self, ocr, output_folder, lang):
+        logging.info("Performing OCR with {}".format(ocr))
+
         images_subfolder = os.path.join(output_folder, self.__settings.IMAGES_SUBFOLDER)
         text_subfolder = os.path.join(output_folder, self.__settings.TEXT_SUBFOLDER)
 
         if not os.path.exists(text_subfolder):
             os.makedirs(text_subfolder)
 
+        logging.info("Images subfolder will be: {}".format(images_subfolder))
+        logging.info("Text subfolder will be: {}".format(text_subfolder))
         if ocr == self.__settings.TESSERACT:
             self.__ocr_controller = PyOCRController(self.__settings)
         elif ocr == self.__settings.OCR_SPACE:
@@ -52,6 +58,7 @@ class PoCOCRController(object):
                 os.path.join(output_folder, self.__settings.IMAGES_SUBFOLDER, image))
             file_name = os.path.splitext(os.path.basename(image_path))[0]
 
+            logging.info("Processing image: {}".format(image_path))
             if ocr == self.__settings.TESSERACT:
                 self.__ocr_controller.perform_local_ocr(image_path, text_subfolder, file_name, lang)
             elif ocr == self.__settings.OCR_SPACE:
@@ -60,6 +67,7 @@ class PoCOCRController(object):
                 self.__ocr_controller.perform_cloud_vision(image_path, text_subfolder, file_name)
 
     def generate_frames_from_video(self, video_file, output_path, threshold):
+        logging.info("Generating frames from video {}".format(video_file))
         output_folder = self.__ffmpeg_controller.generate_frames_from_video(video_file, output_path, threshold)
         if not output_folder:
             raise Exception("Failed while trying to generate frames from video")

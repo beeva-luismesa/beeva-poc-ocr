@@ -16,6 +16,7 @@ class OCRSpaceController(object):
 
     def call_ocr_space_with_local_file(self, filename, language, overlay=False):
 
+        logging.info("Calling OCR Space with image: {}".format(filename))
         text_result = str()
         try:
             payload = {'isOverlayRequired': overlay,

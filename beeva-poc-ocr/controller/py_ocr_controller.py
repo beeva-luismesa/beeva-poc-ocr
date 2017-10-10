@@ -1,5 +1,6 @@
 import os
 
+import logging
 import pyocr
 import pyocr.builders
 from PIL import Image
@@ -16,6 +17,7 @@ class PyOCRController(object):
             print(text, file=text_file)
 
     def extract_text_from_image(self, lang, image_path):
+        logging.info("Calling tesseract text with image: {}".format(image_path))
         return self.__tool.image_to_string(Image.open(image_path), lang=lang, builder=pyocr.builders.TextBuilder())
 
     def get_ocr_tool(self):

@@ -16,7 +16,7 @@ class CloudVisionController(object):
             print(text, file=text_file)
 
     def call_cloud_vision_with_local_file(self, image_path):
-
+        logging.info("Calling Google cloud vision with image: {}".format(image_path))
         text_result = str()
         try:
             with open(image_path, "rb") as imageFile:

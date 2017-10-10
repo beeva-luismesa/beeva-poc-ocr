@@ -54,7 +54,7 @@ def main():
         logging.error("ERROR: An error raised and the process ended: {}".format(ex_main))
         exit(-1)
 
-    logging.info("Download process finished!")
+    logging.info("Process finished!")
 
 
 def valid_video(path):
