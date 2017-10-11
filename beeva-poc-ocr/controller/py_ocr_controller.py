@@ -1,6 +1,7 @@
-import os
-
 import logging
+import os
+from datetime import datetime
+
 import pyocr
 import pyocr.builders
 from PIL import Image
@@ -18,7 +19,12 @@ class PyOCRController(object):
 
     def extract_text_from_image(self, lang, image_path):
         logging.info("Calling tesseract text with image: {}".format(image_path))
-        return self.__tool.image_to_string(Image.open(image_path), lang=lang, builder=pyocr.builders.TextBuilder())
+        ocr_start = datetime.now()
+        text = self.__tool.image_to_string(Image.open(image_path), lang=lang, builder=pyocr.builders.TextBuilder())
+        ocr_end = datetime.now()
+        ocr_time = ocr_end - ocr_start
+        logging.info("Local OCR processing image time: {}s".format(ocr_time.total_seconds()))
+        return text
 
     def get_ocr_tool(self):
         tool_found = None

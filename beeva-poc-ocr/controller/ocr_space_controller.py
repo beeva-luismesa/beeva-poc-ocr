@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+from datetime import datetime
 
 import requests
 
@@ -17,6 +18,7 @@ class OCRSpaceController(object):
     def call_ocr_space_with_local_file(self, filename, language, overlay=False):
 
         logging.info("Calling OCR Space with image: {}".format(filename))
+        ocr_space_start = datetime.now()
         text_result = str()
         try:
             payload = {'isOverlayRequired': overlay,
@@ -36,5 +38,7 @@ class OCRSpaceController(object):
                         text_result = json_content['ParsedResults'][0]['ParsedText']
         except Exception as ex:
             logging.error("ERROR reading text from OCR Space: {}".format(ex))
-
+        ocr_space_end = datetime.now()
+        ocr_time = ocr_space_end - ocr_space_start
+        logging.info("OCR Space processing image time: {}s".format(ocr_time.total_seconds()))
         return text_result

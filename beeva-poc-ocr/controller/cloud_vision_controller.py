@@ -1,6 +1,7 @@
 import base64
 import logging
 import os
+from datetime import datetime
 
 from googleapiclient.discovery import build
 
@@ -17,6 +18,7 @@ class CloudVisionController(object):
 
     def call_cloud_vision_with_local_file(self, image_path):
         logging.info("Calling Google cloud vision with image: {}".format(image_path))
+        google_ocr_start = datetime.now()
         text_result = str()
         try:
             with open(image_path, "rb") as imageFile:
@@ -41,5 +43,7 @@ class CloudVisionController(object):
                     text_result = r['responses'][0]['fullTextAnnotation']['text']
         except Exception as ex:
             logging.error("ERROR reading text from Google Cloud Vision: {}".format(ex))
-
+        google_ocr_end = datetime.now()
+        ocr_time = google_ocr_end - google_ocr_start
+        logging.info("OCR Cloud Vision processing image time: {}s".format(ocr_time.total_seconds()))
         return text_result

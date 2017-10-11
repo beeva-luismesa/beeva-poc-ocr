@@ -47,6 +47,7 @@ def main():
     args = parser.parse_args()
     logging.info("Params <{}>".format(args))
     logging.info("Starting process")
+    ocr_start = datetime.now()
     try:
         poc_ocr = PoCOCR("config/settings.py")
         poc_ocr.run(args.video, args.output_path, args.scene_threshold, args.ocr, args.lang)
@@ -54,7 +55,10 @@ def main():
         logging.error("ERROR: An error raised and the process ended: {}".format(ex_main))
         exit(-1)
 
+    ocr_end = datetime.now()
+    total_time = ocr_end - ocr_start
     logging.info("Process finished!")
+    logging.info("Total process time: {}s".format(total_time.total_seconds()))
 
 
 def valid_video(path):

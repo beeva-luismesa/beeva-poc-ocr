@@ -1,6 +1,7 @@
 import logging
 import os
 import subprocess
+from datetime import datetime
 
 
 class FFmpegController(object):
@@ -17,8 +18,13 @@ class FFmpegController(object):
         cmd = self.__settings.FFMPEG_CMD.format(self.generate_quoted_path(os.path.abspath(video_path)), fr_threshold,
                                                 self.generate_quoted_path(out_abspath_with_frame_name))
         logging.info("Calling ffmpeg command: {}".format(cmd))
+
         try:
+            ffmpeg_start = datetime.now()
             exit_code = subprocess.check_call(cmd, shell=True)
+            ffmpeg_end = datetime.now()
+            ffmpeg_time = ffmpeg_end - ffmpeg_start
+            logging.info("FFMPEG time: {}s".format(ffmpeg_time.total_seconds()))
             if exit_code == 0:
                 return out_folder_abspath
             else:

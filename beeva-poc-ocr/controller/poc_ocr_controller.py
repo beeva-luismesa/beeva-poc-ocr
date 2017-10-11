@@ -1,5 +1,6 @@
 import logging
 import os
+from datetime import datetime
 
 from controller.cloud_vision_controller import CloudVisionController
 from controller.ffmpeg_controller import FFmpegController
@@ -53,6 +54,7 @@ class PoCOCRController(object):
         else:
             self.__ocr_controller = CloudVisionController(self.__settings)
 
+        whole_images_start = datetime.now()
         for image in os.listdir(images_subfolder):
             image_path = os.path.abspath(
                 os.path.join(output_folder, self.__settings.IMAGES_SUBFOLDER, image))
@@ -65,6 +67,9 @@ class PoCOCRController(object):
                 self.__ocr_controller.perform_ocr_space(image_path, text_subfolder, file_name, lang)
             else:
                 self.__ocr_controller.perform_cloud_vision(image_path, text_subfolder, file_name)
+        whole_images_end = datetime.now()
+        total_ocr_time = whole_images_end - whole_images_start
+        logging.info("Total OCR time: {}s".format(total_ocr_time.total_seconds()))
 
     def generate_frames_from_video(self, video_file, output_path, threshold):
         logging.info("Generating frames from video {}".format(video_file))
