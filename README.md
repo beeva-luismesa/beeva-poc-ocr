@@ -1,2 +1,46 @@
-# beeva-poc-ocr
-PoC OCR over video frames
+# BEEVA PoC OCR
+
+This module is built in order to evaluate the capability of several OCR software for reading the text from a set of video frames extracted from a local or youtube video.
+
+We have tested `Tesseract`, as a local choice, and `Google Cloud Vision` and `OCR.Space`, as API choices.
+
+## Configuration
+
+Before using this module you may need setting up your OS, get an API key for `Google Cloud Vision` or `OCR.Space` and configure a settings file.
+
+### OS and system requirements
+
+In this section, we are going to describe the environment used for this experiment. You must have the following requirements in your OS:
+
+* A `Debian` based OS (`Debian` itself, any flavour of `Ubuntu` or `Linux Mint`, etc.)
+* `python3` (tested with 3.5.3 version)
+* `ffmpeg` (tested with 3.2.7 version)
+* `tesseract-ocr` and languages files for English and Spanish (tested with 3.04 version)
+
+You can install it from terminal typing the following command:
+
+```bash
+apt-get install -y python3 ffmpeg tesseract-ocr tesseract-ocr-eng tesseract-ocr-spa
+```
+
+### API Keys
+
+You must have an account in `Google Cloud` and `OCR.Space` in order to use their APIs. In this section, it's explained how to get an API Key for this services.
+
+#### OCR.Space
+
+By registering in [OCR.Space](https://ocr.space/ocrapi) website, you can get a free API Key for using their service with the following restrictions:
+
+* 25.000 maximum requests per month
+* 1 MB file size limit
+* 500 calls by day
+
+The registration process is very easy. You only have to fill up [this form](http://space.us11.list-manage1.com/subscribe?u=ce17e59f5b68a2fd3542801fd&id=252aee70a1) and they will send you your key to the registration e-mail.
+
+#### Google Cloud Vision
+
+You should register in [Google Cloud Platform](https://cloud.google.com/) before using Google Cloud Vision API. It's a process a little bit tedious because we need to link a credit card to the account. In our case, we use a virtual prepaid credit card. For our purpose, if we don't exceed the free tier use of the APIs or services in GCP, we won't be charged at all. [These are the prices](https://cloud.google.com/vision/pricing) of the Text Detection feature of [Google Cloud Vision API](https://cloud.google.com/vision/). For our experiment, we only have to keep in mind that the first 1.000 units per month are free. Then, it will be $1.5 per each 1.000 units.
+
+Once registered in GCP, we must go to the [console view](https://console.cloud.google.com/start) and click on "Create empty project". Then, when created, we must select our project in the top left dropdown. After that, you should see a menu on the left. Select the "Credentials" options. In the middle of the screen, you must see a button labeled "Create credentials". Choose the "API key" option and close the window.
+
+Finally, you have to enable Google Cloud Vision API. To do that, select the option "Library" on the left menu and find the "Google Cloud Vision API" on the "Machine Learning" section and push "Enable" button on the [subsequent page](https://console.cloud.google.com/apis/library/vision.googleapis.com/). 
