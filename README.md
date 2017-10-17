@@ -89,7 +89,7 @@ Arguments description
                         Threshold for scene change detection. A number between 0 and 100. Default: 10.
 	--lang {eng,spa}    OCR language selected. 'spa' by default.
 
-Example:
+Example call
 	python3 poc_ocr.py --video https://www.youtube.com/watch?v=SL-QtqfgqTI --output_path /home/luismesa/Escritorio/demo_ocr/ --ocr google-cloud-vision --scene_threshold 10 --lang spa
 
 ```
@@ -102,3 +102,8 @@ Installed as a dependency, or requirement, in another python module, you only ha
 poc_ocr = PoCOCR("/path/to/settings.py")
 poc_ocr.run('https://www.youtube.com/watch?v=nHc288IPFzk', '/home/my_user/desktop', 0.1, 'ocr-space', 'spa')
 ```
+## Changelog
+
+v1.0.0
+
+Initial Release
