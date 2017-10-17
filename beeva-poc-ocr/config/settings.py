@@ -1,4 +1,4 @@
-LOG_PATH = '/tmp/'
+LOG_PATH = '/home/luismesa/Escritorio/demo_ocr/results/'
 LOG_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 
 YDL_OPTS = {}
@@ -16,6 +16,7 @@ OCR_SPACE = 'ocr-space'
 TESSERACT_TOOL_NAME = 'Tesseract (sh)'
 TESSERACT_TOOL_DESIRED_LANGS = ['eng', 'spa']
 PREFERRED_LANG = 'spa'
+DEFAULT_THRESHOLD = 0.1
 
 TXT_EXTENSION = '.txt'
 

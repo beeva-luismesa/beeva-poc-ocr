@@ -14,13 +14,19 @@ In this section, we are going to describe the environment used for this experime
 
 * A `Debian` based OS (`Debian` itself, any flavour of `Ubuntu` or `Linux Mint`, etc.)
 * `python3` (tested with 3.5.3 version)
+* `python3-pip` (tested with 9.0.1 version)
 * `ffmpeg` (tested with 3.2.7 version)
 * `tesseract-ocr` and languages files for English and Spanish (tested with 3.04 version)
 
 You can install it from terminal typing the following command:
 
 ```bash
-apt-get install -y python3 ffmpeg tesseract-ocr tesseract-ocr-eng tesseract-ocr-spa
+apt-get install -y python3 python3-pip ffmpeg tesseract-ocr tesseract-ocr-eng tesseract-ocr-spa
+```
+Don't forget to install the external python dependencies by using pip:
+
+```bash
+pip3 install -r requirements.txt
 ```
 
 ### API Keys
@@ -44,3 +50,55 @@ You should register in [Google Cloud Platform](https://cloud.google.com/) before
 Once registered in GCP, we must go to the [console view](https://console.cloud.google.com/start) and click on "Create empty project". Then, when created, we must select our project in the top left dropdown. After that, you should see a menu on the left. Select the "Credentials" options. In the middle of the screen, you must see a button labeled "Create credentials". Choose the "API key" option and close the window.
 
 Finally, you have to enable Google Cloud Vision API. To do that, select the option "Library" on the left menu and find the "Google Cloud Vision API" on the "Machine Learning" section and push "Enable" button on the [subsequent page](https://console.cloud.google.com/apis/library/vision.googleapis.com/). 
+
+### Settings file
+
+In this repository, under beeva-poc-ocr/config, you can find a [settings.py](https://github.com/beeva-luismesa/beeva-poc-ocr/blob/master/beeva-poc-ocr/config/settings.py) example file. You can configure any option, but these are the most relevant:
+
+```python
+LOG_PATH = '/local/path/to/save/logfiles/'
+FRAME_NAME_PATTERN = 'prefix_of_output_files_%06d.png'
+
+IMAGES_SUBFOLDER = 'name_of_frames_subfolder'
+TEXT_SUBFOLDER = 'name_of_extracted_text_subfolder'
+
+OCR_SPACE_API_KEY='yoUrocR.SpaCeapiKeY'
+GOOGLE_CREDENTIALS='YouRgoOgleCloudvisIonApIkEy'
+```
+
+## Usage
+
+You can use this module in two ways: standalone mode and python package.
+
+### Standalone
+
+Once installed required dependencies, you can run the python module with these parameters (optional parameters between brackets):
+
+```bash
+Usage
+	poc_ocr.py [-h] --video VIDEO --output_path OUTPUT_PATH --ocr {tesseract,google-cloud-vision,ocr-space} [--scene_threshold SCENE_THRESHOLD] [--lang {eng,spa}]
+
+Arguments description	
+	-h, --help          show this help message and exit
+	--video VIDEO       Local path or Youtube URL fof he video.
+	--output_path OUTPUT_PATH
+	                    Local path to store output.
+	--ocr {tesseract,google-cloud-vision,ocr-space}
+	                    OCR choices. 'tesseract' as a local choice. 'google-cloud-vision' and 'ocr-space' as an external API choices.
+	--scene_threshold SCENE_THRESHOLD
+                        Threshold for scene change detection. A number between 0 and 100. Default: 10.
+	--lang {eng,spa}    OCR language selected. 'spa' by default.
+
+Example:
+	python3 poc_ocr.py --video https://www.youtube.com/watch?v=SL-QtqfgqTI --output_path /home/luismesa/Escritorio/demo_ocr/ --ocr google-cloud-vision --scene_threshold 10 --lang spa
+
+```
+
+### Python package
+
+Installed as a dependency, or requirement, in another python module, you only have to create a *PoCOCR* class with the settings file and call directly the *run* method with the proper parameters. This is an example (note in this case, *scene_threshold* is a float between 0.0 and 1.0):
+ 
+```python
+poc_ocr = PoCOCR("/path/to/settings.py")
+poc_ocr.run('https://www.youtube.com/watch?v=nHc288IPFzk', '/home/my_user/desktop', 0.1, 'ocr-space', 'spa')
+```

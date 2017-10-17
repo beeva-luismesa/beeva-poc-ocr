@@ -31,15 +31,16 @@ def main():
     logging.basicConfig(filename=settings.LOG_PATH + str(datetime.today()), level=logging.INFO, format=settings.LOG_FORMAT)
 
     parser = argparse.ArgumentParser(description='PoC OCR')
-    parser.add_argument('--video', type=valid_video, help='Local path or Youtube URL fof he video.', required=True)
-    parser.add_argument('--output_path', type=valid_local_path, help='Local path to store output.', required=True)
-    parser.add_argument('--scene_threshold', type=valid_threshold,
-                        help='Threshold for scene change detection. A number between 0 and 100. Default: 50.', required=False, default=0.5)
+    parser.add_argument('--video', type=valid_video, help='Local path or Youtube URL for the video.', required=True)
+    parser.add_argument('--output_path', type=valid_local_path, help='Local path to store output files.', required=True)
     parser.add_argument('--ocr', choices=[settings.TESSERACT, settings.GOOGLE_CLOUD_VISION, settings.OCR_SPACE],
                         help="OCR choices. '{}' as a local choice. '{}' and '{}' as an external API choices.".format(settings.TESSERACT,
                                                                                                                      settings.GOOGLE_CLOUD_VISION,
                                                                                                                      settings.OCR_SPACE),
                         required=True)
+    parser.add_argument('--scene_threshold', type=valid_threshold,
+                        help='Threshold for scene change detection. A number between 0 and 100. Default: 10.', required=False,
+                        default=settings.DEFAULT_THRESHOLD)
     parser.add_argument('--lang', choices=settings.TESSERACT_TOOL_DESIRED_LANGS,
                         help="OCR language selected. '{}' by default".format(settings.PREFERRED_LANG), required=False,
                         default=settings.PREFERRED_LANG)
