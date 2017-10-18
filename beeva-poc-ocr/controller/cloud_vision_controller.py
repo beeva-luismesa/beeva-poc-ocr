@@ -13,7 +13,7 @@ class CloudVisionController(object):
 
     def perform_cloud_vision(self, image_path, text_subfolder, file_name):
         text = self.call_cloud_vision_with_local_file(image_path)
-        with open(os.path.join(text_subfolder, "{}{}".format(file_name, self.__settings.TXT_EXTENSION)), "w") as text_file:
+        with open(os.path.join(text_subfolder, "{}{}".format(file_name, self.__settings.TXT_EXTENSION)), encoding="utf-8", mode="w") as text_file:
             print(text, file=text_file)
 
     def call_cloud_vision_with_local_file(self, image_path):

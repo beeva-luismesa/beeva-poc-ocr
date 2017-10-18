@@ -14,7 +14,7 @@ class PyOCRController(object):
 
     def perform_local_ocr(self, image_path, text_subfolder, file_name, lang):
         text = self.extract_text_from_image(lang, image_path)
-        with open(os.path.join(text_subfolder, "{}{}".format(file_name, self.__settings.TXT_EXTENSION)), "w") as text_file:
+        with open(os.path.join(text_subfolder, "{}{}".format(file_name, self.__settings.TXT_EXTENSION)), encoding="utf-8", mode="w") as text_file:
             print(text, file=text_file)
 
     def extract_text_from_image(self, lang, image_path):
