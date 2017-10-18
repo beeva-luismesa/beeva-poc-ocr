@@ -21,7 +21,7 @@ In this section, we are going to describe the environment used for this experime
 You can install it from terminal typing the following command:
 
 ```bash
-apt-get install -y python3 python3-pip ffmpeg tesseract-ocr tesseract-ocr-eng tesseract-ocr-spa
+apt-get install -y python3 python3-pip ffmpeg tesseract-ocr tesseract-ocr-eng tesseract-ocr-spa libtesseract-dev
 ```
 Don't forget to install the external python dependencies by using pip:
 
