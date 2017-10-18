@@ -1,4 +1,4 @@
-youtube-dl
-requests
-pyocr
-google-api-python-client
+google-api-python-client==1.6.4
+pyocr==0.4.7
+requests==2.18.4
+youtube-dl==2017.10.15.1
