@@ -45,7 +45,12 @@ The registration process is very easy. You only have to fill up [this form](http
 
 #### Google Cloud Vision
 
-You should register in [Google Cloud Platform](https://cloud.google.com/) before using Google Cloud Vision API. It's a process a little bit tedious because we need to link a credit card to the account. In our case, we use a virtual prepaid credit card. For our purpose, if we don't exceed the free tier use of the APIs or services in GCP, we won't be charged at all. [These are the prices](https://cloud.google.com/vision/pricing) of the Text Detection feature of [Google Cloud Vision API](https://cloud.google.com/vision/). For our experiment, we only have to keep in mind that the first 1.000 units per month are free. Then, it will be $1.5 per each 1.000 units.
+You should register in [Google Cloud Platform](https://cloud.google.com/) before using Google Cloud Vision API. It's a process a little bit tedious because we need to link a credit card to the account. In our case, we use a virtual prepaid credit card. For our purpose, if we don't exceed the free tier use of the APIs or services in GCP, we won't be charged at all. [These are the prices](https://cloud.google.com/vision/pricing) of the Text Detection feature of [Google Cloud Vision API](https://cloud.google.com/vision/). For our experiment, we only have to keep in mind that the first 1.000 units per month are free. Then, it will be $1.5 per each 1.000 units. By the way, [these](https://cloud.google.com/vision/quotas) are the quota restrictions for using this service:
+
+* 4 MB image file size limit
+* 16 images per request
+* 8 MB request total size limit
+* Maximin 600 requests per minute
 
 Once registered in GCP, we must go to the [console view](https://console.cloud.google.com/start) and click on "Create empty project". Then, when created, we must select our project in the top left dropdown. After that, you should see a menu on the left. Select the "Credentials" options. In the middle of the screen, you must see a button labeled "Create credentials". Choose the "API key" option and close the window.
 
