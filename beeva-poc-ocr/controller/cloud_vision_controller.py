@@ -15,6 +15,7 @@ class CloudVisionController(object):
         text = self.call_cloud_vision_with_local_file(image_path)
         with open(os.path.join(text_subfolder, "{}{}".format(file_name, self.__settings.TXT_EXTENSION)), encoding="utf-8", mode="w") as text_file:
             print(text, file=text_file)
+        return text
 
     def call_cloud_vision_with_local_file(self, image_path):
         logging.info("Calling Google cloud vision with image: {}".format(image_path))

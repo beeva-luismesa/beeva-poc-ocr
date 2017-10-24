@@ -1,5 +1,6 @@
 import logging
 import os
+import re
 from datetime import datetime
 
 from controller.cloud_vision_controller import CloudVisionController
@@ -17,6 +18,7 @@ class PoCOCRController(object):
         self.__youtube_dl_controller = YoutubeDLController(self.__settings)
         self.__ffmpeg_controller = FFmpegController(self.__settings)
         self.__ocr_controller = None
+        self.__password_regexps = re.compile("|".join(self.__settings.PASSWORD_REGEXPS))
 
     def run_poc_ocr(self, video, output_path, threshold, ocr, lang):
         try:
@@ -54,6 +56,7 @@ class PoCOCRController(object):
         else:
             self.__ocr_controller = CloudVisionController(self.__settings)
 
+        text_from_images = {}
         whole_images_start = datetime.now()
         for image in os.listdir(images_subfolder):
             image_path = os.path.abspath(
@@ -62,14 +65,21 @@ class PoCOCRController(object):
 
             logging.info("Processing image: {}".format(image_path))
             if ocr == self.__settings.TESSERACT:
-                self.__ocr_controller.perform_local_ocr(image_path, text_subfolder, file_name, lang)
+                text_from_images[file_name] = self.__ocr_controller.perform_local_ocr(image_path, text_subfolder, file_name, lang)
             elif ocr == self.__settings.OCR_SPACE:
-                self.__ocr_controller.perform_ocr_space(image_path, text_subfolder, file_name, lang)
+                text_from_images[file_name] = self.__ocr_controller.perform_ocr_space(image_path, text_subfolder, file_name, lang)
             else:
-                self.__ocr_controller.perform_cloud_vision(image_path, text_subfolder, file_name)
+                text_from_images[file_name] = self.__ocr_controller.perform_cloud_vision(image_path, text_subfolder, file_name)
         whole_images_end = datetime.now()
         total_ocr_time = whole_images_end - whole_images_start
         logging.info("Total OCR time: {}s".format(total_ocr_time.total_seconds()))
+
+        logging.info("Trying to detect passwords...")
+        pwd_detection_start = datetime.now()
+        self.check_potential_password_match(text_from_images)
+        pwd_detection_end = datetime.now()
+        pwd_detection_time = pwd_detection_end - pwd_detection_start
+        logging.info("Password detection time: {}s".format(pwd_detection_time.total_seconds()))
 
     def generate_frames_from_video(self, video_file, output_path, threshold):
         logging.info("Generating frames from video {}".format(video_file))
@@ -78,3 +88,16 @@ class PoCOCRController(object):
             raise Exception("Failed while trying to generate frames from video")
         else:
             return output_folder
+
+    def check_potential_password_match(self, text_from_images):
+        for image, text in text_from_images.items():
+            candidates = []
+            if text:
+                text = text.replace("\r", " ")
+                text = text.replace("\n", " ")
+                for t in text.split():
+                    matches = self.__password_regexps.match(t);
+                    if matches:
+                        candidates.append(str(matches.group()))
+            if candidates and candidates.__len__() > 0:
+                logging.info("Potential passwords found in {}: [{}]".format(image, ", ".join(candidates)))
