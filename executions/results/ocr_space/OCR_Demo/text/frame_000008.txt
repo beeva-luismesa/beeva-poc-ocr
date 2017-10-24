@@ -1,0 +1,18 @@
+Nivel de dificultad IV 
+J u pyter afew seconds ago 
+File Edit View Language 
+Usuario: usuari001 
+1 
+contraseña: User01$X 
+2 
+31 
+"luis mesa" 
+DB USER 
+DB PASS- "Mesa.Õ1" 
+ACCESS TOKEN "kf0293ASd2GFa34Gabe12" 
+https://api.themoviedb.org/3/d & language=en- 
+SEND REQUEST 
+US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1 
+HOSted Rackspace 
+Plain Text 
+

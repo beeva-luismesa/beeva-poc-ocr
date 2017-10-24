@@ -1,0 +1,51 @@
+MásterUniversitarinenlngenierialnfurmática ' '
+Big[]ata
+
+unrv|n-rn¡n
+
+Modelo de predicción: Validación del modelo &ºv'fn
+
+ 
+
+> Observaciones sobre la matriz de confusión ConfusionMatrixandStatistics
+Reference
+0 Datos muy parecidos Prediction <=50K >50K
+
+<=50K 11806 628
+. ., >50K 1494 2352
+o Precrsron global cercana 87%
+
+Accuracy: 0.8697
+. . . , . º
+
+o Sensrbrlrdad proxrma al 89 /o 95% CI: (º_8644' 0_8748)
+_ _ _ _ Nolnformation Rate: 0.817
+o Especrfrcrdad de casr el 79%
+P—Value [Acc > NIR]: < 2.Ze-16
+Kappa: 0.6083
+
+Mcnemar's Test P-Value : < 2.2e—16
+Sensitivity : 08877
+
+Specificin : 0.7893
+
+Pos Pred Value : 09495
+
+Neg Pred Value: 0.6115
+Prevalence : 08170
+
+Deteciion Rate : 0.7252
+
+Detec1ion Prevalence : 07638
+Balanced Accuracy : 0.8385
+
+'Positive' Class: <=50K
+
+ 
+
+ 
+
+ 
+
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 17

@@ -1,0 +1,35 @@
+2017-10-24 17:43:36,400 - root - INFO - Params <Namespace(lang='spa', ocr='google-cloud-vision', output_path='/home/luismesa/demo_ocr/results/google_ocr', scene_threshold=0.1, video='https://www.youtube.com/watch?v=Yhvxr9dZ4tE')>
+2017-10-24 17:43:36,401 - root - INFO - Starting process
+2017-10-24 17:43:36,410 - root - INFO - It's a youtube video! Here we go!
+2017-10-24 17:43:36,410 - root - INFO - Getting info from youtube...
+2017-10-24 17:43:37,692 - root - INFO - Total info time: 1.28139s
+2017-10-24 17:43:37,692 - root - INFO - Downloading from youtube...
+2017-10-24 17:43:38,568 - root - INFO - Total download time: 0.875877s
+2017-10-24 17:43:38,568 - root - INFO - Generating frames from video ./BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE.mp4
+2017-10-24 17:43:38,569 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE.mp4" -vf "select=gt(scene\,0.1)" -vsync vfr "/home/luismesa/demo_ocr/results/google_ocr/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_%06d.png" -qscale 0
+2017-10-24 17:44:00,570 - root - INFO - FFMPEG time: 22.001557s
+2017-10-24 17:44:00,571 - root - INFO - Performing OCR with google-cloud-vision
+2017-10-24 17:44:00,571 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/google_ocr/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images
+2017-10-24 17:44:00,571 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/google_ocr/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/text
+2017-10-24 17:44:00,572 - googleapiclient.discovery - INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/vision/v1/rest
+2017-10-24 17:44:00,711 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000001.png
+2017-10-24 17:44:00,711 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000001.png
+2017-10-24 17:44:00,730 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:44:03,266 - root - INFO - OCR Cloud Vision processing image time: 2.555301s
+2017-10-24 17:44:03,267 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000003.png
+2017-10-24 17:44:03,267 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000003.png
+2017-10-24 17:44:03,273 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:44:05,141 - root - INFO - OCR Cloud Vision processing image time: 1.87388s
+2017-10-24 17:44:05,143 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000002.png
+2017-10-24 17:44:05,143 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000002.png
+2017-10-24 17:44:05,159 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:44:07,710 - root - INFO - OCR Cloud Vision processing image time: 2.567104s
+2017-10-24 17:44:07,711 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000004.png
+2017-10-24 17:44:07,711 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000004.png
+2017-10-24 17:44:07,728 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:44:10,246 - root - INFO - OCR Cloud Vision processing image time: 2.53517s
+2017-10-24 17:44:10,247 - root - INFO - Total OCR time: 9.536152s
+2017-10-24 17:44:10,247 - root - INFO - Trying to detect passwords...
+2017-10-24 17:44:10,247 - root - INFO - Password detection time: 8.4e-05s
+2017-10-24 17:44:10,247 - root - INFO - Process finished!
+2017-10-24 17:44:10,247 - root - INFO - Total process time: 33.846207s

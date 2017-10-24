@@ -1,0 +1,18 @@
+Master Universitario en Ingeniería Informatica IMA
+Dirección TIPS
+UNIVERSIDAD
+Estructura de desglose de tareas
+SE VILLA
+> Creación de nuevo portal web
+o Creación del esqueleto
+o Creación de contenidos estáticos
+o Desarrollo modulo integración con LinkedIn
+o Localización (castellano e inglés)
+o Creación de blog
+> Implantación de medidas y politicas para el ahorro
+0 Creación de fondos de escritorio e interfaces oscuras
+o Implantación de configuración energetica eficiente
+0 Configuración de impresoras
+22
+Luis Enrique Mesa Salas | Proyecto TIRITI
+

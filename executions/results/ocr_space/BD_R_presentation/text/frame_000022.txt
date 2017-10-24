@@ -1,0 +1,16 @@
+Conclusiones 
+> 
+> 
+Nada más allá de lo que hemos comentado 
+sobre medidas de rendimiento y correlación 
+El modelo basado en Boosting ofrece una 
+estimación ligeramente superior al modelo 
+base 
+Visualización y análisis de datos 
+Luis Enrique Mesa Salas I Francisco José Sancho Valero 
+Máster Universitario en Ingeniería Informática V 
+Big Data 
+D 
+4, 
+18 
+

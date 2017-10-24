@@ -1,0 +1,10 @@
+Openstack introduction
+NO BEE VA
+xi. Deployment types
+- Manual
+• Packstack
+- Configure + Automatic Deployment with automation tools(Ansible,puppet)
+• OpenStack-on-OpenStack (Openstack Director)
+Xi. Deployment types
+www.beeva.com
+

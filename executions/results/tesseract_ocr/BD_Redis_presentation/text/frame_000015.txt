@@ -1,0 +1,20 @@
+MásterUniversitarioenlngenieríaInformática ' 1
+Big Data '
+
+  
+
+Indice
+
+> Redis
+0 ¿Qué es?
+o Modelo de datos
+0 Usos fundamentales
+0 Ventajas e inconvenientes
+0 Rol en la gestión de Big Data
+
+> Funcionamiento
+0 Entorno
+0 Demo
+
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 2

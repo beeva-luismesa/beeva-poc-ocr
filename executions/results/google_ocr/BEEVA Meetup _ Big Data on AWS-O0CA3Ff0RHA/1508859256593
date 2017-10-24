@@ -1,0 +1,204 @@
+2017-10-24 17:34:16,594 - root - INFO - Params <Namespace(lang='spa', ocr='google-cloud-vision', output_path='/home/luismesa/demo_ocr/results/google_ocr', scene_threshold=0.1, video='https://www.youtube.com/watch?v=O0CA3Ff0RHA')>
+2017-10-24 17:34:16,594 - root - INFO - Starting process
+2017-10-24 17:34:16,605 - root - INFO - It's a youtube video! Here we go!
+2017-10-24 17:34:16,605 - root - INFO - Getting info from youtube...
+2017-10-24 17:34:17,714 - root - INFO - Total info time: 1.108662s
+2017-10-24 17:34:17,714 - root - INFO - Downloading from youtube...
+2017-10-24 17:34:18,665 - root - INFO - Total download time: 0.951022s
+2017-10-24 17:34:18,666 - root - INFO - Generating frames from video ./BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA.mp4
+2017-10-24 17:34:18,667 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA.mp4" -vf "select=gt(scene\,0.1)" -vsync vfr "/home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_%06d.png" -qscale 0
+2017-10-24 17:41:36,696 - root - INFO - FFMPEG time: 438.029524s
+2017-10-24 17:41:36,696 - root - INFO - Performing OCR with google-cloud-vision
+2017-10-24 17:41:36,697 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images
+2017-10-24 17:41:36,697 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/text
+2017-10-24 17:41:36,697 - googleapiclient.discovery - INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/vision/v1/rest
+2017-10-24 17:41:36,863 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000001.png
+2017-10-24 17:41:36,863 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000001.png
+2017-10-24 17:41:36,871 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:41:39,063 - root - INFO - OCR Cloud Vision processing image time: 2.200183s
+2017-10-24 17:41:39,064 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000027.png
+2017-10-24 17:41:39,064 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000027.png
+2017-10-24 17:41:39,072 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:41:42,000 - root - INFO - OCR Cloud Vision processing image time: 2.936399s
+2017-10-24 17:41:42,002 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000035.png
+2017-10-24 17:41:42,002 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000035.png
+2017-10-24 17:41:42,010 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:41:44,232 - root - INFO - OCR Cloud Vision processing image time: 2.229912s
+2017-10-24 17:41:44,233 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000044.png
+2017-10-24 17:41:44,233 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000044.png
+2017-10-24 17:41:44,241 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:41:47,137 - root - INFO - OCR Cloud Vision processing image time: 2.904164s
+2017-10-24 17:41:47,139 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000034.png
+2017-10-24 17:41:47,140 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000034.png
+2017-10-24 17:41:47,146 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:41:49,533 - root - INFO - OCR Cloud Vision processing image time: 2.393208s
+2017-10-24 17:41:49,535 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000021.png
+2017-10-24 17:41:49,535 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000021.png
+2017-10-24 17:41:49,540 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:41:51,992 - root - INFO - OCR Cloud Vision processing image time: 2.457227s
+2017-10-24 17:41:51,993 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000042.png
+2017-10-24 17:41:51,993 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000042.png
+2017-10-24 17:41:52,002 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:41:54,353 - root - INFO - OCR Cloud Vision processing image time: 2.359542s
+2017-10-24 17:41:54,355 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000033.png
+2017-10-24 17:41:54,355 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000033.png
+2017-10-24 17:41:54,361 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:41:56,517 - root - INFO - OCR Cloud Vision processing image time: 2.161538s
+2017-10-24 17:41:56,518 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000018.png
+2017-10-24 17:41:56,518 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000018.png
+2017-10-24 17:41:56,525 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:41:59,058 - root - INFO - OCR Cloud Vision processing image time: 2.539789s
+2017-10-24 17:41:59,059 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000020.png
+2017-10-24 17:41:59,059 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000020.png
+2017-10-24 17:41:59,067 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:01,610 - root - INFO - OCR Cloud Vision processing image time: 2.550767s
+2017-10-24 17:42:01,611 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000015.png
+2017-10-24 17:42:01,611 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000015.png
+2017-10-24 17:42:01,617 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:04,105 - root - INFO - OCR Cloud Vision processing image time: 2.493998s
+2017-10-24 17:42:04,106 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000037.png
+2017-10-24 17:42:04,107 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000037.png
+2017-10-24 17:42:04,118 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:06,724 - root - INFO - OCR Cloud Vision processing image time: 2.616992s
+2017-10-24 17:42:06,725 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000012.png
+2017-10-24 17:42:06,726 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000012.png
+2017-10-24 17:42:06,749 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:09,423 - root - INFO - OCR Cloud Vision processing image time: 2.696778s
+2017-10-24 17:42:09,423 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000010.png
+2017-10-24 17:42:09,424 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000010.png
+2017-10-24 17:42:09,433 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:11,660 - root - INFO - OCR Cloud Vision processing image time: 2.235993s
+2017-10-24 17:42:11,660 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000014.png
+2017-10-24 17:42:11,660 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000014.png
+2017-10-24 17:42:11,695 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:14,867 - root - INFO - OCR Cloud Vision processing image time: 3.2065s
+2017-10-24 17:42:14,870 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000046.png
+2017-10-24 17:42:14,870 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000046.png
+2017-10-24 17:42:14,879 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:17,087 - root - INFO - OCR Cloud Vision processing image time: 2.216828s
+2017-10-24 17:42:17,089 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000040.png
+2017-10-24 17:42:17,089 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000040.png
+2017-10-24 17:42:17,100 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:19,881 - root - INFO - OCR Cloud Vision processing image time: 2.791765s
+2017-10-24 17:42:19,886 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000003.png
+2017-10-24 17:42:19,887 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000003.png
+2017-10-24 17:42:19,925 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:23,928 - root - INFO - OCR Cloud Vision processing image time: 4.040642s
+2017-10-24 17:42:23,929 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000039.png
+2017-10-24 17:42:23,929 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000039.png
+2017-10-24 17:42:23,934 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:26,287 - root - INFO - OCR Cloud Vision processing image time: 2.358448s
+2017-10-24 17:42:26,288 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000007.png
+2017-10-24 17:42:26,288 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000007.png
+2017-10-24 17:42:26,296 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:28,689 - root - INFO - OCR Cloud Vision processing image time: 2.400728s
+2017-10-24 17:42:28,690 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000031.png
+2017-10-24 17:42:28,690 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000031.png
+2017-10-24 17:42:28,695 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:31,432 - root - INFO - OCR Cloud Vision processing image time: 2.741219s
+2017-10-24 17:42:31,433 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000002.png
+2017-10-24 17:42:31,433 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000002.png
+2017-10-24 17:42:31,436 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:34,265 - root - INFO - OCR Cloud Vision processing image time: 2.832465s
+2017-10-24 17:42:34,267 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000008.png
+2017-10-24 17:42:34,267 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000008.png
+2017-10-24 17:42:34,284 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:36,909 - root - INFO - OCR Cloud Vision processing image time: 2.641139s
+2017-10-24 17:42:36,909 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000036.png
+2017-10-24 17:42:36,909 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000036.png
+2017-10-24 17:42:36,915 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:39,234 - root - INFO - OCR Cloud Vision processing image time: 2.324363s
+2017-10-24 17:42:39,236 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000009.png
+2017-10-24 17:42:39,236 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000009.png
+2017-10-24 17:42:39,244 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:41,681 - root - INFO - OCR Cloud Vision processing image time: 2.44483s
+2017-10-24 17:42:41,682 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000006.png
+2017-10-24 17:42:41,682 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000006.png
+2017-10-24 17:42:41,696 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:44,463 - root - INFO - OCR Cloud Vision processing image time: 2.780972s
+2017-10-24 17:42:44,464 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000019.png
+2017-10-24 17:42:44,464 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000019.png
+2017-10-24 17:42:44,467 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:47,206 - root - INFO - OCR Cloud Vision processing image time: 2.742275s
+2017-10-24 17:42:47,208 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000022.png
+2017-10-24 17:42:47,208 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000022.png
+2017-10-24 17:42:47,215 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:49,860 - root - INFO - OCR Cloud Vision processing image time: 2.652243s
+2017-10-24 17:42:49,861 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000030.png
+2017-10-24 17:42:49,861 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000030.png
+2017-10-24 17:42:49,865 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:52,381 - root - INFO - OCR Cloud Vision processing image time: 2.520045s
+2017-10-24 17:42:52,382 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000016.png
+2017-10-24 17:42:52,382 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000016.png
+2017-10-24 17:42:52,387 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:54,519 - root - INFO - OCR Cloud Vision processing image time: 2.13622s
+2017-10-24 17:42:54,519 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000045.png
+2017-10-24 17:42:54,519 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000045.png
+2017-10-24 17:42:54,529 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:42:57,807 - root - INFO - OCR Cloud Vision processing image time: 3.28755s
+2017-10-24 17:42:57,808 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000028.png
+2017-10-24 17:42:57,808 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000028.png
+2017-10-24 17:42:57,813 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:00,197 - root - INFO - OCR Cloud Vision processing image time: 2.388331s
+2017-10-24 17:43:00,198 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000032.png
+2017-10-24 17:43:00,198 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000032.png
+2017-10-24 17:43:00,204 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:02,686 - root - INFO - OCR Cloud Vision processing image time: 2.487506s
+2017-10-24 17:43:02,687 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000013.png
+2017-10-24 17:43:02,687 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000013.png
+2017-10-24 17:43:02,690 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:05,009 - root - INFO - OCR Cloud Vision processing image time: 2.322163s
+2017-10-24 17:43:05,010 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000011.png
+2017-10-24 17:43:05,010 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000011.png
+2017-10-24 17:43:05,013 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:07,580 - root - INFO - OCR Cloud Vision processing image time: 2.570528s
+2017-10-24 17:43:07,582 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000005.png
+2017-10-24 17:43:07,582 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000005.png
+2017-10-24 17:43:07,606 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:10,342 - root - INFO - OCR Cloud Vision processing image time: 2.759769s
+2017-10-24 17:43:10,342 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000038.png
+2017-10-24 17:43:10,342 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000038.png
+2017-10-24 17:43:10,351 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:13,062 - root - INFO - OCR Cloud Vision processing image time: 2.719687s
+2017-10-24 17:43:13,063 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000026.png
+2017-10-24 17:43:13,063 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000026.png
+2017-10-24 17:43:13,068 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:15,709 - root - INFO - OCR Cloud Vision processing image time: 2.645259s
+2017-10-24 17:43:15,710 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000017.png
+2017-10-24 17:43:15,711 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000017.png
+2017-10-24 17:43:15,721 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:18,628 - root - INFO - OCR Cloud Vision processing image time: 2.917494s
+2017-10-24 17:43:18,629 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000043.png
+2017-10-24 17:43:18,629 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000043.png
+2017-10-24 17:43:18,634 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:21,253 - root - INFO - OCR Cloud Vision processing image time: 2.62424s
+2017-10-24 17:43:21,255 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000004.png
+2017-10-24 17:43:21,255 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000004.png
+2017-10-24 17:43:21,257 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:23,461 - root - INFO - OCR Cloud Vision processing image time: 2.205909s
+2017-10-24 17:43:23,461 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000025.png
+2017-10-24 17:43:23,462 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000025.png
+2017-10-24 17:43:23,466 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:25,929 - root - INFO - OCR Cloud Vision processing image time: 2.467555s
+2017-10-24 17:43:25,932 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000024.png
+2017-10-24 17:43:25,932 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000024.png
+2017-10-24 17:43:25,941 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:28,395 - root - INFO - OCR Cloud Vision processing image time: 2.46253s
+2017-10-24 17:43:28,396 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000023.png
+2017-10-24 17:43:28,396 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000023.png
+2017-10-24 17:43:28,400 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:30,868 - root - INFO - OCR Cloud Vision processing image time: 2.472117s
+2017-10-24 17:43:30,868 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000029.png
+2017-10-24 17:43:30,869 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000029.png
+2017-10-24 17:43:30,873 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:33,310 - root - INFO - OCR Cloud Vision processing image time: 2.441401s
+2017-10-24 17:43:33,311 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000041.png
+2017-10-24 17:43:33,311 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000041.png
+2017-10-24 17:43:33,315 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-24 17:43:35,933 - root - INFO - OCR Cloud Vision processing image time: 2.622267s
+2017-10-24 17:43:35,935 - root - INFO - Total OCR time: 119.072277s
+2017-10-24 17:43:35,935 - root - INFO - Trying to detect passwords...
+2017-10-24 17:43:35,936 - root - INFO - Potential passwords found in frame_000039: [s3DataNode]
+2017-10-24 17:43:35,937 - root - INFO - Password detection time: 0.002024s
+2017-10-24 17:43:35,937 - root - INFO - Process finished!
+2017-10-24 17:43:35,937 - root - INFO - Total process time: 559.343584s

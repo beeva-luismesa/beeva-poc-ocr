@@ -1,0 +1,26 @@
+2017-10-24 16:26:28,256 - root - INFO - Params <Namespace(lang='spa', ocr='tesseract', output_path='/home/luismesa/demo_ocr/results/tesseract_ocr', scene_threshold=0.03, video='/home/luismesa/demo_ocr/local_videos/GTI_presentation.mp4')>
+2017-10-24 16:26:28,257 - root - INFO - Starting process
+2017-10-24 16:26:28,265 - root - INFO - It's a local video! Here we go!
+2017-10-24 16:26:28,265 - root - INFO - Generating frames from video /home/luismesa/demo_ocr/local_videos/GTI_presentation.mp4
+2017-10-24 16:26:28,265 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/demo_ocr/local_videos/GTI_presentation.mp4" -vf "select=gt(scene\,0.03)" -vsync vfr "/home/luismesa/demo_ocr/results/tesseract_ocr/GTI_presentation/images/frame_%06d.png" -qscale 0
+2017-10-24 16:26:34,853 - root - INFO - FFMPEG time: 6.588139s
+2017-10-24 16:26:34,853 - root - INFO - Performing OCR with tesseract
+2017-10-24 16:26:34,854 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/tesseract_ocr/GTI_presentation/images
+2017-10-24 16:26:34,854 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/tesseract_ocr/GTI_presentation/text
+2017-10-24 16:26:35,062 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/GTI_presentation/images/frame_000001.png
+2017-10-24 16:26:35,063 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/GTI_presentation/images/frame_000001.png
+2017-10-24 16:26:36,411 - root - INFO - Local OCR processing image time: 1.34799s
+2017-10-24 16:26:36,411 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/GTI_presentation/images/frame_000003.png
+2017-10-24 16:26:36,411 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/GTI_presentation/images/frame_000003.png
+2017-10-24 16:26:37,882 - root - INFO - Local OCR processing image time: 1.470962s
+2017-10-24 16:26:37,882 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/GTI_presentation/images/frame_000002.png
+2017-10-24 16:26:37,883 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/GTI_presentation/images/frame_000002.png
+2017-10-24 16:26:39,244 - root - INFO - Local OCR processing image time: 1.361429s
+2017-10-24 16:26:39,244 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/GTI_presentation/images/frame_000004.png
+2017-10-24 16:26:39,244 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/GTI_presentation/images/frame_000004.png
+2017-10-24 16:26:40,700 - root - INFO - Local OCR processing image time: 1.455113s
+2017-10-24 16:26:40,700 - root - INFO - Total OCR time: 5.637603s
+2017-10-24 16:26:40,700 - root - INFO - Trying to detect passwords...
+2017-10-24 16:26:40,700 - root - INFO - Password detection time: 0.000287s
+2017-10-24 16:26:40,700 - root - INFO - Process finished!
+2017-10-24 16:26:40,700 - root - INFO - Total process time: 12.443707s

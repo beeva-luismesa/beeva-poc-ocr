@@ -1,0 +1,13 @@
+Master Universitario en Ingeniería Informatica
+Big Data
+IMA F.
+UNIVERSIDAD
+Redis: Rol en la gestión de Big Data
+SE VILLA
+> Algunos casos de uso en el procesamiento de datos masivos
+twitter flickr a airbnb
+hulu Pinterest "Trello
+Aqui se pueden consultar una lista extensa de sitios "conocidos" que utilizan Redis: http://techstacks.io/tech/redis
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

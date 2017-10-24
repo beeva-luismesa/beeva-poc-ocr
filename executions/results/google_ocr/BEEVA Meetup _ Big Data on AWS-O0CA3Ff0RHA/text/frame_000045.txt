@@ -1,0 +1,23 @@
+Big Data on AWS - Big Data reference
+WCB E E VA
+Architecture reference - Web logs Analysis
+However, as the web acclication grows and the number of visitors
+increases worng and analyang web bgs be comes increasingly
+Amazon Web Services Provides services and tastructure to
+build relatile as tolerant and only relate to assicators
+In the cloud in Broocan retirements these acaicators can
+generate huge amounts of log formation
+A WEB LOG
+E ANALYSIS
+This data can be an important source of innowledge for any
+company that is coerane we apolcanons Analytine can
+Reveal infomation such as are peners user behavior,
+matering profiles, etc.
+The gram shows how to use Amason Web Services to build a
+salie and relatile large-scale log analys Stealtorm. The core
+component of its architecture is Amason Baste MapReduce a
+web service that enables analysts to process large amounts of
+cata easily and cost-electely using a Hadoop hosted ameworn
+amazon
+TD web services
+

@@ -1,0 +1,11 @@
+Solución propuesta 
+Creación de un sistema de gestión documental 
+> Archivo virtual 
+> Utilidad de firma digital con DNIe o certificado FNMT 
+> Gestor de tareas operaciones pendientes de firma 
+Luis Enrique Mesa Salas I Proyecto TIRITI 
+Máster Universitario en Ingeniería Informática V 
+Dirección TI 
+D 
+8 
+

@@ -1,0 +1,20 @@
+Máster Universitario en Ingeniería Informática V 
+Dirección TI 
+Ciclo de vida 
+Control de versiones 
+> Incremento de versiones 
+o 
+o 
+Parche (Z) 
+Arreglos compatibles con versión anterior 
+Resolución de pequeños bugs 
+Reseteado a cero cuando se incrementan X o Y 
+Menor (Y) 
+Nuevas funcionalidades compatibles con la versión anterior 
+Funcionalidades obsoletas 
+Reseteado a cero cuando se incrementa X 
+Mayor (X) 
+Funcionalidades no compatibles con la versión anterior 
+Luis Enrique Mesa Salas I Proyecto TIRITI 
+18 
+

@@ -1,0 +1,19 @@
+Máster Universitario en Ingeniería Informática V 
+Dirección TI 
+Ciclo de vida 
+Control de versiones 
+> Versionado semántico de Tom Preston-Werner 
+> Especificaciones 
+o 
+o 
+Versionado basado en 3 dígitos. El número normal de versión deber tomar la forma X.Y.Z. 
+X, Y, Z son número enteros no negativos. 
+X corresponde con la versión mayor, Y con la menor y Z con el número de parche. 
+Cada elemento debe incrementarse numéricamente en una unidad. 
+Una vez ha sido liberada una versión, el contenido de dicha versión no puede ser modificado. Cualquier 
+modificación debe ser liberada como una nueva versión. 
+X con valor cero es utilizada para el desarrollo inicial, indica que el producto aún no es estable. 
+La versión 1.0.0 definiría la primera versión oficial. 
+Luis Enrique Mesa Salas I Proyecto TIRITI 
+17 
+

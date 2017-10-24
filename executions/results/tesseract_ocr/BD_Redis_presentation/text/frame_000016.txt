@@ -1,0 +1,34 @@
+MásterUniversitarioenIngenieríalnformática ' “
+Bigllata &
+
+uuuuuuuuuuu
+
+Redis: ¿Qué es? &3%
+
+> Motor BD de código abierto
+> Basado en el almacenamiento clave-valor
+> En memoria
+
+ 
+
+key1 [l, 1, "foo"]
+
+ 
+
+kGY2 (2 ¡ 3 , "bar" , "mgp")
+key3 "f1"a"V1" , uf2lláuv2u
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 3

@@ -1,0 +1,13 @@
+Máster Universitario en Ingeniería Informática V 
+Conjunto de datos: Variables 
+> Variables dependientes 
+incomelevel: nivel de ingresos del individuo 
+o 
+(«501<, >50K) 
+Visualización y análisis de datos 
+Luis Enrique Mesa Salas I Francisco José Sancho Valero 
+Thank you. 
+Big Data 
+D 
+6 
+

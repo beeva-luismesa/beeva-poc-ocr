@@ -1,0 +1,98 @@
+2017-10-24 16:32:47,326 - root - INFO - Params <Namespace(lang='spa', ocr='ocr-space', output_path='/home/luismesa/demo_ocr/results/ocr_space', scene_threshold=0.03, video='/home/luismesa/demo_ocr/local_videos/DTI_presentation.mp4')>
+2017-10-24 16:32:47,326 - root - INFO - Starting process
+2017-10-24 16:32:47,334 - root - INFO - It's a local video! Here we go!
+2017-10-24 16:32:47,334 - root - INFO - Generating frames from video /home/luismesa/demo_ocr/local_videos/DTI_presentation.mp4
+2017-10-24 16:32:47,334 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/demo_ocr/local_videos/DTI_presentation.mp4" -vf "select=gt(scene\,0.03)" -vsync vfr "/home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_%06d.png" -qscale 0
+2017-10-24 16:33:47,367 - root - INFO - FFMPEG time: 60.032757s
+2017-10-24 16:33:47,367 - root - INFO - Performing OCR with ocr-space
+2017-10-24 16:33:47,367 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images
+2017-10-24 16:33:47,367 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/text
+2017-10-24 16:33:47,368 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000001.png
+2017-10-24 16:33:47,368 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000001.png
+2017-10-24 16:33:48,745 - root - INFO - OCR Space processing image time: 1.37742s
+2017-10-24 16:33:48,746 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000027.png
+2017-10-24 16:33:48,746 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000027.png
+2017-10-24 16:33:50,494 - root - INFO - OCR Space processing image time: 1.748066s
+2017-10-24 16:33:50,495 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000021.png
+2017-10-24 16:33:50,495 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000021.png
+2017-10-24 16:33:52,596 - root - INFO - OCR Space processing image time: 2.10145s
+2017-10-24 16:33:52,597 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000018.png
+2017-10-24 16:33:52,597 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000018.png
+2017-10-24 16:33:54,371 - root - INFO - OCR Space processing image time: 1.774279s
+2017-10-24 16:33:54,371 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000020.png
+2017-10-24 16:33:54,371 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000020.png
+2017-10-24 16:33:56,355 - root - INFO - OCR Space processing image time: 1.98296s
+2017-10-24 16:33:56,355 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000015.png
+2017-10-24 16:33:56,356 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000015.png
+2017-10-24 16:33:58,015 - root - INFO - OCR Space processing image time: 1.659604s
+2017-10-24 16:33:58,016 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000012.png
+2017-10-24 16:33:58,016 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000012.png
+2017-10-24 16:33:59,564 - root - INFO - OCR Space processing image time: 1.547367s
+2017-10-24 16:33:59,564 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000010.png
+2017-10-24 16:33:59,564 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000010.png
+2017-10-24 16:34:01,518 - root - INFO - OCR Space processing image time: 1.9532s
+2017-10-24 16:34:01,519 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000014.png
+2017-10-24 16:34:01,519 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000014.png
+2017-10-24 16:34:03,100 - root - INFO - OCR Space processing image time: 1.581354s
+2017-10-24 16:34:03,101 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000003.png
+2017-10-24 16:34:03,101 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000003.png
+2017-10-24 16:34:05,135 - root - INFO - OCR Space processing image time: 2.033393s
+2017-10-24 16:34:05,135 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000007.png
+2017-10-24 16:34:05,135 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000007.png
+2017-10-24 16:34:07,021 - root - INFO - OCR Space processing image time: 1.885383s
+2017-10-24 16:34:07,022 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000002.png
+2017-10-24 16:34:07,022 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000002.png
+2017-10-24 16:34:09,049 - root - INFO - OCR Space processing image time: 2.026831s
+2017-10-24 16:34:09,049 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000008.png
+2017-10-24 16:34:09,049 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000008.png
+2017-10-24 16:34:10,689 - root - INFO - OCR Space processing image time: 1.63928s
+2017-10-24 16:34:10,689 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000009.png
+2017-10-24 16:34:10,689 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000009.png
+2017-10-24 16:34:12,389 - root - INFO - OCR Space processing image time: 1.699658s
+2017-10-24 16:34:12,389 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000006.png
+2017-10-24 16:34:12,389 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000006.png
+2017-10-24 16:34:13,952 - root - INFO - OCR Space processing image time: 1.562264s
+2017-10-24 16:34:13,952 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000019.png
+2017-10-24 16:34:13,952 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000019.png
+2017-10-24 16:34:16,112 - root - INFO - OCR Space processing image time: 2.159227s
+2017-10-24 16:34:16,113 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000022.png
+2017-10-24 16:34:16,113 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000022.png
+2017-10-24 16:34:17,706 - root - INFO - OCR Space processing image time: 1.592646s
+2017-10-24 16:34:17,706 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000016.png
+2017-10-24 16:34:17,706 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000016.png
+2017-10-24 16:34:19,374 - root - INFO - OCR Space processing image time: 1.667973s
+2017-10-24 16:34:19,375 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000028.png
+2017-10-24 16:34:19,375 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000028.png
+2017-10-24 16:34:21,791 - root - INFO - OCR Space processing image time: 2.41649s
+2017-10-24 16:34:21,792 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000013.png
+2017-10-24 16:34:21,792 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000013.png
+2017-10-24 16:34:24,070 - root - INFO - OCR Space processing image time: 2.277936s
+2017-10-24 16:34:24,071 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000011.png
+2017-10-24 16:34:24,071 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000011.png
+2017-10-24 16:34:26,154 - root - INFO - OCR Space processing image time: 2.08209s
+2017-10-24 16:34:26,154 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000005.png
+2017-10-24 16:34:26,154 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000005.png
+2017-10-24 16:34:28,444 - root - INFO - OCR Space processing image time: 2.289338s
+2017-10-24 16:34:28,444 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000026.png
+2017-10-24 16:34:28,444 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000026.png
+2017-10-24 16:34:30,121 - root - INFO - OCR Space processing image time: 1.676856s
+2017-10-24 16:34:30,122 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000017.png
+2017-10-24 16:34:30,122 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000017.png
+2017-10-24 16:34:31,907 - root - INFO - OCR Space processing image time: 1.784826s
+2017-10-24 16:34:31,907 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000004.png
+2017-10-24 16:34:31,907 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000004.png
+2017-10-24 16:34:34,669 - root - INFO - OCR Space processing image time: 2.762003s
+2017-10-24 16:34:34,670 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000025.png
+2017-10-24 16:34:34,670 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000025.png
+2017-10-24 16:34:37,144 - root - INFO - OCR Space processing image time: 2.474439s
+2017-10-24 16:34:37,145 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000024.png
+2017-10-24 16:34:37,145 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000024.png
+2017-10-24 16:34:39,055 - root - INFO - OCR Space processing image time: 1.909514s
+2017-10-24 16:34:39,056 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000023.png
+2017-10-24 16:34:39,056 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/DTI_presentation/images/frame_000023.png
+2017-10-24 16:34:41,510 - root - INFO - OCR Space processing image time: 2.454017s
+2017-10-24 16:34:41,511 - root - INFO - Total OCR time: 54.143045s
+2017-10-24 16:34:41,511 - root - INFO - Trying to detect passwords...
+2017-10-24 16:34:41,514 - root - INFO - Password detection time: 0.003208s
+2017-10-24 16:34:41,514 - root - INFO - Process finished!
+2017-10-24 16:34:41,514 - root - INFO - Total process time: 114.187762s

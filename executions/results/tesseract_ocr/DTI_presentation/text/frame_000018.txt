@@ -1,0 +1,19 @@
+MásterUniversitarioenlngenierialnformátioa ' 1
+Dirección"
+
+...........
+
+Presupuesto y calendario &5&
+
+La finalización prevista para los hitos está repartida en los siguientes trimestres
+
+> 01: Migración de cuentas de correo, nueva imagen corporativa
+> 02: Nuevo portal web, blog
+> 03: Sistema de gestión documental, wikis
+
+> 04: Migración de documentos, repositorio de código abierto
+
+De forma transversal y a lo largo de todo el proyecto se completarán los hitos de migración de
+escritorios a entorno Linux y la implantación de medidas de ahorro
+
+Luis Enrique Mesa Salas | Proyecto TIRIÍI “

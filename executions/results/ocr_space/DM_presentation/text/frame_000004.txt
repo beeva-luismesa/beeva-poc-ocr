@@ -1,0 +1,18 @@
+Máster Universitario en Ingeniería Informática V 
+Dispositivos Móviles 
+Diseño: recursos 
+> 
+> 
+Internos 
+Bases de Datos SQLite 
+o 
+Películas descubiertas 
+Puntuaciones más altas 
+Externos 
+The Movie DB API 
+o 
+Endpoint películas o series:http://api.themoviedb.org/3/ 
+Endpoint obtención de imágenes: https://image.tmdb.org/t/p 
+The Movie DB Game I Luis Enrique Mesa Salas 
+4 
+

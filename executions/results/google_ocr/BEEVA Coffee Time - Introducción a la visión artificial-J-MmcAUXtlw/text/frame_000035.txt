@@ -1,0 +1,24 @@
+O A https://docs. google.com/presentation/d/16U8G G-nGFSEN5MgOZgw.QEk6S78Qnuommoeb54E/present#slide-id.р18
+OIE
+DETECCION DE OBJETOS
+EJEMPLO DE APLICACIONES DE LA VISION ARTIFICIAL
+person : o. 992
+dog : OO.99
+horse O.9es
+:
+or a 1ood
+Gat: 0.982
+person: o.979
+dog to. 1
+be: 0.996
+boat o. 970
+POOn O. Ta
+person: O.983 Person o. 98
+person: o.92
+person to .See
+Lee
+NAB
+BEE VA
+Faster RCNN: Towards Real-Time object Detection with Region Proposal Networks
+IC 2015)
+

@@ -1,0 +1,25 @@
+Máster Universitario en Ingenieria Informátic
+Big Dat
+
+ 
+
+Funcionamiento: Entorno
+
+> Linux y Mac, simple
+
+ 
+
+ 
+
+> MS WÍHÚOWS, tampoco tan complicado Descargarelfichero de instalación (.msi) de aquíyseguirel asistente:
+
+hitps:llºithub.com/MSODenTech/redis/releases
+
+ 
+
+ 
+
+ 
+
+Motores BD: Redio
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 10

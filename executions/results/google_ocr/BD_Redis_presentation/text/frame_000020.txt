@@ -1,0 +1,19 @@
+IMA
+Master Universitario en Ingeniería Informatica
+Big Data
+UNIVERSIDAD
+Redis: Ventajas y desventajas
+SE VILLA
+> Desventajas
+o El Conjunto de datos debе саber en la memoria
+o La persistencia está permitida pero a costa del rendimiento
+0 Curva de aprendizaje sintaxis Redis / LUA
+o No hay soporte oficial para Windows
+windows - out of Virtual Memory
+Your system is low on virtual memory. To ensure that Windows runs
+properly, increase the size of your virtual memory paging file. For
+more information, see Help.
+OK
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

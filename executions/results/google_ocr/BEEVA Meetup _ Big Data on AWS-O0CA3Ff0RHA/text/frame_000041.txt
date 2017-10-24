@@ -1,0 +1,34 @@
+Big Data on Aws - Big Data Aws Services
+WCB EE VA
+AWS Redshift - Detailed components
+Client Connections
+Listener/Communication layer
+Amazon Redshift Analytic Database
+Parser
+Queries and Joins : Non-Query Commands
+Misc Database services and functions
+Data Loadunload System Manager
+VacuumvDefrag utility functions
+System Tabies Resource Manager
+Congression becaug Restore
+Generation Failover
+Execution Planner and optimizer
+Code Generation
+&
+Desk Subsystem
+Interconnect Network
+Compute Node
+Compute Node
+Communication layer
+Communication layer
+Dispatcher
+Dispatcher
+Query Processor (1 per slice)
+Query Processor (1 per slice)
+TTI TTO
+VOA Disk Management
+VO & Disk Management
+alFal.
+lels
+www.beeva.com
+

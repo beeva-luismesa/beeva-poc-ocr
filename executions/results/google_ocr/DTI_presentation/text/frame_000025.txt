@@ -1,0 +1,20 @@
+Master Universitario en Ingeniería Informatica IMA
+Dirección TIPS
+UNIVERSIDAD
+Estructura de desglose de tareas
+SE VILLA
+> Creación de un sistema de gestion documental
+o Desarrollo subsistema de almacenamiento
+0 Desarrollo applet de firma
+o Creación de API
+o Desarrollo aplicación web
+0 Digitalización de documentos
+o Subida de documentos al sistema de almacenamiento
+o Formación sistema de gestion documental
+> Creación de nueva imagen corporativa
+o Reuniones con proveedor
+o Creación de plantillas
+0 Creación de brand center
+21
+Luis Enrique Mesa Salas | Proyecto TIRITI
+

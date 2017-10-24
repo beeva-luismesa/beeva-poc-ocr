@@ -1,0 +1,17 @@
+A
+Big Data on AWS - Big Data AWS Services CVC B E E V A
+
+AWS Kinesis — Read and Write data
+
+KCL client allows you to put and get data to/from a Kinesis
+Stream.
+KCL handles:
+Distributed computation
+Fau|t tolerance
+Record checkpointing
+Resharding
+Provides support for Python, Java, Node.js,
+Kinesis is also accessible from Amazon SDK.
+Connect it with Spark or Flink
+
+www.beeva.com

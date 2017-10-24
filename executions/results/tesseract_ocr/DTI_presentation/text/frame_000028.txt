@@ -1,0 +1,19 @@
+ALL IN ALL
+
+ 
+
+> Creación de repositon u- || go ao -
+
+0 Identificación de proyectos susceptibles de ser publicados
+0 Revisión de calidad del código
+o Subida del código al repositorio
+
+> Creación de wikis
+() Creación del portal de wikis
+0 Creación contenido wiki sanidad
+(> Creación contenido wiki educación
+0 Creación contenido wiki banca
+() Creación contenido wiki administración pública
+0 Creación contenido wiki técnica
+
+Luis Enrique Mesa Salas | Proyecto TIRITI 23

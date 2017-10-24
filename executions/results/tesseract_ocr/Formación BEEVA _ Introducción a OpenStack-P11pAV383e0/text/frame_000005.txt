@@ -1,0 +1,27 @@
+BEEVA
+
+0penstack introduction
+
+ 
+
+vii. OpenStack History
+
+The origin
+
+Open5tack was created during the first months of 2010. Rackspace wanted to rewrite the
+infrastructure code running its Cloud servers offering, and considered open sourcing the existing
+Cloud files code. At the same time,Anso Labs (contracting for NASA) had published beta code
+for Nova, a Python-based “cloud computing fabric controller”.
+
+Both efforts converged and formed the base for OpenStack. The ñrst Design Summitwas held in
+Austin, TX on July 13—14, 2010, and the project was officiallyannounced at OSCON in Portland,
+OR, on July 21st, 2010.
+
+The mission
+
+The OpenStack mission is “to produce the ubiquitou50pen Source Cloud Computing platform
+that will meet the needs of public and private clouds regardless ofsize, by being simpleto
+implementand massiver scalable".
+
+It appeared on the wiki on May 24th, 2010 and still captures the long-term goal of the OpenStack
+community.

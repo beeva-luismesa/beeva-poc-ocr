@@ -1,0 +1,35 @@
+- C A https:/us-west-2.consoleawsamazon.comelasticbeanstalk/home?region=us-west-28/environment/configuration?applicationName=node-project&environmentid=e-26hm5jtikkasedit-container
+THYYY
+Elastic Beanstalk
+node-project
+Create New Environment
+node-project node-project-dev2 (node-project-dev2.elasticbeanstalk.com )
+Actions
+Dashboard
+Container Options
+Configuration
+The following settings control container behavior and let you pass key-value pairs in as OS environment variables. Learn more.
+Proxy server : nginx
+Specifies which proxy server to be used for client connections. Static file mappings and gzip compression will not take effect if the proxy server is set to "none".
+Logs
+Monitoring
+Node version
+0.12.4
+Version of Nodejs.
+Alarms
+Events
+Gzip compression: false
+4 Specifies if gzip . compression is enabled.
+Tags
+Node command
+Command to start the Node.js application. If an empty string is specified, app.js is used, then serverjs, then "npm start in that order.
+Log Options
+The following settings control the log publication behavior.
+Instance profile: aws-elasticbeanstalk-ec2-role & Refresh a
+The instance profile grants your environment specific permissions under your AWS account. Learn More
+* Enable log file rotation to Amazon S3. If checked, service logs are published to S3.
+Static Files
+To improve performance, you can configure Apache or Nginx to serve static files from a set of directories inside your web application. Learn more.
+Virtual Path (Example: /assets)
+Directory (Example: /static/assets)
+

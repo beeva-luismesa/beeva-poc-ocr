@@ -1,0 +1,80 @@
+create
+deploy
+events
+lnlt
+labs
+llst
+loc¡l
+logs
+open
+Platform
+prlntenv
+scale
+setenv
+ssh
+status
+nap
+ternlnate
+upgrade
+use
+
+creates ¡ neu environment.
+
+Deploys your source cºde to the envlronnent.
+
+Gets recent events.
+
+!nltlillzes your d'lrectnry vlth the EB CLI. Cre¡tes the appllcatlnn.
+Extra experimental cmnds.
+
+Llsts ¡ll envlronnents.
+
+Runs cmnds on your local uchlne.
+
+Gets recent logs.
+
+Opens the appllcatlon IRL ln a browser.
+
+Images platforms.
+
+Shaus the envtronnent v:rl¡bles.
+
+Chinges the nunber of running lnstances.
+
+Sets envlronnent varl¡bles.
+
+ºpens the SSH cllent to cºnnect to an lnstance.
+
+Gets envlronnent lnforutlon ¡nd stitus.
+
+Sweps tm envlronnent CNMEs wlth e¡ch other.
+
+Ternlnates the envlronnent.
+
+Updates the envtroment to the lost recent platforn verslon.
+Sets default envlronnent.
+
+optlonal argumts:
+
+-h, --help show thls help nessage and exlt
+--debug toggle debug output
+
+--qulet suppress ¡ll output
+
+-v. --verbose toggle verbose output
+
+--proflle PROFILE use ¡ spechlc profile fran your credentlzl flle
+-r REGION. --regton REGIDII
+
+use ¡ spechlc reglnn
+
+-—m-vertfy-ssl do not verle All5 SSL certlflcates
+
+: -verslon
+
+shou appllcatlonlverslon lnfo
+
+To get started type 'eb ln'lt'. Then type 'eb create' ¡nd 'eb upen'
+bash-3.25 cd nude-project]
+
+bash-3.25 I

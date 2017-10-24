@@ -1,0 +1,6 @@
+OBJETIVOS 
+Probar la capacidad que tiene cada uno de los OCR que vamos a evaluar de leer de forma correcta un texto con 
+varias dificultades. 
+En el caso en el que la lectura se hace de forma correcta, evaluar si es posible la detección de contraseñas 
+mediante Visión Artificial. 
+

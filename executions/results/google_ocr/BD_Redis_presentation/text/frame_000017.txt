@@ -1,0 +1,39 @@
+Master Universitario en Ingeniería Informatica
+Big Data
+IMA F.
+UNIVERSIDAD
+Redis: Modelo de datos
+SE VILLA
+Hashes de clave-valor
+"Hello classmates!"
+> Con matices
+"This"
+"is"
+o No sólo se soportan Strings
+o Tipos de datos avanzados
+p
+"list"
+13
+11
+name
+age
+o
+Lists
+Luis
+29
+• Sets
+Fran
+34
+Sorted Sets
+field
+value
+Carlos
+37
+Hashes
+name
+Luis
+age
+29
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

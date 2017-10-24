@@ -1,0 +1,24 @@
+Openstack introduction
+NO BEE VA
+viii. Openstack Services
+Service
+Project Description
+Dashboard Horizon Provides a web-based self-service protal to interact with undelying
+Openstack services, such as launching an instance, assigning IP and
+configuring access controls.
+Compute Nova
+Manages the lifecycle of compute instances in an Openstack
+enviroment. Responsibilities include spawning, schediuling and
+decommissioning of virtual machines on demand.
+Networking Neutron Enables network conectivity as a service fot other Openstack services
+,such as Openstack Compute. Provides an API for users to define
+networks and the attachments into them.
+Swift
+Object
+Storage
+Stores and retrieves arbitrary unstructured data objects via RESTfull
+HTTP based API .It is highly fault tolerance with its data replication and
+scale out architecture.
+vii. Openstack Services
+www.beeva.com
+

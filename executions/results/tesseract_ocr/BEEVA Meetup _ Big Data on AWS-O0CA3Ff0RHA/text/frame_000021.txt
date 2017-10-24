@@ -1,0 +1,15 @@
+A
+Big Data on AWS - Big Data AWS Services 63 B E E V A
+
+AWS EMR — Processing Layer — Transient vs Alive cluster
+
+Transient cluster: load data, process, store output and kill
+cluster.
+Alive (long-running cluster): the cluster persists adding new
+tasks to it.
+
+Use the cluster as 3 data warehouse
+
+Disable termination on cluster startup
+
+www.beeva.com

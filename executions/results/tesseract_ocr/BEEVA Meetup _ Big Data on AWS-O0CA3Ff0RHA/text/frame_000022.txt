@@ -1,0 +1,27 @@
+A
+Big Data on AWS - Big Data AWS Services CVC B E E V A
+
+    
+     
+  
+ 
+ 
+ 
+    
+
+AWS EMR — Processing Layer — Best practices
+
+- Avoid small files
+- Concatenate them if needed
+
+- Each mapper in a single JVM
+
+- 53 best file for Hadoop. You can get lO-15MB/s from 53 %
+Suppose you are planning to run your maps from a minute
+then 60 seconds * 15 MB/second +-= lGB
+
+- Use Compression
+
+Watch Diskl0 use
+
+www.beeva.com

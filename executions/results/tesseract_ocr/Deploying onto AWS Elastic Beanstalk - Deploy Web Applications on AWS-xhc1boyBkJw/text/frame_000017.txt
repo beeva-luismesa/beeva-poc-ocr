@@ -1,0 +1,54 @@
+optional arguments:
+
+-I|, —-help shw this help message and exit
+—-debug toggle debug output
+
+--qulet suppress all output
+
+-v, --verbose toggle verbose output
+
+--profile PROFILE use a specific profile from yºur credential file
+-r REGION, --region REGION
+use a specific region
+--nn-verify-ssl do not verlfy AHS SSL certlficates
+--version shw application/Version info
+
+To get started type “eh init'. Then type 'eb <reate' and 'el: open'
+hash-3.25 cd node-project]
+hash-3.15 eb inlt
+
+Select el default region
+
+1) us—east-1 : us East (M. Virginia)
+
+2) us—uest-1 : US West (N. California)
+
+3) us-uest-Z : US Hest (Oregon)
+
+4) eu—uest-1 : EU (Ireland)
+
+5) eu-central-1 - Eu (Frankfurt)
+
+¡) ap-southeast- ' Asia Pacific (Singapore)
+
+7) ap-southeast-Z Asia Pacific (Sydney)
+
+8) ap-northeast—1 : Asia Pacific (Tokyº)
+
+9) sa-east-1 : South Merica (Sao Paulo)
+
+(default ls 3):
+
+You have not yet set up your credentials or your credentials are incorrect
+You nust prwide your credentials.
+
+(aus-azcess-ld): AKIAJXQLSSHEEVCPDMA
+
+(aus-secret-key): aj15xansons/m/onnA/Mxmnprtqcmnm
+
+ 
+ 
+ 
+
+Enter Application Nine
+(default ls "node-project"):

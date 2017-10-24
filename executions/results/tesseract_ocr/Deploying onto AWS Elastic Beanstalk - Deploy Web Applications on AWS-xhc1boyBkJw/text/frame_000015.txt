@@ -1,0 +1,54 @@
+optional argumnts:
+
+-I|, —-help shw this help ness¡ge and exit
+—-debug toggle debug output
+
+"quiet suppress all output
+
+-v. --verbose toggle verbose output
+
+--profile PRDFILE use a specific profile from your credentiil file
+-r REGION, --region REGION
+use a specific region
+--m-verify-ssl do not verify AMS SSL certificates
+--version shw ¡pplication/version info
+
+To get started type “eh init'. Then type 'eb <reate' ami 'el: open'
+bash-3.25 cd node-project!
+bash-3.25 eb ini!
+
+Select el default region
+
+1) us—east-1 : us East (M. Virginia)
+
+:) us-uest-1 : us West (N. California)
+
+!) us—Hest-Z : US “est (Oregºn)
+
+4) eu—uest-1 : EU (Ireland)
+
+5) eu-central—1 ' Eu (Frankfurt)
+
+5) ap-southeast- ' Asia Pacific (Singapore)
+
+1) ap-souiheast-Z Asia Pacific (Sydney)
+
+8) ap—northeast-1 : Asia Pacific (Tokyo)
+
+9) sa-east-1 : South America (Sao Paulo)
+
+(default is 3):
+
+You have not yet set up your credentials ur your credentials are incorrect
+You must provide your credentiils.
+
+(aus-access-ld): AKIAJXQLEGHEEYCPDMA
+
+(aus-secret-key): o:]I5xGnEDN5/Mlole/mnhthcmsnF2V
+
+ 
+ 
+ 
+
+Enter Application Nine
+(default is "node-project"): |

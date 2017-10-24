@@ -1,0 +1,44 @@
+Software as ¿:
+Servrce (SaaS)
+
+    
+   
+ 
+ 
+    
+
+Platform as ¿
+Service (Paa5)
+
+ 
+   
+  
+    
+
+Infrastructure as
+3 Service (laaS)
+
+       
+
+Openstackintroduction A B E E v A
+
+iv. Cloud Models
+
+. Scalable; Multi—tenant; Metadata driven
+configurability
+
+' Sometimes free; easy to use; good consumer
+adoption; proven business models
+
+- Highly sm|able; multi-tier architecture; Multi tenant
+environments
+
+- Developers can upload a configured applications and it
+”runs” within the platform's framework
+
+- Oñers full control of a company/5 infrastructure; not
+confined to applications or restrictiva instantes
+
+' Sometimes comes with a price premium; en be
+
+complex to build, manage and maintain

@@ -1,0 +1,7 @@
+BEEVA Coffee Time: Introducción a la visión artificial: https://www.youtube.com/watch?v=J-MmcAUXtlw
+Formación BEEVA | Introducción a OpenStack: https://www.youtube.com/watch?v=P11pAV383e0
+BEEVA Meetup | Big Data on AWS: https://www.youtube.com/watch?v=O0CA3Ff0RHA
+BEEVA | Segmentación de usuarios por comportamiento: https://www.youtube.com/watch?v=Yhvxr9dZ4tE
+BEEVA | Los Metadatos: https://www.youtube.com/watch?v=GcxjDNH1rTU
+Formación BEEVA | Ghertor: Crea, consulta y valida HHUU en un instante: https://www.youtube.com/watch?v=SL-QtqfgqTI
+Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS: https://www.youtube.com/watch?v=xhc1boyBkJw

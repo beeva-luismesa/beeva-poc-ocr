@@ -1,0 +1,18 @@
+Master Universitario en Ingeniería Informatica RAN
+Big Data ts
+UNT VERS DAD
+Conjunto de datos: Variables
+SEVILLA
+> Variables independientes
+0 relationship: relacion sentimental
+0 race: raza del individuo
+cos b.
+o sex : genero del individuo
+4K(IHK) +K and P =
+o capital-gain: capital ganado por el individuo
+o capital-loss: capital perdido por el individuo
+0 hours-per-week: horas trabajadas por semana
+o native-country: pais de origen
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

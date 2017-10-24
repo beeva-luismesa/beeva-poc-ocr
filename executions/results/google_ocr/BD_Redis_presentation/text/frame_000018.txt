@@ -1,0 +1,18 @@
+Master Universitario en Ingeniería Informatica IMA
+Big Data US
+UNIVERSIDAD
+Redis: Usos fundamentales
+SEVILLA
+> Caché de páginas web
+Caché de base de datos
+REDIS NOES
+SOLO UNA
+> Almacenamiento de sesiones de usuario
+> Almacenamiento de carritos de la compra
+CACHE
+> Listas de elementos recientes
+> Contadores y estadisticas
+> Base de datos principal
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

@@ -1,0 +1,22 @@
+Big Data on AWS - Big Data AWS Services
+
+AWS Redshift — Things to consider
+
+- Design your tables carefully (massiver parallel processing)
+
+- Column compression type: it reduces the size ofthe data to
+read and improves query performance.
+
+- Data distribution: data ¡5 distributed among rows of the table
+on the computes nodes. So it affects to queries performance.
+
+- Sort keys: Redshift uses sort keys within each table. If defined
+right, sort keys can improve query predicates execution
+(skipping potentially lots of rows)
+
+- Define constraints: uniqueness, primary keys and foreign keys
+
+are not enforced but give hints to the query planner improving
+execution time.
+
+www.beeva.com

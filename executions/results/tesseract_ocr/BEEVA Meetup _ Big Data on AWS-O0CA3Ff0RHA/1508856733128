@@ -1,0 +1,161 @@
+2017-10-24 16:52:13,129 - root - INFO - Params <Namespace(lang='spa', ocr='tesseract', output_path='/home/luismesa/demo_ocr/results/tesseract_ocr', scene_threshold=0.1, video='https://www.youtube.com/watch?v=O0CA3Ff0RHA')>
+2017-10-24 16:52:13,129 - root - INFO - Starting process
+2017-10-24 16:52:13,137 - root - INFO - It's a youtube video! Here we go!
+2017-10-24 16:52:13,137 - root - INFO - Getting info from youtube...
+2017-10-24 16:52:14,516 - root - INFO - Total info time: 1.378468s
+2017-10-24 16:52:14,516 - root - INFO - Downloading from youtube...
+2017-10-24 16:52:15,426 - root - INFO - Total download time: 0.910389s
+2017-10-24 16:52:15,427 - root - INFO - Generating frames from video ./BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA.mp4
+2017-10-24 16:52:15,427 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA.mp4" -vf "select=gt(scene\,0.1)" -vsync vfr "/home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_%06d.png" -qscale 0
+2017-10-24 16:59:38,051 - root - INFO - FFMPEG time: 442.623403s
+2017-10-24 16:59:38,051 - root - INFO - Performing OCR with tesseract
+2017-10-24 16:59:38,051 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images
+2017-10-24 16:59:38,051 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/text
+2017-10-24 16:59:38,269 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000001.png
+2017-10-24 16:59:38,269 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000001.png
+2017-10-24 16:59:38,959 - root - INFO - Local OCR processing image time: 0.689196s
+2017-10-24 16:59:38,959 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000027.png
+2017-10-24 16:59:38,959 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000027.png
+2017-10-24 16:59:40,869 - root - INFO - Local OCR processing image time: 1.910131s
+2017-10-24 16:59:40,869 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000035.png
+2017-10-24 16:59:40,869 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000035.png
+2017-10-24 16:59:41,851 - root - INFO - Local OCR processing image time: 0.981781s
+2017-10-24 16:59:41,852 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000044.png
+2017-10-24 16:59:41,852 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000044.png
+2017-10-24 16:59:42,572 - root - INFO - Local OCR processing image time: 0.720174s
+2017-10-24 16:59:42,572 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000034.png
+2017-10-24 16:59:42,572 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000034.png
+2017-10-24 16:59:43,491 - root - INFO - Local OCR processing image time: 0.918406s
+2017-10-24 16:59:43,491 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000021.png
+2017-10-24 16:59:43,491 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000021.png
+2017-10-24 16:59:44,609 - root - INFO - Local OCR processing image time: 1.117379s
+2017-10-24 16:59:44,609 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000042.png
+2017-10-24 16:59:44,609 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000042.png
+2017-10-24 16:59:45,986 - root - INFO - Local OCR processing image time: 1.376819s
+2017-10-24 16:59:45,987 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000033.png
+2017-10-24 16:59:45,987 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000033.png
+2017-10-24 16:59:46,695 - root - INFO - Local OCR processing image time: 0.708119s
+2017-10-24 16:59:46,695 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000018.png
+2017-10-24 16:59:46,695 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000018.png
+2017-10-24 16:59:47,667 - root - INFO - Local OCR processing image time: 0.97195s
+2017-10-24 16:59:47,668 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000020.png
+2017-10-24 16:59:47,668 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000020.png
+2017-10-24 16:59:48,892 - root - INFO - Local OCR processing image time: 1.224323s
+2017-10-24 16:59:48,892 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000015.png
+2017-10-24 16:59:48,892 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000015.png
+2017-10-24 16:59:50,301 - root - INFO - Local OCR processing image time: 1.408202s
+2017-10-24 16:59:50,301 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000037.png
+2017-10-24 16:59:50,301 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000037.png
+2017-10-24 16:59:51,770 - root - INFO - Local OCR processing image time: 1.469162s
+2017-10-24 16:59:51,771 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000012.png
+2017-10-24 16:59:51,771 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000012.png
+2017-10-24 16:59:52,457 - root - INFO - Local OCR processing image time: 0.686372s
+2017-10-24 16:59:52,458 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000010.png
+2017-10-24 16:59:52,458 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000010.png
+2017-10-24 16:59:53,039 - root - INFO - Local OCR processing image time: 0.581435s
+2017-10-24 16:59:53,040 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000014.png
+2017-10-24 16:59:53,040 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000014.png
+2017-10-24 16:59:53,938 - root - INFO - Local OCR processing image time: 0.897976s
+2017-10-24 16:59:53,938 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000046.png
+2017-10-24 16:59:53,938 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000046.png
+2017-10-24 16:59:55,751 - root - INFO - Local OCR processing image time: 1.812313s
+2017-10-24 16:59:55,751 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000040.png
+2017-10-24 16:59:55,751 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000040.png
+2017-10-24 16:59:57,280 - root - INFO - Local OCR processing image time: 1.528344s
+2017-10-24 16:59:57,280 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000003.png
+2017-10-24 16:59:57,280 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000003.png
+2017-10-24 16:59:58,702 - root - INFO - Local OCR processing image time: 1.421209s
+2017-10-24 16:59:58,702 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000039.png
+2017-10-24 16:59:58,702 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000039.png
+2017-10-24 17:00:00,216 - root - INFO - Local OCR processing image time: 1.513995s
+2017-10-24 17:00:00,217 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000007.png
+2017-10-24 17:00:00,217 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000007.png
+2017-10-24 17:00:00,813 - root - INFO - Local OCR processing image time: 0.596629s
+2017-10-24 17:00:00,814 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000031.png
+2017-10-24 17:00:00,814 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000031.png
+2017-10-24 17:00:03,426 - root - INFO - Local OCR processing image time: 2.611588s
+2017-10-24 17:00:03,426 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000002.png
+2017-10-24 17:00:03,426 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000002.png
+2017-10-24 17:00:05,984 - root - INFO - Local OCR processing image time: 2.557733s
+2017-10-24 17:00:05,984 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000008.png
+2017-10-24 17:00:05,984 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000008.png
+2017-10-24 17:00:06,764 - root - INFO - Local OCR processing image time: 0.779507s
+2017-10-24 17:00:06,764 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000036.png
+2017-10-24 17:00:06,764 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000036.png
+2017-10-24 17:00:07,806 - root - INFO - Local OCR processing image time: 1.042107s
+2017-10-24 17:00:07,807 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000009.png
+2017-10-24 17:00:07,807 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000009.png
+2017-10-24 17:00:08,575 - root - INFO - Local OCR processing image time: 0.767811s
+2017-10-24 17:00:08,576 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000006.png
+2017-10-24 17:00:08,576 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000006.png
+2017-10-24 17:00:10,451 - root - INFO - Local OCR processing image time: 1.874923s
+2017-10-24 17:00:10,451 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000019.png
+2017-10-24 17:00:10,451 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000019.png
+2017-10-24 17:00:11,181 - root - INFO - Local OCR processing image time: 0.729154s
+2017-10-24 17:00:11,182 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000022.png
+2017-10-24 17:00:11,182 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000022.png
+2017-10-24 17:00:12,509 - root - INFO - Local OCR processing image time: 1.327188s
+2017-10-24 17:00:12,509 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000030.png
+2017-10-24 17:00:12,509 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000030.png
+2017-10-24 17:00:13,649 - root - INFO - Local OCR processing image time: 1.139384s
+2017-10-24 17:00:13,649 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000016.png
+2017-10-24 17:00:13,649 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000016.png
+2017-10-24 17:00:14,731 - root - INFO - Local OCR processing image time: 1.081941s
+2017-10-24 17:00:14,732 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000045.png
+2017-10-24 17:00:14,732 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000045.png
+2017-10-24 17:00:15,700 - root - INFO - Local OCR processing image time: 0.967868s
+2017-10-24 17:00:15,700 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000028.png
+2017-10-24 17:00:15,700 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000028.png
+2017-10-24 17:00:16,743 - root - INFO - Local OCR processing image time: 1.042427s
+2017-10-24 17:00:16,743 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000032.png
+2017-10-24 17:00:16,743 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000032.png
+2017-10-24 17:00:17,604 - root - INFO - Local OCR processing image time: 0.860728s
+2017-10-24 17:00:17,604 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000013.png
+2017-10-24 17:00:17,604 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000013.png
+2017-10-24 17:00:18,354 - root - INFO - Local OCR processing image time: 0.749497s
+2017-10-24 17:00:18,354 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000011.png
+2017-10-24 17:00:18,354 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000011.png
+2017-10-24 17:00:19,178 - root - INFO - Local OCR processing image time: 0.823694s
+2017-10-24 17:00:19,179 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000005.png
+2017-10-24 17:00:19,179 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000005.png
+2017-10-24 17:00:19,854 - root - INFO - Local OCR processing image time: 0.675084s
+2017-10-24 17:00:19,854 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000038.png
+2017-10-24 17:00:19,854 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000038.png
+2017-10-24 17:00:20,815 - root - INFO - Local OCR processing image time: 0.960985s
+2017-10-24 17:00:20,816 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000026.png
+2017-10-24 17:00:20,816 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000026.png
+2017-10-24 17:00:21,973 - root - INFO - Local OCR processing image time: 1.156921s
+2017-10-24 17:00:21,973 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000017.png
+2017-10-24 17:00:21,973 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000017.png
+2017-10-24 17:00:23,021 - root - INFO - Local OCR processing image time: 1.047816s
+2017-10-24 17:00:23,021 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000043.png
+2017-10-24 17:00:23,022 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000043.png
+2017-10-24 17:00:24,210 - root - INFO - Local OCR processing image time: 1.188558s
+2017-10-24 17:00:24,211 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000004.png
+2017-10-24 17:00:24,211 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000004.png
+2017-10-24 17:00:24,903 - root - INFO - Local OCR processing image time: 0.692474s
+2017-10-24 17:00:24,903 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000025.png
+2017-10-24 17:00:24,904 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000025.png
+2017-10-24 17:00:25,829 - root - INFO - Local OCR processing image time: 0.924973s
+2017-10-24 17:00:25,829 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000024.png
+2017-10-24 17:00:25,829 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000024.png
+2017-10-24 17:00:26,586 - root - INFO - Local OCR processing image time: 0.756994s
+2017-10-24 17:00:26,586 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000023.png
+2017-10-24 17:00:26,586 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000023.png
+2017-10-24 17:00:27,480 - root - INFO - Local OCR processing image time: 0.893681s
+2017-10-24 17:00:27,481 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000029.png
+2017-10-24 17:00:27,481 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000029.png
+2017-10-24 17:00:28,409 - root - INFO - Local OCR processing image time: 0.928053s
+2017-10-24 17:00:28,409 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000041.png
+2017-10-24 17:00:28,409 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000041.png
+2017-10-24 17:00:29,466 - root - INFO - Local OCR processing image time: 1.056474s
+2017-10-24 17:00:29,466 - root - INFO - Total OCR time: 51.197175s
+2017-10-24 17:00:29,466 - root - INFO - Trying to detect passwords...
+2017-10-24 17:00:29,467 - root - INFO - Potential passwords found in frame_000040: [Postgre5QUD3C]
+2017-10-24 17:00:29,468 - root - INFO - Potential passwords found in frame_000031: [Cloud5earch]
+2017-10-24 17:00:29,468 - root - INFO - Potential passwords found in frame_000030: [Cloud5earch]
+2017-10-24 17:00:29,468 - root - INFO - Potential passwords found in frame_000016: [Cloud5earch]
+2017-10-24 17:00:29,468 - root - INFO - Potential passwords found in frame_000032: [Cloud5earch, Cloud5earch]
+2017-10-24 17:00:29,469 - root - INFO - Password detection time: 0.002905s
+2017-10-24 17:00:29,471 - root - INFO - Process finished!
+2017-10-24 17:00:29,471 - root - INFO - Total process time: 496.341035s

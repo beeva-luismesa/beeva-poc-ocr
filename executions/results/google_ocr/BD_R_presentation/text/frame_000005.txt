@@ -1,0 +1,18 @@
+Master Universitario en Ingeniería Informatica IMA
+Big Data US
+UNT VERS DAD
+Conjunto de datos: ¿Qué datos?
+SE VILLA
+Información sobre el censo de EEUU
+T OF COM
+o Año 1.994
+cp ARTMEN
+o 32.560 registros
+o 15 variables cada uno
+U
+EAU /
+U OF
+THE CEN
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

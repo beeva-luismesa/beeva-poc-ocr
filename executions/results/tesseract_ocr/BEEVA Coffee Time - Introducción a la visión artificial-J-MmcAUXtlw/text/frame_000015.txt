@@ -1,0 +1,25 @@
+… ¡ xooglo …… …
+
+DEEP LEARNING
+
+No es algo nuevo, empezó en los en
+
+Redes Lunvolucmnales para leer cheques bancay|ns
+
+¿par qué tiene é to ahora? Pnnc¡pa|rnenrc.
+- Datºs anotados en muv grandes cantidades
+- ordenadores potentes (v (avielas gra'ñcas) capaces de hacer 105
+
+car…… necesarios en un tiempo razonable
+
+Generalmente se usan redes neuronales
+
+rrpos mas habltuales.
+
+- Fully connected (rc) o red Heulonal den<amcnte mnenaua
+- CNN / CanvNe( o red neuronal curwo|urronal
+
+Conjunta de datos MNIST
+- RMN u md neumnal recurrente
+
+AABEEVA

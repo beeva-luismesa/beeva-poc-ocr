@@ -1,0 +1,25 @@
+Conjunto de datos: Variables 
+> Variables independientes 
+o 
+o 
+o 
+o 
+o 
+o 
+o 
+relationship: relación sentimental 
+race: raza del individuo 
+sex: género del individuo 
+capital-gain: capital ganado por el individuo 
+capital-loss: capital perdido por el individuo 
+hours-per-week: horas trabajadas por semana 
+native-country: país de origen 
+COS 
+Máster Universitario en Ingeniería Informática V 
+Big Data 
++ K 2 and 
+Visualización y análisis de datos 
+Luis Enrique Mesa Salas I Francisco José Sancho Valero 
+D 
+5 
+

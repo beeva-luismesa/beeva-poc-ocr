@@ -1,0 +1,45 @@
+Estructura de desglose de tareas
+
+> Creación de un sistema de gestión documental
+
+0
+
+000000
+
+Desarrollo subsistema de almacenamiento
+
+Desarrollo applet de firma
+
+Creación de API
+
+Desarrollo aplicación web
+
+Digitalización de documentos
+
+Subida de documentos al sistema de almacenamiento
+Formación sistema de gestión documental
+
+> Creación de nueva imagen corporativa
+
+0
+
+O
+
+0
+
+Reuniones con proveedor
+Creación de plantillas
+Creación de brand center
+
+Luis Enrique Mesa Salas | Proyecto TIRIÍI
+
+Máster Universitario en Ingeniería Informática
+Direccion Ti
+
+71
+
+...........
+
+.......
+
+21

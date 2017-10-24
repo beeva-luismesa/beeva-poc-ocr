@@ -1,0 +1,11 @@
+Big Data on Aws - Big Data Aws Services
+WCB E E VA
+AWS Machine Learning - Steps
+Train model
+Evaluate &
+Optimize
+the model
+Generate
+predictions
+www.beeva.com
+

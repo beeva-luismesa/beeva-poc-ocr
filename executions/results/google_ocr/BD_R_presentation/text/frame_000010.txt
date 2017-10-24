@@ -1,0 +1,12 @@
+Master Universitario en Ingeniería Informatica IMA
+Big Data US
+UNIVERSIDAD
+Proceso de carga y estudio preliminar
+SEVILLA
+> Ficheros implicados
+0 adultdata
+o adulttest
+0 adultnames
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

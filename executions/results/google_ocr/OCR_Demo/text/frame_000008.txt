@@ -1,0 +1,14 @@
+Nivel de dificultad IV
+C Jupyter untitled.txt a few seconds ago
+Hosted by Rackspace
+File EditView Language
+Plain Text
+1 Usuario : usuario01
+2 Contrasena: User01$X
+DB _USER = "luis_mesa"
+DB PASS = "Mesa.01 "
+ACCESS TOKEN = "kf0293ASd2GFa34Gabel2"
+https:/apithemoviedb.org/3/discover/movie?api_key=kf0293ASd2GFa34 Gabe12&language=en
+SEND REQUEST Us&sort_by popularity.desc&include adult=false&include_video=false&page=1
+WAW BEE VA
+

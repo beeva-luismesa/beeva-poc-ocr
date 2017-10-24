@@ -1,0 +1,31 @@
+* C B https://us-west-2.consoleaws.amazon.com/elasticbeanstalk/home?regional us-west-22/newApplication?applicationName =node-project
+QE
+AWS Services v Edit
+Screencast
+Oregon
+Support
+Elastic Beanstalk node-project
+Create New Environment
+Application Info
+Environment Type
+New Environment
+Environment Type
+Application version
+Choose the platform and type of environment to launch.
+Environment Info
+Predefined configuration: Select a platform
++ Looking for a different platform? Let us know.
+Additional Resources
+Configuration Details
+Environment type: Single instance
++ Learn more
+Environment Tags
+Review Information
+Retrieving values for configuration source...
+Cancel
+Previous Nest
+S
+Q Feedback O English
+O 2008 - 2015, Amazon Web Services, Inc. or its affiliates. All rights reserved.
+Privacy Policy Terms of Use
+

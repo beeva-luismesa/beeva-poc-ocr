@@ -1,0 +1,22 @@
+A
+0penstackintroduction Ac B E E v A
+V
+
+Topics of this course
+
+¡. What is OpenStack vii. OpenStack History
+
+ii. What is a Cloud? viii. Openstack Services
+iii. Cloud Architecture ix. Example deployment
+iv. Cloud Models topology
+
+v. Cloud Capacity x. Deployment topology
+
+vi. OpenStack Capacity xi. Deployment types
+xii. Demo
+
+ 
+
+    
+
+Tnp>a ar ¡ms ca…se

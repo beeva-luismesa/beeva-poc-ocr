@@ -1,0 +1,12 @@
+Master Universitario en Ingeniería Informatica IRA
+Dirección TIPS
+UNIVERSIDAD
+Solución propuesta
+SE VILLA
+Migración de escritorios a entorno Linux
+> Ahorro de costes en licencias de sistema operativo
+> Asi serán configurados todos los equipos nuevos
+> En equipos anteriores, se hará de forma paulatina
+> Se tendrán en cuenta excepciones para desarrollo de software privativo
+Luis Enrique Mesa Salas | Proyecto TIRITI
+

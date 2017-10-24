@@ -1,0 +1,131 @@
+2017-10-24 16:44:13,047 - root - INFO - Params <Namespace(lang='spa', ocr='tesseract', output_path='/home/luismesa/demo_ocr/results/tesseract_ocr', scene_threshold=0.1, video='https://www.youtube.com/watch?v=J-MmcAUXtlw')>
+2017-10-24 16:44:13,047 - root - INFO - Starting process
+2017-10-24 16:44:13,056 - root - INFO - It's a youtube video! Here we go!
+2017-10-24 16:44:13,057 - root - INFO - Getting info from youtube...
+2017-10-24 16:44:14,718 - root - INFO - Total info time: 1.661314s
+2017-10-24 16:44:14,718 - root - INFO - Downloading from youtube...
+2017-10-24 16:44:15,960 - root - INFO - Total download time: 1.242002s
+2017-10-24 16:44:15,961 - root - INFO - Generating frames from video ./BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw.mp4
+2017-10-24 16:44:15,961 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw.mp4" -vf "select=gt(scene\,0.1)" -vsync vfr "/home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_%06d.png" -qscale 0
+2017-10-24 16:45:37,608 - root - INFO - FFMPEG time: 81.646165s
+2017-10-24 16:45:37,608 - root - INFO - Performing OCR with tesseract
+2017-10-24 16:45:37,608 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images
+2017-10-24 16:45:37,608 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/text
+2017-10-24 16:45:37,833 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000001.png
+2017-10-24 16:45:37,833 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000001.png
+2017-10-24 16:45:39,146 - root - INFO - Local OCR processing image time: 1.312605s
+2017-10-24 16:45:39,146 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000027.png
+2017-10-24 16:45:39,147 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000027.png
+2017-10-24 16:45:39,542 - root - INFO - Local OCR processing image time: 0.395286s
+2017-10-24 16:45:39,542 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000035.png
+2017-10-24 16:45:39,542 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000035.png
+2017-10-24 16:45:40,387 - root - INFO - Local OCR processing image time: 0.844336s
+2017-10-24 16:45:40,387 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000034.png
+2017-10-24 16:45:40,387 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000034.png
+2017-10-24 16:45:41,230 - root - INFO - Local OCR processing image time: 0.843092s
+2017-10-24 16:45:41,231 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000021.png
+2017-10-24 16:45:41,231 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000021.png
+2017-10-24 16:45:41,662 - root - INFO - Local OCR processing image time: 0.431093s
+2017-10-24 16:45:41,662 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000033.png
+2017-10-24 16:45:41,662 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000033.png
+2017-10-24 16:45:43,083 - root - INFO - Local OCR processing image time: 1.42032s
+2017-10-24 16:45:43,083 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000018.png
+2017-10-24 16:45:43,083 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000018.png
+2017-10-24 16:45:44,436 - root - INFO - Local OCR processing image time: 1.352153s
+2017-10-24 16:45:44,436 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000020.png
+2017-10-24 16:45:44,436 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000020.png
+2017-10-24 16:45:46,410 - root - INFO - Local OCR processing image time: 1.973926s
+2017-10-24 16:45:46,410 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000015.png
+2017-10-24 16:45:46,410 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000015.png
+2017-10-24 16:45:52,656 - root - INFO - Local OCR processing image time: 6.245919s
+2017-10-24 16:45:52,657 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000037.png
+2017-10-24 16:45:52,657 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000037.png
+2017-10-24 16:45:53,063 - root - INFO - Local OCR processing image time: 0.406497s
+2017-10-24 16:45:53,064 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000012.png
+2017-10-24 16:45:53,064 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000012.png
+2017-10-24 16:45:56,294 - root - INFO - Local OCR processing image time: 3.230428s
+2017-10-24 16:45:56,295 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000010.png
+2017-10-24 16:45:56,295 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000010.png
+2017-10-24 16:45:57,070 - root - INFO - Local OCR processing image time: 0.774621s
+2017-10-24 16:45:57,070 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000014.png
+2017-10-24 16:45:57,071 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000014.png
+2017-10-24 16:45:58,995 - root - INFO - Local OCR processing image time: 1.924789s
+2017-10-24 16:45:58,996 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000003.png
+2017-10-24 16:45:58,996 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000003.png
+2017-10-24 16:45:59,891 - root - INFO - Local OCR processing image time: 0.895268s
+2017-10-24 16:45:59,892 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000007.png
+2017-10-24 16:45:59,892 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000007.png
+2017-10-24 16:46:00,426 - root - INFO - Local OCR processing image time: 0.534303s
+2017-10-24 16:46:00,426 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000031.png
+2017-10-24 16:46:00,426 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000031.png
+2017-10-24 16:46:00,891 - root - INFO - Local OCR processing image time: 0.464203s
+2017-10-24 16:46:00,891 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000002.png
+2017-10-24 16:46:00,891 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000002.png
+2017-10-24 16:46:01,403 - root - INFO - Local OCR processing image time: 0.512112s
+2017-10-24 16:46:01,404 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000008.png
+2017-10-24 16:46:01,404 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000008.png
+2017-10-24 16:46:03,270 - root - INFO - Local OCR processing image time: 1.866075s
+2017-10-24 16:46:03,270 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000036.png
+2017-10-24 16:46:03,270 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000036.png
+2017-10-24 16:46:03,936 - root - INFO - Local OCR processing image time: 0.665249s
+2017-10-24 16:46:03,936 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000009.png
+2017-10-24 16:46:03,936 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000009.png
+2017-10-24 16:46:04,526 - root - INFO - Local OCR processing image time: 0.589535s
+2017-10-24 16:46:04,526 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000006.png
+2017-10-24 16:46:04,527 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000006.png
+2017-10-24 16:46:05,434 - root - INFO - Local OCR processing image time: 0.907618s
+2017-10-24 16:46:05,435 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000019.png
+2017-10-24 16:46:05,435 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000019.png
+2017-10-24 16:46:06,793 - root - INFO - Local OCR processing image time: 1.358657s
+2017-10-24 16:46:06,794 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000022.png
+2017-10-24 16:46:06,794 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000022.png
+2017-10-24 16:46:09,026 - root - INFO - Local OCR processing image time: 2.232478s
+2017-10-24 16:46:09,027 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000030.png
+2017-10-24 16:46:09,027 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000030.png
+2017-10-24 16:46:09,420 - root - INFO - Local OCR processing image time: 0.392668s
+2017-10-24 16:46:09,420 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000016.png
+2017-10-24 16:46:09,420 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000016.png
+2017-10-24 16:46:11,005 - root - INFO - Local OCR processing image time: 1.584721s
+2017-10-24 16:46:11,005 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000028.png
+2017-10-24 16:46:11,005 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000028.png
+2017-10-24 16:46:11,406 - root - INFO - Local OCR processing image time: 0.401158s
+2017-10-24 16:46:11,407 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000032.png
+2017-10-24 16:46:11,407 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000032.png
+2017-10-24 16:46:13,672 - root - INFO - Local OCR processing image time: 2.265069s
+2017-10-24 16:46:13,672 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000013.png
+2017-10-24 16:46:13,672 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000013.png
+2017-10-24 16:46:18,736 - root - INFO - Local OCR processing image time: 5.063647s
+2017-10-24 16:46:18,737 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000011.png
+2017-10-24 16:46:18,737 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000011.png
+2017-10-24 16:46:21,529 - root - INFO - Local OCR processing image time: 2.792625s
+2017-10-24 16:46:21,530 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000005.png
+2017-10-24 16:46:21,530 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000005.png
+2017-10-24 16:46:22,507 - root - INFO - Local OCR processing image time: 0.976528s
+2017-10-24 16:46:22,507 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000026.png
+2017-10-24 16:46:22,507 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000026.png
+2017-10-24 16:46:22,950 - root - INFO - Local OCR processing image time: 0.442886s
+2017-10-24 16:46:22,950 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000017.png
+2017-10-24 16:46:22,950 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000017.png
+2017-10-24 16:46:24,438 - root - INFO - Local OCR processing image time: 1.487565s
+2017-10-24 16:46:24,438 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000004.png
+2017-10-24 16:46:24,439 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000004.png
+2017-10-24 16:46:25,287 - root - INFO - Local OCR processing image time: 0.848442s
+2017-10-24 16:46:25,287 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000025.png
+2017-10-24 16:46:25,287 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000025.png
+2017-10-24 16:46:25,814 - root - INFO - Local OCR processing image time: 0.526807s
+2017-10-24 16:46:25,815 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000024.png
+2017-10-24 16:46:25,815 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000024.png
+2017-10-24 16:46:27,509 - root - INFO - Local OCR processing image time: 1.694597s
+2017-10-24 16:46:27,510 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000023.png
+2017-10-24 16:46:27,510 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000023.png
+2017-10-24 16:46:27,953 - root - INFO - Local OCR processing image time: 0.442862s
+2017-10-24 16:46:27,953 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000029.png
+2017-10-24 16:46:27,953 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000029.png
+2017-10-24 16:46:28,409 - root - INFO - Local OCR processing image time: 0.455172s
+2017-10-24 16:46:28,409 - root - INFO - Total OCR time: 50.575925s
+2017-10-24 16:46:28,409 - root - INFO - Trying to detect passwords...
+2017-10-24 16:46:28,410 - root - INFO - Potential passwords found in frame_000022: [5ur1board]
+2017-10-24 16:46:28,410 - root - INFO - Potential passwords found in frame_000013: [neurona1es, neurona1densamenle]
+2017-10-24 16:46:28,410 - root - INFO - Password detection time: 0.000937s
+2017-10-24 16:46:28,411 - root - INFO - Process finished!
+2017-10-24 16:46:28,411 - root - INFO - Total process time: 135.363955s

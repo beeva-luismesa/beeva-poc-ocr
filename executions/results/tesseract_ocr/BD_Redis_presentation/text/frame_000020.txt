@@ -1,0 +1,33 @@
+MásterUniversitarioenlngeniería Informática 7 '
+Bigl]ata k
+
+uuuuuuuuuuu
+
+Redis: Ventajas y desventajas &eea
+
+> Desventajas
+
+() El conjunto de datos debe caber en la memoria
+o La persistencia está permitida pero a costa del rendimiento
+() Curva de aprendizaje sintaxis Redis / LUA
+
+   
+
+o No hay soporte oficial para Windows
+
+    
+  
+ 
+
+ 
+
+Windows ' um ur Vlrlud| Memory
+
+   
+
+Yumbhnm…….mensuo&m…nm
+M,…hmúyu………uk.ñw
+mifmnúim.seerbb.
+
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 7

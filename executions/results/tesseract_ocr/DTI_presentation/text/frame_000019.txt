@@ -1,0 +1,36 @@
+Máster Universitario en Ingeniería Informática
+Dirección TI
+
+Ciclo de vida
+
+Flujo de estados y política de imputación de horas
+
+ 
+
+> Política de valores esealares flexibles para la imputación de horas
+
+> Estados posibles de las tareas .—
+o Nueva
+En curso … _.—
+En validación "JK…“
+…bl.olooutor &…
+Resuelta _ ……mx —
+Hor.lmpulldu:º—N
+Bloqueada “»"…er
+Reehazada _
+
+Luis Enrique Mesa Salas | Proyecto TIRITI 15
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+000000

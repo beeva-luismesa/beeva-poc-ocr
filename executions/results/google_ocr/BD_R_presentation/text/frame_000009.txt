@@ -1,0 +1,13 @@
+IMA
+Master Universitario en Ingeniería Informatica
+Big Data
+UNIVERSIDAD
+Conjunto de datos: Variables
+SE VILLA
+> Variables dependientes
+o incomelevel: nivel de ingresos del individuo
+(5OK, >50K)
+Thank you.
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

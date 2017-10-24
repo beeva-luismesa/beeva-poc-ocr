@@ -1,0 +1,26 @@
+Máster Universitario en Ingeniería Informática 7 1
+Big Data
+L A
+
+...........
+
+Redis: Ventajas y desventajas &&
+
+> Ventajas
+
+0 Espectacularmente veloz
+
+o Soporta tipos de datos avanzados
+
+o Soporta replicación maestro-esclavo
+
+0 Su instalación es sencilla y no tiene dependencias
+
+o Comenzar con un sólo nodo es fácil y muy barato
+
+o Es de código abierto y está respaldado por una comunidad activa
+
+ 
+
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 6

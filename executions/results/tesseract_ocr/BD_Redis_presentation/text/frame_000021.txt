@@ -1,0 +1,17 @@
+MásterUniversitarioenlngenieríaInformática ' 1
+
+Big Data
+Red¡s: Rol en la gest¡on de B|g Data &&
+, DB—Engines Ranking
+> Algunos numeros
+[según https://dl)—engines.comlenlrankingl : 213935
+o Esla más popular en almacenamientos …
+de clave-valor y
+Q
+0 La tercera más popular en BD NoSOL
+(tras MongoDB y Cassandra]
+o Esla novena más popular …
+en el ranking global
+
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 8

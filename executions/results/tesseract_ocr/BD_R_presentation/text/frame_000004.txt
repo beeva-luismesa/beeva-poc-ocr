@@ -1,0 +1,26 @@
+Máster Universitario en Ingeniería Informática 7 1
+Big Data
+L A
+
+, ...........
+
+Indice %
+
+.......
+
+> Conjunto de datos
+0 ¿Qué datos?
+0 Variables
+
+> Proceso de carga y estudio preliminar
+
+> Modelo de predicción
+
+0 Técnica de clasificación
+0 Construcción del modelo
+0 Validación del modelo
+
+> Conclusiones
+
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 2

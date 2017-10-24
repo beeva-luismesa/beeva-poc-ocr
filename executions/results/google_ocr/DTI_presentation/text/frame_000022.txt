@@ -1,0 +1,20 @@
+Master Universitario en Ingeniería Informatica IMA
+Dirección TIPS
+UNIVERSIDAD
+Ciclo de vida
+SE VILLA
+Control de versiones
+- Incremento de versiones
+o Parche (Z)
+• Arreglos compatibles con version anterior
+- Resolución de pequeños bugs
+- Reseteado a cero Cuando se incrementan Xo Y
+o Menor (Y)
+• Nuevas funcionalidades compatibles con la version anterior
+a Funcionalidades obsoletas
+Reseteado a cero cuando se incrementa X
+o Mayor (X)
+Funcionalidades no compatibles con la version anterior
+18
+Luis Enrique Mesa Salas | Proyecto TIRITI
+

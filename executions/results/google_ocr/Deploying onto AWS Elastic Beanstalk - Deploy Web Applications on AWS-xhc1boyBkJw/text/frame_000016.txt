@@ -1,0 +1,31 @@
+optional arguments:
+-h, --help show this help message and exit
+--debug toggle debug output
+-quiet suppress all output
+-v, -verbose toggle verbose output
+profile PROFILE use a specific profile from your credential file
+- r REGION , --region REGION
+use a specific region
+--no-verify-ssl do not verify AWS SSL certificates
+--version show application/version info
+To get started type 'eb init '. Then type 'eb create' and 'eb open'
+bash-3.2$ cd node-project/
+bash-3.2$ eb int
+Select a default region
+1) us-east-1 : US East (N. Virginia)
+2) us-west-1 : US West (N. California)
+3) us-west-2 : Us West (Oregon)
+4) eu-west-1 : EU (Ireland)
+5) eu-central-1 : EU (Frankfurt)
+6) ap-southeast-1 : Asia Pacific (Singapore)
+7) ap-southeast-2 : Asia Pacific (Sydney)
+8) ap-northeast-1 : Asia Pacific (Tokyo)
+9) sa-east-1 : South America (Sao Paulo)
+(default is 3):
+You have not yet set up your credentials or your credentials are incorrect
+You must provide your credentials.
+(aws-access-id): AKIAJXQL66WEEYCPDAWA
+(aws-secret-key): Oj15xGNEDNs/KWY/olzRA/MXUQn+FtacRusnF2Y
+Enter Application Name
+(default is "node-project") :
+

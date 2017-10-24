@@ -1,0 +1,16 @@
+Master Universitario en Ingeniería Informatica IMA
+Big Data US
+UNIVERSIDAD
+Proceso de carga y estudio preliminar
+SE VILLA
+> Visualización de algunas variables independientes
+Age
+Years of Education
+10
+10
+15
+age
+educationnum
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

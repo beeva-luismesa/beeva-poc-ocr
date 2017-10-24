@@ -1,0 +1,36 @@
+Master Universitario en Ingeniería Informatica IRAN
+Big Data US
+UNIVERSIDAD
+Proceso de carga y estudio preliminar
+SE VILLA
+> Visualización de algunas variables independientes
+Education
+Occupation
+HS-grad
+Profespecialty -
+Some college
+Craft-repair
+Exec-managerial -
+Admclerical
+11th
+other-service -
+Assoc-acdim
+Machine-op-inspot
+10th
+7th-eth
+Transport-moving -
+Handlers-cleaners -
+Farming-fishing -
+Tech-support
+Doctorate
+Protective-ser
+14th
+Priv house sery
+Preschool
+Armed-forces -
+to
+Percentage
+Percentage
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

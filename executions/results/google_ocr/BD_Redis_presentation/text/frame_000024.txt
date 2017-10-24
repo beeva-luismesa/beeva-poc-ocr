@@ -1,0 +1,15 @@
+Master Universitario en Ingeniería Informatica IRAN
+Big Data F.
+UNIVERSID AD
+Funcionamiento: Demo
+SEVILLA
+> Nosotros haremos un par de operaciones
+elementales en nuestro equipo
+BRACEYOURSELF
+> Mientras tanto, podéis acompañarnos
+haciendo uSO de la demo oficial de Redis:
+http://try.redis.io/
+ITS DEMO TIME
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

@@ -1,0 +1,17 @@
+Master Universitario en Ingeniería Informatica
+Big Data
+IRA F.
+UNT VERS DAD
+Indice
+SEVILLA
+Redis Qué es?
+o Modelo de datos
+o Usos fundamentales
+o Ventajas e inconvenientes
+o Rol en la gestión de Big Data
+> Funcionamiento
+o Entorno
+o Demo
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

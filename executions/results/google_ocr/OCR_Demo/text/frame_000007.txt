@@ -1,0 +1,12 @@
+Nivel de dificultad II
+A continuación se muestran los detalles para realizar la conexion
+• Usuario: usuario01
+• Contraseña: User01$X
+También podria usarse un token
+q3ZmOPeVmmuOMIYO
+O incluso un trozo de un fichero de configuración
+DB _USER = "luis_mesa "
+DB PAss="Mesa.01 "
+ACCESS TOKEN = "kf0293ASd2GFa34Gabe12"
+WAW BEE VA
+

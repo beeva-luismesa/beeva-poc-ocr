@@ -1,0 +1,18 @@
+Master Universitario en Ingeniería Informatica IRAN
+Dirección TIPS
+UNIVERS DAD
+Estructura de desglose de tareas
+SEVILLA
+> Migración de escritorios a entorno Linux
+0 Configuración de equipos nuevos
+o Plataformado de equipos existentes
+o Soporte a usuarios
+> Migración de cuentas de correo y suite ofimatica a la nube de Google
+0 Configuración del directorio
+0 Creación de Cuentas
+o Migración de correos del servidor existente al nuevo
+o Formación sobre nueva suite ofimatica
+o Formación sobre herramientas adicionales como Hangouts
+20
+Luis Enrique Mesa Salas | Proyecto TIRITI
+

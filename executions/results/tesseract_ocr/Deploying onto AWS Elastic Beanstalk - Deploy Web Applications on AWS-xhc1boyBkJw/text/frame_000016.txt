@@ -1,0 +1,54 @@
+optlonal arguments:
+
+-I|, —-help shw thls help nessage and exlt
+—-debug toggle debug output
+
+--qulet suopress all output
+
+.v, --verbose toggle verbose output
+
+--proflle PROFILE use a speclflc proflle from your credentlal flle
+-r REGION, --reglon REGION
+use a specific region
+--nn-verlfy-ssl do not verify AHS SSL certlflcates
+--verslon show aopllcatton/vers'lon lnfo
+
+To get started type “eb lnlt'. Then type 'eb <reate' ami 'el: open'
+bash-3.25 cd node-project]
+hash-3.15 eb lnlt
+
+Select el default region
+
+1) us—east-1 : us East (M. Vtrglnla)
+
+2) us—uest-1 : US West (N. Callfornla)
+
+3) us-uest-2 : LIS Hest (Oregon)
+
+4) eu—uest-1 : EU (Ireland)
+
+5) eu-central-1 - Eu (Frankfurt)
+
+¡) ap-southeast- ' Asta Paclflc (Slngapore)
+
+1) ap-southeest-Z Aste Faclflc (Sydney)
+
+8) ap-northeast—1 : Asta Faclflc (Tokyº)
+
+9) sa-east-1 : South Merka (Sao Paulo)
+
+(default ls 3):
+
+You have not yet set up your :redentlals or your eredentlals are *anorrect
+You must prwlde your credentlils.
+
+(aus-azcess-ld): AKIAJXQLSSHEEYCPDMA
+
+(aus-secret-key): 0115xGnEDN5/mlounA/Mxlnnhth:msanV
+
+ 
+ 
+ 
+
+Enter Appllcatlon Nine
+(default ls "node-project"):

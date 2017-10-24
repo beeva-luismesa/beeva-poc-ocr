@@ -1,0 +1,22 @@
+Big Data on Aws - Big Data Aws Services
+WCB E E VA
+AWS Kinesis Streaming
+Amazon Kinesis Streams to collect and process large streams
+of data records in real time.
+------------
+on 0
+Spal
+Streaming
+STREAMS
+Send didkstream data
+to Kinesis Streams
+Kinesis Streams stores and
+exposes clickstream data for
+processing
+Custom application built on
+Kinesis alient Library or Spark Streaming
+makes real-time content recommendations
+Readers see personalized
+content suggestions
+www.beeva.com
+

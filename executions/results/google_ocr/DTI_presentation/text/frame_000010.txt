@@ -1,0 +1,12 @@
+Master Universitario en Ingeniería Informatica IMA
+Dirección TI
+UNIVERSIDAD
+Solución propuesta
+SEVILLA
+Migración de escritorios a entorno Linux
+> Ahorro de costes en licencias de sistema operativo
+> Asi serán configurados todos los equipos nuevos
+> En equipos anteriores, se hará de forma paulatina
+> Se tendrán en cuenta excepciones para desarrollo de software privativo
+Luis Enrique Mesa Salas | Proyecto TIRITI
+

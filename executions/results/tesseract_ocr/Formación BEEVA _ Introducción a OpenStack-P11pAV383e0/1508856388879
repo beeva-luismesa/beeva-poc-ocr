@@ -1,0 +1,55 @@
+2017-10-24 16:46:28,880 - root - INFO - Params <Namespace(lang='spa', ocr='tesseract', output_path='/home/luismesa/demo_ocr/results/tesseract_ocr', scene_threshold=0.1, video='https://www.youtube.com/watch?v=P11pAV383e0')>
+2017-10-24 16:46:28,881 - root - INFO - Starting process
+2017-10-24 16:46:28,888 - root - INFO - It's a youtube video! Here we go!
+2017-10-24 16:46:28,889 - root - INFO - Getting info from youtube...
+2017-10-24 16:46:30,253 - root - INFO - Total info time: 1.364585s
+2017-10-24 16:46:30,253 - root - INFO - Downloading from youtube...
+2017-10-24 16:46:31,091 - root - INFO - Total download time: 0.837284s
+2017-10-24 16:46:31,091 - root - INFO - Generating frames from video ./Formación BEEVA _ Introducción a OpenStack-P11pAV383e0.mp4
+2017-10-24 16:46:31,092 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0.mp4" -vf "select=gt(scene\,0.1)" -vsync vfr "/home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_%06d.png" -qscale 0
+2017-10-24 16:51:55,136 - root - INFO - FFMPEG time: 324.043972s
+2017-10-24 16:51:55,136 - root - INFO - Performing OCR with tesseract
+2017-10-24 16:51:55,137 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images
+2017-10-24 16:51:55,137 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/text
+2017-10-24 16:51:55,419 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000001.png
+2017-10-24 16:51:55,420 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000001.png
+2017-10-24 16:51:56,085 - root - INFO - Local OCR processing image time: 0.664934s
+2017-10-24 16:51:56,085 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000010.png
+2017-10-24 16:51:56,085 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000010.png
+2017-10-24 16:51:57,370 - root - INFO - Local OCR processing image time: 1.284553s
+2017-10-24 16:51:57,370 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000003.png
+2017-10-24 16:51:57,370 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000003.png
+2017-10-24 16:52:00,118 - root - INFO - Local OCR processing image time: 2.747282s
+2017-10-24 16:52:00,118 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000007.png
+2017-10-24 16:52:00,118 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000007.png
+2017-10-24 16:52:00,716 - root - INFO - Local OCR processing image time: 0.598293s
+2017-10-24 16:52:00,717 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000002.png
+2017-10-24 16:52:00,717 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000002.png
+2017-10-24 16:52:02,365 - root - INFO - Local OCR processing image time: 1.647788s
+2017-10-24 16:52:02,365 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000008.png
+2017-10-24 16:52:02,365 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000008.png
+2017-10-24 16:52:02,932 - root - INFO - Local OCR processing image time: 0.567056s
+2017-10-24 16:52:02,933 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000009.png
+2017-10-24 16:52:02,933 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000009.png
+2017-10-24 16:52:06,177 - root - INFO - Local OCR processing image time: 3.244687s
+2017-10-24 16:52:06,178 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000006.png
+2017-10-24 16:52:06,178 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000006.png
+2017-10-24 16:52:06,664 - root - INFO - Local OCR processing image time: 0.485606s
+2017-10-24 16:52:06,664 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000011.png
+2017-10-24 16:52:06,664 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000011.png
+2017-10-24 16:52:07,150 - root - INFO - Local OCR processing image time: 0.485735s
+2017-10-24 16:52:07,150 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000005.png
+2017-10-24 16:52:07,150 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000005.png
+2017-10-24 16:52:09,628 - root - INFO - Local OCR processing image time: 2.477738s
+2017-10-24 16:52:09,628 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000004.png
+2017-10-24 16:52:09,628 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000004.png
+2017-10-24 16:52:12,689 - root - INFO - Local OCR processing image time: 3.060749s
+2017-10-24 16:52:12,690 - root - INFO - Total OCR time: 17.270171s
+2017-10-24 16:52:12,690 - root - INFO - Trying to detect passwords...
+2017-10-24 16:52:12,690 - root - INFO - Potential passwords found in frame_000010: [Dep1oymennypas]
+2017-10-24 16:52:12,690 - root - INFO - Potential passwords found in frame_000002: [0penstackintroduction]
+2017-10-24 16:52:12,690 - root - INFO - Potential passwords found in frame_000008: [Open8tack]
+2017-10-24 16:52:12,690 - root - INFO - Potential passwords found in frame_000005: [0penstack, Open5tack, ubiquitou50pen]
+2017-10-24 16:52:12,690 - root - INFO - Password detection time: 0.000757s
+2017-10-24 16:52:12,691 - root - INFO - Process finished!
+2017-10-24 16:52:12,691 - root - INFO - Total process time: 343.810512s

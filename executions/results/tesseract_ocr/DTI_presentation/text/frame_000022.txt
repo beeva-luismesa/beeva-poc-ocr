@@ -1,0 +1,32 @@
+Ciclo de vida
+
+Control de versiones
+
+> Incremento de versiones
+
+0 Parche (Z)
+. Arreglos compatibles con versión anterior
+. Resolución de pequeños bugs
+. Reseteado a cero cuando se incrementan X o Y
+
+o Menor (Y)
+. Nuevas funcionalidades compatibles con la versión anterior
+. Funcionalidades obsoletas
+. Reseteado a cero cuando se incrementa X
+
+0 Mayor [X]
+. Funcionalidades no compatibles con la versión anterior
+
+Luis Enrique Mesa Salas | Proyecto TIRIÍI
+
+Máster Universitario en Ingeniería Informática
+Dirección TI
+
+%
+LA
+
+...........
+
+.......
+
+18

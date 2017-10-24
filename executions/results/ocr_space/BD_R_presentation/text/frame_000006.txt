@@ -1,0 +1,25 @@
+Conjunto de datos: Variables 
+> Variables independientes 
+ifx 
+Máster Universitario en Ingeniería Informática V 
+Big Data 
++ 10 
+o 
+o 
+o 
+o 
+o 
+o 
+o 
+age: edad del individuo 
+workclass: tipo de trabajo 
+fnlwgt: peso final determinado por la org del censo 
+education: educación del individuo 
+education-num: número de años de educación 
+marital-status: estado civil del individuo 
+Occupation: ocupación del individuo 
+Visualización y análisis de datos 
+Luis Enrique Mesa Salas I Francisco José Sancho Valero 
+D 
+4 
+

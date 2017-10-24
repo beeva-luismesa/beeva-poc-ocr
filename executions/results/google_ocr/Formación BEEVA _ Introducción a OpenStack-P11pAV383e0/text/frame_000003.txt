@@ -1,0 +1,23 @@
+Openstack introduction
+NO BEE VA
+iv. Cloud Models
+Software as a
+Service (SaaS)
+• Scalable; Multi-tenant; Metadata driven
+configurability
+• Sometimes free; easy to usegood consumer
+adoption, proven business models
+Platform as a
+Service (PaaS)
+• Highly scalable; multi-tier architecture; Multi tenant
+environments
+Developers can upload a configured applications and it
+"runs" within the platforms framework
+Infrastructure as
+a Service (laaS)
+• Offers full control of a company's infrastructure; not
+confined to applications or restrictive instances
+• Sometimes comes with a price premium; can be
+complex to build, manage and maintain
+www.beeva.com
+

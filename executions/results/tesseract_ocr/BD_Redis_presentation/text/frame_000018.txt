@@ -1,0 +1,33 @@
+Redis: Usos fundamentales
+
+Caché de páginas web
+Caché de base de datos
+
+Listas de elementos recientes
+Contadores y estadísticas
+
+VVVVVVV
+
+Base de datos principal
+
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco José Sancho Valero
+
+Almacenamiento de sesiones de usuario
+Almacenamiento de carritos de la compra
+
+ 
+
+MásterUniversitario enlngenieríalnformática ' 1
+Big Data
+
+uuuuuuu
+
+REDIS ES
+som una
+
+CACHE
+
+.*
+
+(

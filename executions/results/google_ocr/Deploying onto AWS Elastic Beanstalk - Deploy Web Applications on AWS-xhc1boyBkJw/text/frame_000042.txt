@@ -1,0 +1,44 @@
+C A https:/us-west-2.consoleawsamazon.comelasticbeanstalk/home?region=us-west-28/environment/configuration?applicationName=node-project&environmentid=e-26hm5jtikka
+AWS
+Services v Edit
+Screencast - Oregon
+Support
+Elastic Beanstalk
+node-project
+Create New Environment
+node-project node-project-dev2 (node-project-dev2.elasticbeanstalk.com )
+Actions
+Dashboard
+Web Tier
+Configuration
+Scaling
+Logs
+Instances
+Notifications
+Monitoring
+Environment type: Load balanced, auto scaling
+Instance type: t1.micro
+Notifications: Off
+Alarms
+Number instances: 1 - 4
+Availability Zones: Any
+Scale based on Average network out
+Events
+Tags
+Add instance when > 6000000
+Remove instance when 2000000
+<
+Software configuration
+Updates and Deployments
+Log publication : Off
+Application deployment batch size: 30%
+Gzip compression: false
+Rolling updates are enabled
+Node version: 0.12.4
+Rolling update type: Health
+Proxy servernginx
+Max batch size: 1
+Minimum instances in service: 1
+Data Tier
+RDS
+

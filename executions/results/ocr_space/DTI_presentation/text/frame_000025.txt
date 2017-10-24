@@ -1,0 +1,27 @@
+Máster Universitario en Ingeniería Informática V 
+Dirección TI 
+Estructura de desglose de tareas 
+> 
+> 
+Creación de un sistema de gestión documental 
+o 
+o 
+o 
+o 
+o 
+o 
+Desarrollo subsistema de almacenamiento 
+Desarrollo applet de firma 
+Creación de API 
+Desarrollo aplicación web 
+Digitalización de documentos 
+Subida de documentos al sistema de almacenamiento 
+Formación sistema de gestión documental 
+Creación de nueva imagen corporativa 
+o Reuniones con proveedor 
+Creación de plantillas 
+o 
+o Creación de brand center 
+Luis Enrique Mesa Salas I Proyecto TIRITI 
+21 
+

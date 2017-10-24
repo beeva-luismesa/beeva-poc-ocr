@@ -1,0 +1,28 @@
+Big Data on AWS - Big Data Aws Services
+WCB E E VA
+AWS Data Pipeline
+Add activity Add data node Save Pipeline
+activate templates
+Activities
+>
+DataNodes
+S3
+Name S3
+MyExportJob
+Type s3DataNode
+Schedule ExportPeriod
+Directory Path
+O
+Ren
+DB
+Add an optional field.
+DynamoDB
+Name DynamoDB
+Type DynamoDeDataNode
+Schedule
+O
+O
+Table Name
+Add an optional field.
+www.beeva.com
+

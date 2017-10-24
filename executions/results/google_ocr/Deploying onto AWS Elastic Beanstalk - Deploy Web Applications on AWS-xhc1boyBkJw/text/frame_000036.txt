@@ -1,0 +1,29 @@
+* D node-project
+app is
+'use strict ';
+D gitignore
+Apps
+B package son
+On READMIEmd
+var http = require("http") ,
+mysql = require("mysql"),
+mysqlServer = mysql.createConnectionſ
+host : process .env.RDS_HOSTNAME ,
+user : process . env.RDS _USERNAME,
+password: process . env.RDS _PASSWORD,
+port: process. env.RDS_PORT
+mysqlServer.connect(functionCerr)
+if (err) {
+process. envſ' msg'] = 'Unable to connect to RDS - + err ;
+} else {
+process. envſ' Msg'] = 'Success Connected to RDS via + process .env.RDS_HOSTNAME ;
+http.createServer(function(request, response)
+response.writeHead(200, {
+"Content-Type": " text/plain "
+});
+response.write(process env[' msg')):
+response.end();
+}).listen (process , env.PORT II 3000) ;
+UTF-8 JavaScript
+master
+

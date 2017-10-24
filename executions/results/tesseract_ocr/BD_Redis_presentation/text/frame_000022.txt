@@ -1,0 +1,16 @@
+MásterUniversitarioen Ingeniería Informática 7 '
+B|g[]ata ( R
+
+nnnnnnnnnnn
+
+Redis: Rol en la gestión de Big Data &&
+
+> Algunos casos de uso en el procesamiento de datos masivos
+
+twitter& © flickr & airbnb
+hulu fp… [Dííelár
+
+Aquí se pueden consultar una lista extensa de sitios “conocidos" que utilizan Redis: http:/Itechstanks.ioltech/redis
+
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 9

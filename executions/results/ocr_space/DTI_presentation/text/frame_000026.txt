@@ -1,0 +1,23 @@
+Máster Universitario en Ingeniería Informática V 
+Dirección TI 
+Estructura de desglose de tareas 
+> 
+> 
+Creación de nuevo portal web 
+o 
+o 
+o 
+o 
+Creación del esqueleto 
+Creación de contenidos estáticos 
+Desarrollo módulo integración con LinkedIN 
+Localización (castellano e inglés) 
+Creación de blog 
+Implantación de medidas y políticas para el ahorro 
+o Creación de fondos de escritorio e interfaces oscuras 
+o Implantación de configuración energética eficiente 
+o Configuración de impresoras 
+Luis Enrique Mesa Salas I 
+Proyecto TIRITI 
+22 
+

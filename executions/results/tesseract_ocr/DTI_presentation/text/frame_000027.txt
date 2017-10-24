@@ -1,0 +1,23 @@
+MásterUniversitarioen Ingeniería Informática 7 1
+Dirección TI
+
+...........
+
+Estructura de desglose de tareas &&
+
+> Creación de repositorio de código abierto
+0 Identificación de proyectos susceptibles de ser publicados
+0 Revisión de calidad del código
+o Subida del código al repositorio
+
+> Creación de wikis
+0 Creación del portal de wikis
+Creación contenido wiki sanidad
+Creación contenido wiki educación
+Creación contenido wiki banca
+Creación contenido wiki administración pública
+Creación contenido wiki técnica
+
+OOOOO
+
+Luis Enrique Mesa Salas | Proyecto TIRIÍI 23

@@ -1,0 +1,21 @@
+Máster Universitario en Ingeniería Informática 7 1
+Dirección TI
+L A
+
+ 
+
+Solución propuesta
+
+Migración de escritorios a entorno Linux
+
+> Ahorro de costes en licencias de sistema operativo
+
+Así serán configurados todos los equipos nuevos
+
+En equipos anteriores, se hará de forma paulatina
+
+Se tendrán en cuenta excepciones para desarrollo de software privativo
+
+VVV
+
+Luis Enrique Mesa Salas | Proyecto TIRIÍI 6

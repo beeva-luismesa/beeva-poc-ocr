@@ -1,0 +1,43 @@
+Welcome Back, demo
+Logout
+Ghertor
+Build Agile User Histories
+Your current project is: demo-project Change Project
+Your last feature created is: new query_notification paco
+Feature description is correct Push "Save" button for download file to local directory
+MAIN MENU
+Preview Feature
+USER HISTORIES
+Project:
+demo-project
+Query UHistories
+Create account feature
+Create U Histories
+Content
+validate UHistories
+USER PROFILE
+Change project
+a language: en
+Osprint
+Feature: Create accounts in Ghertor
+Comment 1
+Comment 2
+Background:
+Given the following existing accounts
+username I password I
+ijuanmilla fril 1
+QLogin, Ghertor
+Scenario: Create a new aunt with all valid data
+when I try to sign in Ghertor using the following data
+username I password I
+ipedro pedite
+Then the response must be "201"
+And the new user exists in database
+And the application has 2 registered users
+Send suggestion
+USER MANUAL
+Descargar
+a Save
+Back
+www.beeva.com
+

@@ -1,0 +1,98 @@
+2017-10-24 16:26:41,154 - root - INFO - Params <Namespace(lang='spa', ocr='tesseract', output_path='/home/luismesa/demo_ocr/results/tesseract_ocr', scene_threshold=0.03, video='/home/luismesa/demo_ocr/local_videos/DTI_presentation.mp4')>
+2017-10-24 16:26:41,154 - root - INFO - Starting process
+2017-10-24 16:26:41,166 - root - INFO - It's a local video! Here we go!
+2017-10-24 16:26:41,166 - root - INFO - Generating frames from video /home/luismesa/demo_ocr/local_videos/DTI_presentation.mp4
+2017-10-24 16:26:41,167 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/demo_ocr/local_videos/DTI_presentation.mp4" -vf "select=gt(scene\,0.03)" -vsync vfr "/home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_%06d.png" -qscale 0
+2017-10-24 16:27:37,544 - root - INFO - FFMPEG time: 56.377288s
+2017-10-24 16:27:37,545 - root - INFO - Performing OCR with tesseract
+2017-10-24 16:27:37,545 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images
+2017-10-24 16:27:37,545 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/text
+2017-10-24 16:27:37,776 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000001.png
+2017-10-24 16:27:37,776 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000001.png
+2017-10-24 16:27:38,280 - root - INFO - Local OCR processing image time: 0.50333s
+2017-10-24 16:27:38,280 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000027.png
+2017-10-24 16:27:38,280 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000027.png
+2017-10-24 16:27:41,849 - root - INFO - Local OCR processing image time: 3.568725s
+2017-10-24 16:27:41,849 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000021.png
+2017-10-24 16:27:41,849 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000021.png
+2017-10-24 16:27:44,648 - root - INFO - Local OCR processing image time: 2.799131s
+2017-10-24 16:27:44,649 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000018.png
+2017-10-24 16:27:44,649 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000018.png
+2017-10-24 16:27:46,606 - root - INFO - Local OCR processing image time: 1.956739s
+2017-10-24 16:27:46,606 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000020.png
+2017-10-24 16:27:46,606 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000020.png
+2017-10-24 16:27:50,086 - root - INFO - Local OCR processing image time: 3.480253s
+2017-10-24 16:27:50,087 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000015.png
+2017-10-24 16:27:50,087 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000015.png
+2017-10-24 16:27:51,502 - root - INFO - Local OCR processing image time: 1.414654s
+2017-10-24 16:27:51,502 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000012.png
+2017-10-24 16:27:51,502 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000012.png
+2017-10-24 16:27:52,979 - root - INFO - Local OCR processing image time: 1.477156s
+2017-10-24 16:27:52,979 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000010.png
+2017-10-24 16:27:52,979 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000010.png
+2017-10-24 16:27:54,380 - root - INFO - Local OCR processing image time: 1.400855s
+2017-10-24 16:27:54,381 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000014.png
+2017-10-24 16:27:54,381 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000014.png
+2017-10-24 16:27:55,819 - root - INFO - Local OCR processing image time: 1.437896s
+2017-10-24 16:27:55,820 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000003.png
+2017-10-24 16:27:55,820 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000003.png
+2017-10-24 16:27:56,970 - root - INFO - Local OCR processing image time: 1.149112s
+2017-10-24 16:27:56,970 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000007.png
+2017-10-24 16:27:56,970 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000007.png
+2017-10-24 16:27:58,986 - root - INFO - Local OCR processing image time: 2.015954s
+2017-10-24 16:27:58,986 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000002.png
+2017-10-24 16:27:58,986 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000002.png
+2017-10-24 16:28:00,846 - root - INFO - Local OCR processing image time: 1.859396s
+2017-10-24 16:28:00,846 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000008.png
+2017-10-24 16:28:00,846 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000008.png
+2017-10-24 16:28:02,242 - root - INFO - Local OCR processing image time: 1.39591s
+2017-10-24 16:28:02,243 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000009.png
+2017-10-24 16:28:02,243 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000009.png
+2017-10-24 16:28:03,910 - root - INFO - Local OCR processing image time: 1.667343s
+2017-10-24 16:28:03,911 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000006.png
+2017-10-24 16:28:03,911 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000006.png
+2017-10-24 16:28:05,864 - root - INFO - Local OCR processing image time: 1.953713s
+2017-10-24 16:28:05,865 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000019.png
+2017-10-24 16:28:05,865 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000019.png
+2017-10-24 16:28:08,698 - root - INFO - Local OCR processing image time: 2.832792s
+2017-10-24 16:28:08,698 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000022.png
+2017-10-24 16:28:08,698 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000022.png
+2017-10-24 16:28:10,475 - root - INFO - Local OCR processing image time: 1.776538s
+2017-10-24 16:28:10,475 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000016.png
+2017-10-24 16:28:10,475 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000016.png
+2017-10-24 16:28:12,214 - root - INFO - Local OCR processing image time: 1.738819s
+2017-10-24 16:28:12,215 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000028.png
+2017-10-24 16:28:12,215 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000028.png
+2017-10-24 16:28:15,201 - root - INFO - Local OCR processing image time: 2.986279s
+2017-10-24 16:28:15,201 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000013.png
+2017-10-24 16:28:15,201 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000013.png
+2017-10-24 16:28:16,630 - root - INFO - Local OCR processing image time: 1.428602s
+2017-10-24 16:28:16,630 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000011.png
+2017-10-24 16:28:16,630 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000011.png
+2017-10-24 16:28:18,009 - root - INFO - Local OCR processing image time: 1.378734s
+2017-10-24 16:28:18,010 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000005.png
+2017-10-24 16:28:18,010 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000005.png
+2017-10-24 16:28:19,198 - root - INFO - Local OCR processing image time: 1.188578s
+2017-10-24 16:28:19,199 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000026.png
+2017-10-24 16:28:19,199 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000026.png
+2017-10-24 16:28:21,510 - root - INFO - Local OCR processing image time: 2.310765s
+2017-10-24 16:28:21,510 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000017.png
+2017-10-24 16:28:21,510 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000017.png
+2017-10-24 16:28:23,467 - root - INFO - Local OCR processing image time: 1.95673s
+2017-10-24 16:28:23,467 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000004.png
+2017-10-24 16:28:23,467 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000004.png
+2017-10-24 16:28:24,615 - root - INFO - Local OCR processing image time: 1.147159s
+2017-10-24 16:28:24,615 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000025.png
+2017-10-24 16:28:24,615 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000025.png
+2017-10-24 16:28:26,843 - root - INFO - Local OCR processing image time: 2.227575s
+2017-10-24 16:28:26,843 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000024.png
+2017-10-24 16:28:26,843 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000024.png
+2017-10-24 16:28:28,906 - root - INFO - Local OCR processing image time: 2.062824s
+2017-10-24 16:28:28,907 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000023.png
+2017-10-24 16:28:28,907 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/DTI_presentation/images/frame_000023.png
+2017-10-24 16:28:31,472 - root - INFO - Local OCR processing image time: 2.564767s
+2017-10-24 16:28:31,472 - root - INFO - Total OCR time: 53.696012s
+2017-10-24 16:28:31,472 - root - INFO - Trying to detect passwords...
+2017-10-24 16:28:31,474 - root - INFO - Password detection time: 0.001604s
+2017-10-24 16:28:31,474 - root - INFO - Process finished!
+2017-10-24 16:28:31,474 - root - INFO - Total process time: 110.319623s

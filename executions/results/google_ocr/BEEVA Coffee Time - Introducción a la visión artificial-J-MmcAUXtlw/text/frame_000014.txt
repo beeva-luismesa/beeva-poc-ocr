@@ -1,0 +1,31 @@
+© A ( https:/docs.google.com/presentation/d/16U8G _G-nGFSEN5Mgozgw.QEk6S7TBQnuommzeb54E/present#slide-id.p26
+90%
+OO
+ORIGEN DE LA DESCRIPCION AUTOMATICA
+SIGNIFICADO DE LA FRASE CODIFICADO EN UN UNICOVECTOR
+cross
+Traducción
+automatica
+de textos
+EDs
+Codificador Descodificador
+NeuralTalk –
+A. Karpathy EY SI CAMBIAMOS EL CODIFICADOR?
+Language A group of people
+Vision
+Deep CNN Generating shopping at an
+RNN outdoor market.
+Descripción
+de imagenes
+|
+There are many
+vegetables at the
+fruit stand.
+ADB
+BEE VA
+11
+Sequence to Sequence Learnin with Neware Networks
+an English to French translation talk PPS 2012)
+Show and Tel: A Neural image Caption Generator
+CVPR 2015)
+

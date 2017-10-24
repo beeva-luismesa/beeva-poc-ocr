@@ -1,0 +1,11 @@
+Master Universitario en Ingeniería Informatica IMA
+Dirección TIPS
+UNIVERSIDAD
+SE VILLA
+Solución propuesta
+Creación de un sistema de gestion documental
+> Archivo virtual
+> Utilidad de firma digital con DNle 0 certificado FNMT
+> Gestor de tareas operaciones pendientes de firma
+Luis Enrique Mesa Salas | Proyecto TIRITI
+

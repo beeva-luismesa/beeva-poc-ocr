@@ -1,0 +1,18 @@
+A
+Openstackintroduction Ac B E E v A
+V
+
+xi. Deployment types
+
+Manual
+
+Packstack
+
+Configure + Automatic Deployment with automation tools(Ansible,puppet)
+OpenStack-on-Open8tack (Openstack Director)
+
+ 
+
+    
+
+xi Dep1oymennypas

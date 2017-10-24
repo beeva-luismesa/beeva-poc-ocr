@@ -1,0 +1,21 @@
+Big Data on AWS - Big Data AWS Services
+
+AWS EMR — Processing Layer
+
+Amazon EMR simplifies big data processing, providing a managed
+Hadoop frameworkthat makes it easy, fast, and cost-effective for
+you to distribute and process vast amounts of your data across
+dynamically scalable Amazon EC2 instances. It works as:
+
+Hadoop as a service
+
+MapReduce engine
+
+Massively parallel
+
+Integrated with AWS services and 3rd parties
+
+Run many apps:
+Hive, Pig, Spark, Presto,
+
+www.beeva.com

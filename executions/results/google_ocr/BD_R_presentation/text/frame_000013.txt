@@ -1,0 +1,27 @@
+Master Universitario en Ingeniería Informatica
+Big Data
+IMA F.
+UNIVERSIDAD
+Proceso de carga y estudio preliminar
+SE VILLA
+> Visualización de algunas variables independientes
+Marital Status
+Race
+0/100
+0/100
+Married-civ-spouse
+Never-married
+Divorced
+Black
+Separated
+2
+AsianPacislander
+widowed
+Amer-Indian-Eskimo
+Married spouse absent
+Other
+Married-AF-spouse
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+10
+

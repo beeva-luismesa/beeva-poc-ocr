@@ -1,0 +1,23 @@
+Master Universitario en Ingeniería Informatica RAN
+Big Data ? F.
+UNT VERSDAD
+I
+Modelo de predicción: Técnica de clasificación
+SE VILLA
+> Variables descartadas: fnlwgty sex
+a UN
+S
+- Método Boosting
+o Aprendizaje automático
+o Reduce sesgo y varianza en contextos de aprendizaje
+supervisado
+CANT STOP
+THE GIRL
+> Validación Cruzada
+o Asegura la independencia del conjunto de entrenamiento
+yel de evaluación
+PITAL SERR
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+15
+

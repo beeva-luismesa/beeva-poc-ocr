@@ -1,0 +1,23 @@
+© A (https:/docs.google.com/presentation/d/16UBG G-nGFSEN5Mgozgw.QEK657T8Qnuommoeb54E/present#slide-id.р18
+90%
+OIE
+DETECCION DE OBJETOS
+EJEMPLO DE APLICACIONES DE LA VISION ARTIFICIAL
+person to .992
+dog : OO.99
+hoto : 0.993
+car : 1. Ooo
+Cat 0.982
+person: o.97
+dog to . 7
+US: 099s
+boat: o.. 97o
+oronto.
+person: o.983 personto. Seg
+person o, 92s
+Pardon t o. OAO
+AWB
+BEE VA
+Faster R-CNIN: Towards Real -Time object Detection with Region Proposal Networks
+(ICV 201S)
+

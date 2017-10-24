@@ -1,0 +1,30 @@
+Openstack introduction
+NO BEE VA
+V. Cloud Capacity
+Rising
+CAPEX
+scenario
+"One of the main reasons for using cloud
+computing services is to get efficiency and cost
+savings. And maximum IT efficiency on the cloud
+comes from good capacity planning and
+management,” Kotsovinos said at the Cloud
+Expo Europe 2013 eventBut it is still the most capacity
+overlooked and underestimated aspect of the
+cloud, he said.
+falling
+demand
+scenario
+Time
+It is all OK when you are doing cloud on a small
+scale, but when you do it at a high level for
+applications that are disparate and mission-
+critical, it is important to think about storage
+requirements and think about demand and
+supply to provision correctly
+Demand
+— Classic Capacity
+— Cloud Capacity
+V. Cloud Capacity
+www.beeva.com
+

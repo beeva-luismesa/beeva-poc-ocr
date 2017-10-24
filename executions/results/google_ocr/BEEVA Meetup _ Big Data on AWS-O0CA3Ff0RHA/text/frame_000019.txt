@@ -1,0 +1,15 @@
+Big Data on AWS - Big Data Aws Services
+WCB E E VA
+AWS EMR - Processing Layer - Architecture
+Slave
+Node
+Slave
+Node
+Master
+Node
+Slave
+Node
+Slave
+Node
+www.beeva.com
+

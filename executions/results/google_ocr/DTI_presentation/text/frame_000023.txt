@@ -1,0 +1,46 @@
+Master Universitario en Ingeniería Informatica IMA
+Dirección TIPS
+UNIVERSIDAD
+Ciclo de vida
+SE VILLA
+feature
+release
+branches
+branches
+develop
+master
+Control de versiones
+0.1
+> Git como repositorio
+- Herramienta GitFlow
+Severe bug
+fied for
+feature
+feature for
+net release
+for the
+hotfix 0.2
+release
+0.2
+Start of
+branch for
+1.0
+Ramas
+o Master [commits preparados para subir a producción )
+o Develop ſcódigo perteneciente a la siguiente release del proyecto]
+o Feature [originadas a partir de develop, desarrollo de nuevas
+caracteristicas]
+o Release [originadas a partir de develop, propagada a develop y master]
+o Hotfix [originadas a partir de master, propagada a develop y master]
+From this point on
+"next release
+means the release
+after 10
+Only
+Bugitives from
+rel branch
+may be
+merged back
+19
+Luis Enrique Mesa Salas | Proyecto TIRITI
+

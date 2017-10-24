@@ -1,0 +1,27 @@
+Master Universitario en Ingeniería Informatica IMA
+Big Data US
+UNIVERSIDAD
+Proceso de carga y estudio preliminar
+SE VILLA
+> Correlación con nivel de ingresos
+Race vs Incomes
+Sex vs Incomes
+Asian Pac Islander
+Amer Indian Eskimo
+Cher
+13000
+18000
+race
+10000
+while
+Sex
+10000
+Female
+I Amerindian-Eskimo
+Other
+5000.
+OKBOK
+Incomes
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

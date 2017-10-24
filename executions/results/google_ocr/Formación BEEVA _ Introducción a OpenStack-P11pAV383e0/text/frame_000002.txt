@@ -1,0 +1,14 @@
+Openstack introduction
+NO BEE VA
+Topics of this course
+i. What is OpenStack vii. OpenStack History
+i. What is a Cloud? vii. Openstack Services
+iii. Cloud Architecture ix. Example deployment
+iv. Cloud Models topology
+V. Cloud Capacity X. Deployment topology
+vi. OpenStack CapacityxiDeployment types
+xii. Demo
+Topics of this course
+Boyensack History
+www.beeva.com
+

@@ -1,0 +1,23 @@
+© A ( https://docs.google.com/presentation/d/16U8G G-nGFSEN5MgOzgw.QEk6STT8Qnuommoeb54E/present#slide=id.p2s
+90%
+OO
+DEEP LEARNING
+No es algo nuevo, empezó en los 90
+Redes convolucionales para leer cheques bancarios
+&Por qué tiene exito ahora? Principalmente:
+I E S 4 3
+7 5 3 5 3
+• Datos anotados en MUY grandes cantidades
+• Ordenadores potentes (y tarjetas gráficas) capaces de hacer los
+calculos necesarios en un tiemporazonable
+Generalmente se usan redes neuronales
+Tipos más habituales:
+• Fully connected (FC) o red neuronal densarmenter conectada
+• CNN/ ConvNet ored neuronal convolucional
+• RNN ored neuronal recurrente
+3 5 2 0 0
+Conjunto de datos MNIST
+ABEE VA
+12
+Gradient-based learnina gasolined to document recognition, HIEEE 198)
+

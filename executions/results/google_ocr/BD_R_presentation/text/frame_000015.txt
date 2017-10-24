@@ -1,0 +1,29 @@
+Master Universitario en Ingeniería Informatica IRA
+Big Data ts
+UNIVERSIDAD
+Proceso de carga y estudio preliminar
+SEVILLA
+Marital status vs Incomes
+Married-civ-spousNever-married
+Divorced
+Separated
+Widowed
+red-spouse-abs Married-AFspous
+> Correlación con nivel de ingresos
+9000.
+maritalstatus
+Married-civ-spouse
+Never-married
+6000
+Divorced
+I separated
+Widowed
+Maried-spouse-absent
+Married-AFspouse
+3000
+C-50K 50K-50K >5OKs50K 50KC5OK so to 50Kc50K Sok -50K 50K
+Incomes
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+12
+

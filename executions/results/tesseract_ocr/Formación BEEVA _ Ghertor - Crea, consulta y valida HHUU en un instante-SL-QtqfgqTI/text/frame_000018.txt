@@ -1,0 +1,4 @@
+Para QA
+» No se contemplan todos los Sconarioa y los tests no funcwnan
+
+bleu.

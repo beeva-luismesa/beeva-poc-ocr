@@ -1,0 +1,51 @@
+--qulet suppress all output
+--verbose toggle verbose output
+--proflle PROFILE use : speclfk proflle fran your credenthl flle
+-r REGION, -—reglon REGION
+use ¡ speclflc reglon
+--no-verlfy-ssl do not verle AMS SSL certlflcates
+--verslon shou ¡ppllntton/verslon lnfo
+
+ 
+
+To get started type 'el) lun“. Then tyoe 'eb create' and 'el: open'
+bash-3.25 cd node-project!
+bash-3.25 eb lnlt
+
+Select a default region
+
+1) us-east-1 : us East (N. Vlrgtnla)
+
+:) us-Hest-1 : US "est (N. cultfornh)
+
+3) us-nest-Z : US "est (Oregon)
+
+A) eu-nest-1 : eu (Ireland)
+
+5) eu-central-1 : Eu (Frankfurt)
+
+5) ap-southeast-1 : Ash P¡clflc (Singapore)
+
+7) ¡p-southeast-Z Ash Pa:lflc (Sydney)
+
+8) ap-northeast—1 . Asta Paclflc (Tokyo)
+
+!) sa—east-1 : South Merlca (Sao Paulo)
+
+(default ls 3):
+
+You hwe not yet set up your :redenthls or your credenthls ¡re incorrect
+You must prwlde your credentl¡ls.
+
+(aus-access-ld): AKIAJXQLSGWEEVCPDMA
+
+(aus-secret-key): o]I5x5nEDIs/M/ole…nhmeanV
+
+ 
+
+Enter Application Nine
+(default ls "nade—project'):
+Appltc=tlon node-project has been created.
+
+It ¡ppears you are using Ilode.js. Is this :orrect?
+(yla):

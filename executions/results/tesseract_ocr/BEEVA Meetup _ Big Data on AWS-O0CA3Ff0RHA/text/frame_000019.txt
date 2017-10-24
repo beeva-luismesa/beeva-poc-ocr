@@ -1,0 +1,11 @@
+A
+Big Data on AWS - Big Data AWS Services 63 B E E V A
+
+AWS EMR — Processing Layer — Architecture
+
+Slave
+Node
+
+ 
+
+www.beeva.com

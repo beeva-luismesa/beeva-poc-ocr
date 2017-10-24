@@ -1,0 +1,19 @@
+Master Universitario en Ingeniería Informatica IMA
+Dirección TIPS
+UNIVERSIDAD
+Estructura de desglose de tareas
+SE VILLA
+> Creación de repositorio de código abierto
+o Identificación de proyectos susceptibles de ser publicados
+o Revisión de calidad del codigo
+o Subida del codigo al repositorio
+- Creación de wikis
+o Creación del portal de wikis
+o Creación contenido wiki sanidad
+0 Creación contendo wiki educación
+o Creación contenido wiki banca
+o Creación contendo wiki administración publica
+0 Creación contenido wiki técnica
+23
+Luis Enrique Mesa Salas | Proyecto TIRITI
+

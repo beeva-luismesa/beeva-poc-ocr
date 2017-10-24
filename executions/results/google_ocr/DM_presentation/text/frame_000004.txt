@@ -1,0 +1,16 @@
+Master Universitario en Ingeniería Informatica IRA
+Dispositivos Móviles FS
+UNT VERS DAD
+Diseño: recursos
+SEVILLA
+> Internos
+o Bases de Datos SQLite
+n Películas descubiertas
+- Puntuaciones más altas
+WOO
+> Externos
+o The Movie DB API
+- Endpoint peliculas 0 series: http://api.themoviedb.org/3/
+- Endpoint obtención de imagenes: https://image.tmdborg/t/p
+The Movie DB Game Luis Enrique Mesa Salas
+

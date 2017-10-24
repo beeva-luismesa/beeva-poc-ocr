@@ -1,0 +1,16 @@
+MásterUniversitarioenIngenierialnformática ' '
+Big[]ata
+
+...........
+
+Conjunto de datos: Variables &fv'fn
+
+> Variables dependientes
+
+o ineomelevel: nivel de ingresos del individuo
+(<=50K, >50K)
+
+ 
+
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 6

@@ -1,0 +1,16 @@
+Big Data on Aws - Big Data Aws Services
+WCB EE VA
+AWS Redshift - Things to consider
+Load data with the COPY command instead of INSERT
+Run VACUUM command to reorganize your data and handle free
+space.
+Access to the last snapshotnot needed to wait until all data is
+committed.
+Security on a User, Group and Schema level.
+Fine tuning through configuration on the workload management
+(WLM)
+User-defined functions: write specific Python programs to
+implement non-SQL processing. Python programs are stored on the
+Redshift cluster and available for any user with granted access.
+www.beeva.com
+

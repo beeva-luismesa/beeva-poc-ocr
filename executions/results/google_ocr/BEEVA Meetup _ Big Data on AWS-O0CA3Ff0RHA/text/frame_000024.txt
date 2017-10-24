@@ -1,0 +1,14 @@
+Big Data on Aws - Big Data Aws Services
+WCB E E VA
+AWS EMR - Processing Layer - Spark
+Spark 2.0 is already available A P A CH E
+Things to consider
+Dynamic Allocation
+Data serialization
+Memory management – Tungsten project
+Spark
+TM
+Notebooks with Apache Zeppelin
+Notes
+www.beeva.com
+

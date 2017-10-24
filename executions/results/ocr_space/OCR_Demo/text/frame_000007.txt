@@ -1,0 +1,9 @@
+Nivel de dificultad II 
+A continuación se muestran los detalles para realizar la conexión 
+• Usuario: usuari00 
+• Contraseña: User01 
+También podría usarse un token 
+O incluso un trozo de un fichero de configuración 
+SER - 
+"Mes;.OI 
+

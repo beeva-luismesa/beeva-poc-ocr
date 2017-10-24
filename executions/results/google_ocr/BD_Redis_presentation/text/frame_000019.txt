@@ -1,0 +1,16 @@
+IMA
+Master Universitario en Ingeniería Informatica
+Big Data
+UNIVERSIDAD
+Redis: Ventajas y desventajas
+SE VILLA
+> Ventajas
+o Espectacularmente veloz
+o Soporta tipos de datos avanzados
+o Soporta replicación maestro-esclavo
+o Su instalación es Sencilla y no tiene dependencias
+0 Comenzar con un sólo nodo es facily muy barato
+o Es de código abierto y está respaldado por una comunidad activa
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

@@ -1,0 +1,24 @@
+Welcome Back, demo
+Logout
+Ghertor
+Build Agile User Histories
+Your current project is demo-project Change Project
+Your last feature created is: new query_notification paco
+Validate Feature
+MAIN MENU
+Rules engine:
+DEMO-PROJECT
+USER HISTORIES
+File to validate:
+Browse...BBVA Connect feature
+Query UHistories
+Create U. Histori
+validate U.Histories
+Validate
+USER PROFILE
+Result:
+Change project
+Send suggestion
+USER MANUAL
+www.beeva.com
+

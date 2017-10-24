@@ -1,0 +1,10 @@
+Big Data on Aws - Big Data Aws Services
+WCB EE VA
+Layers on a Big Data project
+*
+Storage
+Ingestion
+Processing
+Query Visualization
+www.beeva.com
+

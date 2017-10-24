@@ -1,0 +1,27 @@
+Openstackintroduction A B E E v A
+
+viii. Openstack Services
+
+Dashboard Horizon Provides a web-based self—service protal to interact with undelying
+Openstack services, such as Iaunching an instance, assigning IP and
+conñguring access controls.
+
+Compute Nova Manages the lifecycle of compute instances in an Openstack
+enviroment. Responsibilitiesinclude spawning,schediulingand
+decommissioning ofvirtual machineson demand.
+
+Networking Neutron Enables network conectivity as a service fot other Openstack services
+,such as Openstack Compute. Provides an API for users to define
+networks and the attachments into them.
+
+Object Swift Stores and retrieves arbitrary unstructured data objects via RESTÍUII
+Storage H'ITP based API.It is highly fault tolerance with its data replication and
+scale out architecture.
+
+ 
+ 
+
+   
+
+… o…svack Services
+=*…

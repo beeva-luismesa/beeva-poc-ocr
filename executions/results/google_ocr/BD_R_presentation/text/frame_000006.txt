@@ -1,0 +1,20 @@
+Master Universitario en Ingeniería Informatica
+Big Data
+IMA
+Tom
+UNIVERSIDAD
+Conjunto de datos: Variables
+SEVILLA
+> Variables independientes
+(5-1)
+12+12
+o age: edad del individuo
+o workclass: tipo de trabajo
+o fnlwgtpeso final determinado por la org del censo
+o education: educación del individuo
+o education-num: número de años de educación
+o marital-status: estado civil del individuo
+o Occupation: Ocupación del individuo
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

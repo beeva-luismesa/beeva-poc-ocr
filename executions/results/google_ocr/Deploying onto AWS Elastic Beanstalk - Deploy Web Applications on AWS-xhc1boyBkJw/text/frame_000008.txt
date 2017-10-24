@@ -1,0 +1,13 @@
+– C B https://console.awsamazon.com/iam/home?region-us-west-2 users
+T AWS Services v Edit
+Screencast
+Global
+Support
+Enter User Names:
+Create User
+Maximum 64 characters each
+- Generate an access key for each user
+Users need access keys to make secure REST or Query protocol requests to AWS service APIs.
+For users who need access to the AWS Management Console, create a password in the Users panel after completing this wizard.
+Cancel create
+

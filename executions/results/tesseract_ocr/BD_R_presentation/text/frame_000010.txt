@@ -1,0 +1,17 @@
+Máster Universitario en Ingeniería Informática ',
+Big Data '
+
+    
+
+Proceso de carga y estudio preliminar
+
+> Ficheros implicados
+
+o adult.data
+o adult.test
+() adult.names
+
+   
+
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 7

@@ -1,0 +1,16 @@
+tv_shows.zip
+Funcionamiento: Demo
+SE VILLA
+> Nosotros haremos un par de operaciones
+elementales en nuestro equipo
+BRACE YOURSELF
+> Mientras tanto, podéis acompañarnos
+haciendo uso de la demo oficial de Redis:
+http://try.redis.io/
+ITS DEMO TIME
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+L
+Diapositiva 11
+SALIR
+

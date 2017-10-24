@@ -1,0 +1,15 @@
+A continuación se muestran los detalles para realizarla conexión
+
+. Usuario: usuari001
+. Contraseña: User01$X
+
+También podría usarse un token
+. q32m0PeVmMuOMIYO
+
+O incluso un trozo de un ñchero de configuración
+DB_USER = "luis_mesa"
+
+DB_PASS= "Mesa.01"
+ACCESS_TOKEN = "kf0293A8d26Fa3463be12"
+
+AABEEVA

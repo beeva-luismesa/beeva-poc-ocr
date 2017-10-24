@@ -1,0 +1,43 @@
+Big Data on Aws - Big Data Aws Services
+WCB E E VA
+AWS CloudSearch - architecture
+SEARCH CLIENT
+www.example.com
+SEARCH DEVELOPER
+Send
+Requests
+Use the Search
+Tester
+Send
+Documents
+Create and
+Manage Domains
+Search
+Results
+SEARCH ENDPOINT
+DoCUMENT SERVICE ENDPOINT
+CONFIGURATION SERVICE ENDPOINT
+Search API
+Configuration
+Document
+Service API
+Command
+Line Tools
+Console
+Command
+Line Tools
+ACCESS CONTROL
+ACCESS CONTROL
+ACCESS CONTROL.
+SEARCH SERVICE
+DOCUMENT SERVICE
+CONFIGURATION SERVICE
+Search Documents
+Add Documents
+Create Domains
+Update Documents
+Configure Domains
+X delete Documents
+Delete Domains
+www.beeva.com
+

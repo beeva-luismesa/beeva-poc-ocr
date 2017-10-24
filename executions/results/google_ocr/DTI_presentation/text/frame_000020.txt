@@ -1,0 +1,38 @@
+Master Universitario en Ingeniería Informatica IMA
+Dirección TIPS
+UNIVERSIDAD
+Ciclo de vida
+SE VILLA
+Priorización de tareas
+Urgente
+No Urgente
+> Asignar tarеas a cuadrante Urgente-Importante de
+Stephen Covey
+Q1
+Q2
+Importante
+• Crisis
+• Feсhas Tope
+• Fuego
+• Planificación
+• Prevención
+• Relaciones
+• Mejora continua
+> Definir por iteraciones junto con los interesаados
+Q3
+Q4
+> Entrega de MVP, funcionalidades completas en cada
+iteración
+No
+Importante
+• Interrupciones
+• Distracciones
+• Llamadas
+• Consultas
+• Actividades de
+escape
+• Actividades de
+otro
+16
+Luis Enrique Mesa Salas | Proyecto TIRITI
+

@@ -1,0 +1,24 @@
+MásterUniversitarioenIngenierialnformátioa ' '
+Bigllata k
+
+nnnnnnnnnnn
+
+Modelo de predicción: Técnica de clasificación &&
+
+> Variables descartadas: fnlwgt y sex
+> Método Boosting
+
+0 Aprendizaje automático
+
+o Reduce sesgo y varianza en contextos de aprendizaje
+supervisado
+
+> Validación cruzada
+
+() Asegura la independencia del conjunto de entrenamiento
+y el de evaluación
+
+ 
+
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 15

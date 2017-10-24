@@ -1,0 +1,32 @@
+– 4 x B https:/console.awsamazon.comiam/home?region-us-west-2nhome
+Q
+E
+T AWS Services Edit r
+Screencast
+Global
+Support
+Dashboard
+Welcome to Identity and Access Management
+Feature Spotlight
+Details
+Introduction to AWS IAM < 0
+IAM Resources
+Groups
+Users
+Security Status
+Roles
+Policies
+CD 000 1216
+Identity providers
+Account Settings
+Credential Report
+Additional Information
+IAM documentation
+Encryption Keys
+Web ldentity Federation Playground
+Policy Simulator
+Videos, IAM release history and additional
+resources
+0 2008 -2015, Amazon Web Services, Inc. or its affiliates. All rights reserved . Privacy Policy
+Terms of Use
+

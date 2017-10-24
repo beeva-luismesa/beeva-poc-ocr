@@ -1,0 +1,21 @@
+A
+Big Data on AWS - Big Data AWS Services 63 B E E V A
+
+AWS Cloud5earch
+
+Amazon Cloud$earch is a cloud search solution.
+Features:
+
+Free text, Boolean, and Faceted search
+Autocomplete suggestions
+
+Customizable relevance ranking and query-time rank
+expressions
+
+Field weighting
+Geospatial search
+Highlighting
+
+Support for 34 languages
+
+www.beeva.com

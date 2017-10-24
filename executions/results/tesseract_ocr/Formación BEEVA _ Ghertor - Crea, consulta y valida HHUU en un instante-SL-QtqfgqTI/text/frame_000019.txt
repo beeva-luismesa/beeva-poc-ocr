@@ -1,0 +1,5 @@
+* BBVA .. 1
+
+Para IT
+
+» La ejecución de los tests consumen muchos recursos

@@ -1,0 +1,39 @@
+2017-10-24 17:00:55,613 - root - INFO - Params <Namespace(lang='spa', ocr='tesseract', output_path='/home/luismesa/demo_ocr/results/tesseract_ocr', scene_threshold=0.1, video='https://www.youtube.com/watch?v=GcxjDNH1rTU')>
+2017-10-24 17:00:55,613 - root - INFO - Starting process
+2017-10-24 17:00:55,621 - root - INFO - It's a youtube video! Here we go!
+2017-10-24 17:00:55,621 - root - INFO - Getting info from youtube...
+2017-10-24 17:00:57,057 - root - INFO - Total info time: 1.435551s
+2017-10-24 17:00:57,057 - root - INFO - Downloading from youtube...
+2017-10-24 17:01:00,748 - root - INFO - Total download time: 3.690573s
+2017-10-24 17:01:00,749 - root - INFO - Generating frames from video ./BEEVA _ Los Metadatos-GcxjDNH1rTU.mp4
+2017-10-24 17:01:00,749 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU.mp4" -vf "select=gt(scene\,0.1)" -vsync vfr "/home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_%06d.png" -qscale 0
+2017-10-24 17:01:06,539 - root - INFO - FFMPEG time: 5.789868s
+2017-10-24 17:01:06,539 - root - INFO - Performing OCR with tesseract
+2017-10-24 17:01:06,539 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images
+2017-10-24 17:01:06,539 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/text
+2017-10-24 17:01:06,750 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000001.png
+2017-10-24 17:01:06,751 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000001.png
+2017-10-24 17:01:07,157 - root - INFO - Local OCR processing image time: 0.406034s
+2017-10-24 17:01:07,157 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000003.png
+2017-10-24 17:01:07,157 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000003.png
+2017-10-24 17:01:07,593 - root - INFO - Local OCR processing image time: 0.435805s
+2017-10-24 17:01:07,593 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000007.png
+2017-10-24 17:01:07,593 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000007.png
+2017-10-24 17:01:08,223 - root - INFO - Local OCR processing image time: 0.630002s
+2017-10-24 17:01:08,224 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000002.png
+2017-10-24 17:01:08,224 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000002.png
+2017-10-24 17:01:08,610 - root - INFO - Local OCR processing image time: 0.38614s
+2017-10-24 17:01:08,610 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000006.png
+2017-10-24 17:01:08,610 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000006.png
+2017-10-24 17:01:09,051 - root - INFO - Local OCR processing image time: 0.440846s
+2017-10-24 17:01:09,052 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000005.png
+2017-10-24 17:01:09,052 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000005.png
+2017-10-24 17:01:09,479 - root - INFO - Local OCR processing image time: 0.427768s
+2017-10-24 17:01:09,480 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000004.png
+2017-10-24 17:01:09,480 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000004.png
+2017-10-24 17:01:09,917 - root - INFO - Local OCR processing image time: 0.436906s
+2017-10-24 17:01:09,917 - root - INFO - Total OCR time: 3.166863s
+2017-10-24 17:01:09,917 - root - INFO - Trying to detect passwords...
+2017-10-24 17:01:09,917 - root - INFO - Password detection time: 6.3e-05s
+2017-10-24 17:01:09,917 - root - INFO - Process finished!
+2017-10-24 17:01:09,918 - root - INFO - Total process time: 14.303971s

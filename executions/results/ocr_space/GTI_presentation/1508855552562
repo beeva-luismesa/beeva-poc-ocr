@@ -1,0 +1,26 @@
+2017-10-24 16:32:32,563 - root - INFO - Params <Namespace(lang='spa', ocr='ocr-space', output_path='/home/luismesa/demo_ocr/results/ocr_space', scene_threshold=0.03, video='/home/luismesa/demo_ocr/local_videos/GTI_presentation.mp4')>
+2017-10-24 16:32:32,563 - root - INFO - Starting process
+2017-10-24 16:32:32,571 - root - INFO - It's a local video! Here we go!
+2017-10-24 16:32:32,571 - root - INFO - Generating frames from video /home/luismesa/demo_ocr/local_videos/GTI_presentation.mp4
+2017-10-24 16:32:32,571 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/demo_ocr/local_videos/GTI_presentation.mp4" -vf "select=gt(scene\,0.03)" -vsync vfr "/home/luismesa/demo_ocr/results/ocr_space/GTI_presentation/images/frame_%06d.png" -qscale 0
+2017-10-24 16:32:39,695 - root - INFO - FFMPEG time: 7.124217s
+2017-10-24 16:32:39,696 - root - INFO - Performing OCR with ocr-space
+2017-10-24 16:32:39,696 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/GTI_presentation/images
+2017-10-24 16:32:39,696 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/GTI_presentation/text
+2017-10-24 16:32:39,696 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/GTI_presentation/images/frame_000001.png
+2017-10-24 16:32:39,696 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/GTI_presentation/images/frame_000001.png
+2017-10-24 16:32:41,332 - root - INFO - OCR Space processing image time: 1.635831s
+2017-10-24 16:32:41,332 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/GTI_presentation/images/frame_000003.png
+2017-10-24 16:32:41,332 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/GTI_presentation/images/frame_000003.png
+2017-10-24 16:32:43,464 - root - INFO - OCR Space processing image time: 2.131093s
+2017-10-24 16:32:43,464 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/GTI_presentation/images/frame_000002.png
+2017-10-24 16:32:43,465 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/GTI_presentation/images/frame_000002.png
+2017-10-24 16:32:45,179 - root - INFO - OCR Space processing image time: 1.713952s
+2017-10-24 16:32:45,179 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/GTI_presentation/images/frame_000004.png
+2017-10-24 16:32:45,179 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/GTI_presentation/images/frame_000004.png
+2017-10-24 16:32:46,902 - root - INFO - OCR Space processing image time: 1.722078s
+2017-10-24 16:32:46,902 - root - INFO - Total OCR time: 7.206344s
+2017-10-24 16:32:46,902 - root - INFO - Trying to detect passwords...
+2017-10-24 16:32:46,904 - root - INFO - Password detection time: 0.000934s
+2017-10-24 16:32:46,904 - root - INFO - Process finished!
+2017-10-24 16:32:46,904 - root - INFO - Total process time: 14.340682s

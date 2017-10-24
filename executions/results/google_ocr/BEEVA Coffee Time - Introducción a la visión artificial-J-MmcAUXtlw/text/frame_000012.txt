@@ -1,0 +1,25 @@
+© e I https:/docs. google.com/presentation/d/16U8G_G-nGFSEN5Mgozgw.QEk6S78Qnuommoeb54E/present#slide-id.p26
+OO
+ORIGEN DE LA DESCRIPCION AUTOMATICA
+SIGNIFICADO DE LA FRASE CODIFICADO EN UN UNICOVECTOR
+cEOS
+EOs:
+Traducción
+automatica
+de texts
+Codificador Descodificador
+NeuralTalk
+A. Karpathy EY SI CAMBIAMOS EL CODIFICADOR? GOP CA Descripción
+per CNN Genting at abor market. |de imagenes
+and
+Vision Language A grou
+- 8
+vegetabled at the
+fruit stand.
+BEE VA
+11
+Sequence to Sequence Learning with NeuralNetworks
+an English to French translation task (NIPS 2014)
+Show and Tel: A Neural image caption Generator
+CVPR 2015)
+

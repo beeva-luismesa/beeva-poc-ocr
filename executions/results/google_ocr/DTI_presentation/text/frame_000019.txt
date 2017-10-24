@@ -1,0 +1,46 @@
+Master Universitario en Ingeniería Informatica IRAN
+Dirección TI FR
+UNIVERSID AD
+Ciclo de vida
+SEVILLA
+Flujo de estados y politica de imputación de horas
+> Politica de valores escalares flexibles para la imputación de horas
+Nueva
+Avance: 0%
+Horas imputadas: 0
+Asignada a nadie
+> Estados posibles de las tareas
+o Nueva
+o En Curso
+o En validación
+o Resuelta
+o Bloqueada
+o Rechazada
+Descartada
+Avance: 0-80%
+Horas imputadas: N
+Asignada a: ejecutor
+Bloqueada
+Avance: 0-80%
+Horas imputadas: 0
+Asignada a : ejecutor
+En curso
+Avance: 0-80%
+Horas imputadas: 0-N
+Asignada a: ejecutor
+Rechazada
+Avance: 80%
+Horas imputadasN
+Asignada a: ejecutor
+o Descartada
+Resuelta
+Avance: 100%
+Horas imputadas: N
+Asignada a : ejecutor
+En validación
+Avance: 80-90%
+Horas imputadasN
+Asignada a validador
+15
+Luis Enrique Mesa Salas | Proyecto TIRITI
+

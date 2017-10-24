@@ -1,0 +1,11 @@
+ALL IN ALL,
+demo Ocr
+node-v6.11.4-linux
+X64.tar Xz
+android-studio-ide
+teletrabajo_luism.. 162.4069837-linux....
+poliza_67294455.
+firmadapdf
+0 500jpg
+repo.zip
+

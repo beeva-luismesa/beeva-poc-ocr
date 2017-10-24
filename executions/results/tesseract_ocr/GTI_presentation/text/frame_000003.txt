@@ -1,0 +1,24 @@
+MásterUniversitarioenIngenieríalnformática ' '
+Gestión"
+
+Identificación de riesgos y soluciones propuestas &“v'fn
+
+ELEMENTOS INTANGIBLES
+
+- Software
+- Rendimiento
+- Incidencias / Bugs
+- Metodología de desarrollo
+
+Personal de la oficina
+- Formación del uso de la herramienta
+- Destreza y efectividad del mismo
+
+Usuarios de la plataforma virtual
+- Conocimientos / destreza para manejar la aplicación
+- Equipos informáticos configuración de entorno
+- Calidad del servicio de conexión a Internet
+
+Amenazas en la red
+
+Luis Enrique Mesa Salas | 4

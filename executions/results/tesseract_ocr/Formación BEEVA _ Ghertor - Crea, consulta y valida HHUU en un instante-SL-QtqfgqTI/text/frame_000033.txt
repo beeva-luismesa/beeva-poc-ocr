@@ -1,0 +1,24 @@
+(veakejtmunl fealur: ¡:
+kt languag
+gspr<nn
+Feature: (rea(e a((ounts … Gher!or
+ter.r.ent ¡
+Comen! ¿
+
+ 
+
+.en
+
+sangre.…
+¿wen the fullawing existing a((aunts*
+¡ username 1 Dzssuard ¡
+| ]uanv-ulla ¡ fr… |
+
+ategtn,acherzer
+seenerto: (reste ¿ new a((aunt with en una data
+when ¡ Uy (º stgn tn cnertor usmg the followmg data:
+¡ username ¡ pagsuord ¡
+| pedro 1 pedrtto ¡
+Yhen the response must oe "zm
+And the new user exists in database ¡
+And the app1tsatter- has ¿ regtstered users

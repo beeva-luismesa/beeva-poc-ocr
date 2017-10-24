@@ -1,0 +1,23 @@
+Big Data on AWS - Big Data reference
+WCB E E VA
+Architecture reference - Time series processing
+of TIME SERIES
+PROCESSING
+when deals are as a succession of regular measurements EB
+known as eme series information Processing of me series
+formation poses sales seating challenges that we clesialty of
+His services is uniquely posioned to address
+The Gestalty is achieved by using Auto Saline groups or incest
+Brocessing . As Data Pipeline for created Ameron Ease
+MapReace poE AVG DataPipeline for renesystem certa
+orchestrate and Aaron Red FIR for Scierday male-sale
+analysis Key architectural home points love Amazon sas
+for sensor message butleting and less frequent As Data
+Pipeline scheduling keep the overall saluton costs predictable and
+Corioled
+o.
+3
+one TD amazon
+IT web services
+www.beeva.com
+

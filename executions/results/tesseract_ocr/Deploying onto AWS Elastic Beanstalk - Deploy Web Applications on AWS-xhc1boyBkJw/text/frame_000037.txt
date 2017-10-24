@@ -1,0 +1,34 @@
+use 5Lrul';
+http : requl|5(”httu'),
+"” …ysq1 : :euuue("mysa1 ).
+mysq15erver : mysql.:reatetonnection([
+hast: urnas: .M.RDS_MSWE,
+nur: nrmu.em.ms_us£nm£.
+Dismr . nruess.ew.nº$)hssuonº.
+
+Wrt: prnuss. HW. RVS_PWÍ'
+
+));
+mysqlserver.cnnnect( (en) (
+(err) (
+¿env['msg'] : Unable … mu…—n LC RDS , err;
+) (
+.env['msg ] : Success“. Cnnne(teu to nus v… »
+)
+)):
+http.create$erver( (request, respºnse) (
+
+respense.writeHead( , (
+“Content—WM .
+));
+
+resacnse.w1 ltE(
+
+'rext/Plaxn
+
+.env['m5g']);
+response.end();
+
+)).listen( .env.PuRT H );
+
+.env . RDS¡HOSTNAHE;

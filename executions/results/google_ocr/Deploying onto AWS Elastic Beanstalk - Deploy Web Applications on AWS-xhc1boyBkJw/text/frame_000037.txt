@@ -1,0 +1,24 @@
+D centre
+app is
+'use strict ';
+app
+A person
+var http = require("http") ,
+mysql = require("mysql"),
+mysqlServer = mysql.createConnection
+host: process . env.RDS_HOSTNAME,
+user: process . env.RDSUSERNAME ,
+password: process . env.RDS_PASSWORD,
+port: process.env.RDS_PORT
+mysqlServer.connect(function(er) {
+if (err ) {
+process. env"nsg'] = 'Unable to connect to RDS - + err ;
+} else {
+process.env"nsg'] = 'Success Connected to RDS via + process.env.RDS _HOSTNAME;
+http.createServer(function(request, response) {
+response.writeHead(200,
+"Content-Type": "text/plain "
+response.write(process.envſ "nsg'1);
+response.end(O;
+}).listen(process.env.PORT II 3000);
+

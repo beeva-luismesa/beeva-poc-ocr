@@ -1,0 +1,13 @@
+Big Data on Aws - Big Data Aws Services
+WCB
+BEE VA
+AWS Data Pipeline
+Data workflow orchestration service
+AWS Data Pipeline is a web service that you can use to
+automate the movement and transformation of data.
+It creates data-driven workflows where every step depends on
+the previous successfully one
+The user needs to define activities, conditions and actions that
+are going to be performed within a data pipeline.
+www.beeva.com
+

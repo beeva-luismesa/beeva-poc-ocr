@@ -1,0 +1,22 @@
+use strict';
+appi
+var http = require("http") ,
+mysql = require("mysql"),
+mysqlServer mysql.createConnectionſ
+host: process.env.RDS_HOSTNAME,
+user: process. env.RDS_USERNAME,
+password: process.env.RDS_PASSWORD,
+port: process. env.RDS_PORT
+mysqlServer connectFunctioners)
+if (err) {
+process. env[' msgs Unable to connect to RDS + err
+} else {
+process envſ 'Success Connected to RDS via process, env.RDS HOSTNAME
+http.createServer function request , response)
+response.writehead (200, {
+"Content-Type": "text/plain"
+response writeorocess.envi ")
+response.end();
+Listen env.PORT
+unt on
+

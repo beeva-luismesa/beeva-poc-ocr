@@ -1,0 +1,49 @@
+MásterUniversitarioen Ingeniería Informática ' 1
+Big Data
+
+uuu-..….»
+
+Modelo de predicción: Construcción del modelo &ºv'fn
+
+ 
+
+> Observaciones sobre la matriz de confusión ConfusionMatrixandsmnsucs
+Reference
+o Precisión global del 86% Prediction <=sor< >50K
+
+<=50K 23455 1264
+. . . . >50K 3160 4681
+o Sensrbrlrdad superror al 88%
+
+Accuracy: 0.8641
+0 Especrfrcrdad de casr el 79% 95% CI: (o_8604 08678)
+No Information 'Rate: 0.8174
+
+P—Value [Acc > NIR]: < 2.29—16
+Kappa: 0.595
+
+Mcnemar's Test P-Value: < 2.2e—1 6
+Sensitivity: 08813
+
+Specificity: 0.7874
+
+Pos Pred Value: 0.9489
+
+Neg Pred Value: 0.5970
+Prevalence: 08174
+
+Deteciion Rate: 0.7204
+
+Detec1ion Prevalence: 0.7592
+Balanced Accuracy: 0.8343
+
+ 
+
+'Positive' Class: <=50K
+
+ 
+
+ 
+
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 16

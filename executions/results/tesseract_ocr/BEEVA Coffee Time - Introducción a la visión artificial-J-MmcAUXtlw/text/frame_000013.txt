@@ -1,0 +1,36 @@
+¡(cogio (a…
+
+DEEP LEARNING
+
+No es algo nuevo, empexó en los su
+
+Redes convolucmnales para Wee! cheques bancarios
+
+¿Por qué tiene é to ahora? Princwpalmente.
+- Datos anotados en MUY grandes cantidades
+. Ordenadores potentes (y tarjetas gráficas) capaces de hacer los
+
+cá1:ulos necesarios en un tiempo razonable
+
+Generaxmenm se usan redes neurona1es
+
+Tupos más hah|tuales.
+
+- Fully connected (FC) 0 red neurona1densamenle conec!ada
+' CNN / ConvNet a red neuronal convolucwonal
+
+' RNN o red neuronal recur(ente
+
+AABEEVA
+
+II?
+753
+…559
+351
+
+43
+53
+05
+00
+
+Conjunto de datos MNIST

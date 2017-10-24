@@ -1,0 +1,26 @@
+Big Data on Aws - Big Data Aws Services
+WCB E E VA
+AWS Kinesis architecture
+EC2 instances
+Amazon S3
+EC2 instance
+Client
+Shard 1
+Shard 2
+Amazon Elastic
+MapReduce
+EC2 instance
+Mobile client
+Shard N
+DynamoDB
+Traditional
+Server
+EC2 instance
+Amazon Redshift
+AWS lot
+EC2 instance
+Producers
+Amazon Kinesis Stream
+Consumers
+www.beeva.com
+

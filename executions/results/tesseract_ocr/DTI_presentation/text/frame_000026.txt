@@ -1,0 +1,30 @@
+Estructura de desglose de tareas
+
+> Creación de nuevo portal web
+
+0 Creación del esqueleto
+Creación de contenidos estáticos
+Desarrollo módulo integración con Linkele
+Localización (castellano e inglés]
+Creación de blog
+
+0000
+
+> Implantación de medidas y políticas para el ahorro
+
+0 Creación de fondos de escritorio e interfaces oscuras
+o Implantación de configuración energética eficiente
+0 Configuración de impresoras
+
+Luis Enrique Mesa Salas | Proyecto TIRIÍI
+
+Máster Universitario en Ingeniería Informática
+Direccion TI
+
+VW
+
+...........
+
+.......
+
+22

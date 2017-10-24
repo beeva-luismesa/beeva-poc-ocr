@@ -1,0 +1,19 @@
+Máster Universitario en Ingeniería Informática
+Big Data
+
+ 
+
+Conjunto de datos: ¿Qué datos?
+
+> Información sobre el censo de EEUU
+
+0 Año 1.994
+o 32.560 registros
+o 15 variables cada uno
+
+ 
+
+ 
+
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 3

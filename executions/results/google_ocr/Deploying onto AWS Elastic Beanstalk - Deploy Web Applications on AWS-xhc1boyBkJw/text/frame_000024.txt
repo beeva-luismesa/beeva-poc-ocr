@@ -1,0 +1,33 @@
+G CD https://us-west-2.console.awsamazon.com/elasticbeanstalk/home?region-us-west24 /newApplication?applicationName =node-project
+QE
+Create New Environment
+Application Info
+Permissions
+New Environment
+New Environment
+Environment Type
+Application version
+AWS Elastic Beanstalk has two andard applications that listen for and then process HTTP requests
+Web server environments require permissions to save logs to Amazon S3 and
+typically over port 80. Workers at on an Amazon sus queue. Worker applications post those messages
+publish metrics to Amazon CloudWatch. Select an existing IAM instance profile with
+to your application by using HTT the appropriate permissions or create a new one. Learn more.
+Environment into
+Additional Resources
+Web Server Environ
+Select an IAM profile:
+Create an IAM role and instance profile.
+Configuration Details
+Provides resources for an
+environment,
+o Select an existing IAM instance profile.
+Environment Tags
+Review information
+Profile name
+FilterT
+Worker Environmeno
+Provides resources for an
+environment
+Cancel
+Next
+

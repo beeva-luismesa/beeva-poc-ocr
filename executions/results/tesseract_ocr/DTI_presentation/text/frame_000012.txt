@@ -1,0 +1,16 @@
+Máster Universitario en Ingeniería Informática 7 1
+Dirección TI
+L A
+
+...........
+
+Solución propuesta &&
+
+Creación de un sistema de gestión documental
+
+> Archivo virtual
+
+> Utilidad de firma digital con DNIe o certificado FNMT
+> Gestor de tareas operaciones pendientes de firma
+
+Luis Enrique Mesa Salas | Proyecto TIRIÍI 8

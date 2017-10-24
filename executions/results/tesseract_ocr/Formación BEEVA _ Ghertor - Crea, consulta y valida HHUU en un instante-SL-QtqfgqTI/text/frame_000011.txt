@@ -1,0 +1,8 @@
+BBVA Ghenor / 054 172015
+Dificultades con Cucumber en OP
+
+Desde el punto de vista del Developer/QA (3/3):
+
+¡Las HHUU/features que tengo que implementar tienen Scenarios o
+
+Steps repetidos o similares a otros existentes.

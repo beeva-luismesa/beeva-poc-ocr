@@ -1,0 +1,15 @@
+Master Universitario en Ingeniería Informatica IMA
+Big Data ts
+UNIVERSIDAD
+Redis: Qué es?
+SE VILLA
+> Motor BD de código abierto
+> Basado en el almacenamiento clave-valor
+> En memoria
+key1 [1, 1, "foo"]
+BSD
+key2 {2, 3, "bar' ", "mgp" }
+key3 "fl""vl", "f2" "v2"
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

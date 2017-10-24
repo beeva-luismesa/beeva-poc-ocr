@@ -1,0 +1,15 @@
+Master Universitario en Ingeniería Informatica IMA
+Dirección TIPS
+UNIVERSIDAD
+Presupuesto y calendario
+SEVILLA
+La finalización prevista para los hitos está repartida en los siguientes trimestres
+> Q1: Migración de cuentas de correo, nueva imagen corporativa
+> Q2: Nuevo portal web, blog
+> Q3: Sistema de gestion documental, wikis
+> Q4: Migración de documentos, repositorio de codigo abierto
+De forma transversal ya lo largo de todo el proyecto se completarán Los hitos de migración de
+escritorios a entorno Linux y la implantación de medidas de аhorro
+14
+Luis Enrique Mesa Salas | Proyecto TIRITI
+

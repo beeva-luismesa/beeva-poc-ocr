@@ -1,0 +1,131 @@
+2017-10-24 17:01:10,370 - root - INFO - Params <Namespace(lang='spa', ocr='tesseract', output_path='/home/luismesa/demo_ocr/results/tesseract_ocr', scene_threshold=0.1, video='https://www.youtube.com/watch?v=SL-QtqfgqTI')>
+2017-10-24 17:01:10,370 - root - INFO - Starting process
+2017-10-24 17:01:10,380 - root - INFO - It's a youtube video! Here we go!
+2017-10-24 17:01:10,380 - root - INFO - Getting info from youtube...
+2017-10-24 17:01:11,933 - root - INFO - Total info time: 1.552868s
+2017-10-24 17:01:11,933 - root - INFO - Downloading from youtube...
+2017-10-24 17:01:59,799 - root - INFO - Total download time: 47.86647s
+2017-10-24 17:01:59,800 - root - INFO - Generating frames from video ./Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI.mp4
+2017-10-24 17:01:59,800 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI.mp4" -vf "select=gt(scene\,0.1)" -vsync vfr "/home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_%06d.png" -qscale 0
+2017-10-24 17:04:19,768 - root - INFO - FFMPEG time: 139.967655s
+2017-10-24 17:04:19,768 - root - INFO - Performing OCR with tesseract
+2017-10-24 17:04:19,768 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images
+2017-10-24 17:04:19,768 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/text
+2017-10-24 17:04:19,984 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000001.png
+2017-10-24 17:04:19,984 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000001.png
+2017-10-24 17:04:20,382 - root - INFO - Local OCR processing image time: 0.398443s
+2017-10-24 17:04:20,383 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000027.png
+2017-10-24 17:04:20,383 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000027.png
+2017-10-24 17:04:20,780 - root - INFO - Local OCR processing image time: 0.397345s
+2017-10-24 17:04:20,780 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000035.png
+2017-10-24 17:04:20,781 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000035.png
+2017-10-24 17:04:26,521 - root - INFO - Local OCR processing image time: 5.739872s
+2017-10-24 17:04:26,521 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000034.png
+2017-10-24 17:04:26,521 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000034.png
+2017-10-24 17:04:28,819 - root - INFO - Local OCR processing image time: 2.297904s
+2017-10-24 17:04:28,819 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000021.png
+2017-10-24 17:04:28,819 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000021.png
+2017-10-24 17:04:29,596 - root - INFO - Local OCR processing image time: 0.776104s
+2017-10-24 17:04:29,596 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000033.png
+2017-10-24 17:04:29,596 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000033.png
+2017-10-24 17:04:34,153 - root - INFO - Local OCR processing image time: 4.557202s
+2017-10-24 17:04:34,154 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000018.png
+2017-10-24 17:04:34,154 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000018.png
+2017-10-24 17:04:34,979 - root - INFO - Local OCR processing image time: 0.825644s
+2017-10-24 17:04:34,980 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000020.png
+2017-10-24 17:04:34,980 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000020.png
+2017-10-24 17:04:36,463 - root - INFO - Local OCR processing image time: 1.483519s
+2017-10-24 17:04:36,464 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000015.png
+2017-10-24 17:04:36,464 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000015.png
+2017-10-24 17:04:37,051 - root - INFO - Local OCR processing image time: 0.587345s
+2017-10-24 17:04:37,052 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000037.png
+2017-10-24 17:04:37,052 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000037.png
+2017-10-24 17:04:55,711 - root - INFO - Local OCR processing image time: 18.659482s
+2017-10-24 17:04:55,712 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000012.png
+2017-10-24 17:04:55,712 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000012.png
+2017-10-24 17:04:56,133 - root - INFO - Local OCR processing image time: 0.421415s
+2017-10-24 17:04:56,134 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000010.png
+2017-10-24 17:04:56,134 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000010.png
+2017-10-24 17:04:59,248 - root - INFO - Local OCR processing image time: 3.113915s
+2017-10-24 17:04:59,248 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000014.png
+2017-10-24 17:04:59,248 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000014.png
+2017-10-24 17:04:59,991 - root - INFO - Local OCR processing image time: 0.742799s
+2017-10-24 17:04:59,991 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000003.png
+2017-10-24 17:04:59,992 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000003.png
+2017-10-24 17:05:00,825 - root - INFO - Local OCR processing image time: 0.832895s
+2017-10-24 17:05:00,825 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000007.png
+2017-10-24 17:05:00,825 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000007.png
+2017-10-24 17:05:01,622 - root - INFO - Local OCR processing image time: 0.796449s
+2017-10-24 17:05:01,622 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000031.png
+2017-10-24 17:05:01,622 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000031.png
+2017-10-24 17:05:03,464 - root - INFO - Local OCR processing image time: 1.841643s
+2017-10-24 17:05:03,464 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000002.png
+2017-10-24 17:05:03,464 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000002.png
+2017-10-24 17:05:04,110 - root - INFO - Local OCR processing image time: 0.645344s
+2017-10-24 17:05:04,110 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000008.png
+2017-10-24 17:05:04,110 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000008.png
+2017-10-24 17:05:07,933 - root - INFO - Local OCR processing image time: 3.823278s
+2017-10-24 17:05:07,934 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000036.png
+2017-10-24 17:05:07,934 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000036.png
+2017-10-24 17:05:11,330 - root - INFO - Local OCR processing image time: 3.395678s
+2017-10-24 17:05:11,330 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000009.png
+2017-10-24 17:05:11,330 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000009.png
+2017-10-24 17:05:12,303 - root - INFO - Local OCR processing image time: 0.973107s
+2017-10-24 17:05:12,304 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000006.png
+2017-10-24 17:05:12,304 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000006.png
+2017-10-24 17:05:13,011 - root - INFO - Local OCR processing image time: 0.706808s
+2017-10-24 17:05:13,011 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000019.png
+2017-10-24 17:05:13,011 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000019.png
+2017-10-24 17:05:13,804 - root - INFO - Local OCR processing image time: 0.792987s
+2017-10-24 17:05:13,804 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000022.png
+2017-10-24 17:05:13,804 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000022.png
+2017-10-24 17:05:14,728 - root - INFO - Local OCR processing image time: 0.923587s
+2017-10-24 17:05:14,728 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000030.png
+2017-10-24 17:05:14,729 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000030.png
+2017-10-24 17:05:16,381 - root - INFO - Local OCR processing image time: 1.652332s
+2017-10-24 17:05:16,381 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000016.png
+2017-10-24 17:05:16,381 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000016.png
+2017-10-24 17:05:17,084 - root - INFO - Local OCR processing image time: 0.702785s
+2017-10-24 17:05:17,085 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000028.png
+2017-10-24 17:05:17,085 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000028.png
+2017-10-24 17:05:17,485 - root - INFO - Local OCR processing image time: 0.399982s
+2017-10-24 17:05:17,485 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000032.png
+2017-10-24 17:05:17,485 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000032.png
+2017-10-24 17:05:17,868 - root - INFO - Local OCR processing image time: 0.382746s
+2017-10-24 17:05:17,868 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000013.png
+2017-10-24 17:05:17,868 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000013.png
+2017-10-24 17:05:18,457 - root - INFO - Local OCR processing image time: 0.588369s
+2017-10-24 17:05:18,457 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000011.png
+2017-10-24 17:05:18,457 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000011.png
+2017-10-24 17:05:19,353 - root - INFO - Local OCR processing image time: 0.896102s
+2017-10-24 17:05:19,354 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000005.png
+2017-10-24 17:05:19,354 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000005.png
+2017-10-24 17:05:20,084 - root - INFO - Local OCR processing image time: 0.729697s
+2017-10-24 17:05:20,084 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000026.png
+2017-10-24 17:05:20,084 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000026.png
+2017-10-24 17:05:20,675 - root - INFO - Local OCR processing image time: 0.590726s
+2017-10-24 17:05:20,675 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000017.png
+2017-10-24 17:05:20,675 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000017.png
+2017-10-24 17:05:23,239 - root - INFO - Local OCR processing image time: 2.563596s
+2017-10-24 17:05:23,239 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000004.png
+2017-10-24 17:05:23,239 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000004.png
+2017-10-24 17:05:24,045 - root - INFO - Local OCR processing image time: 0.805232s
+2017-10-24 17:05:24,045 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000025.png
+2017-10-24 17:05:24,045 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000025.png
+2017-10-24 17:05:24,509 - root - INFO - Local OCR processing image time: 0.463919s
+2017-10-24 17:05:24,509 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000024.png
+2017-10-24 17:05:24,509 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000024.png
+2017-10-24 17:05:24,929 - root - INFO - Local OCR processing image time: 0.41926s
+2017-10-24 17:05:24,929 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000023.png
+2017-10-24 17:05:24,929 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000023.png
+2017-10-24 17:05:25,660 - root - INFO - Local OCR processing image time: 0.730853s
+2017-10-24 17:05:25,660 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000029.png
+2017-10-24 17:05:25,660 - root - INFO - Calling tesseract text with image: /home/luismesa/demo_ocr/results/tesseract_ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000029.png
+2017-10-24 17:05:26,326 - root - INFO - Local OCR processing image time: 0.665842s
+2017-10-24 17:05:26,327 - root - INFO - Total OCR time: 66.343117s
+2017-10-24 17:05:26,327 - root - INFO - Trying to detect passwords...
+2017-10-24 17:05:26,328 - root - INFO - Potential passwords found in frame_000017: [sonsac*0n]
+2017-10-24 17:05:26,328 - root - INFO - Potential passwords found in frame_000004: [consu1tar]
+2017-10-24 17:05:26,328 - root - INFO - Password detection time: 0.001028s
+2017-10-24 17:05:26,329 - root - INFO - Process finished!
+2017-10-24 17:05:26,329 - root - INFO - Total process time: 255.958785s

@@ -1,0 +1,16 @@
+6 A | https://docs.google.com/presentation/d/16U8G_G-nGFSEN5Mgozgw.QEk6S78Qnuommoebs4E/present#slide-id.р30
+OO
+REDES NEURONALES
+CNN / red neuronal convolucional
+Low-Level Mid-Levell High-Level
+Trainable
+Feature
+Feature
+Feature
+Classifier
+WHEN ILA (
+Especial para datos con información espacial — imagenes
+BEE VA
+13
+http://www.slideshare.net/philipsh/a tutorial on deep learning-aticm 2013
+

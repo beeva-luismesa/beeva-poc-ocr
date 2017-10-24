@@ -1,0 +1,17 @@
+Master Universitario en Ingeniería Informatica IRAN
+Big Data F.
+UNT VERS DAD
+Indice
+SEVILLA
+> Conjunto de datos
+o iQué datos?
+o Variables
+> Proceso de carga y estudio preliminar
+> Modelo de predicción
+o Técnica de clasificación
+0 Construcción del modelo
+o Validación del modelo
+Conclusiones
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

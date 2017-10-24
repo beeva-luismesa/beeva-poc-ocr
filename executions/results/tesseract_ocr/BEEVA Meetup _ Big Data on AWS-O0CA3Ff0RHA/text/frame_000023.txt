@@ -1,0 +1,12 @@
+Big Data on AWS - Big Data AWS Services
+
+AWS EMR — Processing Layer — Instance types
+
+General CPU GPU Memory Disk I/O
+Batch processing Machine learning Machine learning Data analytics Massive Parallel
+m3, m4 families c3, cc1.4xlarge, g2, p2 families x1, m2, r3 families Processing
+
+cc2.8xlarge d2 family
+families …
+
+www.beeva.com

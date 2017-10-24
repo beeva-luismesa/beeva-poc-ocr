@@ -1,0 +1,24 @@
+A | https: /docs. google.com/presentationd6USGGnGFesN5MgOzgwQEK6578Onuommoeh54Eloresent sidedpts
+90
+O
+DETECCION DE OBJETOS
+EJEMPLO DE APLICACIONES DE LA VISION ARTIFICIAL
+person o 992
+dog o 99
+noGSI - o. 9
+Car 1000
+as 0.08
+O.
+dog to. 9
+he o. 996
+boat: 0.97o
+person o. 989
+pe on a Tas
+0.903
+person to Rs
+o. 889
+Ne
+AN BEE VA
+Peter RCN Towards Real-Time Cogect Detection with Region Proposal Reyors
+co151
+

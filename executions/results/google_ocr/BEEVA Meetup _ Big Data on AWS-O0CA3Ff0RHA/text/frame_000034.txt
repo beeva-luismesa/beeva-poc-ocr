@@ -1,0 +1,12 @@
+Big Data on Aws - Big Data Aws Services
+WCB E E VA
+AWS Machine Learning - How it works?
+Train model
+Binary Classification
+Multiclass Classification
+Regression Model
+AWS ML requires to train the model:
+Input training datasource
+Name of the data attribute that contains the target to be predicted
+www.beeva.com
+

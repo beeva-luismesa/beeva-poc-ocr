@@ -1,0 +1,32 @@
+Master Universitario en Ingeniería Informatica IMA
+Big Data US
+UNIVERSIDAD
+Redis: Rol en la gestión de Big Data
+SEVILLA
+DB-Engines Ranking
+> Algunos numeros
+(según https://dbengines.com/en/ranking)
+- MongoDB
+Cassandra
+Red
+200
+o Es la mas popular en almacenamientos
+de clave-valor
+E 100
+o La tercera mas popular en BD NoSQL
+(tras MongoDB y Cassandra)
+:
+60
+o Es la novena más popular
+en el ranking global
+20
+© May 2017, DB-Engines.com
+Jul 2014 Jan 2015 Jul 2015
+Jan 2013 Jul 2013
+Jan 2014
+Jan 2016
+Jul 2016
+Jan 2017
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

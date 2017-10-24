@@ -1,0 +1,18 @@
+Master Universitario en Ingeniería Informatica IMA
+Dirección TIPS
+UNT VERS DAD
+Ciclo de vida
+SEVILLA
+Control de versiones
+- Versionado semantico de Tom Preston-Werner
+> Especificaciones
+o Versionado basado en 3 digitos. El número normal de version deber tomar la forma X.Y.Z.
+o X, Y, Z son número enteros no negativos.
+o X corresponde con la version mayorY con la menor yZ con el número de parche.
+0 Cada elemento debe incrementarse numéricamente en una unidad.
+o Una vez ha sido liberada una version, el contenido de dicha version no puede ser modificado. Cualquier
+modificación debe ser liberada como una nueva version.
+o X con valor cero es utilizada para el desarrollo inicialindica que el productо aún no es estable.
+o La version .0.0 definiría la primera version oficial.
+Luis Enrique Mesa Salas | Proyecto TIRITI
+

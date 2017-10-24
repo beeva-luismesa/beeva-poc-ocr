@@ -1,0 +1,14 @@
+Máster Universitario en Ingeniería Informática V 
+Dirección TI 
+Presupuesto Y calendario 
+La finalización prevista para los hitos está repartida en los siguientes trimestres 
+> Q1: Migración de cuentas de correo, nueva imagen corporativa 
+> Q2: Nuevo portal web, blog 
+> Q3: Sistema de gestión documental, wikis 
+> Q4: Migración de documentos, repositorio de código abierto 
+De forma transversal y a lo largo de todo el proyecto se completarán los hitos de migración de 
+escritorios a entorno Linux y la implantación de medidas de ahorro 
+Luis Enrique Mesa Salas I Proyecto TIRITI 
+D 
+14 
+

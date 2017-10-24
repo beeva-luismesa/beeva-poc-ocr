@@ -1,0 +1,34 @@
+Master Universitario en Ingeniería Informatica
+Big Data
+IMA F.
+UNIVERSIDAD
+Modelo de predicción: Validación del modelo
+SEVILLA
+> Observaciones sobre la matriz de confusion
+Confusion Matrix and Statistics
+Reference
+Prediction <=50K >50K
+<=50K 11806 628
+>50K 1494 2352
+o Datos muy parecidos
+o Precision global cercana 87%
+o Sensibilidad próxima al 89 %
+Accuracy: 0.8697
+95% CI: (0.8644, 0.8748)
+No Information Rate: 0.817
+o Especificidad de casi el 19%
+P-Value [Acc > NIR]< 2.2e-16
+Kappa: 0.6083
+Mcnemars Test P-Value: 2.2e-16
+Sensitivity: 0.8877
+Specificity : 0.7893
+Pos Pred Value: 0.9495
+Neg Pred Value: 0.6115
+Prevalence : 0.8170
+Detection Rate: 0.7252
+Detection Prevalence : 0.7638
+Balanced Accuracy: 0.8385
+'Positive' Class: <=50K
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+

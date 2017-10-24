@@ -1,0 +1,30 @@
+C B https://us-west-2.consoleaws.amazon.com/elasticbeanstalkhome?region-us-west-20/getting startedrapplicationNameFilter
+QE
+AWS Services v Edit
+Screencast
+Oregon
+Support
+Elastic Beanstalk
+Create New Application
+ONN
+JD 60
+A
+Welcome to AWS Elastic Beanstalk
+With Elastic Beanstalk, you can deploy, monitor, and scale an application quickly and easily. Let us do the heavy lifting so you
+can focus on your business.
+Moolinebackend series
+Dashboard
+me more
+To deploy your existing web application, create an application source bundle and then create a new application. If you're using
+Git and would prefer to use it with our command line toolplease see Getting Started with the EB CLI.
+53.6 148K 65% 354KB 12KB
+To deploy a sample application with just one click, select a platform and click Launch Now.
+Select a platform
+Looking for a different platform? Let us know.
+Launch Now
+Get Started in Three Easy Steps
+Select a Platform
+Upload an Application or Use a Sample
+Run it!
+Waiting for console.aws.amazon.com.
+

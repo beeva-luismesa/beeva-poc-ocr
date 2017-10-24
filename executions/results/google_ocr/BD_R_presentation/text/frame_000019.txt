@@ -1,0 +1,33 @@
+Master Universitario en Ingeniería Informatica IRAN
+Big Data F.
+UNIVERSID AD
+Modelo de predicción: Construcción del modelo
+SE VILLA
+> Observaciones sobre la matriz de confusion
+Confusion Matrix and Statistics
+o Precision global del 86%
+Reference
+Prediction <=50K >50K
+<=50K 23455 1264
+>50K 3160 4681
+o Sensibilidad superior al 88%
+Accuracy: 0.8641
+o Especificidad de casi el 79%
+95% CI: (0.8604, 0.8678)
+No Information Rate: 0.8174
+P-Value [Acc > NIR]< 2.2e-16
+Kappa: 0.595
+Mcnemars Test P-Value: 2.2-16
+Sensitivity: 0.8813
+Specificity: 0.7874
+Pos Pred Value: 0.9489
+Neg Pred Value: 0.5970
+Prevalence: 0.8174
+Detection Rate: 0.7204
+Detection Prevalence: 0.7592
+Balanced Accuracy: 0.8343
+'Positive' Class: <=50K
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+16
+

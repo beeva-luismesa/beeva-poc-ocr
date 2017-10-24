@@ -1,0 +1,21 @@
+O A | https://docs. google.com/presentation/d/16U8G _G-nGFSEN5Mgozgw.QEk6S778Qnuommoeb54E/present#slide-id.p22
+90%
+DESCRIPCION AUTOMATICA
+EJEMPLO DE APLICACIONES DE LA VISION ARTIFICIAL
+A person riding a
+motorcycle on a dirt road.
+Two dogs play in the grass.
+A skateboarder does a trick
+on a ramp .
+A group of young people
+playing a game of frisbee.
+Two hockey players are
+fighting over the puck.
+A little girl in a pink hat is
+blowing bubbles.
+He has ſeen
+BEE VA
+10
+Show and Tell: A Neural Image Caption Generator
+CVPR 2015)
+

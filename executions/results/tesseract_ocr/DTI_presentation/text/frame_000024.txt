@@ -1,0 +1,26 @@
+MásterUniversitarioen Ingeniería Informática
+Dirección TI
+
+  
+
+Estructura de desglose de tareas
+
+> Migración de escritorios a entorno Linux
+0 Configuración de equipos nuevos
+() Plataformado de equipos existentes
+0 Soporte a usuarios
+
+> Migración de cuentas de correo y suite ofimática a la nube de Google
+0 Configuración del directorio
+
+Creación de cuentas
+
+Migración de correos del servidor existente al nuevo
+
+Formación sobre nueva suite ofimática
+
+Formación sobre herramientas adicionales como Hangouts
+
+0000
+
+Luis Enrique Mesa Salas | Proyecto TIRIÍI 20

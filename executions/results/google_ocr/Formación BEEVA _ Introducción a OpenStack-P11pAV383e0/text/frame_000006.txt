@@ -1,0 +1,20 @@
+Openstack introduction
+NO BE E v A
+VI. OpenStack History
+vi, OpenStack History
+The origin
+OpenStack was created during the first months of 2010. Rackspade wanted to rewrite the
+infrastructure code running its cloud servers, oitering and considered open sourcing the existing
+Cloud files code. At the same time Ansa Labs (contacting for NASA) had published beta code
+for Nova, a Pythonbased cloud computing fabric controller
+Both efforts converged and formed the base for OpenStack. The first Design Summit was held in
+TAustin, TX on July 13-14, 2010, and the project was officially announced at OSCON in Portland
+OR, on July 21st 2010 in Santo Do Source and Congo and Santorm
+The mission salad
+The OpenStack mission is to PRduce the ubiquitous Open Source Cloud Computing platform
+that will meet the needs of public and private clouds regardless of size, by being simple to
+implement and massively scalable
+It appeared on the wiki on his 24th, 2010 and still captures the long-term goal of the OpenStack
+community.
+www.beeva.com
+

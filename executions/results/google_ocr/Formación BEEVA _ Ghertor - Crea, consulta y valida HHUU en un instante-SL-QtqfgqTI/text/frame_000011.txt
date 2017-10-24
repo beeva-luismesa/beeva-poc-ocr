@@ -1,0 +1,11 @@
+BBVA
+Ghertor / 06-11-2015
+Dificultades con Cucumber en OP
+Desde el punto de vista del DeveloperQA (3/3):
+•Las HHUUlfeatures que tengo que implementar tienen Scenarios o
+Steps repetidos o similares a otros existentes.
+thrinety
+ork
+the.
+www.beeva.com
+

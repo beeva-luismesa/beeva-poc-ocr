@@ -1,0 +1,19 @@
+IMA
+Master Universitario en Ingeniería Informatica
+Big Data
+UNIVERSIDAD
+Proceso de carga y estudio preliminar
+SEVILLA
+> Dispersión de variables respecto a nivel de ingresos
+Years of education vs income levels
+Age vs Income level
+-50K
+50K
+K-5OK
+50K
+income level
+income level
+Visualización y análisis de datos
+Luis Enrique Mesa Salas | Francisco Jose Sancho Valero
+14
+

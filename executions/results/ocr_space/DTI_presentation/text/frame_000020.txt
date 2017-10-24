@@ -1,0 +1,41 @@
+Máster Universitario en Ingeniería Informática V 
+Ciclo de vida 
+Priorización de tareas 
+> 
+> 
+> 
+Asignar tareas a cuadrante Urgente-lmportante de 
+Stephen Covey 
+Definir por iteraciones junto con los interesados 
+Entrega de MVP, funcionalidades completas en cada 
+iteración 
+Urgente 
+Q1 
+• Crisis 
+Importante 
+• Fechas Tope 
+• Fuegos 
+No 
+Importante 
+Q3 
+• Interrupciones 
+• Distracciones 
+• Llamadas 
+• Consultas 
+Luis Enrique Mesa Salas I 
+Proyecto TIRITI 
+Dirección TI 
+D 
+No Urgente 
+Q2 
+• Planificación 
+• prevención 
+• Relaciones 
+• Mejora continua 
+Q4 
+• Actividades de 
+escape 
+• Actividades de 
+otros 
+16 
+

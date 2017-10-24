@@ -1,0 +1,77 @@
+MásterUniversitarioenlngeniería Informática
+Big Data
+
+  
+
+Redis: Modelo de datos
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+> Hashes de clave-valor "He..ºc.assmates!…
+> Con matices
+0 1 2 3
+o No sólo se soportan Strings .Th¡s., …¡s.. ..a.. "nch
+0 Tipos de datos avanzados
+. LÍSÍS 7 13 1 1 44 name age
+. Sets / * Luis 29
+. Sorted Sets "º“ 34
+. HaShes field value Carlos 37
+x—
+name Luis
+age 29
+
+ 
+
+ 
+
+ 
+
+Motores BD: Redis
+Luis Enrique Mesa Salas | Francisco José Sancho Valero 4

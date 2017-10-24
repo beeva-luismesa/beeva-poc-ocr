@@ -1,0 +1,11 @@
+Big Data on Aws - Big Data Aws Services
+WCB E E VA
+AWS CloudSearch-architecture
+You interact with Amazon CloudSearch through three services:
+Configuration service. -create and configure search domains
+Document service—-upload document batches
+Search service-submit search and suggestion requests
+Config
+Sea
+www.beeva.com
+

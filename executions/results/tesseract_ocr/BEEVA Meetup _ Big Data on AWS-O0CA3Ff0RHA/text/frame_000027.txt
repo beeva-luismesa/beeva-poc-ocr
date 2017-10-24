@@ -1,0 +1,21 @@
+Big Data on AWS - Big Data AWS Services
+
+AWS Kinesis components
+
+- Shards. A shardis a uniquely identified group of data records in a stream. A stream is composed of
+one or more shards, each ofwhich provides a fixed unit of capacity.
+
+- Partition key. A partition key is used to group data by shard within a stream.
+
+- Amazon Kinesís Streams. ordered sequence of data records. Each record in the stream has a
+sequence number that is assigned by Streams. The data records in the stream are distributed into
+shards.
+
+- Data Records. A data record is the unit of data stored in en Amazon Kinesís stream. Data records
+are composed ofa sequence number, partition key, and data blob, which is an immutable
+sequence of bytes
+
+- Retention Period. The length of time data records are accessible after they are added to the
+stream.
+
+www.beevo.com

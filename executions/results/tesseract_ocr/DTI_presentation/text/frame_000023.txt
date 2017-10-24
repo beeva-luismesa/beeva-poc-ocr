@@ -1,0 +1,28 @@
+MásterUniversitarioen Ingeniería Informática 7 1
+Dirección TI
+
+  
+
+Ciclo de vida
+
+Control de versiones ….
+
+> Gitoomo repositorio
+> Herramienta GitFlow
+
+> Ramas
+
+o Master [commits preparados para subir a producción]
+o Develop [código perteneciente a la siguiente release del proyecto]
+
+o Feature [originadas ¡¡ partir de develop, desarrollo de nuevas
+características]
+o Release [originadas a partir de develop, propagada a develop y master]
+
+o Hetfix [originadas a partir de master, propagada a develop y master]
+
+ 
+
+ 
+
+Luis Enrique Mesa Salas | Proyecto TIRIÍI 19
