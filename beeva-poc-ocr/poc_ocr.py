@@ -2,6 +2,7 @@ import argparse
 import importlib.machinery
 import logging
 import os
+import time
 import types
 from datetime import datetime
 
@@ -28,7 +29,9 @@ def main():
     loader = importlib.machinery.SourceFileLoader("config/settings.py", "config/settings.py")
     settings = types.ModuleType(loader.name)
     loader.exec_module(settings)
-    logging.basicConfig(filename=settings.LOG_PATH + str(datetime.today()), level=logging.INFO, format=settings.LOG_FORMAT)
+
+    millis = int(round(time.time() * 1000))
+    logging.basicConfig(filename=settings.LOG_PATH + str(millis), level=logging.INFO, format=settings.LOG_FORMAT)
 
     parser = argparse.ArgumentParser(description='PoC OCR')
     parser.add_argument('--video', type=valid_video, help='Local path or Youtube URL for the video.', required=True)

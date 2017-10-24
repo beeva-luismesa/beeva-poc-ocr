@@ -1,8 +1,10 @@
 # BEEVA PoC OCR
 
-This module is built in order to evaluate the capability of several OCR software for reading the text from a set of video frames extracted from a local or youtube video.
+This module is built in order to evaluate the capability of several OCR software for reading the text from a set of video frames extracted from a local or youtube video. Then, it tries to identify passwords patterns in that text.
 
 We have tested `Tesseract`, as a local choice, and `Google Cloud Vision` and `OCR.Space`, as API choices.
+
+The process keeps the frames images and their text in the specified output folder and the potential passwords detected in the log file.
 
 ## Configuration
 
@@ -66,6 +68,18 @@ FRAME_NAME_PATTERN = 'prefix_of_output_files_%06d.png'
 
 IMAGES_SUBFOLDER = 'name_of_frames_subfolder'
 TEXT_SUBFOLDER = 'name_of_extracted_text_subfolder'
+
+PASSWORD_REGEXPS = [
+    # Minimum eight characters, at least one letter and one number
+    "^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$",
+    # Minimum eight characters, at least one letter, one number and one special character
+    "^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,}$",
+    # Minimum eight characters, at least one uppercase letter, one lowercase letter and one number
+    "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$",
+    # Minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character
+    "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,}",
+    # Minimum eight and maximum 10 characters, at least one uppercase letter, one lowercase letter, one number and one special character
+    "^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,10}"]
 
 OCR_SPACE_API_KEY='yoUrocR.SpaCeapiKeY'
 GOOGLE_CREDENTIALS='YouRgoOgleCloudvisIonApIkEy'
