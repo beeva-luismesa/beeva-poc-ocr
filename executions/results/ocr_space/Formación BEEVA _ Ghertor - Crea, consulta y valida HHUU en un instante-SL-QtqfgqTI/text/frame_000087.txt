@@ -1,0 +1,24 @@
+Query feature files created with Ghertor. 
+With mis runctjon, you can querv every reature file created with 
+Main Menu 
+The applicatjon main meno. From here. you can access the Other optiOnS: Query User Histories, Create user Histories and 
+Vahdate Histories. Change Project and Send 
+user Histories 
+User Histories submenu. This menu groups creation, validatjon and query functjons. 
+Query u. Histories 
+Form for queryinq existinq teature mes tor an your assiqned projects. All tiled are no mandatories. 
+Project: The project you are lookinq for reature mes. Choose between assigned projects. If you want to search in all 
+proje•CtS. option. 
+• Name: File name titer ror reatures you are looking for. 
+• Autnor: Creator username rilter for features you are booking for. 
+Begin Date; Lower date range ror reatures you are look.ng 
+• End upper date range you are looking 
+Create u.Histories 
+Form ror Creating a reature tile. 
+This have the fO"Owing 
+• Filename: The resulting filename o' reature. The '.'eature• file extension is added automatically. 
+• Language: Default language in reature file. Choose between English (EN) or Spanish (ES) 
+mame of feature me. 
+• Taos; Optional for runninq features with cucumber Or framewOrks. 
+www.beeva.com 
+

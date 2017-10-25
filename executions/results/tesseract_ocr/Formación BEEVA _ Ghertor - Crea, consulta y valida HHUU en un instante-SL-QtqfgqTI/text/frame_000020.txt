@@ -1,17 +1,5 @@
-BBVA Ghenor / 064 1 72015
-Consecuencias
+* BBVA .. 1
 
-Para Todos
+Para IT
 
-—> No estamos implantando la metodología BDD con éxito
-
-BDD — Behaviour Driven Development
-
- 
-   
-
-Escrlblmos. . . Huslorlas de Usuarlo
-
-“Guindo el usuano bunquo. sm fallos de ortografia, el nombre
-de un producto presente en el inventario. Todos los productos
-con nombre similar deberán ser mostrados".
+» La ejecución de los tests consumen muchos recursos

@@ -1,0 +1,33 @@
+Ghertor 
+Build Agile User Histories 
+MAIN MENU 
+USER HISTORIES 
+Query U.Histori— 
+Create 
+USER PROFILE 
+Change 
+Send suggestion 
+USER MANUAL 
+Wellcome Back, demo 
+Your current Project 's: demo-project Change Proj«t 
+Your last feature created is: 
+Feature description it's correct. Push 'Save• button for download file to local director. 
+preview Feature 
+Logo ut 
+Content: 
+demo-proje Ct 
+Cre ate_a fe ature 
+language; en 
+'Sprint23 
+Create account in Ghertor new 
+Comment 
+Comment I 
+Comment I 
+Back r 
+Gima me following existino •ccounts: 
+I e ame o aSSWOrd I 
+'Correct 
+Scenario: Create a account with valid data 
+G ivm•. I try Sign G hertor the data : 
+www.beeva.com 
+

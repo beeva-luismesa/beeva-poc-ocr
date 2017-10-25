@@ -1,9 +1,9 @@
-BBVA Ghenor ¡ 054 172015
+BBVA Ghenor / 0571172015
 Consecuencias
 
-.Pensemos un poco.…
+De forma resumida:
 
-'?—'º"
+¡Nadie está contento con el procedimiento actual. Ni PO, BA, DEV,
+QA, IT ni Dirección.
 
-- ?
-!?
+o¿Cómo se puede solucionar?

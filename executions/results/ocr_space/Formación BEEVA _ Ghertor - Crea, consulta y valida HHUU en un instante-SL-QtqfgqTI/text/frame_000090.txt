@@ -1,0 +1,32 @@
+Project: The profect you are looking for reature files. Ctvose between assigned projects. you want to search in all 
+projects, choose '-Select project-• option. 
+• Narne; File name for reature•S are bOking 
+• Author: Creator filter for are 
+Date: LOWer date 'o' are IOOkinG 
+• Ena Date: Upper date ranqe for features you are looking for. 
+Create u.Histories 
+Form Tor creatínq o reature file. 
+This function nave the following fields : 
+• The O' file 
+• Languaoe: t*tault languaqe in feature file. Choose between Engush (EN) or Spanish (ES) 
+mame ot teature file. 
+Tags: Optional tags for running selected features with cucumber or other frameworks. 
+• Comments: Optional comments fe ature or user history_ 
+• Background: 'tour feature has not background StepS, ChOOSe between Yes NO. 
+• Scenario The s.cenario your ThiS scenario 's mandatory a Vaud Others are not 
+• Scenario 2 to 5: Others scenarios 'or feature file. Isnt mandatory. 
+• Step The first Step for Background or Scenario N. Mandatory in Scenario I or Background ir needed. 
+• Step 2 5: Others steps for BaCkg"Jund Or Scenario N_ Not required. 
+• SCenariO COmbObOx: SCenario type. ChOOSe between Simple SCenariO (WithOut table data) SCenariO (with 
+data 
+• Step combobox: Step type. Choose between Given, When or Then (with or without data). 
+validate u.Histories 
+Validate feature typed With OtherS editors. ThiS Check i' Your is 
+correct or not. Ir your Project have a predefined rules enqtne, you can check your reature is semantically val•a for 
+selected engine. 
+• Rules Select the Project rules for Seeing ir yOur feature is Semantically valid If you default 
+value ( -Select are Checkinq 
+• File to validate: your local repository and select file to check. 
+• Result: List ot sintax and semantic errors in your selected feature fie. 
+www.beeva.com 
+

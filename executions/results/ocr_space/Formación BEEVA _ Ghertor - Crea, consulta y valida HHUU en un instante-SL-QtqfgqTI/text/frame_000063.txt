@@ -1,0 +1,28 @@
+round 
+'Yes 
+Step GWEN TABLE the 
+Data Table; I username password 1 
+I juanrniila friki 
+Step 2 : 
+Step 3; 
+Step 4: 
+GWEN 
+GWEN 
+GWEN 
+• Yes 
+Scenario : 
+Taos: Login, Ghertor 
+SIMPLE 
+Create a new account with all valid data 
+Step 1: WHEN WITh TABLE 
+try to sign in Ghertor usina the following data: 
+Data Table: 
+1 pedro 1 pedrito 1 
+Step 2: 
+Step 3: 
+THEN 
+the response mustbe -201 • 
+the existsn 
+i datab»se 
+www.beeva.com 
+

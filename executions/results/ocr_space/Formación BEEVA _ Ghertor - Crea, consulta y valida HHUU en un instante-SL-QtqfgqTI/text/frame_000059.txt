@@ -1,0 +1,28 @@
+Ghertor 
+Build Agile User Histories 
+MAIN MENU 
+USER HISTORIES 
+Create .Histori— 
+Val i date 
+USER PROFILE 
+Change pro 
+Send suggestion 
+USER MANUAL 
+Your Curre nt proÉct demo •project 
+Your last feature createa 
+Sintax error in feature definition 
+intax Error: •When' reserved Word can only be followed by 'And 
+Create Feature 
+or •Scenario 
+Language : 
+Yes 
+'Yes 
+2 
+create_ account 
+OES 'EN 
+Create aCCOuntS in Ghertor 
+1 
+Comment 
+Comrnent 2 
+www.beeva.com 
+

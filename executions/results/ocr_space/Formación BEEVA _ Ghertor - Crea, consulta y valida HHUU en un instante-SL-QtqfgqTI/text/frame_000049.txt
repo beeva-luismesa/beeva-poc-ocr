@@ -1,0 +1,19 @@
+Check if existing feature files are syntactically and semantically correct. 
+With this runchon, you can check i' any existinq feature me is syntacbcalty and semanticaUv correct. 
+Query feature files created with Ghertor. 
+With this functjon. you can query every teature file created with Ghertor. 
+Main Menu 
+The applicabon main menu. From here, you can access the other options: Querv User Histories, Create User Histories and 
+Validate User Histories, Chanqe Project and Send Suggesbon. 
+user Histories 
+Histories ThiS menu groups creation, and 
+Query u. Histories 
+Form querying assigned All are no 
+Project: The Project you are looking for reature files. Choose between assigned projects. you want to search in all 
+grojeas, choose '-Select groject-• option. 
+• Narne: File neme reatures you are IOOking for. 
+• Author: Creator username fe atures 'Ou are 
+Begin Date: LOWer date renge are IOOkmg 
+• Ena Date: upper date ranqe ror features vou are look"ng for. 
+www.beeva.com 
+

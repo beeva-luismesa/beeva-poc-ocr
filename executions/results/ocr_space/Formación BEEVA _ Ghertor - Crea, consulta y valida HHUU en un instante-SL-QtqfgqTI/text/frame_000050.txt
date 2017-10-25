@@ -1,0 +1,27 @@
+Validate U. Histones 
+USER PROFILE 
+Sen d 
+USER MANUAL 
+Query feature files created with Ghertor. 
+Menu Option List 
+Main Menu 
+The application main menu. From here, you can acceSS the other opbons: Query User Histories, Create User Histories and 
+Validate Histories. Change Project and Send Suggesbon. 
+user histories 
+user suDmenu. This menu groups creation, va'4ation ana query tuncoons. 
+Query u. Histories 
+Query existim features created with Ghertor in past. 
+Create U.Histories 
+Create a thiS a 
+Validate u.Histories 
+Validate existing feature file edited in Other apphcations/editors. 
+user Profile 
+User Profile submenu. In this section. you can chanqe selected Project and send suggesbon ir you have. 
+Change project 
+Change user 
+Send suggestion 
+to Ghertor 
+User Manual 
+Link to this user manual 
+www.beeva.com 
+

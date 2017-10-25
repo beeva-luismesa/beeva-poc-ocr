@@ -1,0 +1,55 @@
+Welcome Back, demo
+Logout
+Ghertor
+Build Agile
+Your current project is demo project Change Project
+alidate Feature
+Rules engine:
+MAIN MIBuscar
+Usados recient...
+USER HISTORIES
+Query Veterior
+Create Ubisorie de arc...
+File to validate:
+Francisco
+Browne. No file selected.
+validate
+Vatican Pres
+CSISTEMA
+USER PROFRumentos
+Result:
+IdLine Text
+Description
+Change projecca
+Sends compares
+Videos
+935 when "BENITO " clicks on "LOG IN button Sintax Error: "when reserved word can only be followed by "And
+Examples, 'Scenario:' or 'scenario outline .
+USERM
+MALDAescargas
+10 36
+Given "BENITO views a form with
+Usuario" and "Contrasena" fields
+Sintax error when reserved word can only be followed by "And
+Then", "Scenario" or "Scenario outline"
+11 40 when "BENITO" clicks on "LOG IN" button Sintax Error: "When reserved word can only be followed by "And
+", "Examples: , 'Scenario or scenario outline.
+1241Given "BENITO" views a form with
+"Usuario" and "Contrasena fields
+Sintax error when reserved word can only be followed by "And
+Then", "scenario" or "scenario outline:
+1345 when "BENITO clicks on "LOG IN button Sinta Error when reserved word can only be followed by "And
+Examples: , "scenario" or "scenario outine.
+14 46Given "BENITOr views a form with
+"Usuario" and "Contrasena fields
+sinta Error when reserved word can only be followed by "And
+Then', "scenario" or "Scenario outline .
+15 so
+when "BENTOr clicks on "LOG IN button sinta Error when reserved word can only be followed by "And
+", "Examples", "scenario: " or "scenario outline
+16 Given "BENITO" views a form with
+Usuario and contrasena" fields
+Sintex Error: "when reserved word can only be followed by And
+Then, "scenario: " or "Scenario outline
+www.beeva.com
+

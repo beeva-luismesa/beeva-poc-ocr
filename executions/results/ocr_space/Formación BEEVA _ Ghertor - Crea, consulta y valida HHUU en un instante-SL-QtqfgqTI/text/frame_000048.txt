@@ -1,0 +1,25 @@
+• Query 
+With this runctjon, you can auery every reature file created With Gr•rtor. 
+Main Menu 
+The applicatjon main menu. From here, you can access the Other options: Query User Histories, Create User Histories and 
+Validate Histories. Change Project and Send SuggeStion. 
+user Histories 
+user submenu. This menu groups creation, vahdation and query functions. 
+Query u. Histories 
+Form for querying existinq feature raes ror Your assigned projects. All tiled are no ma 
+Project: The Project you are lookinq for feature files. Choose between assigned projects. If you wantto search in all 
+projects, choose '-Select project-• option. 
+• name YOL' are 'OOking fon 
+• Autnor: Creator username filter for features you are booking for. 
+Begin Date: Lower date range for features you are looking 
+• End Date: Upper date range ror features you are looking 
+Create U.Histories 
+Form 'or creabng a reature file. 
+This the 
+• The resulting Of feature. file is "ded 
+• Language: language in feature rile. Choose between Engush (EN) or Spanish (ES) 
+• C*scripbon; tkscripoon name of feature file. 
+• Tags: Ovtjcmal taos for running selected features with cucumber or other frameworks. 
+• Comments: Optional commentS for feature or user history_ 
+www.beeva.com 
+

@@ -1,4 +1,19 @@
-BBVA Ghenor/D&HJOIS
-La solución es Ghertor
+BBVA Ghenor / 0541720|5
+Necesidades
 
-Crea tus HHUUIfeatures en un tiempo récord
+Como POIBA necesito:
+
+.Un editor que me facilite crear HHUU/features en gherkin
+
+rápidamente.
+.Un buscador para las HHUU/features existentes, las cuales me
+
+puedan servir como referencia.
+
+ 
+ 
+ 
+
+'Que mis HHUU/features sean sintáctica y semánticamente
+
+correctas en primera instancia.

@@ -1,0 +1,61 @@
+Ghertor 
+Luqares 
+MAIN MQEuscar 
+O usados recient._ 
+USER HIST?RIES 
+Qum 10 
+create de art. 
+Val 
+SISTEMA 
+USER PROFO&umcntos 
+Sene s 
+USER MANIEsca r gas 
+Wellcome Back. demo 
+Validate Feature 
+Rules 
+File to 
+Result: 
+-Select enwne- 
+-BEN:ro" -LOG 
+button 
+Va Mate 
+Des p Oon 
+'Then•. 'Scen 
+Sinta. 
+Logo ut 
+word can fOJlOwedfby 'And 
+d can oniy 'And 
+ario:' or 'Scenario Outline:•. 
+De 'And 
+13 
+Line 
+36 
+40 
+SO 
+T ext 
+-Usuar 
+Given 
+"BEMTO" views farm 
+-usuario • ana -Contraseña" fie'Cs 
+"BENITO" clic" an *LOG IN 
+W hen 
+When 
+"dL,wuvo• on 
+Given 
+"BENITO" viens a form 
+and - Contraseña" 
+3 Next 
+Sintax Error: 
+• When• reserveC Word can cnly de by 'And 
+• , Then•, 'Scenar•o:• or • Scenano Outline:T 
+• When• reserved nord be fonov.ed'by 'And 
+• . 'Examo•es:•, • Scenzrü3:' or 'Scenano Out»ne:• 
+Sintax 
+d d o n'y be by 'And 
+or 'SCenariO Outline:• 
+reserved 
+• , 'SCenaria:• Or 'SCenario 
+'Wher,' reserved mard can only be 'And 
+Pre v 
+www.beeva.com 
+

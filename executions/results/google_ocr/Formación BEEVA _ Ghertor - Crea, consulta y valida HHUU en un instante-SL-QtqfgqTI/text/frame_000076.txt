@@ -1,0 +1,40 @@
+Welcome Back, demo
+Logout
+Ghertor
+Build Agile User Histories
+Your current project is demo-project Change Project
+Your last feature created is: new query_notification paco
+Feature description is correct Push "Save" button for download file to local directory
+MAIN MENU
+Preview Feature
+USER HISTORIES
+Project
+demo-project
+Query UHistories
+Create account new feature
+Create UHI
+Histories
+Content:
+validate U.Histories
+USER PROFILE
+language: en
+Sprint23
+Feature: Create account in Ghertor new
+Comment 1
+Comment 1
+Comment
+Background
+Given the following existing accounts
+username/password |
+I pacopepel
+Correct
+scenario: Create a new account with all valid data
+Given I try to sign in Ghertor using the following data
+Change project
+Send suggestion
+USER MANUAL
+Descargar
+Save
+Back
+www.beeva.com
+

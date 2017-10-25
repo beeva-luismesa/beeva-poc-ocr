@@ -1,0 +1,25 @@
+Welcome Back, demo
+Logout
+Ghertor
+Build Agile User Histories
+Your current project is demo-project Change Project
+Your last feature created is new auery notification pace
+validate Feature
+MAIN MENU
+Rules engine:
+DEMO-PROJECT
+USER HISTORIES
+File to validate:
+to
+No file selected
+Query U. Histories
+Create U Histories
+validate U.Histories
+validate
+USER PROFILE
+Result:
+Change project
+Send suggestion
+USER MANUAL
+www.beeva.com
+

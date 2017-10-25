@@ -1,0 +1,33 @@
+com meh
+Create U. Histories
+Filename:
+Validate U. Histories
+create account
+feature
+Language: OEs CEN
+USER PROFILE
+Change project
+Description: Create accounts in Ghertor
+Send suggestion
+Tags:
+Sprint
+USER MANUAL
+Comments: Comment 1
+Comment 2
+OPTIONAL
+rBackground
+oves
+Step 1: GIVEN WITH TABLE F the following existing accounts
+Data Table: I username I password
+I juanmillafriki!
+Step 2: GIVEN
+Description for Step 2 in Background
+Step 3: GIVEN
+Description for step in Background
+Step 4: GIVEN
+Description for Step 4 in Background
+scenario 1
+scenario: SIMPLE - Tags: Login, Ghertor
+Create a new account with all valid data
+www.beeva.com
+

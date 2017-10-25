@@ -1,8 +1,56 @@
-BBVA Ghenor / 054 172015
+BBVA Ghana/05492015
 Dificultades con Cucumber en OP
 
-Desde el punto de vista del Developer/QA (3/3):
+Desde el punto de vista del Developer/QA (2/3):
 
 .Las HHUU/features que tengo que implementar tienen Scenarios o
 
-Steps repetidos o similares a otros existentes.
+Steps poco legibles.
+
+t……,;s…¡ ..,u¡ —»€….;] n'… .»
+…… ”*
+
+ 
+
+…:,….. ,
+
+ 
+
+"HM—… ,… …,
+
+  
+  
+  
+
+.…M¿ ,, ,,
+
+ 
+  
+   
+
+fá,—-yf,'¡…,.….
+
+:...…r; ,..…' 1
+
+,...,- .…<x…,.…
+
+ 
+
+ 
+
+“]_3 w J…“;
+H …… ,w,…
+
+¡'.l _ ,
+-… .,;,….s ……,r…
+
+ 
+
+,»…
+
+ 
+ 
+
+ 
+
+% ,.1 un <¡',

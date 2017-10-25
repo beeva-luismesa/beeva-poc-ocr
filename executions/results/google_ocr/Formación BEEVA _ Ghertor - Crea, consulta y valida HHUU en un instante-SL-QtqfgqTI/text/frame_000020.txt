@@ -1,12 +1,9 @@
 BBVA
 Ghertor / 06-11-2015
 Consecuencias
-Para Todos
-— No estamos implantando la metodologia BDD con exito.
-BDD - Behaviour Driven Development
-Escribimos...Historias de Usuario
-"Cuando el usuario busque, sin fallos de Ortografia, el nombre
-de un producto presente en el inventario. Todos los productos
-con nombre similar deberán ser mostrados".
+Para IT
+– La ejecución de los tests consumen muchos recursos.
+A ®4 mi.
+OOOOOOOOO
 www.beeva.com
 

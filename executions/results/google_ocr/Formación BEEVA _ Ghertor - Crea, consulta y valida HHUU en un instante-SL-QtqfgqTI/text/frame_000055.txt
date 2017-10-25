@@ -1,0 +1,37 @@
+Welcome BacK, demo
+Log out
+Ghertor
+Build Agile User Histories
+Your current project is : demo-project Change Project
+Your last feature created is: new query notification paco
+Create Feature
+MAINMENU
+rComments:
+USER HISTORIES
+Filename:
+create account
+feature
+Query U.Histories
+Language: OEs CEN
+Create U. Histories
+Description: Create accounts in Ghertor
+Validate U. Histories
+Tags:
+Sprint
+USER PROFILE
+Change project
+Comments: Comment 1
+Comment a
+Send suggestion
+OPTIONAL
+USER MANUAL
+Background
+oves
+Step 1: GIVEN WITH TABLE - Description for step 1 in Background
+Data Table : Data table for step 1 in Background with format I field relia21.1 fieldNI
+Step 2: GIVEN
+Description for Step 2 in Background
+Step 3: GIVEN
+Description for Step 3 in Background
+www.beeva.com
+

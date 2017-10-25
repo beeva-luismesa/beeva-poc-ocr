@@ -1,6 +1,14 @@
-A https://docs.google.com/presentation/d/1FjpgwEBS3XXLTzz97RzcVol76lbVKWASXookXnc/presentslidemid.ge76921b46_1_49
-a
-DOOOO
-vokoscreen
+BBVA
+Ghertor / 06-11-2015
+Necesidades
+Como PO/BA necesito:
+•Una herramienta que me valide de primera mano mis
+HHUU/features antes de compartirlas con el resto del equipo.
+•Un editor que me ayude a construir HHUU/features más simples y
+either to start an incorrends come our
+mejor estructuradas.
+state as we were terrorities reputies
+•Un editor de gherkin que me recomiеnde como construir
+HHUU/features que no tengan elementos repetidos.
 www.beeva.com
 

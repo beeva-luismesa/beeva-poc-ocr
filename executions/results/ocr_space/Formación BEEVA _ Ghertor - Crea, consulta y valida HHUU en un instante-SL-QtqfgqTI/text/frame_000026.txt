@@ -1,6 +1,11 @@
 BBVA 
-La solución es Ghertor 
-Crea tus HHUU/features en un tiempo récord 
-Gl*rtor 
+Necesidades 
+Como POIBA necesito: 
+•Un editor que me facilite crear HHUU/features en gherkin 
+rápidamente. 
+'Un buscador para las HHUU/features existentes, las cuales me 
+puedan servir como referencia. 
+'Que mis HHUU/features sean sintáctica y semánticamente 
+correctas en primera instancia. 
 www.beeva.com 
 

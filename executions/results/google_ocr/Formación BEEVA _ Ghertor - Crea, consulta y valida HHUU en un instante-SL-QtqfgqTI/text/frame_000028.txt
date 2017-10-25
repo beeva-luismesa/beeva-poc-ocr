@@ -1,6 +1,13 @@
-A https://docs.google.com/presentation/d/1_Fjpgwebs3axXLTzz97RzcVJol76ibVKWASXBokoxnc/presentaslide id.ge76921b46_1_49
-per
-VAMS A VERLO
-id Dianne in an in
+BBVA
+Ghertor / 06-11-2015
+Necesidades
+Como PO/BA necesito:
+•Un editor que me facilite crear HHUU/features en gherkin
+rapidamente.
+•Un buscador para las HHUU/features existentes, las cuales me
+puedan servir como referencia.
+He was hauletres an artistica y searance
+•Que mis HHUU/features sean sintáctica y semanticamente
+correctas en primera instancia.
 www.beeva.com
 

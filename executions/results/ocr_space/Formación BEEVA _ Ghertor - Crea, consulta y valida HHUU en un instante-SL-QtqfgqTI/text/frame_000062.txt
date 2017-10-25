@@ -1,0 +1,24 @@
+scenario: SIMPLE 
+Taos: Login. Ghertor 
+Create a new account with all valid data 
+Step I: 
+Step 3: 
+Step 4: 
+Step S: 
+WHEN WITH TABLE 
+I t" to sign in Ghertor usina the followinq data: 
+I usemame I password I 
+I pedro I pedrito I 
+THEN 
+THEN 
+THEN 
+GWEN 
+the response mustbe • 201 • 
+the 
+the appbcation has 2 registered users 
+DescriDtton for Stev 5 •n Scenar") t 
+3 
+4 
+S«nario S 
+www.beeva.com 
+

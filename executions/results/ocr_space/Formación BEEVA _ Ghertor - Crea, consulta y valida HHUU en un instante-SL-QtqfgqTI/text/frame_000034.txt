@@ -1,15 +1,4 @@
-Abrir • Cuardar 
-create_dccount.tealure X 
-# language: en 
-@Sprtnt1 
-Feature: Create accounts Ghertor 
-Comnent 1 
-Coment 2 
-Background: 
-Given the following existinq accounts: 
-I usernane I password I 
-I juanmtlla I friki I 
-SCe 
-Navegador web Firefox 
+google.com 
+VAMOS A VERLO 
 www.beeva.com 
 

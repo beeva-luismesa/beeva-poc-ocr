@@ -1,34 +1,3 @@
-Ghertor 
-Build Agile User Histories 
-MAIN MENU 
-USER HISTORIES 
-Query U.Histori— 
-Create U .Histones 
-USER PROFILE 
-Change pro Éd 
-USER MANUAL 
-Wellcome Back. demo 
-Your current Project 's: demo-project Change Project 
-Your last teature created is: 
-Feature descripbon it's correct. Rush 'Save• button for download file to Icn:al directory 
-preview Feature 
-Logo ut 
-Content: 
-demo Ct 
-Cre ate_a CCOunt_ re 
-languaqe: en 
-'Sprintl 
-Create accounts in Ghertor 
-Comment 
-Comment 2 
-n the following existing accounts: 
-password I 
-I friki I 
-eLogin.@Ghertor 
-Scen ario: Create a a unt With a II V alid data 
-Wh"•. I try to Sign in G hertOr "Sing the data : 
-the response must • 201 • 
-And the user exi5t5 in 
-And the applicabon has 2 registered users 
-www.beeva.com 
+googlecom 
+www.beeva 
 

@@ -1,22 +1,4 @@
-• Guardar 
-create_account.teature X 
-tanguage: en 
-@Sprtnt1 
-Feature: Create accounts Ghertor 
-Comnent 1 
-Comnent 2 
-Background: 
-t>shacer 
-Given the following existinq accounts: 
-I usernane I password I 
-I juanmtlla I friki I 
-Scenarto: Create a new account wtth valid data 
-Hhen I try to sign tn Chertor using the followtng data: 
-I usernane I password I 
-I pedro I pedrito I 
-Then the response must be "201- 
-And the new user extsts tn database 
-And the appltcatton has 2 registered users 
+Kio 
+VAMOS A VERLO 
 www.beeva.com 
-1 
 

@@ -1,0 +1,20 @@
+Create syntactically and semantically well formed feature files right from the start. 
+With you can Create histories Syntactjcalty and formed. Through a you Can create 
+files from 1 5 scenarios. 
+Check i' existing feature files are syntactically and semantically correct. 
+With Can Check any feature and Semanticauy 
+Query feature files created with Ghertor. 
+With this runctjon. you can query every reature lile created with Ghertor. 
+Main Menu 
+The aoplication main menu. From here, you can access the Other opbons: Query user Histories, Create user Histories and 
+Validate User Histories. Change Project and Send Suggesbon. 
+user Histories 
+Histores Subrnenu. ThiS menu groups and query 
+Query u. Histories 
+Form feature aSSigned All are no 
+Project: The Project are IOOking assigned projecu. Want to in all 
+projects. choose '-Select project-• option. 
+• Neme; neme filter for features you are boking for 
+• Author: Creator filter for features VOu are for. 
+www.beeva.com 
+

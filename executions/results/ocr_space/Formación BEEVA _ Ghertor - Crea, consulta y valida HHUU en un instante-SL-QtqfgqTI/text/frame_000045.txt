@@ -1,0 +1,29 @@
+User Histones submenu. This menu groups creation, vaiidation and query tuncbons. 
+Query Histories 
+Form for querying existíng feature toes for Your assigned projects_ Ali tilea are no mandatories. 
+Project: The proyect yau are looking 'or reature mes. Choose between assigned projects. you want to search in all 
+prole•CtS. project•• option. 
+• Name: are 'OOking for_ 
+• Author: Creator 'entures y Ou are bOking 
+• Begin Date: Lower date range for reatures you are looking for. 
+• End Date: Upper date ranqe tor features you are looking 
+Create u.Histories 
+Form ror creating a reature file. 
+This have the fouowing fields: 
+• Filename: The resuRing mename o' feature The • .'eature' file extension is .dded automatically. 
+• Languaoe: languaqe in teature file. Cnoose between Engbsh (EN) or Spanish (ES) 
+Description: mame ot teature me. 
+• Taos; Optjonal taps tor running selected features with cucumber or other trameworks. 
+• Optional CommentS feature 
+• Background: Select if 'Our has not baaground steps. ChOOSe NO. 
+• Scenario 1: The tirst scenar•o for •o»ur teature file. Trus scenario ts mandatory for a vaha feature Me. Others are not 
+required. 
+• Scenario 2 to S: Others scenarns for reature file. Isn•t mandato". 
+• Step Step N. Mandatory ir 
+• Step 2 to S: OtherS Scenario N. Not 
+• Scenario combObO*: Scenario between Simple ScenariO (Without table data) (With 
+data). 
+• Step combobox: Step Choose between Given, When or Then Cwith or without table data). 
+Validate u.Histories 
+www.beeva.com 
+

@@ -1,0 +1,28 @@
+Main Menu 
+The appiicatio•n main meno. From here, you can access the omer options: Querv User Histories, Create User Histories and 
+Vaudate User Histories. Change Project and Send Suggestion. 
+user Histories 
+ThiS groups creation, and query 
+Query u. Histories 
+for querying exiStjng feature for aSSigned Al' are no 
+Project: The Project you are looking ror reature liles. Choose between assigned projects. you want to search in all 
+projects, c'wose '-Select project-• option. 
+• Neme: File are 
+• Author: fe atures are 
+Begin Date: date range are iOOking 
+• Ena Date: upper date ranqe ror features you are looking roe 
+Create u .Hist0ries 
+Form a file. 
+This runction have the ronowing nelds: 
+• filename: The resultjng mename of feature. The .feature' file extension is added automatically. 
+• in feature file. ChOOSe betW•een (EN) SpaniSh (ES) 
+Ckscripbon: C»scription name of feature Me. 
+• Taos: Optjonal taos tor runninq selected features with cucumber or other trameworks. 
+• Cornments: Ootional comments for feature or user history. 
+• Background: Select if your feature file has not background stens. ChOOSe between Yes or No. 
+• ScenariO I: The feature ThiS SCenariO mandatory a feature Others are 
+reguired_ 
+• Scenario 2 to S: Others scenaros for feature file. Isnt mandatory. 
+• Steo I; The 'irst steo for Background or Scenario Mandatorv In Scenario or Backgmund it needed_ 
+www.beeva.com 
+

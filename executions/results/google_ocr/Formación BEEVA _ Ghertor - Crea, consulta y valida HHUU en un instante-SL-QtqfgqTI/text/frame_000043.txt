@@ -1,0 +1,18 @@
+User Profile
+User Profile submenu, in this section, you can change selected project and send suggestion if you have .
+Change project
+Change user default project.
+Send suggestion
+Send suggestions to Ghertor Development Team.
+User Manual
+Link to this user manual.
+What can I do with Ghertor?
+* Create syntactically and semantically well formed feature files nght from the start.
+With this feature, you can create user histories syntactically and semantically well formed. Through a form you can create
+feature files from 1 to 5 scenarios.
+Check if existing feature files are syntactically and semantically correct.
+With this function, you can check if any existing feature file is syntactically and semantically correct
+Query feature files created with Ghertor.
+with this function, you can query every feature file created with Ghertor
+www.beeva.com
+

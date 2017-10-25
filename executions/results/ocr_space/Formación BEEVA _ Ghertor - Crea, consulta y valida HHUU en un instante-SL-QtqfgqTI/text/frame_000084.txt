@@ -1,0 +1,63 @@
+Ghertor 
+Build Agile User Histories 
+MAIN MENU 
+USER HISTORIES 
+Query U. Histori— 
+Create U Misto rim 
+Val 
+USER PROFILE 
+Change 
+Send suggestion 
+USER MANUAL 
+Wellcome Back, demo 
+Your current Project 's: demo-project Change Proj«t 
+Your last teature created is: 
+Logo ut 
+Validate Feature 
+Rules engine: 
+-Select engine- 
+h'e to validate: 
+create _a ccou ature 
+Result: 
+10 
+12 
+16 
+Une 
+35 
+36 
+40 
+41 
+45 
+46 
+51 
+T ext 
+When "BENITO" on "LOG but-ton 
+Given "BENITO" viewS a form with 
+•tJsuario• and -Contraseña" fields 
+When "BENITO" clic" on *LOG button 
+Given "BENITO" views a torm with 
+-Usuario* and *Contraseña" fields 
+When "BENITO' on "LOG button 
+Given "BENITO* viewS a form with 
+and • Contraseña" 
+When "BENITO* clicks on *LOG button 
+Given "BENITO" a form with 
+and •COntrasena" neldS 
+Error; 'When' Word Can be by 'And 
+• . 'Scenario 
+Error; 'When' reserued Word Can be by 'And 
+. Then'. 'Scenario:' or 'Scenario Outtine:'. 
+Sintax Error: 'When• reserued word can only be ronowed by 'And 
+'ExamNes:', 'Scenario:• or 'Scenario Outline:•. 
+Sintax Error: • When' reserved Word can only be tollowed by 'And 
+Then•. 'Scenario:• or 'Scenario Outline:•. 
+Sintax Error: 'When• reserved Word can only De roliowed by 'And 
+, 'Examp'es:•, 'Scenario:• or 'Senario Ourine:'. 
+Sintax Error: •When• Word can be by 'And 
+'Then'. • Scenario:• 'ScenariO 
+Sintax Error : 'When' can 
+'SCenariO•,• 'Scenario 
+Sintax Emor: 'When• resen'ed Word can only be rollowed by 'And 
+• . 'SCenariO;• or • Scenario 
+www.beeva.com 
+

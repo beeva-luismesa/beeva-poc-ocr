@@ -1,0 +1,30 @@
+USER PROFILE 
+pro 
+Send sugg—tion 
+USER MANUAL 
+Language : 
+'yes 
+Create accounts in Ghertor 
+Comment I 
+Co mment 2 
+Step I: GWEN WITH TABLE " thefollowinq existinq accounts: 
+rabie: I username password I 
+I juanmilla I friki I 
+2 •n Back;rourhd 
+for Stev 3 
+Step 3: 
+Step 4: 
+Scenario : 
+GWEN 
+GWEN 
+GWEN 
+SIMPLE 
+Taos: Login, Ghertor 
+n Backgro•.lnd 
+Create a new account with all valid data 
+try to sign in Ghertor usinq the tollowinq data: 
+Step 1: WHEN WITH TABLE 
+Data Table ; 
+I usernsme I O&ssword 
+www.beeva.com 
+

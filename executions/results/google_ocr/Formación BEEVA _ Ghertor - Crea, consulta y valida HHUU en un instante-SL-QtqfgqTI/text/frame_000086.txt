@@ -1,0 +1,36 @@
+o would you like to remember the password for
+"demo on http://54.229.83.213:8080?
+Back, demo
+Logout
+ent project is demo-project Change Project
+Remember Password
+Sature created is: new query_notification paco
+Welcome to Ghertor, an application for create, validate and query User Histories
+MAINMENU
+Use right hand menu for navigate between available application functions. On next description table, you can see a short
+description of every option:
+USER HISTORIES
+Available tions:
+Query Histories
+User histories
+Query, create and validate Gherkin written Users Histories
+Create U. Histori
+Query UHistories
+Query User Histories grouped in features
+validate U.Histories
+Create U.Histories
+Crete a new User Histories feature using integrated tool
+Validate U.Histories
+Validate a User Histories feature file
+USER PROFILE
+User Profile
+Change Project and send suggestions to Ghertor Dev Team
+Change project
+Change project
+Change default project
+Send suggestion
+Send suggestion
+Write and send suggestions for improving Ghertor)
+USER MANUAL
+www.beeva.com
+

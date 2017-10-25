@@ -1,0 +1,39 @@
+Ghertor 
+Build Agile User Histories 
+MAIN MENU 
+USER HISTORIES 
+Create 
+Validate U.Hi•torie• 
+USER PROFILE 
+Change 
+Sen d 
+USER MANUAL 
+Wenc.ome Back, demo 
+Your current project iS: demo•project Chang. propa 
+Your last reature created new_querv 
+Create Feature 
+Commetts: 
+La nguage 
+Comments: 
+ro und 
+'yes 
+C re ate _ acco unt_new 
+OES 'EN 
+Create account in Ghertor new 
+Sprint23 
+Comment I 
+Comment I 
+Step 1: GWEN 
+'teps; 
+Type 
+gtv wttn_ta ble 
+Step 2: GWEN 
+www.beeva.com 
+the following 
+puo n 
+I try to in Ghertor usina me rollowmg 
+the followmg enstanq accounts: 
+the 
+the new user exists in database 
+the appucation has 2 registered users 
+

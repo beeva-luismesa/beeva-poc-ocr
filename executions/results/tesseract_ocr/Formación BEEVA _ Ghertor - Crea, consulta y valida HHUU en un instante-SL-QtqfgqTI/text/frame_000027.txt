@@ -1,1 +1,14 @@
-VAMOS A VERLO
+BBVA Ghenor / D&Hr?0|5
+Necesidades
+
+Como POIBA necesito:
+
+¡Una herramienta que me valide de primera mano mis
+HHUU/features antes de compartirlas con el resto del equipo.
+
+.Un editor que me ayude a construir HHUU/features más simples y
+mejor estructuradas.
+
+.Un editor de gherkin que me recomiende cómo construir
+
+HHUU/features que no tengan elementos repetidos.

@@ -1,0 +1,33 @@
+C/ Ghertor 
+Build Agile User Histories 
+MAIN MENU 
+USER HISTORIES 
+U -Histori— 
+Validate U.Hi•tori•— 
+USER PROFILE 
+Change 
+USER MANUAL 
+Wencome Back, demo 
+Your Current prolect is: demo-project Change Propct 
+Your created 
+What•s Ghertor? 
+Ghertor is a web apolicabon ror creatjnq emcient and valid User Stories typed with Gherkjn and proped in features. 
+With Ghertor you Can do; 
+Create syntactically and semantically well formed feature files right from the start. 
+Check if existing feature files are syntactically and semantically correct. 
+Query feature files created with Ghertor. 
+Menu Option List 
+Main Menu 
+The application main meno. From here, you can access the Other Querv user Histories, Create user Histories 
+Validate user Histories, Cnanqe Project and Send Suggesoon. 
+user histories 
+Histories Submenu. ThiS menu grouPS Creation, and 
+Query u. Histories 
+Query existing features created with Ghertor in past. 
+Create U.Histories 
+Creare a new feature with this tuncbon using a wizard. 
+Validate u.Histories 
+Vabdate feature file edited 
+www.beeva.com 
+Other 
+

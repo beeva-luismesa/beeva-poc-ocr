@@ -1,0 +1,26 @@
+Validate U.Histones 
+USER 
+pro 
+USER MANUAL 
+Menu Option List 
+Main Menu 
+The aoplicatjon main menu. From here, you can access the Other options: Query User Histories, Create User Histories and 
+Validate User Histories, Chanqe Project and Send Suggestion. 
+user histories 
+Histories ThiS groups creation, and functions. 
+Query u. Histories 
+Query existing reatures created with Ghertor in past. 
+Create u.Histories 
+Create a new feature with this runcbon using a *izard. 
+Validate u.Histories 
+edited in Other 
+user profile 
+user Profile submenu. In this section. you can chanqe selected Project and send sugqesbon you have. 
+Change project 
+Change default project. 
+Send suggestion 
+Send to Ghertor Team. 
+user Manual 
+Link to this user marwal. 
+www.beeva.com 
+

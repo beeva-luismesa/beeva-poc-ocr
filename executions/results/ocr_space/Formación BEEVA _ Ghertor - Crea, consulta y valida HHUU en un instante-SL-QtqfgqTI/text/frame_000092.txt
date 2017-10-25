@@ -1,0 +1,29 @@
+V&bdate Histories, Change Project and Send Suggesbon. 
+user Histories 
+User Histories submenu. This menu groupS creation, validation and query runctions. 
+Query u. Histories 
+Form for queryinq existing reature mes for an your assigned projects. All filed are no mandatories. 
+Project: are IOOking files. aSSigned projec•ts. Want to Search all 
+projeCtS, ChOO•Se '-Select 
+• Name: File name ruter 'or reatures you are looking for. 
+• Author: Creator username rilter ror features you are 
+• Begin Date: date range features are 
+• End Date: upper date features yOu are 100king 
+Create .Histories 
+Creating a file. 
+This hove the fO"OWing 
+• Filename: The resultjng mename of feature. The • .feature• file extension is added automatically. 
+• Lanquaqe: Default language in feature file. Choose benveen English (EN) or Spanish (ES) 
+• ruame feature 
+• Tags: Optional taos for runrung selected features with cucumber or Other trameworks. 
+• Comments: Optional comments for teature or user history. 
+Background: Select it your teature file nas or not background steps. Choose between Yes or No. 
+• Scenario I: The nrst scenar'o 'or your reature rile. This scenario is mandatory ror a vatíd reature file. Others are not 
+• Scenario 2 to S: scenarios mandatory. 
+• Step 1 The first Step Background Scenario N. in Scenario ir 
+• Step 2 to 5: Others Steps Scenario N. Not required. 
+• Scenario combobox: Scenario Choose between Simple Scenario (without table data) or Scenario Outline (with table 
+data). 
+• Step Step type. ChOOSe between Given, When Then (With withOut data). 
+www.beeva.com 
+

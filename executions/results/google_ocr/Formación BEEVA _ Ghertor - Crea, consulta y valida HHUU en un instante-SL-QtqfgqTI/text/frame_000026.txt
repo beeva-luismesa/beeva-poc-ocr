@@ -1,26 +1,12 @@
 BBVA
 Ghertor / 06-11-2015
-La Solución es Ghertor
-Crea tus HHUU/features en un tiempo record
-Legal
-Gherton
-told Agile the intimacies
-Create feature
-MAIN SEN
-USER HISTORIES
-among mention
-oney eateries
-validate at least
-Quarry nature by weather
-Sprimea, Sweetention
-USER PROFILE
-As enerated over Penn and Tannerwith developer of the
-the area as I receive more mature treat
-USER ANAL
-seen in seven wins and if the tenant
-Eating steps
-1 seasons
-In a lanes
-She 2 Ge
+Necesidades
+Como PO/BA necesito:
+•Un editor que me facilite crear HHUU/features en gherkin
+rapidamente.
+•Un buscador para las HHUU/features existentes, las cuales me
+puedan servir como referencia.
+•Que mis HHUU/features sean sintáctica y semanticamente
+correctas en primera instancia.
 www.beeva.com
 

@@ -1,0 +1,28 @@
+- Background
+oves
+Step 1: GIVEN WITH TABLE
+the following existing accounts
+Data Table : I password I
+username
+1 Juanmia trial
+Step 2: GIVEN
+Description for Step 2 in Background
+Step 3: GIVEN
+Description for Step 3 in Background
+Step 4: GIVEN
+Description for Step 4 in Background
+Scenario 1
+oves
+ONO
+Scenario: SIMPLE
+Tags: Login, Ghertor
+Create a new account with all valid data
+Step 1: WHEN WITH TABLE I I try to sign in Ghertor using the following data :
+Data : I username I password
+Table I pedro I pedrito
+Step 2: THEN
+- the response must be "201"
+Step 3: THEN
+- the new user exists in database
+www.beeva.com
+

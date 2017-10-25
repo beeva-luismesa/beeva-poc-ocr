@@ -1,0 +1,37 @@
+USER HISTORIES
+Filename:
+a
+Filename for resulting feature
+feature
+Query U.Histories
+Language: OEs CEN
+Create U.Histories
+Description: Description name of the feature, Eg: Feature: Query users)
+a
+validate U. Histories
+Tags:
+Optional tags for feature
+USER PROFILE
+Comments: Description comments for the feature
+Change project
+Send suggestion
+OPTIONAL
+USER MANUAL
+Background
+Yes
+Step 1: GIVEN WITH TABLE - Description for Step 1 in Background
+Data Table: Data table for Step 1 in Background with format field | field in Ireland |
+Step 2: GIVEN
+Description for step 2 in Background
+Step 3: GIVEN
+Description for step 3 in Background
+Step 4: GIVEN
+Description for Step 4 in Background
+rScenario 1
+Yes
+ono
+rScenario 2
+Yes
+ONO
+www.beeva.com
+

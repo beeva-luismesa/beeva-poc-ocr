@@ -1,9 +1,8 @@
 BBVA
 Ghertor / 06-11-2015
 Consecuencias
-Para IT
-– La ejecución de los tests consumen muchos recursos.
-A ®4 mi.
-OOOOOOOOO
+Para QA
+No se contemplan todos los Scenarios, y los tests no funcionan
+bien.
 www.beeva.com
 

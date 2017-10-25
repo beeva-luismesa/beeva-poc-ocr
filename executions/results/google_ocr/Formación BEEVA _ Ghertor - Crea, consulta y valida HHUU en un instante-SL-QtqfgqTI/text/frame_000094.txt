@@ -1,0 +1,17 @@
+A User Manual
+Link to this user manual
+What can I do with Ghertor?
+Create syntactically and semantically well formed feature files right from the start.
+With this feature, you can create user histories syntactically and semantically well formed. Through a form you can create
+feature files from 1 to 5 scenarios.
+Check if existing feature files are syntactically and semantically correct.
+With this function, you can check if any existing feature file is syntactically and semantically correct.
+V Query feature files created with Ghertor.
+With this function, you can query every feature file created with Ghertor
+Main Menu
+The application main menu. From here, you can access the other options: Query User Histories, Create User Histories and
+Validate User Histories, Change Project and send suggestion.
+User Histories
+User Histories submenu. This menu groups creation, Validation and query functions,
+www.beeva.com
+

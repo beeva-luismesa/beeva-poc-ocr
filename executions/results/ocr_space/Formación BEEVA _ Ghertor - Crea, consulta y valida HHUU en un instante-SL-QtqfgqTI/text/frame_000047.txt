@@ -1,0 +1,32 @@
+Form for querying existing feature mes for au your assigned project5. All filed are no mandatories. 
+Project: The Project are IOOking aSSigned projeCtS. Want Search in 
+grojeas, choose '-Select project-• option. 
+• Name: Ele name litter for reatures you are looking for. 
+• Author: Creator username filter for features you are booking 
+• Begin date range are IOOking 
+• End Date: date range features are 100king 
+Create U.Histories 
+Form for creating a teature file. 
+ThiS have fO"OWing 
+• Filename: The resulting mename feature. The file extension is added automatically. 
+• Language: language in feature file. ChoOse (EN) or Spani5h (ES) 
+• na me Of feature me _ 
+• Optional running Selected With Other 
+• Comments: Optional comments for teature or user history. 
+• Backqround: Select if your feature file has or not background steps. Choose between Yes or No. 
+• Scenario I: The first scenario for your feature file. This scenario is mandato" for a valid feature file. Others are not 
+required. 
+• Scenario 2 to S: reature file. mandatory. 
+• Step I: The first Step tor Background cr Scenario N. Mandatcry 'n Scenario I or Back.round it needed. 
+• Step 2 to S: Others stegs for Background or Scenario N. Not required. 
+• Scenario combobox: Scenario Choose between Simple Scenario (without table data) or Scenario Outline (with table 
+data). 
+• Step Step ChOOSe Given, When Then (With Without data). 
+validate U.Histories 
+validate typed with OtherS editors. ThiS Check 
+correct or not_ your Project have a predefined rules you can check f your feature is semantically valid for 
+• Rules engine: Select the Project rules ror seeing ir your reature me is semantically val" or not. you Select default 
+value engine•). you only are checking your feature file syntactically. 
+• file validate: yOur local repository and select file to Check_ 
+www.beeva.com 
+

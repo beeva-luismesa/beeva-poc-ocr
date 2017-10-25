@@ -1,0 +1,19 @@
+Query existing reatures created with Ghertor in past. 
+Create u.Histories 
+Create a new teature *'th mis functbn using a "izard. 
+Validate U.Histories 
+Vahdate existinq 'enture file editea in Other apphcationved'tors. 
+user Profile 
+User Prome submenu. In this secbon. yau can change selected pro)ect and send suggesbon i' you have. 
+Change project 
+Send suggestion 
+Send to Ghertor Team. 
+user Manual 
+Link to this user manual. 
+What can I do with Ghertor? 
+Create syntactically and semantically well formed feature files right from the start. 
+With this reature, you can create user histories syntacti•cany and semantically wen rormed. Through a form you can create 
+files from I S 'Cenar iOS. 
+Check if existing feature files are syntactically and semantically correct. 
+www.beeva.com 
+

@@ -1,0 +1,33 @@
+Change project
+Comments: Comment 1
+Comment 1
+Comment 1
+Send suggestion
+OPTIONAL
+USER MANUAL
+rBackground
+Step 1: GIVEN WITH TABLE
+the following existing accounts
+Data Table : I sername I password
+Iceless!
+Step 2: GIVEN
+Description for Step 2 in Background
+Step 3: GIVEN
+Description for Step 3 in Background
+Step 4: GIVEN
+Description for Step 4 in Background
+Scenario 1
+oves
+ON
+Scenario: SIMPLE E Tags: Correct
+Create a new account with all valid data
+Step 1: GIVEN
+I try to sign in Ghertor using the following data
+Step 2: GIVEN
+Description for Step 2 in scenario 1
+Step 3: GIVEN
+Description for Step 3 in Scenario 1
+Step 4: GIVEN
+Description for Step 4 in scenario 1
+www.beeva.com
+

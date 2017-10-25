@@ -1,0 +1,19 @@
+Abrier
+Guardar
+Deshacer
+create account.feature
+• language : en
+esprint
+Feature: Create accounts in Ghertor
+Comment 1
+comment 2
+Background:
+Given the following existing accounts:
+I username password I
+juannilla 'friki !
+QLog
+Sce
+CEO a
+Navegador web Firefox
+www.beeva.com
+

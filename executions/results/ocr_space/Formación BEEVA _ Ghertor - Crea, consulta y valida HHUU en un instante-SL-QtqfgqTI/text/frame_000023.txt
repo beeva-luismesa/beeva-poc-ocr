@@ -1,6 +1,12 @@
+1 
 BBVA 
 Consecuencias 
-'Pensemos un poco... 
+De forma resumida: 
+'Nadie está contento con el procedimiento actual. 
+QA, IT ni Dirección. 
+'¿Cómo se puede solucionar? 
 www.beeva.com 
-Ghertor 06-11-2015 
+Ghertor / 06-11-2015 
+Ni po, BA, DEV 
+'rea 
 

@@ -1,0 +1,23 @@
+Ghertor 
+Build Agile User Histories 
+MAIN MENU 
+USER HISTORIES 
+Query U.Histories 
+Create 
+USER PROFILE 
+Change pro Éd 
+Send suggestion 
+USER MANUAL 
+Wellcome Back, demo 
+Your current Project is: demo-project Change Proj«t 
+Your last teature created is: 
+Logo ut 
+Validate Feature 
+Rules engine: 
+h'e to validate; 
+Result: 
+DEMO-PROJECT 
+BBV A_ Connect. ature 
+Vauate 
+www.beeva.com 
+

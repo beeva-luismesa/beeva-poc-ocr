@@ -1,8 +1,7 @@
 BBVA
 Ghertor / 06-11-2015
 Dificultades con Cucumber en OP
-Desde el punto de vista del POIBA (214):
-oNo tengo un mecanismo comodo para consultar las HHUU/features
-existen tes.
+Desde el punto de vista del POIBA (114):
+•Me resulta complejo escribir HHUU/features en gherkin.
 www.beeva.com
 

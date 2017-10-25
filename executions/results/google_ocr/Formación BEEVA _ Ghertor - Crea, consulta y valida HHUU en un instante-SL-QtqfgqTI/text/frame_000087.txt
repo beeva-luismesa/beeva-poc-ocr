@@ -1,0 +1,25 @@
+Query feature files created with Ghertor.
+With this function, you can query every feature file created with Ghertor.
+Main Menu
+The application main menu. From here, you can access the other options: Query User Histories, create User Histories and
+validate User Histories, Change Project and send suggestion.
+* User Histories
+User Histories submenu. This menu groups creation, validation and query functions.
+Query U.Histories
+Form for querying existing feature files for all your assigned projects. All filed are no mandatories.
+Project: The project you are looking for feature files. Choose between assigned projects. If you want to search in all
+projects, choose select project option.
+Name: File name filter for features you are looking for
+Author: Creator username filter for features you are looking for
+• Begin Date: Lower date range for features you are looking for
+• End Date: Upper date range for features you are looking for
+A Create U.Histories
+Form for creating a feature file.
+This function have the following fields:
+Filename: The resulting filename of feature. The feature file extension is added automatically.
+Language: Default language in feature file. Choose between English (EN ) or Spanish (ES)
+• Description: Description name of feature file.
+Tags: Optional tags for running selected features with cucumber or other frameworks,
+• Comments: optional comments for feature or user history
+www.beeva.com
+

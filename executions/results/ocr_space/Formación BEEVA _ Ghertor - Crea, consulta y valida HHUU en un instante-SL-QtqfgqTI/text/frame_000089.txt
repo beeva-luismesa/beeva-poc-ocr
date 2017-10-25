@@ -1,0 +1,25 @@
+• Step combobox: 
+Step type. Choose between Given, When or Then (with or without table data). 
+validate u.Histories 
+ut"ty for validate existing feature riles typed w•ith others editors. This funcbon check i' your feature nie is syntactically 
+correct or not- your Project have a predefined rules engine, You can check your feature is semantically valid for 
+selected engine. 
+• Rules Select the Project rules ror Seeing ir SemantÉally or you default 
+value engine•). you only are Checking feature file syntacticalty. 
+• validate; yOur repository and file to Cher*. 
+• Result: List sintax and semantic errors in your selected feature me. 
+User Profile 
+profile In thiS Can Change project and Send SuggeSbon 
+Chan* Project 
+Change user default Project. 
+• With this tunctjon You can Change the Project feature files w•ith Histories are being created. 
+• Current Project; The projeCt where you are creatin9 feature files. This Your Current projeCt. 
+• Change Project: The project yOu want to 
+Send Suggestion 
+Send SuggE•StionS there SOrnething yau Or Our Team ; ) 
+• Titie: Tine ot suqaesbon. Mandatory. 
+• Funcbonaliry: The place *here you round the error or anything happens. 
+• A short description of your sugqestion. It•5 mandatory. 
+User Manual 
+www.beeva.com 
+

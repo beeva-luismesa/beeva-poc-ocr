@@ -1,0 +1,29 @@
+Step 3: 
+Step 4: 
+GWEN 
+Step 
+'Yes 
+Scenaao: 
+Tags: Login, Ghertor 
+SIMPLE 
+Create a new account with an valid data 
+t try to sign in Ghertor usinq the following data: 
+Step 1: WHEN WITH TABLE 
+Data Table: 
+I username I password 1 
+I pedro I pedrito I 
+Step 2: 
+Step 3: 
+Step 4: 
+THEN 
+THEN 
+THEN 
+GWEN 
+the response 
+the egiStS in database 
+the appbcation has 2 registered users 
+Oesenotcn Steo 'n Scem•rvc I 
+Scenario 2 
+Sanarlo 4 
+www.beeva.com 
+

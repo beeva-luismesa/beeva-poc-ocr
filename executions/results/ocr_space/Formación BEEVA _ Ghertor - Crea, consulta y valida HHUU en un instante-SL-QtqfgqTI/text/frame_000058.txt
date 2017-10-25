@@ -1,0 +1,28 @@
+l/ Ghertor 
+Build Agile User Histories 
+MAIN MENU 
+USER HISTORIES 
+Query U. Histori— 
+Create U 
+USER PROFILE 
+Change pro Éd 
+Send suggestion 
+USER MANUAL 
+Wencome Back, demo 
+Your current Project is: demo-project Change ProÉct 
+Your Last teature created is : new_query _ notificabon_paco 
+Sintax emar in fearure definitjon 
+intax Error; •When' reserved word can onlv be followed by 'And • . 'Then•, 'Scenario:' 
+Create Feature 
+or Scenario Outline:•. 
+Filena me: 
+Language : 
+Comments: 
+Yes 
+2 
+create account 
+Create accounts in Ghertor 
+Sprintl 
+Comment 2 
+www.beeva.com 
+

@@ -1,0 +1,48 @@
+Wellcome Back, demo
+Logout
+Ghertor
+Build Agile User Histories
+Your current project is: demo-project Change Project
+Your last feature created is: new_query_notification paco
+Create Feature
+MAIN MENU
+Comments:
+USER HISTORIES
+Filename:
+create_account new
+feature
+Query U.Histories
+Language: Oes OEN
+Create U.Histories
+Description: Create account in Ghertor new
+Validate UH Histories
+Sprint23
+OPTIONAL
+USER PROFILE
+Change project
+Comments: Comment 1
+Comment 1
+Comment 1
+Send suggestion
+OPTIONAL
+USER MANUAL
+Background
+Step 1: GIVEN
+- the following
+Existing steps:
+Type
+Description
+when with_table
+I try to sign in Ghertor using the following data :
+give with table
+the following existing accounts:
+then
+the response must be "201
+then
+the new user exists in database
+then
+the application has 2 registered users
+Step 2: GIVEN
+Description for Step 2 in Background
+www.beeva.com
+

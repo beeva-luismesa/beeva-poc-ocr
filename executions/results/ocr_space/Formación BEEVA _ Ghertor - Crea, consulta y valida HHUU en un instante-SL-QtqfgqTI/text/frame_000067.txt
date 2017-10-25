@@ -1,0 +1,33 @@
+Ghertor 
+Build Agile User Histories 
+Wellcome Back, demo 
+Your current Project 's: demo-project Change Proj«t 
+Your last teature created is: 
+Logo ut 
+MAIN MENU 
+USER HISTORIES 
+Query U.Histori— 
+Create 
+USER PROFILE 
+Change 
+Send suggestion 
+USER MANUAL 
+Feature descripbon it's correct. Push 'Save• button for download file to local directory 
+preview Feature 
+-proje Ct 
+Cre ate_a CCOunt_ re 
+Content: 
+'Sprintl 
+Future: Create accounts in Ghertor 
+Comment 
+Comment 2 
+n the Tollowinç existing •ccounts: 
+I friki I 
+OLogin.@Ghertor 
+: Create a Valid data 
+Whm•. I try to in the following data : 
+Then the response must -201 • 
+And the user in 
+And the applicabon has 2 registered users 
+www.beeva.com 
+

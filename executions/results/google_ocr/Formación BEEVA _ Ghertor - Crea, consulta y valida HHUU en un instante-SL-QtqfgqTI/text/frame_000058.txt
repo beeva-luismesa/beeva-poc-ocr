@@ -1,0 +1,37 @@
+welcome Back, demo
+Logout
+Ghertor
+Build Agile User Histories
+Your current project is : demo-project Change Project
+Your last feature created is: new query _notification paco
+O intax error in feature definition
+MAIN MENU
+intax Errorwhen reserved word can only be followed by "And Then', "scenario:' or 'Scenario outline".
+USER HISTORIES
+Create Feature
+Query UHistories
+Comments:
+Create UHI
+Histories
+Filename:
+validate U.Histories
+create account
+feature
+Language: OEs OEN
+USER PROFILE
+Change project
+Description: Create accounts in Ghertor
+Send suggestion
+Tags:
+Sprint
+USER MANUAL
+Comments: Comment 1
+Comment 2
+OPTIONAL
+Background
+No
+rScenario 1
+Scenario 2
+No
+www.beeva.com
+

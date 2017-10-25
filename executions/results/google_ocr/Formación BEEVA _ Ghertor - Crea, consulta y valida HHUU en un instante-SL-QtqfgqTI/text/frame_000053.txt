@@ -1,0 +1,38 @@
+Query U.Histories
+Language: Oes EN
+Create U.Histories
+Description: Description name of the feature. Eg: Feature: Query users)
+Validate UHI
+Histories
+Tags:
+Optional tags for feature
+OPTIONAL
+USER PROFILE
+Comments: Description comments for the feature
+Change project
+Send suggestion
+OPTIONAL
+USER MANUAL
+Background
+oves
+ONO
+Step 1 : GIVEN
+Description for Step 1 in Background
+Step 2: GIVEN
+Description for Step 2 in Background
+Step 3: GIVEN
+- Description for Step 3 in Background
+Step 4: GIVEN
+Description for Step 4 in Background
+scenario 1
+No
+scenario 2
+Yes
+No
+Scenario 3
+Yes
+No
+Scenario 4
+scenario
+www.beeva.com
+

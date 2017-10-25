@@ -1,0 +1,33 @@
+Ghertor 
+Build Agile User Histories 
+MAIN MENU 
+USER HISTORIES 
+Query U.Histori— 
+Create 
+USER PROFILE 
+Change 
+Send suggestion 
+USER MANUAL 
+Wellcome Back, demo 
+Your current Project 's: demo-project Change Pmj«t 
+Your last feature created is: 
+Feature descripbon it's correa Rush 'Save• butron for download file to local directory 
+preview Feature 
+Logo ut 
+Content: 
+-proje Ct 
+Cre ate_a CCOunt_ re 
+languaqe: en 
+'Sprintl 
+Create accounts in Ghertor 
+Comment 
+Comment 2 
+the following existing accounts: 
+— Login,OGhertor 
+Scenario: Create a With Valid data 
+Whe•. I try in G hertnr using the data : 
+response must • 201 • 
+And the new user in database 
+And the applicabon has 2 registered users 
+www.beeva.com 
+

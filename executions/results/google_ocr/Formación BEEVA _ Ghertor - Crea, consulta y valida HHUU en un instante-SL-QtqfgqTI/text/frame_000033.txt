@@ -1,22 +1,5 @@
-PR Abrir R Guardar BDeshacer Aa
-in a 27
-I create account.feature X
-* language: en
-esprint
-Feature: Create accounts in Ghertor
-Comment 1
-Comment 2
-Background:
-Given the following existing accounts:
-I usernane password I
-I juanmilla 'friki I
-QLogin, CGhertor
-Scenarto: Create a new account with a valid data
-When I try to sign in Ghertor using the following data:
-I Username I password I
-I pedro Pedrito I
-Then the response must be "201 "
-And the new user exists in database
-And the application has 2 registered users
+VAMOS A VERLO
+a
+Dia in an I
 www.beeva.com
 

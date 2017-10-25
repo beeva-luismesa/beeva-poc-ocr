@@ -1,9 +1,8 @@
-BBVA Ghenor / 0571172015
+BBVA Ghenor ¡ 0541720|5
 Consecuencias
 
-De forma resumida:
+Para Todos
 
-¡Nadie está contento con el procedimiento actual. Ni PO, BA, DEV,
-QA, IT ni Dirección.
+a No tenemos un patrón definido a la hora de construir las
 
-o¿Cómo se puede solucionar?
+HHUU/features de cada proyecto

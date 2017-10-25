@@ -1,0 +1,20 @@
+Check if existing feature files are syntactically and semantically correct.
+With this function, you can check if any existing feature file is syntactically and semantically correct.
+Query feature files created with Ghertor.
+with this function, you can query every feature file created with Ghertor.
+Main Menu
+The application main menu. From here, you can access the other options: Query User Histories, Create User Histories and
+Validate User Histories, Change Project and send suggestion.
+User Histories
+User Histories submenu. This menu groups creation, validation and query functions.
+A Query U.Histories
+Form for querying existing feature files for all your assigned projects. All filed are no mandatories.
+Project: The project you are looking for feature files. Choose between assigned projects. If you want to search in all
+projects, choose -Select project-option.
+• Name: File name filter for features you are looking for.
+• Author: Creator username filter for features you are looking for.
+Begin Date: Lower date range for features you are looking for
+End Date: Upper date range for features you are looking for
+Create U.Histories
+www.beeva.com
+

@@ -2,10 +2,11 @@ BBVA
 Ghertor / 06-11-2015
 Consecuencias
 Para Todos
-- No tenemos un patrón definido a la hora de construir las
-HHUUfeatures de cada proyecto.
-CASWSNNATCLTS
-LTIMITELUSHMr
-hlin SCAL
+— No estamos implantando la metodologia BDD con exito.
+BDD - Behaviour Driven Development
+Escribimos...Historias de Usuario
+"Cuando el usuario busque, sin fallos de Ortografia, el nombre
+de un producto presente en el inventario. Todos los productos
+con nombre similar deberán ser mostrados".
 www.beeva.com
 

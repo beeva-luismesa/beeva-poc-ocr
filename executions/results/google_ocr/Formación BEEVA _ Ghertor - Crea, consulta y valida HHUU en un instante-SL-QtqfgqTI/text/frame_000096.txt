@@ -1,0 +1,30 @@
+USER HISTORIES
+Create syntactically and semantically well formed feature files right from the start.
+Query U.Histories
+* Check if existing feature files are syntactically and semantically correct.
+Create U. Histories
+Query feature files created with Ghertor.
+validate U. Histories
+USER PROFILE
+Menu Option List
+Change project
+Send suggestion
+Main Menu
+USER MANUAL
+The application main menu. From here, you can access the other options: Query User HistoriesCreate User Histories and
+validate User Histories, Change Project and send suggestion.
+User histories
+User Histories submenu. This menu groups creation, validation and query functions.
+Query U.Histories
+Query exist features created with Ghertor in past.
+* Create U.Histories
+Create a new feature with this function using a wizard.
+validate U.Histories
+Validate existing feature file edited in other applications/editors.
+User Profile
+User Profile submenu. In this section, you can change selected project and send suggestion if you have .
+V Change project
+Change user default project
+Send suggestion
+www.beeva.com
+

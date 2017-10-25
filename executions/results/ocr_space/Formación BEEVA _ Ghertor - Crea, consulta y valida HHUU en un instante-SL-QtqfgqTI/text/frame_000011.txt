@@ -1,8 +1,8 @@
 BBVA 
-Ghertor / 06-11-2015 
+Ghertor/06-11-2015 
 Dificultades con Cucumber en OP 
-Desde el punto de vista del Developer/QA (3/3): 
+Desde el punto de vista del Developer/QA (2/3): 
 'Las HHUU/features que tengo que implementar tienen Scenarios o 
-Steps repetidos o similares a otros existentes. 
+Steps poco legibles. 
 www.beeva.com 
 

@@ -1,6 +1,9 @@
-| BBVA
-Dificultades con Cucumber en OP
+I_'l
 
-Desde el punto de vista del PO/BA (3/4):
+BBVA …» … —— …»… … A,
 
-.Las HHUU/features hay que cambiarlas con demasiada frecuencia.
+Desde el punto de vista del PO/BA (2/4):
+
+sNo tengo un mecanismo cómodo para consu1tar las HHUU/features
+
+existentes.

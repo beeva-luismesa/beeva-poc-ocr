@@ -1,1 +1,19 @@
-VAMOS A VERLO
+BBVA Ghenor / 0541'2015
+Necesidades
+
+Como POIBA necesito:
+
+.Un editor que me facilite crear HHUU/features en gherkin
+
+rápidamente.
+.Un buscador para las HHUU/features existentes, las cuales me
+
+puedan servir como referencia.
+
+ 
+ 
+ 
+
+oQue mis HHUU/features sean sintáctica y semánticamente
+
+correctas en primera instancia.

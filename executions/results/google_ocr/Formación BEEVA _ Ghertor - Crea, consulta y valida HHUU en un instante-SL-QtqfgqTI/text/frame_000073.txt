@@ -1,0 +1,28 @@
+Welcome Back, demo
+Logout
+Ghertor
+Build Agile User Histories
+Your current project is demo-project Change Project
+Your last feature created is: new query_notification paco
+Query Feature
+MAIN MENU
+Select Criteria
+USER HISTORIES
+Project: Filename:
+select project - Type name
+Author:
+Type autor
+Begin Date:
+06/11/2014
+End Date:
+06/11/201
+Query UHistories
+Create U Histories
+validate U.Histories
+Search
+USER PROFILE
+Change project
+Send suggestion
+USER MANUAL
+www.beeva.com
+

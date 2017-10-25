@@ -1,0 +1,33 @@
+Project: The project you are looking for feature files. Choose between assigned projects. If you want to search in all
+projects, choose Select project option.
+• Name: File name filter for features you are looking for.
+• Author: Creator username filter for features you are looking for
+Begin Date: Lower date range for features you are looking for
+End Date: Upper date range for features you are looking for
+Create U.Histories
+Form for creating a feature file
+This function have the following fields :
+Filename: The resulting filename of feature. The feature file extension is added automatically.
+Language: Default language in feature file. Choose between English (EN) or Spanish (ES)
+• Description: Description name of feature file.
+• Tags: Optional tags for running selected features with cucumber or other frameworks.
+• Comments: Optional comments for feature or user history.
+Background: Select if your feature file has or not background steps. Choose between Yes or No.
+• Scenario I The first scenario for your feature file. This scenario is mandatory for a valid feature file others are not
+required.
+rio 2 to 5: Others scenarios for feature file . Isn't mandatory.
+Step 1: The first step for Background or Scenario N. Mandatory in Scenario 1 or Background if needed.
+Step 2 to 5: others steps for Background or Scenario N. Not required.
+• Scenario combobox: Scenario type. Choose between Simple Scenario (without table data) or Scenario outline (with table
+data ) .
+step combobox: Step type. Choose between Given, when or Then (with or without table data ).
+validate U.Histories
+Utility for validate existing feature files typed with others editors. This function check if your feature file is syntactically
+correct or notIf your project have a predefined rules engine, you can check if your feature is semantically valid for
+selected engine.
+Rules engine: Select the project rules for seeing if your feature file is semantically valid or notIf you select default
+value (-Select engine-), you only are checking your feature file syntactically.
+File to validate: Browse your local repository and select file to check.
+Result: List of intax and semantic errors in your selected feature file.
+www.beeva.com
+

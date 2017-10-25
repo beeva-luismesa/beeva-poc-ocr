@@ -1,0 +1,24 @@
+• Step COmbObOx; 
+Step type. ChOOSe between Given, When Then (with withOut data), 
+Validate U.Histories 
+validate existing typed w•ith Others editors. This check ir your reature is syntacOcally 
+or not_ If projeCt have a predefined rules engine. Can Check yOur feature is Semanttally valid for 
+• Rules engine: Select the Project rules for seeing if your feature me is semanbcally valid or not. If you select default 
+value ( -Select engine-), you only are checkinq your feature file syntacticalty. 
+• File to validate; Brcr•vse your Icn:al repositorv and select file to check. 
+• List o' and Semantic in 
+User Profile 
+nu. In this section, you can chanqe selected Project and send sugqesbon it you have. 
+Change Project 
+default project. 
+• With this tunctjon you can chanqe the Project where teature files with User Histories are beinq created. 
+• Current Project: The oroject "here you are creatinq feature files. This is your current project. 
+• Change to Project: The Project you want to switch. 
+Send Suggestion 
+Send suqqestjons to Ghertor CEveIopment Team. If there is something you want to ask or report to our Team is welcome : ) 
+• SuggeStiO•n_ 
+• Functional'ty: The >Lace where ycu_. round me error or anyming happens. 
+• Descr•pbon: A short description of your suggesbon. Irs mandatory. 
+User Manual 
+www.beeva.com 
+

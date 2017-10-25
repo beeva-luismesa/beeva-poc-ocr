@@ -1,15 +1,11 @@
 BBVA
 Ghertor / 06-11-2015
 Consecuencias
-Para DEV
-— Tengo la sensación de que estoy constantemente repitiendo
-código.
-Open source is good for me. 1 will fully embrace it
-Open source is good for me. I will fully embrace t .
-Dpen source is good for me. I will fully embrace the
-Open source is good for me. 1 will fully embrace the
-Open source is good for me. I will fully embrace E
-Open source is good for me. I will fully emb
-II
+Para PO/BA
+No entiеndo muy bien como hacer las HHUU/features que
+necesitamos.
+OO
+WHAT DO IDO
+WITH THESE?.
 www.beeva.com
 

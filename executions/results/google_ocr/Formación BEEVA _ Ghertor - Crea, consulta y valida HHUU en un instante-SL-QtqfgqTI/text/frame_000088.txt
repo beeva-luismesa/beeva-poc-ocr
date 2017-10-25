@@ -1,0 +1,24 @@
+Step combobox: Step type. Choose between Given, when or Then (with or without table data ).
+validate U.Histories
+Utility for validate existing feature files typed with others editors. This function check if your feature file is syntactically
+correct or notIf your project have a predefined rules engine, you can check if your feature is semantically valid for
+selected engine .
+Rules engine: Select the project rules for seeing if your feature file is semantically valid or not. If you select default
+value (-Select engine-), you only are checking your feature file syntactically.
+• File to validate: Browse your local repository and select file to check
+Result: List of sintax and semantic errors in your selected feature file.
+User Profile
+User Profibubmenu. In this section, you can change selected project and send suggestion if you have.
+V Change Project
+Change user default project.
+with this function you can change the project where feature files with User Histories are being created.
+Current Project: The project where you are creating feature files. This is your current project
+Change to Project: The project you want to switch.
+Send suggestion
+Send suggestions to Ghertor Development Team. If there is something you want to ask or report to our Team is welcome )
+• Title: Title of suggestion. Mandatory.
+Functionality: The place where you found the error or anything happens.
+Description: A short description of your suggestion. It's mandatory.
+User manual
+www.beeva.com
+

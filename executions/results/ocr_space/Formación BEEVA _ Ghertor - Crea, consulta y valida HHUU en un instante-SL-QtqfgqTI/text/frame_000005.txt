@@ -1,7 +1,9 @@
 BBVA 
-Ghertor / 06-11-2015 
+Ghertor 106-11-2015 
 Dificultades con Cucumber en OP 
-Desde el punto de vista del POIBA (3/4): 
-'Las HHUU/features hay que cambiarlas con demasiada frecuencia. 
+Desde el punto de vista del POIBA (2/4): 
+'No tengo un mecanismo cómodo para consultar las HHUU/features 
+existentes. 
+(t 
 www.beeva.com 
 

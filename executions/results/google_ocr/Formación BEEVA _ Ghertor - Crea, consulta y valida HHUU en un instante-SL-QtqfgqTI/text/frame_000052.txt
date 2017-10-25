@@ -1,0 +1,38 @@
+Wellcome Back, demo
+Logout
+Ghertor
+Build Agile User Histories
+Your current project is: demo-project Change Project
+Your last feature created is: new_query_notification paco
+Create Feature
+MAIN MENU
+Comments:
+USER HISTORIES
+Filename
+:
+Filename for resulting feature
+a
+feature
+Query U.Histories
+Language: Oes CEN
+Create U.Histories
+Description: Description name of the feature . Eg: Feature: Query users )
+Validate UHI
+Histories
+Tags:
+Optional tags for feature
+USER PROFILE
+Comments : Description comments for the feature
+Change project
+send suggestion
+OPTIONAL
+USER MANUAL
+Background
+Yes
+Scenario 1
+Yes
+Scenario 2
+Scenario 3
+Scenario 4
+www.beeva.com
+

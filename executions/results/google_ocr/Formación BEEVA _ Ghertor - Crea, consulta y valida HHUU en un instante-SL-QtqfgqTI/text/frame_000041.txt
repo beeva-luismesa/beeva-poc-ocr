@@ -1,0 +1,35 @@
+Welcome Back, demo
+Logout
+Ghertor
+Build Agile User Histories
+Your current project is demo-project Change Project
+Your last feature created is: new query_notification paco
+Whats Ghertor?
+MAINMENu
+Ghertor is a web application for creating efficient and valid User Stories typed with Gherkin and groped in features.
+with Ghertor you can do:
+USER HISTORIES
+A Create syntactically and semantically well formed feature files right from the start.
+Query UHistories
+A check if existing feature files are syntactically and semantically correct
+Create U. Histories
+Query feature files created with Ghertor.
+validate U. Histories
+USER PROFILE
+Menu option List
+Change project
+Send suggestion
+A Main Menu
+USER MANUAL
+The application main menu. From here, you can access the other options: Query User Histories, create User Histories and
+Validate User Histories, Change Project and send suggestion.
+User histories
+User Histories submenus. This menu groups creation, validation and query functions.
+Query U.Histories
+Query existing features created with Ghertor in past
+A Create U.Histories
+Create a new feature with this function using a wizard.
+A validate U.Histories
+Validate existing feature file edited in other applications/editors.
+www.beeva.com
+

@@ -1,0 +1,26 @@
+Step 3: GIVEN
+Description for Step 3 in Background
+Step 4: GIVEN
+Description for Step 4 in Background
+Scenario 1
+scenario: SIMPLE - Tags: Login, Ghertor
+Create a new account with all valid data
+Step 1: WHEN WITH TABLE : I try to sign in Ghertor using the following data :
+Data : I username I password I
+Table I pedro I pedrito I
+Step 2: THEN
+- the response must be "201"
+Step 3: THEN
+- the new user exists in database
+Step 4: THEN
+- the application has 2 registered users
+Step 5: GIVEN
+Description for steps in scenario 1
+rScenario 2
+Yes
+No
+rScenario 3
+No
+scenario 4
+www.beeva.com
+

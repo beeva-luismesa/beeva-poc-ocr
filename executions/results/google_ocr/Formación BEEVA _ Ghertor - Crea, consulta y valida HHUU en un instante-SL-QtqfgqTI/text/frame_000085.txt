@@ -1,0 +1,35 @@
+O) would you like to remember the password for
+"admin" on http://54.229.83.213:8080?
+De Back, admin
+Logout
+Trent project is: 9a-notification Change Project
+Remember Password
+Welcome to Ghertoran application for create, validate and query User Histories
+MAIN MENU
+Use right hand menu for navigate between available application functions. On next description table, you can see a short
+description of every option:
+USER HISTORIES
+Available options:
+Query UHistories
+User histories
+Query, create and validate Gherkin written Users Histories
+Create U Histories
+Query U. Histories
+Query User Histories grouped in features
+validate U.Histories
+Create U.Histories
+Crete a new User Histories feature using integrated tool
+Validate U.Histories
+Validate a User Histories feature file
+USER PROFILE
+User Profile
+Change Project and send suggestions to Ghertor Dev Team
+Change project
+Change project
+Change default project
+Send suggestion
+Send suggestion
+Write and send suggestions for improving Ghertor)
+USER MANUAL
+www.beeva.com
+

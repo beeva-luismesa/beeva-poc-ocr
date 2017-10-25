@@ -1,0 +1,31 @@
+v' Create u.Histories 
+Form a file. 
+This function have the fonowing belds : 
+• The mename feature. The .feature' file extension is added automatically. 
+• in feature Choose English (EN) Spanish (ES) 
+• Oescripbon: Cescripoon mame of feature me. 
+• Tags: Opbonal tags tor runn•ng selected features with cucumber or other trameworks. 
+• Commervts: Ootional comments for feature user histO". 
+• Background; Select i' your feature has or not backgrOund steps. ChOOSe between Yes NO. 
+• Scenario I: The scenario feature ThiS scenario mandatory a valid are 
+• Scenario 2 to S: Others for reature me. Isnt mandatory. 
+• Step The 'irst Step for Background or Scenano N. Mandatory in Scenario I or Background ir needed. 
+• Step 2 S: Others Steps BaCkgrOund Or SCenariO N. Not required. 
+• Scenario combobox; Scenario rype. Choose between Simple Scenario (without table data) or ScenariO Outiine (with 
+data 
+• Step combobox: Step type. Choose between Given, or Then (with or without tabk data). 
+validate u.Hist0ries 
+validate exiStjng typed with editors_ This function Check 'f is Synta,ctically 
+correct or not. your Project nave a predefined rules envine, you can check i' your reature is semantically valid for 
+selected engine. 
+• Rules Select the Project rules for seeing ir your feature file is semantically valid or not. If 'Ou select default 
+value enaine•). onty are file 
+• File to validate: Browse your local repository and select lile to checu. 
+• Result: List ot sintax and semantic errors tn your selected feature Me. 
+User Profile 
+Submenu. thiS Can Change Project and Send i' you 
+Change Project 
+Change user default Project. 
+• this funcnon 
+www.beeva.com 
+
