@@ -1,1 +1,38 @@
+opttonal arguvents: 
+-h - -help 
+- -debug 
+- -qutet 
+-v, - -verbose 
+--profUe PROFILE 
+show thts help and e»dt 
+toggte debug output 
+suppress al t output 
+toggte verbose output 
+use a spectftc profite from your credenttal ftle 
+-r REGION, --region REGION 
+--no-vertfy-sst 
+- -verston 
+use a spectftc regton 
+do not vertfy AHS SSL certtftcates 
+show appucatton/verston tnfo 
+To get started type 'eb Then type 'eb create' and 'eb open' 
+bash-3.2$ cd node-project/ 
+bash-3.2$ eb tntt 
+Select a default regton 
+1) us-east-l : US East (N. Vtrgtnta) 
+2) us-west-l : US Hest (N. Caltfornta) 
+3) us-west-2 : US Hest (Oregon) 
+4) eu-west-l : EU (Iretand) 
+5) eu-central-l : EU (Frankfurt) 
+6) ap-southeast-l : Asta Pactftc (Sülgapore) 
+7) ap-southeast-2 : Asta Pactftc (Sydney) 
+8) ap-northeast-l : Asta Pacific (Tokyo) 
+9) sa-east-l : South (Sao Paulo) 
+(default ts 3): 
+You have not yet set up your credenttals or your credenttals are ü"correct 
+You nust provide your credentiats. 
+(aws-access-td): AKIAJXQL66HEEYCPDAHA 
+(aws-secret-key): Oj15xGnEDNs/KW/01zRA/MXIRn1+FtqcRrsnF2Y 
+Enter Appucatton Nane 
+(default ts "node-project"): I 
 

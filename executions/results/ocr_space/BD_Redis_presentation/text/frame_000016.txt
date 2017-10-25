@@ -1,1 +1,23 @@
+Redis: ¿Qué es? 
+> 
+> 
+> 
+Motor BD de código abierto 
+Basado en el almacenamiento clave-valor 
+En memoria 
+keyl 
+key2 
+key3 
+[1, 
+1, " foo" 
+{2, 
+3, "bar" , "mgp } 
+"fl "—"vl " , 
+" f2 " —"v2 " 
+Motores BD: Redis 
+Luis Enrique Mesa Salas I Francisco José Sancho Valero 
+Máster Universitario en Ingeniería Informática V 
+Big Data 
+D 
+3 
 

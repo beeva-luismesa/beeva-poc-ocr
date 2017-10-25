@@ -1,1 +1,12 @@
+BBVA 
+Consecuencias 
+Para Todos 
+Ghertor / 06-11-2015 
+—9 No estamos implantando la metodología BDD con éxito. 
+BDD - Behaviour Driven Development 
+Escribimos...Historias de Usuario 
+"Cuándo el usuario busque. sin fallos de ortografía. el nombre 
+de un producto presente en el inventario. Todos los productos 
+con nombre similar deberán ser mostrados". 
+www.beeva.com 
 

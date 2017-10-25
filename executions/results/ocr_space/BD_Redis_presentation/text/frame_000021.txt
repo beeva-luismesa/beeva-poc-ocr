@@ -1,1 +1,32 @@
+Máster Universitario en Ingeniería Informática V 
+Redis: Rol en la gestión de Big Data 
+> Algunos números 
+(según https://db-engines.com/en/ranking) 
+DB-Engines Ranking 
+o 
+o 
+Es la más popular en almacenamientos 
+de clave-valor 
+La tercera más popular en BD NOSQL 
+(tras MongoDB y Cassandra) 
+Es la novena más popular 
+en el ranking global 
+100 
+40 
+20 
+Ju' 2013 
+Jul 2013 
+Jan 2014 
+O May 2017, DB-En9ir•escorn 
+Jul 2014 
+Jul 2015 Ju 2015 
+Jan 2016 
+Jul 2016 
+Motores BD: Redis 
+Luis Enrique Mesa Salas I Francisco José Sancho Valero 
+Big Data V 
+MongoDB 
+Cassan&a 
+Jan 2017 
+8 
 

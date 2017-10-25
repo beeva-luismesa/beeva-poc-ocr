@@ -1,1 +1,9 @@
+AWS 
+Create User 
+screencast 
+user Names: 
+Maximum 64 charact%s each 
+Generate an access key for each user 
+users need access keys to make secure REST or Querv protocol requests to AWS service APIS. 
+For users Who need access to the AWS Management Console, create a password in the Users panel alter completing this Wizard. 
 

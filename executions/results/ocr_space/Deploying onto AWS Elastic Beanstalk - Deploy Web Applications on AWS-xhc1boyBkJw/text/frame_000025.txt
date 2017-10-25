@@ -1,1 +1,28 @@
+Z 'us-aes•,-? censale aws 
+ü AWS 
+Elastic Beanstalk 
+Application Info 
+New Environment 
+En vironment Type 
+Application Version 
+Environment Info 
+Configuration Details 
+Environment Tags 
+Review Information 
+node-proiect • 
+Environment Type 
+Choose the platform and type of environment to launch. 
+Predefined configuration: 
+Environment type: 
+Select a platform 
+Single instance 
+Retrieving values for configuration source... 
+Looking for a different platform? Let us know. 
+Stmort 
+Create New Environment 
+Previous 
+Cancel 
+2008 20'5. Amazon Web Servces. Inc. or hs afiliates. All rights resorved. 
+Privzy Policy 
+T«rm of 
 

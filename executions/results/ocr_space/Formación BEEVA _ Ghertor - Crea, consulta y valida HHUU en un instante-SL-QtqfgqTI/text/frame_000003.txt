@@ -1,1 +1,7 @@
+BBVA 
+Ghertor 106-11-2015 
+Dificultades con Cucumber en OP 
+Desde el punto de vista del POIBA (1/4): 
+'Me resulta complejo escribir HHUU/features en gherkin. 
+www.beeva.com 
 

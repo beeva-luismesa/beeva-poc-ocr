@@ -1,1 +1,23 @@
+Funcionamiento: Entorno 
+> 
+Linux y Mac, simple 
+MS Windows, tampoco tan complicado 
+Máster Universitario en Ingeniería Informática V 
+Big Data 
+$ wget http://download.redis.io/releases/redis-3.2.8.tar.gz 
+$ tar xzf redis-3.2.8.tar.gz 
+$ cd redis-3,2,8 
+$ make 
+$ src/redis-server 
+$ src/redis-cli 
+redis> set forThoseAboutToRock weSaluteYou 
+OK 
+redis> get forThoseAboutToRock 
+"weSaluteYou" 
+Descargar el fichero de instalación (.msi) de aquí y seguir el asistente: 
+https://github.com/MSOpenTech/redis/releases 
+Motores BD: Redis 
+Luis Enrique Mesa Salas I Francisco José Sancho Valero 
+D 
+10 
 

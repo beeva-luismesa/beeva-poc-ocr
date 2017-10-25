@@ -1,1 +1,30 @@
+Openstack introduction 
+viii. Openstack Services 
+Service 
+Dashboard 
+Compute 
+Networking 
+Object 
+Storage 
+Project 
+Horizon 
+Nova 
+Neutron 
+Swift 
+Description 
+Provides a web-based self-service protal to interact with undelying 
+Openstack services, such as launching an instance, assigning IP and 
+configuring access controls. 
+Manages the lifecycle of compute instances in an Openstack 
+enviroment. Responsibilities include spawning,schediulingand 
+decommissioning ofvirtual machineson demand. 
+Enables network conectivity as a service fot other Openstack services 
+,such as Openstack Compute. Provides an API for users to define 
+networks and the attachments into them. 
+Stores and retrieves arbitrary unstructured data objects via RESTfull 
+HTTP based API.lt is highly fault tolerance with its data replication and 
+scale out architecture. 
+viii. Openstack Services 
+_ JLL 
+www.beeva.com 
 

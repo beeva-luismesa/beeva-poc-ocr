@@ -1,0 +1,92 @@
+2017-10-25 10:36:11,926 - root - INFO - Params <Namespace(lang='spa', ocr='ocr-space', output_path='/home/luismesa/demo_ocr/results', scene_threshold=0.03, video='/home/luismesa/demo_ocr/local_videos/BD_Redis_presentation.mp4')>
+2017-10-25 10:36:11,926 - root - INFO - Starting process
+2017-10-25 10:36:11,935 - root - INFO - It's a local video! Here we go!
+2017-10-25 10:36:11,935 - root - INFO - Generating frames from video /home/luismesa/demo_ocr/local_videos/BD_Redis_presentation.mp4
+2017-10-25 10:36:11,935 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/demo_ocr/local_videos/BD_Redis_presentation.mp4" -vf "select=gt(scene\,0.03)" -vsync vfr "/home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_%06d.png" -qscale 0
+2017-10-25 10:36:40,432 - root - INFO - FFMPEG time: 28.497022s
+2017-10-25 10:36:40,432 - root - INFO - Performing OCR with ocr-space
+2017-10-25 10:36:40,432 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images
+2017-10-25 10:36:40,432 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/BD_Redis_presentation/text
+2017-10-25 10:36:40,432 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000001.png
+2017-10-25 10:36:40,432 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000001.png
+2017-10-25 10:36:41,795 - root - INFO - OCR Space processing image time: 1.36282s
+2017-10-25 10:36:41,797 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000021.png
+2017-10-25 10:36:41,797 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000021.png
+2017-10-25 10:36:44,421 - root - INFO - OCR Space processing image time: 2.623791s
+2017-10-25 10:36:44,421 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000018.png
+2017-10-25 10:36:44,421 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000018.png
+2017-10-25 10:36:46,165 - root - INFO - OCR Space processing image time: 1.743596s
+2017-10-25 10:36:46,165 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000020.png
+2017-10-25 10:36:46,166 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000020.png
+2017-10-25 10:36:47,803 - root - INFO - OCR Space processing image time: 1.637482s
+2017-10-25 10:36:47,804 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000015.png
+2017-10-25 10:36:47,804 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000015.png
+2017-10-25 10:36:49,334 - root - INFO - OCR Space processing image time: 1.530015s
+2017-10-25 10:36:49,335 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000012.png
+2017-10-25 10:36:49,335 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000012.png
+2017-10-25 10:36:50,554 - root - INFO - OCR Space processing image time: 1.21871s
+2017-10-25 10:36:50,555 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000010.png
+2017-10-25 10:36:50,555 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000010.png
+2017-10-25 10:36:51,887 - root - INFO - OCR Space processing image time: 1.331888s
+2017-10-25 10:36:51,888 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000014.png
+2017-10-25 10:36:51,888 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000014.png
+2017-10-25 10:36:53,857 - root - INFO - OCR Space processing image time: 1.969151s
+2017-10-25 10:36:53,857 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000003.png
+2017-10-25 10:36:53,857 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000003.png
+2017-10-25 10:36:55,233 - root - INFO - OCR Space processing image time: 1.375758s
+2017-10-25 10:36:55,234 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000007.png
+2017-10-25 10:36:55,234 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000007.png
+2017-10-25 10:36:56,839 - root - INFO - OCR Space processing image time: 1.604245s
+2017-10-25 10:36:56,839 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000002.png
+2017-10-25 10:36:56,839 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000002.png
+2017-10-25 10:36:58,689 - root - INFO - OCR Space processing image time: 1.849673s
+2017-10-25 10:36:58,689 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000008.png
+2017-10-25 10:36:58,689 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000008.png
+2017-10-25 10:37:00,420 - root - INFO - OCR Space processing image time: 1.731118s
+2017-10-25 10:37:00,420 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000009.png
+2017-10-25 10:37:00,421 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000009.png
+2017-10-25 10:37:01,746 - root - INFO - OCR Space processing image time: 1.325708s
+2017-10-25 10:37:01,747 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000006.png
+2017-10-25 10:37:01,747 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000006.png
+2017-10-25 10:37:03,579 - root - INFO - OCR Space processing image time: 1.831867s
+2017-10-25 10:37:03,579 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000019.png
+2017-10-25 10:37:03,579 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000019.png
+2017-10-25 10:37:05,297 - root - INFO - OCR Space processing image time: 1.717978s
+2017-10-25 10:37:05,298 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000022.png
+2017-10-25 10:37:05,298 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000022.png
+2017-10-25 10:37:07,018 - root - INFO - OCR Space processing image time: 1.719475s
+2017-10-25 10:37:07,018 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000016.png
+2017-10-25 10:37:07,018 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000016.png
+2017-10-25 10:37:08,894 - root - INFO - OCR Space processing image time: 1.875874s
+2017-10-25 10:37:08,895 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000013.png
+2017-10-25 10:37:08,895 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000013.png
+2017-10-25 10:37:10,331 - root - INFO - OCR Space processing image time: 1.436108s
+2017-10-25 10:37:10,332 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000011.png
+2017-10-25 10:37:10,332 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000011.png
+2017-10-25 10:37:12,486 - root - INFO - OCR Space processing image time: 2.153736s
+2017-10-25 10:37:12,486 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000005.png
+2017-10-25 10:37:12,486 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000005.png
+2017-10-25 10:37:14,354 - root - INFO - OCR Space processing image time: 1.867817s
+2017-10-25 10:37:14,355 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000026.png
+2017-10-25 10:37:14,355 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000026.png
+2017-10-25 10:37:15,606 - root - INFO - OCR Space processing image time: 1.250156s
+2017-10-25 10:37:15,607 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000017.png
+2017-10-25 10:37:15,607 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000017.png
+2017-10-25 10:37:17,543 - root - INFO - OCR Space processing image time: 1.935122s
+2017-10-25 10:37:17,543 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000004.png
+2017-10-25 10:37:17,544 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000004.png
+2017-10-25 10:37:18,871 - root - INFO - OCR Space processing image time: 1.327679s
+2017-10-25 10:37:18,872 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000025.png
+2017-10-25 10:37:18,873 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000025.png
+2017-10-25 10:37:20,686 - root - INFO - OCR Space processing image time: 1.813666s
+2017-10-25 10:37:20,687 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000024.png
+2017-10-25 10:37:20,687 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000024.png
+2017-10-25 10:37:22,550 - root - INFO - OCR Space processing image time: 1.862076s
+2017-10-25 10:37:22,550 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000023.png
+2017-10-25 10:37:22,550 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/BD_Redis_presentation/images/frame_000023.png
+2017-10-25 10:37:24,315 - root - INFO - OCR Space processing image time: 1.764629s
+2017-10-25 10:37:24,316 - root - INFO - Total OCR time: 43.883421s
+2017-10-25 10:37:24,316 - root - INFO - Trying to detect passwords...
+2017-10-25 10:37:24,319 - root - INFO - Password detection time: 0.00286s
+2017-10-25 10:37:24,319 - root - INFO - Process finished!
+2017-10-25 10:37:24,319 - root - INFO - Total process time: 72.39272s

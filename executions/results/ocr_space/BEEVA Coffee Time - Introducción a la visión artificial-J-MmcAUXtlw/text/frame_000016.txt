@@ -1,1 +1,15 @@
+• " M ras '/docs.google.com/;vesentatnnidJ'b.JEG 
+NEURONALES 
+CNN / red neuronal convolucional 
+Low-Level 
+Feature 
+Mid -Level 
+Feature 
+High-Leve 
+Feature 
+Trainable 
+Classifier 
+14 
+Especial para datos con información espacial imágenes 
+13 
 

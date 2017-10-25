@@ -1,1 +1,17 @@
+tv_showszip 
+Funcionamiento: Demo 
+> 
+> 
+Nosotros haremos un par de operaciones 
+elementales en nuestro equipo 
+Mientras tanto, podéis acompañarnos 
+haciendo uso de la demo oficial de Redis: 
+http://trv.redis.io/ 
+Motores BD: Redis 
+Luis Enrique Mesa Salas I Francisco José Sancho Valero 
+< > I Diapositiva 11 
+BRACE YOURSELF 
+Irs DEM0 TIME 
+11 
+SALIR 
 

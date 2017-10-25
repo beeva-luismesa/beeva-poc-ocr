@@ -1,4 +1,4 @@
-LOG_PATH = '/home/luismesa/Escritorio/demo_ocr/results/'
+LOG_PATH = '/home/luismesa/demo_ocr/results/'
 LOG_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 
 YDL_OPTS = {'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'}

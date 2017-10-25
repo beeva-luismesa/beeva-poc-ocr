@@ -1,1 +1,15 @@
+, google.com 'p: 
+NEURONALES 
+CNN / red neuronal convolucional 
+Low-Level 
+Feature 
+Mid -Level 
+Feature 
+igh-Leve 
+Feature 
+Trainable 
+Classifier 
+Especial para datos con información espacial imágenes 
+20 , 
+13 
 

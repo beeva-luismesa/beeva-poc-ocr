@@ -1,1 +1,8 @@
+BBVA 
+Consecuencias 
+Para QA 
+Ghertor / 06-11-2015 
+No se contemplan todos los Scenarios, y los tests no funcionan 
+bien. 
+www.beeva.com 
 

@@ -1,1 +1,23 @@
+Big Data on AWS - Big Data AWS Services 
+AWS - 
+Processing Layer - Instance types 
+General 
+Batch processing 
+m3, m4 families 
+CPU 
+Machine learning 
+c3, cc1.4xlarge, 
+cc2.8xlarge 
+families 
+GPU 
+Machine learning 
+g2, p2 families 
+Memory 
+Data analytics 
+XI, m2, r3 families 
+Disk 1/0 
+Massive Parallel 
+Processing 
+d2 family 
+www.beeva.com 
 

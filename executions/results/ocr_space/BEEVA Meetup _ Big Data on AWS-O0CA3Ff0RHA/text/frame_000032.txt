@@ -1,1 +1,9 @@
+Big Data on AWS - Big Data AWS Services 
+AWS CloudSearch - architecture 
+You interact with Amazon CloudSearch through three services: 
+Configuration service—create and configure search domains 
+Document service—upload document batches 
+Search service—submit search and suggestion requests 
+soez 
+www.beeva.com 
 

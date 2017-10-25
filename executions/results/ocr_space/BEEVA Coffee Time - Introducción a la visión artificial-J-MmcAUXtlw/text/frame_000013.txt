@@ -1,1 +1,20 @@
+• ' •uroso/docsgoogle.comivvesentata.rn\d, 028 
+LEARNING 
+No es algo nuevo, empezó en los 90 
+Redes convolucionales para leer cheques bancarios 
+¿por qué tiene éxito ahora? Principalmente: 
+• Datos anotados en MUY grandes cantidades 
+• Ordenadores potentes (y tarjetas gráficas) capaces de hacer los 
+cálculos necesarios en un tiempo razonable 
+Generalmente se usan redes neuronales 
+Tipos más habituales: 
+• Fully connected (FC) o red neuronal densamente conectada 
+CNN / ConvNet o red neuronal convolucional 
+• RNN o red neuronal recurrente 
+IEEE 
+IIS 
+4 
+Conjunto de datos MNIST 
+3 
+12 
 

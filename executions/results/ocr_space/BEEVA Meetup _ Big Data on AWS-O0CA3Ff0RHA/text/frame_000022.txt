@@ -1,1 +1,12 @@
+Big Data on AWS - Big Data AWS Services 
+AWS EMR - Processing Layer - Best practices 
+Avoid small files 
+Concatenate them if needed 
+Each mapper in a single JVM 
+S3 best file for Hadoop. You can get 10-15MB/s from S3 
+Suppose you are planning to run your maps from a minute 
+then 60 seconds * 15 MB/second +-= IGB 
+Use Compression 
+Watch DisklO use 
+www.beeva.com 
 

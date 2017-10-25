@@ -1,1 +1,16 @@
+Big Data on AWS - Big Data AWS Services 
+AWS Data Pipeline 
+AWS Data Pipeline 
+Daily 
+task 
+Task: copy 
+log files 
+Amazon EC2 
+Weekly 
+task 
+Task: launch 
+data analysis 
+Amazon S3 
+Amazon EMR 
+www.beeva.com 
 

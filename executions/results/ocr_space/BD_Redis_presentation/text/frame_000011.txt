@@ -1,1 +1,22 @@
+Presentación Motor BD: Redis 
+Archivo Editar Ver Insertar Diapositiva Formato Disponer 
+Herramientas 
+Fondo.- 
+Tabla Complementos Ayuda 
+Diseño • 
+Tema Transición 
+última modificación el 15 de mayo 
+Iniciar presentación 
+luismesalas@gmail.com 
+2. Compartir 
+CACHE 
+Máster Universitario en Ingeniería Informática 
+Big Data 
+Motores de Bases de Datos 
+redis 
+Haz clic para añadir las notas del orador 
+UNIVERSIDAD 
+SEVILLA 
+Luis Enrique Mesa Salas I Francisco José Sancho Valero 
+16/05/2017 
 

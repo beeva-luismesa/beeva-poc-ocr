@@ -1,1 +1,32 @@
+AWS 
+Details 
+Groups 
+Poli cies 
+Identity Providers 
+PCC0unt Settings 
+Credential Report 
+Encryption Keys 
+IAM > Groups > demoGr0up 
+• Summary 
+Group ARN: 
+thiS group): 
+• Users 
+15675479840: group/demoGr0up 
+2015-06-30 14:33 PDT 
+This View Shows all userS in this group: User 
+user 
+demouser 
+• Permissions 
+Managed Policies 
+Remove user from Group 
+U SMS from up 
+Priv*y 
+Add to Group 
+The following managed policies are attached to this group. You can attach up to 2 managed policies. 
+Attach Policy 
+policy Name 
+AWSEIasticBeanstaIkFuIIAccess 
+Inline Policies 
+Show Policy I Detach Policy I Simulate Policy 
+EngW1 
 

@@ -1,1 +1,7 @@
+Big Data on AWS - Big Data reference 
+Architecture reference - Web Logs Analysis 
+WEB LOG 
+ANALYSIS 
+amazon 
+web servbes 
 

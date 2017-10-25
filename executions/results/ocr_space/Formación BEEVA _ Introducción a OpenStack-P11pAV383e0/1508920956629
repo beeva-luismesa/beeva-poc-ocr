@@ -1,0 +1,51 @@
+2017-10-25 10:42:36,630 - root - INFO - Params <Namespace(lang='spa', ocr='ocr-space', output_path='/home/luismesa/demo_ocr/results/ocr_space', scene_threshold=0.1, video='https://www.youtube.com/watch?v=P11pAV383e0')>
+2017-10-25 10:42:36,630 - root - INFO - Starting process
+2017-10-25 10:42:36,638 - root - INFO - It's a youtube video! Here we go!
+2017-10-25 10:42:36,638 - root - INFO - Getting info from youtube...
+2017-10-25 10:42:38,203 - root - INFO - Total info time: 1.56509s
+2017-10-25 10:42:38,203 - root - INFO - Downloading from youtube...
+2017-10-25 10:43:27,107 - root - INFO - Total download time: 48.903714s
+2017-10-25 10:43:27,108 - root - INFO - Generating frames from video ./Formación BEEVA _ Introducción a OpenStack-P11pAV383e0.mp4
+2017-10-25 10:43:27,108 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0.mp4" -vf "select=gt(scene\,0.1)" -vsync vfr "/home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_%06d.png" -qscale 0
+2017-10-25 10:48:51,568 - root - INFO - FFMPEG time: 324.459087s
+2017-10-25 10:48:51,568 - root - INFO - Performing OCR with ocr-space
+2017-10-25 10:48:51,568 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images
+2017-10-25 10:48:51,568 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/text
+2017-10-25 10:48:51,568 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000001.png
+2017-10-25 10:48:51,568 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000001.png
+2017-10-25 10:52:02,997 - root - INFO - OCR Space processing image time: 191.428421s
+2017-10-25 10:52:02,997 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000010.png
+2017-10-25 10:52:02,997 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000010.png
+2017-10-25 10:53:13,004 - root - INFO - OCR Space processing image time: 70.006473s
+2017-10-25 10:53:13,004 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000003.png
+2017-10-25 10:53:13,005 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000003.png
+2017-10-25 10:53:37,401 - root - INFO - OCR Space processing image time: 24.396057s
+2017-10-25 10:53:37,402 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000007.png
+2017-10-25 10:53:37,402 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000007.png
+2017-10-25 10:53:39,180 - root - INFO - OCR Space processing image time: 1.778162s
+2017-10-25 10:53:39,181 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000002.png
+2017-10-25 10:53:39,181 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000002.png
+2017-10-25 10:53:48,490 - root - INFO - OCR Space processing image time: 9.30844s
+2017-10-25 10:53:48,490 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000008.png
+2017-10-25 10:53:48,490 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000008.png
+2017-10-25 10:53:49,794 - root - INFO - OCR Space processing image time: 1.302964s
+2017-10-25 10:53:49,794 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000009.png
+2017-10-25 10:53:49,795 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000009.png
+2017-10-25 10:53:54,116 - root - INFO - OCR Space processing image time: 4.320889s
+2017-10-25 10:53:54,119 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000006.png
+2017-10-25 10:53:54,120 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000006.png
+2017-10-25 10:53:57,462 - root - INFO - OCR Space processing image time: 3.342597s
+2017-10-25 10:53:57,463 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000011.png
+2017-10-25 10:53:57,465 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000011.png
+2017-10-25 10:54:00,459 - root - INFO - OCR Space processing image time: 2.99336s
+2017-10-25 10:54:00,464 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000005.png
+2017-10-25 10:54:00,464 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000005.png
+2017-10-25 10:54:04,199 - root - INFO - OCR Space processing image time: 3.735053s
+2017-10-25 10:54:04,202 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000004.png
+2017-10-25 10:54:04,202 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Introducción a OpenStack-P11pAV383e0/images/frame_000004.png
+2017-10-25 10:54:11,896 - root - INFO - OCR Space processing image time: 7.693641s
+2017-10-25 10:54:11,897 - root - INFO - Total OCR time: 320.328375s
+2017-10-25 10:54:11,897 - root - INFO - Trying to detect passwords...
+2017-10-25 10:54:11,898 - root - INFO - Password detection time: 0.001102s
+2017-10-25 10:54:11,939 - root - INFO - Process finished!
+2017-10-25 10:54:11,939 - root - INFO - Total process time: 695.30879s

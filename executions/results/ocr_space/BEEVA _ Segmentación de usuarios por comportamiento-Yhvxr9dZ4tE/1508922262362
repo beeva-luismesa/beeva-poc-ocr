@@ -1,0 +1,30 @@
+2017-10-25 11:04:22,364 - root - INFO - Params <Namespace(lang='spa', ocr='ocr-space', output_path='/home/luismesa/demo_ocr/results/ocr_space', scene_threshold=0.1, video='https://www.youtube.com/watch?v=Yhvxr9dZ4tE')>
+2017-10-25 11:04:22,364 - root - INFO - Starting process
+2017-10-25 11:04:22,372 - root - INFO - It's a youtube video! Here we go!
+2017-10-25 11:04:22,372 - root - INFO - Getting info from youtube...
+2017-10-25 11:04:24,203 - root - INFO - Total info time: 1.831303s
+2017-10-25 11:04:24,203 - root - INFO - Downloading from youtube...
+2017-10-25 11:04:29,116 - root - INFO - Total download time: 4.913025s
+2017-10-25 11:04:29,118 - root - INFO - Generating frames from video ./BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE.mp4
+2017-10-25 11:04:29,118 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE.mp4" -vf "select=gt(scene\,0.1)" -vsync vfr "/home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_%06d.png" -qscale 0
+2017-10-25 11:04:47,146 - root - INFO - FFMPEG time: 18.028301s
+2017-10-25 11:04:47,147 - root - INFO - Performing OCR with ocr-space
+2017-10-25 11:04:47,147 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images
+2017-10-25 11:04:47,147 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/text
+2017-10-25 11:04:47,147 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000001.png
+2017-10-25 11:04:47,147 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000001.png
+2017-10-25 11:04:48,379 - root - INFO - OCR Space processing image time: 1.232273s
+2017-10-25 11:04:48,380 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000003.png
+2017-10-25 11:04:48,380 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000003.png
+2017-10-25 11:04:50,032 - root - INFO - OCR Space processing image time: 1.651261s
+2017-10-25 11:04:50,032 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000002.png
+2017-10-25 11:04:50,032 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000002.png
+2017-10-25 11:04:52,031 - root - INFO - OCR Space processing image time: 1.998761s
+2017-10-25 11:04:52,032 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000004.png
+2017-10-25 11:04:52,032 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Segmentación de usuarios por comportamiento-Yhvxr9dZ4tE/images/frame_000004.png
+2017-10-25 11:04:53,269 - root - INFO - OCR Space processing image time: 1.237322s
+2017-10-25 11:04:53,271 - root - INFO - Total OCR time: 6.12383s
+2017-10-25 11:04:53,271 - root - INFO - Trying to detect passwords...
+2017-10-25 11:04:53,271 - root - INFO - Password detection time: 0.000119s
+2017-10-25 11:04:53,278 - root - INFO - Process finished!
+2017-10-25 11:04:53,278 - root - INFO - Total process time: 30.914269s

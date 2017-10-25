@@ -1,1 +1,13 @@
+Big Data on AWS - Big Data AWS Services 
+AWS Data Pipeline 
+Pipeline components: 
+Data nodes: location where input and output data is 
+stored. 
+Activities: a definition of work to perform on a schedule 
+Preconditions: a conditional statement that must to be 
+true before an action can run. 
+Scheduling pipelines: defines when the activity runs. 
+Resources: computational resources 
+Actions: execution when a specified condition is met. 
+www.beeva.com 
 

@@ -1,1 +1,17 @@
+Big Data on AWS - Big Data AWS Services 
+AWS Kinesis Streaming 
+Amazon Kinesis Streams to collect and process large streams 
+of data records in real time. 
+Send dickstream data 
+to Kinesis Strearns 
+STREAMS 
+Kinesis Streams stores and 
+exposes clickstream data for 
+processing 
+www.beeva.com 
+Custom application built on 
+Kinesis Client libran,' or Spark Streaming 
+makes real-time content recommendations 
+Readers see personalized 
+content suggestions 
 

@@ -1,1 +1,26 @@
+Openstack introduction 
+v. Cloud Capacity 
+"One of the main reasons for using cloud 
+computing services is to get efficiency and cost 
+savings. And maximum IT efficiency on the cloud 
+comes from good capacity planning and 
+management," Kotsovinos said at the Cloud 
+Expo Europe 2013 event. But it is Still the most 
+overlooked and underestimated aspect of the 
+cloud, he said. 
+It is all OK when you are doing cloud on a small 
+scale, but when you do it at a high level for 
+applicationsthat are disparate and mission- 
+critical, it is important to think about storage 
+requirements and think about demand and 
+supply to provision correctly 
+c»acity 
+Risir« 
+falEng 
+*mand 
+scenaró 
+Cloud Capacity 
+v. Cloud Capacity 
+Classic 
+www.beeva.com 
 

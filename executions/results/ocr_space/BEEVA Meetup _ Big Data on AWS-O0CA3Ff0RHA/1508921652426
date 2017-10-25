@@ -1,0 +1,157 @@
+2017-10-25 10:54:12,427 - root - INFO - Params <Namespace(lang='spa', ocr='ocr-space', output_path='/home/luismesa/demo_ocr/results/ocr_space', scene_threshold=0.1, video='https://www.youtube.com/watch?v=O0CA3Ff0RHA')>
+2017-10-25 10:54:12,428 - root - INFO - Starting process
+2017-10-25 10:54:12,436 - root - INFO - It's a youtube video! Here we go!
+2017-10-25 10:54:12,436 - root - INFO - Getting info from youtube...
+2017-10-25 10:54:14,158 - root - INFO - Total info time: 1.722158s
+2017-10-25 10:54:14,158 - root - INFO - Downloading from youtube...
+2017-10-25 10:55:03,265 - root - INFO - Total download time: 49.106762s
+2017-10-25 10:55:03,269 - root - INFO - Generating frames from video ./BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA.mp4
+2017-10-25 10:55:03,270 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA.mp4" -vf "select=gt(scene\,0.1)" -vsync vfr "/home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_%06d.png" -qscale 0
+2017-10-25 11:03:00,125 - root - INFO - FFMPEG time: 476.853486s
+2017-10-25 11:03:00,125 - root - INFO - Performing OCR with ocr-space
+2017-10-25 11:03:00,125 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images
+2017-10-25 11:03:00,125 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/text
+2017-10-25 11:03:00,125 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000001.png
+2017-10-25 11:03:00,125 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000001.png
+2017-10-25 11:03:01,716 - root - INFO - OCR Space processing image time: 1.590372s
+2017-10-25 11:03:01,716 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000027.png
+2017-10-25 11:03:01,716 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000027.png
+2017-10-25 11:03:03,315 - root - INFO - OCR Space processing image time: 1.598663s
+2017-10-25 11:03:03,315 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000035.png
+2017-10-25 11:03:03,315 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000035.png
+2017-10-25 11:03:04,936 - root - INFO - OCR Space processing image time: 1.620436s
+2017-10-25 11:03:04,936 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000044.png
+2017-10-25 11:03:04,936 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000044.png
+2017-10-25 11:03:06,624 - root - INFO - OCR Space processing image time: 1.687552s
+2017-10-25 11:03:06,625 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000034.png
+2017-10-25 11:03:06,625 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000034.png
+2017-10-25 11:03:08,292 - root - INFO - OCR Space processing image time: 1.666434s
+2017-10-25 11:03:08,292 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000021.png
+2017-10-25 11:03:08,292 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000021.png
+2017-10-25 11:03:09,928 - root - INFO - OCR Space processing image time: 1.635954s
+2017-10-25 11:03:09,929 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000042.png
+2017-10-25 11:03:09,929 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000042.png
+2017-10-25 11:03:12,155 - root - INFO - OCR Space processing image time: 2.226207s
+2017-10-25 11:03:12,155 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000033.png
+2017-10-25 11:03:12,156 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000033.png
+2017-10-25 11:03:13,881 - root - INFO - OCR Space processing image time: 1.725082s
+2017-10-25 11:03:13,881 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000018.png
+2017-10-25 11:03:13,881 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000018.png
+2017-10-25 11:03:15,987 - root - INFO - OCR Space processing image time: 2.105462s
+2017-10-25 11:03:15,987 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000020.png
+2017-10-25 11:03:15,988 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000020.png
+2017-10-25 11:03:18,228 - root - INFO - OCR Space processing image time: 2.240678s
+2017-10-25 11:03:18,229 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000015.png
+2017-10-25 11:03:18,229 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000015.png
+2017-10-25 11:03:20,288 - root - INFO - OCR Space processing image time: 2.059091s
+2017-10-25 11:03:20,289 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000037.png
+2017-10-25 11:03:20,289 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000037.png
+2017-10-25 11:03:21,979 - root - INFO - OCR Space processing image time: 1.689984s
+2017-10-25 11:03:21,979 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000012.png
+2017-10-25 11:03:21,979 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000012.png
+2017-10-25 11:03:23,216 - root - INFO - OCR Space processing image time: 1.236165s
+2017-10-25 11:03:23,216 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000010.png
+2017-10-25 11:03:23,217 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000010.png
+2017-10-25 11:03:25,133 - root - INFO - OCR Space processing image time: 1.915835s
+2017-10-25 11:03:25,133 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000014.png
+2017-10-25 11:03:25,134 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000014.png
+2017-10-25 11:03:26,665 - root - INFO - OCR Space processing image time: 1.530878s
+2017-10-25 11:03:26,665 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000046.png
+2017-10-25 11:03:26,665 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000046.png
+2017-10-25 11:03:28,439 - root - INFO - OCR Space processing image time: 1.773759s
+2017-10-25 11:03:28,439 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000040.png
+2017-10-25 11:03:28,440 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000040.png
+2017-10-25 11:03:30,260 - root - INFO - OCR Space processing image time: 1.820063s
+2017-10-25 11:03:30,260 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000003.png
+2017-10-25 11:03:30,260 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000003.png
+2017-10-25 11:03:31,731 - root - INFO - OCR Space processing image time: 1.470383s
+2017-10-25 11:03:31,731 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000039.png
+2017-10-25 11:03:31,731 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000039.png
+2017-10-25 11:03:33,568 - root - INFO - OCR Space processing image time: 1.836567s
+2017-10-25 11:03:33,568 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000007.png
+2017-10-25 11:03:33,568 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000007.png
+2017-10-25 11:03:35,549 - root - INFO - OCR Space processing image time: 1.980787s
+2017-10-25 11:03:35,551 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000031.png
+2017-10-25 11:03:35,551 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000031.png
+2017-10-25 11:03:37,474 - root - INFO - OCR Space processing image time: 1.922713s
+2017-10-25 11:03:37,475 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000002.png
+2017-10-25 11:03:37,475 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000002.png
+2017-10-25 11:03:40,010 - root - INFO - OCR Space processing image time: 2.535453s
+2017-10-25 11:03:40,011 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000008.png
+2017-10-25 11:03:40,011 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000008.png
+2017-10-25 11:03:41,915 - root - INFO - OCR Space processing image time: 1.903719s
+2017-10-25 11:03:41,915 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000036.png
+2017-10-25 11:03:41,916 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000036.png
+2017-10-25 11:03:43,262 - root - INFO - OCR Space processing image time: 1.346744s
+2017-10-25 11:03:43,263 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000009.png
+2017-10-25 11:03:43,263 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000009.png
+2017-10-25 11:03:44,896 - root - INFO - OCR Space processing image time: 1.632717s
+2017-10-25 11:03:44,896 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000006.png
+2017-10-25 11:03:44,897 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000006.png
+2017-10-25 11:03:47,109 - root - INFO - OCR Space processing image time: 2.211854s
+2017-10-25 11:03:47,109 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000019.png
+2017-10-25 11:03:47,109 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000019.png
+2017-10-25 11:03:49,004 - root - INFO - OCR Space processing image time: 1.8948s
+2017-10-25 11:03:49,005 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000022.png
+2017-10-25 11:03:49,006 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000022.png
+2017-10-25 11:03:50,731 - root - INFO - OCR Space processing image time: 1.725092s
+2017-10-25 11:03:50,732 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000030.png
+2017-10-25 11:03:50,732 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000030.png
+2017-10-25 11:03:52,528 - root - INFO - OCR Space processing image time: 1.796358s
+2017-10-25 11:03:52,529 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000016.png
+2017-10-25 11:03:52,529 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000016.png
+2017-10-25 11:03:54,209 - root - INFO - OCR Space processing image time: 1.68s
+2017-10-25 11:03:54,210 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000045.png
+2017-10-25 11:03:54,210 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000045.png
+2017-10-25 11:03:56,067 - root - INFO - OCR Space processing image time: 1.856348s
+2017-10-25 11:03:56,067 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000028.png
+2017-10-25 11:03:56,067 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000028.png
+2017-10-25 11:03:57,989 - root - INFO - OCR Space processing image time: 1.921474s
+2017-10-25 11:03:57,989 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000032.png
+2017-10-25 11:03:57,989 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000032.png
+2017-10-25 11:03:59,653 - root - INFO - OCR Space processing image time: 1.663572s
+2017-10-25 11:03:59,653 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000013.png
+2017-10-25 11:03:59,654 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000013.png
+2017-10-25 11:04:01,211 - root - INFO - OCR Space processing image time: 1.556947s
+2017-10-25 11:04:01,211 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000011.png
+2017-10-25 11:04:01,211 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000011.png
+2017-10-25 11:04:03,193 - root - INFO - OCR Space processing image time: 1.981138s
+2017-10-25 11:04:03,193 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000005.png
+2017-10-25 11:04:03,193 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000005.png
+2017-10-25 11:04:04,540 - root - INFO - OCR Space processing image time: 1.347215s
+2017-10-25 11:04:04,541 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000038.png
+2017-10-25 11:04:04,541 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000038.png
+2017-10-25 11:04:06,178 - root - INFO - OCR Space processing image time: 1.636827s
+2017-10-25 11:04:06,179 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000026.png
+2017-10-25 11:04:06,179 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000026.png
+2017-10-25 11:04:07,823 - root - INFO - OCR Space processing image time: 1.643673s
+2017-10-25 11:04:07,823 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000017.png
+2017-10-25 11:04:07,823 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000017.png
+2017-10-25 11:04:10,054 - root - INFO - OCR Space processing image time: 2.230544s
+2017-10-25 11:04:10,055 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000043.png
+2017-10-25 11:04:10,055 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000043.png
+2017-10-25 11:04:11,709 - root - INFO - OCR Space processing image time: 1.653989s
+2017-10-25 11:04:11,709 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000004.png
+2017-10-25 11:04:11,709 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000004.png
+2017-10-25 11:04:13,180 - root - INFO - OCR Space processing image time: 1.47066s
+2017-10-25 11:04:13,181 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000025.png
+2017-10-25 11:04:13,181 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000025.png
+2017-10-25 11:04:14,832 - root - INFO - OCR Space processing image time: 1.651371s
+2017-10-25 11:04:14,833 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000024.png
+2017-10-25 11:04:14,833 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000024.png
+2017-10-25 11:04:16,476 - root - INFO - OCR Space processing image time: 1.643384s
+2017-10-25 11:04:16,476 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000023.png
+2017-10-25 11:04:16,477 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000023.png
+2017-10-25 11:04:18,478 - root - INFO - OCR Space processing image time: 2.001096s
+2017-10-25 11:04:18,478 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000029.png
+2017-10-25 11:04:18,478 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000029.png
+2017-10-25 11:04:20,085 - root - INFO - OCR Space processing image time: 1.606585s
+2017-10-25 11:04:20,085 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000041.png
+2017-10-25 11:04:20,085 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Meetup _ Big Data on AWS-O0CA3Ff0RHA/images/frame_000041.png
+2017-10-25 11:04:21,762 - root - INFO - OCR Space processing image time: 1.676779s
+2017-10-25 11:04:21,762 - root - INFO - Total OCR time: 81.637322s
+2017-10-25 11:04:21,762 - root - INFO - Trying to detect passwords...
+2017-10-25 11:04:21,763 - root - INFO - Potential passwords found in frame_000039: [ActN1ties]
+2017-10-25 11:04:21,764 - root - INFO - Password detection time: 0.001983s
+2017-10-25 11:04:21,798 - root - INFO - Process finished!
+2017-10-25 11:04:21,798 - root - INFO - Total process time: 609.37048s

@@ -1,1 +1,13 @@
+Big Data on AWS - Big Data AWS Services 
+AWS EMR - Processing Layer - Motivation 
+Don't need to deal with hardware restrictions 
+Launch new processing nodes as demands grows 
+Processing nodes can be different depending on use case 
+(memory, bandwidth, disk, ..) 
+Integration with Spot instances Cheaper 
+Integration with other AWS Services 
+AWS Import/Export 
+Amazon S3 
+Amazon DynamoDB 
+www.beeva.com 
 

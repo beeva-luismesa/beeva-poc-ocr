@@ -1,1 +1,20 @@
+Máster Universitario en Ingeniería Informática V 
+Big Data 
+D 
+Redis: Ventajas Y desventajas 
+> Desventajas 
+o 
+o 
+o 
+El conjunto de datos debe caber en la memoria 
+La persistencia está permitida pero a costa del rendimiento 
+Curva de aprendizaje sintaxis Redis / LUA 
+No hay soporte oficial para Windows 
+Motores BD: Redis 
+Luis Enrique Mesa Salas I Francisco José Sancho Valero 
+Windows - Out of Virtual Memory 
+Your system is Iow on virtual mernory. To ensure that Windows runs 
+properly, increase the size of your virtual rnernory paging file. For 
+more information, see Help. 
+7 
 

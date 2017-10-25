@@ -1,1 +1,25 @@
+Redis: Usos fundamentales 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+Caché de páginas web 
+Caché de base de datos 
+Almacenamiento de sesiones de usuario 
+Almacenamiento de carritos de la compra 
+Listas de elementos recientes 
+Contadores y estadísticas 
+Base de datos principal 
+Máster Universitario en Ingeniería Informática V 
+Big Data 
+NO 
+REDIS 
+ES 
+SOLO UNA 
+Motores BD: Redis 
+Luis Enrique Mesa Salas I Francisco José Sancho Valero 
+5 
 

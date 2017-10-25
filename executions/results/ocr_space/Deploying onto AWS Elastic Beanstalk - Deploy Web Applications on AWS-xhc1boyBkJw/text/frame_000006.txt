@@ -1,1 +1,23 @@
+ü AWS 
+Dashboard 
+Welcome to Identity and Access Management 
+Details 
+IAM Resources 
+U sers 
+Security Status 
+Policies 
+Identity Providers 
+"'CCOunt Settings 
+Credential Report 
+Encryption Keys 
+screencast 
+Feature Spotlight 
+Intmxtim to AWS IAM 
+Additional Information 
+AM documentation 
+Web Identity Federation Playground 
+policy Simulator 
+Videos. IAM release history and additional 
+resources 
+T«rrS CJ— 
 

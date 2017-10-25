@@ -1,1 +1,18 @@
+AWS 
+Elastic Beanstalk 
+Application Info 
+New Environment 
+F—ck 
+Omon Amort 
+New Application 
+Application Information 
+To create a new application, enter the details of your application. Leam more. 
+App lication name: 
+Description: 
+EngWt 
+Must be less than 100 characters and cannot contain a i' 
+Optional. 
+2C08 20'5. Amazon Web Serwees. Inc. or hs afiliares. Al rights resorvM. 
+htvzy Policy 
+T«rms of 
 

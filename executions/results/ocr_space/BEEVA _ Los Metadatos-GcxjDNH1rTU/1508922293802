@@ -1,0 +1,39 @@
+2017-10-25 11:04:53,804 - root - INFO - Params <Namespace(lang='spa', ocr='ocr-space', output_path='/home/luismesa/demo_ocr/results/ocr_space', scene_threshold=0.1, video='https://www.youtube.com/watch?v=GcxjDNH1rTU')>
+2017-10-25 11:04:53,804 - root - INFO - Starting process
+2017-10-25 11:04:53,816 - root - INFO - It's a youtube video! Here we go!
+2017-10-25 11:04:53,816 - root - INFO - Getting info from youtube...
+2017-10-25 11:04:55,327 - root - INFO - Total info time: 1.510412s
+2017-10-25 11:04:55,327 - root - INFO - Downloading from youtube...
+2017-10-25 11:04:58,166 - root - INFO - Total download time: 2.839196s
+2017-10-25 11:04:58,167 - root - INFO - Generating frames from video ./BEEVA _ Los Metadatos-GcxjDNH1rTU.mp4
+2017-10-25 11:04:58,167 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/BEEVA _ Los Metadatos-GcxjDNH1rTU.mp4" -vf "select=gt(scene\,0.1)" -vsync vfr "/home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_%06d.png" -qscale 0
+2017-10-25 11:05:04,319 - root - INFO - FFMPEG time: 6.151847s
+2017-10-25 11:05:04,319 - root - INFO - Performing OCR with ocr-space
+2017-10-25 11:05:04,319 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images
+2017-10-25 11:05:04,319 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/text
+2017-10-25 11:05:04,319 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000001.png
+2017-10-25 11:05:04,319 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000001.png
+2017-10-25 11:05:06,200 - root - INFO - OCR Space processing image time: 1.880714s
+2017-10-25 11:05:06,201 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000003.png
+2017-10-25 11:05:06,201 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000003.png
+2017-10-25 11:05:07,998 - root - INFO - OCR Space processing image time: 1.796668s
+2017-10-25 11:05:07,998 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000007.png
+2017-10-25 11:05:07,999 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000007.png
+2017-10-25 11:05:09,623 - root - INFO - OCR Space processing image time: 1.623751s
+2017-10-25 11:05:09,623 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000002.png
+2017-10-25 11:05:09,623 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000002.png
+2017-10-25 11:05:11,652 - root - INFO - OCR Space processing image time: 2.029173s
+2017-10-25 11:05:11,653 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000006.png
+2017-10-25 11:05:11,653 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000006.png
+2017-10-25 11:05:13,342 - root - INFO - OCR Space processing image time: 1.688735s
+2017-10-25 11:05:13,342 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000005.png
+2017-10-25 11:05:13,343 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000005.png
+2017-10-25 11:05:15,028 - root - INFO - OCR Space processing image time: 1.685601s
+2017-10-25 11:05:15,029 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000004.png
+2017-10-25 11:05:15,029 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA _ Los Metadatos-GcxjDNH1rTU/images/frame_000004.png
+2017-10-25 11:05:16,710 - root - INFO - OCR Space processing image time: 1.681485s
+2017-10-25 11:05:16,711 - root - INFO - Total OCR time: 12.391245s
+2017-10-25 11:05:16,711 - root - INFO - Trying to detect passwords...
+2017-10-25 11:05:16,711 - root - INFO - Password detection time: 0.000121s
+2017-10-25 11:05:16,713 - root - INFO - Process finished!
+2017-10-25 11:05:16,713 - root - INFO - Total process time: 22.908241s

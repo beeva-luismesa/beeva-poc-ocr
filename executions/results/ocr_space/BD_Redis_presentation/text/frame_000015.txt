@@ -1,1 +1,25 @@
+índice 
+> 
+> 
+Redis 
+o 
+o 
+o 
+o 
+o 
+¿Qué es? 
+Modelo de datos 
+Usos fundamentales 
+Ventajas e inconvenientes 
+Rol en la gestión de Big Data 
+Funcionamiento 
+o 
+o 
+Entorno 
+Demo 
+Motores BD: Redis 
+Luis Enrique Mesa Salas I Francisco José Sancho Valero 
+Máster Universitario en Ingeniería Informática V 
+Big Data 
+2 
 

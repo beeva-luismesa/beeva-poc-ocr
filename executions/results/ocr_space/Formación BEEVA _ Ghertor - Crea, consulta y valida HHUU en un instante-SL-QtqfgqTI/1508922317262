@@ -1,0 +1,131 @@
+2017-10-25 11:05:17,263 - root - INFO - Params <Namespace(lang='spa', ocr='ocr-space', output_path='/home/luismesa/demo_ocr/results/ocr_space', scene_threshold=0.1, video='https://www.youtube.com/watch?v=SL-QtqfgqTI')>
+2017-10-25 11:05:17,264 - root - INFO - Starting process
+2017-10-25 11:05:17,272 - root - INFO - It's a youtube video! Here we go!
+2017-10-25 11:05:17,272 - root - INFO - Getting info from youtube...
+2017-10-25 11:05:18,896 - root - INFO - Total info time: 1.623952s
+2017-10-25 11:05:18,896 - root - INFO - Downloading from youtube...
+2017-10-25 11:06:05,074 - root - INFO - Total download time: 46.178335s
+2017-10-25 11:06:05,076 - root - INFO - Generating frames from video ./Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI.mp4
+2017-10-25 11:06:05,076 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI.mp4" -vf "select=gt(scene\,0.1)" -vsync vfr "/home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_%06d.png" -qscale 0
+2017-10-25 11:08:25,484 - root - INFO - FFMPEG time: 140.407716s
+2017-10-25 11:08:25,485 - root - INFO - Performing OCR with ocr-space
+2017-10-25 11:08:25,485 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images
+2017-10-25 11:08:25,485 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/text
+2017-10-25 11:08:25,485 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000001.png
+2017-10-25 11:08:25,485 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000001.png
+2017-10-25 11:08:27,066 - root - INFO - OCR Space processing image time: 1.580589s
+2017-10-25 11:08:27,067 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000027.png
+2017-10-25 11:08:27,067 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000027.png
+2017-10-25 11:08:28,569 - root - INFO - OCR Space processing image time: 1.501921s
+2017-10-25 11:08:28,570 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000035.png
+2017-10-25 11:08:28,570 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000035.png
+2017-10-25 11:08:30,252 - root - INFO - OCR Space processing image time: 1.681312s
+2017-10-25 11:08:30,252 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000034.png
+2017-10-25 11:08:30,252 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000034.png
+2017-10-25 11:08:31,842 - root - INFO - OCR Space processing image time: 1.5899s
+2017-10-25 11:08:31,843 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000021.png
+2017-10-25 11:08:31,843 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000021.png
+2017-10-25 11:08:34,188 - root - INFO - OCR Space processing image time: 2.344539s
+2017-10-25 11:08:34,189 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000033.png
+2017-10-25 11:08:34,189 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000033.png
+2017-10-25 11:08:36,331 - root - INFO - OCR Space processing image time: 2.142218s
+2017-10-25 11:08:36,332 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000018.png
+2017-10-25 11:08:36,332 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000018.png
+2017-10-25 11:08:38,992 - root - INFO - OCR Space processing image time: 2.660098s
+2017-10-25 11:08:38,993 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000020.png
+2017-10-25 11:08:38,993 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000020.png
+2017-10-25 11:08:40,638 - root - INFO - OCR Space processing image time: 1.644879s
+2017-10-25 11:08:40,639 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000015.png
+2017-10-25 11:08:40,639 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000015.png
+2017-10-25 11:08:42,258 - root - INFO - OCR Space processing image time: 1.619083s
+2017-10-25 11:08:42,259 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000037.png
+2017-10-25 11:08:42,259 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000037.png
+2017-10-25 11:08:44,296 - root - INFO - OCR Space processing image time: 2.03668s
+2017-10-25 11:08:44,296 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000012.png
+2017-10-25 11:08:44,296 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000012.png
+2017-10-25 11:08:45,873 - root - INFO - OCR Space processing image time: 1.576445s
+2017-10-25 11:08:45,873 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000010.png
+2017-10-25 11:08:45,874 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000010.png
+2017-10-25 11:08:47,945 - root - INFO - OCR Space processing image time: 2.071362s
+2017-10-25 11:08:47,946 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000014.png
+2017-10-25 11:08:47,946 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000014.png
+2017-10-25 11:08:49,750 - root - INFO - OCR Space processing image time: 1.804104s
+2017-10-25 11:08:49,751 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000003.png
+2017-10-25 11:08:49,751 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000003.png
+2017-10-25 11:08:52,013 - root - INFO - OCR Space processing image time: 2.262034s
+2017-10-25 11:08:52,013 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000007.png
+2017-10-25 11:08:52,014 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000007.png
+2017-10-25 11:08:53,751 - root - INFO - OCR Space processing image time: 1.737774s
+2017-10-25 11:08:53,752 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000031.png
+2017-10-25 11:08:53,752 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000031.png
+2017-10-25 11:08:55,233 - root - INFO - OCR Space processing image time: 1.480996s
+2017-10-25 11:08:55,234 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000002.png
+2017-10-25 11:08:55,234 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000002.png
+2017-10-25 11:08:56,762 - root - INFO - OCR Space processing image time: 1.5278s
+2017-10-25 11:08:56,762 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000008.png
+2017-10-25 11:08:56,763 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000008.png
+2017-10-25 11:08:58,744 - root - INFO - OCR Space processing image time: 1.98125s
+2017-10-25 11:08:58,744 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000036.png
+2017-10-25 11:08:58,745 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000036.png
+2017-10-25 11:09:00,424 - root - INFO - OCR Space processing image time: 1.679289s
+2017-10-25 11:09:00,425 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000009.png
+2017-10-25 11:09:00,425 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000009.png
+2017-10-25 11:09:03,021 - root - INFO - OCR Space processing image time: 2.596411s
+2017-10-25 11:09:03,021 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000006.png
+2017-10-25 11:09:03,022 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000006.png
+2017-10-25 11:09:04,325 - root - INFO - OCR Space processing image time: 1.303178s
+2017-10-25 11:09:04,326 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000019.png
+2017-10-25 11:09:04,326 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000019.png
+2017-10-25 11:09:05,996 - root - INFO - OCR Space processing image time: 1.670209s
+2017-10-25 11:09:05,997 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000022.png
+2017-10-25 11:09:05,997 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000022.png
+2017-10-25 11:09:07,766 - root - INFO - OCR Space processing image time: 1.769219s
+2017-10-25 11:09:07,767 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000030.png
+2017-10-25 11:09:07,767 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000030.png
+2017-10-25 11:09:09,418 - root - INFO - OCR Space processing image time: 1.650713s
+2017-10-25 11:09:09,419 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000016.png
+2017-10-25 11:09:09,419 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000016.png
+2017-10-25 11:09:11,465 - root - INFO - OCR Space processing image time: 2.045259s
+2017-10-25 11:09:11,466 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000028.png
+2017-10-25 11:09:11,466 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000028.png
+2017-10-25 11:09:13,033 - root - INFO - OCR Space processing image time: 1.567035s
+2017-10-25 11:09:13,034 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000032.png
+2017-10-25 11:09:13,034 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000032.png
+2017-10-25 11:09:14,927 - root - INFO - OCR Space processing image time: 1.893066s
+2017-10-25 11:09:14,928 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000013.png
+2017-10-25 11:09:14,929 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000013.png
+2017-10-25 11:09:16,407 - root - INFO - OCR Space processing image time: 1.477998s
+2017-10-25 11:09:16,407 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000011.png
+2017-10-25 11:09:16,407 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000011.png
+2017-10-25 11:09:19,357 - root - INFO - OCR Space processing image time: 2.949061s
+2017-10-25 11:09:19,357 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000005.png
+2017-10-25 11:09:19,357 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000005.png
+2017-10-25 11:09:21,084 - root - INFO - OCR Space processing image time: 1.726543s
+2017-10-25 11:09:21,085 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000026.png
+2017-10-25 11:09:21,085 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000026.png
+2017-10-25 11:09:22,811 - root - INFO - OCR Space processing image time: 1.725327s
+2017-10-25 11:09:22,811 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000017.png
+2017-10-25 11:09:22,812 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000017.png
+2017-10-25 11:09:24,488 - root - INFO - OCR Space processing image time: 1.675912s
+2017-10-25 11:09:24,488 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000004.png
+2017-10-25 11:09:24,488 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000004.png
+2017-10-25 11:09:26,335 - root - INFO - OCR Space processing image time: 1.846138s
+2017-10-25 11:09:26,336 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000025.png
+2017-10-25 11:09:26,336 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000025.png
+2017-10-25 11:09:28,103 - root - INFO - OCR Space processing image time: 1.766656s
+2017-10-25 11:09:28,103 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000024.png
+2017-10-25 11:09:28,104 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000024.png
+2017-10-25 11:09:29,595 - root - INFO - OCR Space processing image time: 1.491205s
+2017-10-25 11:09:29,595 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000023.png
+2017-10-25 11:09:29,595 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000023.png
+2017-10-25 11:09:31,248 - root - INFO - OCR Space processing image time: 1.652238s
+2017-10-25 11:09:31,249 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000029.png
+2017-10-25 11:09:31,249 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Formación BEEVA _ Ghertor - Crea, consulta y valida HHUU en un instante-SL-QtqfgqTI/images/frame_000029.png
+2017-10-25 11:09:33,409 - root - INFO - OCR Space processing image time: 2.160151s
+2017-10-25 11:09:33,409 - root - INFO - Total OCR time: 67.92457s
+2017-10-25 11:09:33,410 - root - INFO - Trying to detect passwords...
+2017-10-25 11:09:33,410 - root - INFO - Potential passwords found in frame_000034: [@Sprtnt1]
+2017-10-25 11:09:33,410 - root - INFO - Potential passwords found in frame_000033: [@Sprtnt1]
+2017-10-25 11:09:33,413 - root - INFO - Password detection time: 0.003285s
+2017-10-25 11:09:33,439 - root - INFO - Process finished!
+2017-10-25 11:09:33,440 - root - INFO - Total process time: 256.17579s

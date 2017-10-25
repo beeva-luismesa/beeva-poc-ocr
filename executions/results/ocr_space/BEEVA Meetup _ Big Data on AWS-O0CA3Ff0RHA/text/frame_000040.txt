@@ -1,1 +1,15 @@
+Big Data on AWS - Big Data AWS Services 
+AWS Redshift - Components 
+Client apps: Redshift is based on industry-standard PostgreSQL, so 
+basically any SQL client can get access to Redshift with minor changes. 
+Connections: uses PostgreSQLJDBC and ODBC drivers 
+Cluster: is composed of one or more compute nodes and additional 
+leader node that coordinates everythings. Applications access to the 
+cluster through the leader node. 
+Leader node: parses and develops execution plans. compiles code 
+and distributed it to the compute nodes, assigning a portion of the 
+data to each compute node. 
+Compute node: execute the code passed from the leader and 
+return intermediate results to the leader for final aggregation. 
+www.beeva.com 
 

@@ -1,0 +1,129 @@
+2017-10-25 10:39:54,231 - root - INFO - Params <Namespace(lang='spa', ocr='ocr-space', output_path='/home/luismesa/demo_ocr/results/ocr_space', scene_threshold=0.1, video='https://www.youtube.com/watch?v=J-MmcAUXtlw')>
+2017-10-25 10:39:54,231 - root - INFO - Starting process
+2017-10-25 10:39:54,239 - root - INFO - It's a youtube video! Here we go!
+2017-10-25 10:39:54,239 - root - INFO - Getting info from youtube...
+2017-10-25 10:39:55,790 - root - INFO - Total info time: 1.551175s
+2017-10-25 10:39:55,791 - root - INFO - Downloading from youtube...
+2017-10-25 10:40:16,066 - root - INFO - Total download time: 20.275357s
+2017-10-25 10:40:16,067 - root - INFO - Generating frames from video ./BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw.mp4
+2017-10-25 10:40:16,067 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw.mp4" -vf "select=gt(scene\,0.1)" -vsync vfr "/home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_%06d.png" -qscale 0
+2017-10-25 10:41:32,125 - root - INFO - FFMPEG time: 76.057299s
+2017-10-25 10:41:32,125 - root - INFO - Performing OCR with ocr-space
+2017-10-25 10:41:32,125 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images
+2017-10-25 10:41:32,125 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/text
+2017-10-25 10:41:32,125 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000001.png
+2017-10-25 10:41:32,125 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000001.png
+2017-10-25 10:41:33,341 - root - INFO - OCR Space processing image time: 1.215503s
+2017-10-25 10:41:33,341 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000027.png
+2017-10-25 10:41:33,341 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000027.png
+2017-10-25 10:41:34,204 - root - INFO - OCR Space processing image time: 0.862684s
+2017-10-25 10:41:34,204 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000035.png
+2017-10-25 10:41:34,205 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000035.png
+2017-10-25 10:41:36,060 - root - INFO - OCR Space processing image time: 1.855723s
+2017-10-25 10:41:36,061 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000034.png
+2017-10-25 10:41:36,061 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000034.png
+2017-10-25 10:41:37,653 - root - INFO - OCR Space processing image time: 1.592258s
+2017-10-25 10:41:37,654 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000021.png
+2017-10-25 10:41:37,654 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000021.png
+2017-10-25 10:41:39,627 - root - INFO - OCR Space processing image time: 1.973009s
+2017-10-25 10:41:39,628 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000033.png
+2017-10-25 10:41:39,628 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000033.png
+2017-10-25 10:41:42,079 - root - INFO - OCR Space processing image time: 2.450074s
+2017-10-25 10:41:42,079 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000018.png
+2017-10-25 10:41:42,079 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000018.png
+2017-10-25 10:41:43,815 - root - INFO - OCR Space processing image time: 1.736153s
+2017-10-25 10:41:43,816 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000020.png
+2017-10-25 10:41:43,816 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000020.png
+2017-10-25 10:41:45,614 - root - INFO - OCR Space processing image time: 1.797622s
+2017-10-25 10:41:45,614 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000015.png
+2017-10-25 10:41:45,615 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000015.png
+2017-10-25 10:41:47,570 - root - INFO - OCR Space processing image time: 1.955126s
+2017-10-25 10:41:47,570 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000037.png
+2017-10-25 10:41:47,571 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000037.png
+2017-10-25 10:41:48,536 - root - INFO - OCR Space processing image time: 0.964824s
+2017-10-25 10:41:48,536 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000012.png
+2017-10-25 10:41:48,536 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000012.png
+2017-10-25 10:41:50,258 - root - INFO - OCR Space processing image time: 1.721768s
+2017-10-25 10:41:50,259 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000010.png
+2017-10-25 10:41:50,259 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000010.png
+2017-10-25 10:41:51,938 - root - INFO - OCR Space processing image time: 1.679256s
+2017-10-25 10:41:51,939 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000014.png
+2017-10-25 10:41:51,939 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000014.png
+2017-10-25 10:41:53,548 - root - INFO - OCR Space processing image time: 1.608771s
+2017-10-25 10:41:53,548 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000003.png
+2017-10-25 10:41:53,548 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000003.png
+2017-10-25 10:41:55,357 - root - INFO - OCR Space processing image time: 1.808441s
+2017-10-25 10:41:55,358 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000007.png
+2017-10-25 10:41:55,358 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000007.png
+2017-10-25 10:41:56,606 - root - INFO - OCR Space processing image time: 1.248324s
+2017-10-25 10:41:56,607 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000031.png
+2017-10-25 10:41:56,607 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000031.png
+2017-10-25 10:41:57,833 - root - INFO - OCR Space processing image time: 1.225376s
+2017-10-25 10:41:57,834 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000002.png
+2017-10-25 10:41:57,834 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000002.png
+2017-10-25 10:41:59,362 - root - INFO - OCR Space processing image time: 1.527607s
+2017-10-25 10:41:59,362 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000008.png
+2017-10-25 10:41:59,363 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000008.png
+2017-10-25 10:42:01,408 - root - INFO - OCR Space processing image time: 2.045568s
+2017-10-25 10:42:01,409 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000036.png
+2017-10-25 10:42:01,409 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000036.png
+2017-10-25 10:42:03,337 - root - INFO - OCR Space processing image time: 1.927458s
+2017-10-25 10:42:03,337 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000009.png
+2017-10-25 10:42:03,337 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000009.png
+2017-10-25 10:42:05,700 - root - INFO - OCR Space processing image time: 2.362855s
+2017-10-25 10:42:05,701 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000006.png
+2017-10-25 10:42:05,701 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000006.png
+2017-10-25 10:42:07,484 - root - INFO - OCR Space processing image time: 1.782751s
+2017-10-25 10:42:07,485 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000019.png
+2017-10-25 10:42:07,485 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000019.png
+2017-10-25 10:42:09,646 - root - INFO - OCR Space processing image time: 2.161s
+2017-10-25 10:42:09,647 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000022.png
+2017-10-25 10:42:09,647 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000022.png
+2017-10-25 10:42:12,248 - root - INFO - OCR Space processing image time: 2.600102s
+2017-10-25 10:42:12,248 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000030.png
+2017-10-25 10:42:12,248 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000030.png
+2017-10-25 10:42:13,526 - root - INFO - OCR Space processing image time: 1.277373s
+2017-10-25 10:42:13,526 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000016.png
+2017-10-25 10:42:13,526 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000016.png
+2017-10-25 10:42:15,423 - root - INFO - OCR Space processing image time: 1.896707s
+2017-10-25 10:42:15,423 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000028.png
+2017-10-25 10:42:15,423 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000028.png
+2017-10-25 10:42:16,349 - root - INFO - OCR Space processing image time: 0.92549s
+2017-10-25 10:42:16,350 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000032.png
+2017-10-25 10:42:16,350 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000032.png
+2017-10-25 10:42:18,180 - root - INFO - OCR Space processing image time: 1.830301s
+2017-10-25 10:42:18,181 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000013.png
+2017-10-25 10:42:18,181 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000013.png
+2017-10-25 10:42:19,823 - root - INFO - OCR Space processing image time: 1.641334s
+2017-10-25 10:42:19,823 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000011.png
+2017-10-25 10:42:19,823 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000011.png
+2017-10-25 10:42:21,726 - root - INFO - OCR Space processing image time: 1.902909s
+2017-10-25 10:42:21,726 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000005.png
+2017-10-25 10:42:21,727 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000005.png
+2017-10-25 10:42:23,647 - root - INFO - OCR Space processing image time: 1.920023s
+2017-10-25 10:42:23,647 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000026.png
+2017-10-25 10:42:23,647 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000026.png
+2017-10-25 10:42:25,226 - root - INFO - OCR Space processing image time: 1.579003s
+2017-10-25 10:42:25,227 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000017.png
+2017-10-25 10:42:25,227 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000017.png
+2017-10-25 10:42:27,337 - root - INFO - OCR Space processing image time: 2.109622s
+2017-10-25 10:42:27,337 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000004.png
+2017-10-25 10:42:27,337 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000004.png
+2017-10-25 10:42:28,620 - root - INFO - OCR Space processing image time: 1.282215s
+2017-10-25 10:42:28,620 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000025.png
+2017-10-25 10:42:28,620 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000025.png
+2017-10-25 10:42:30,396 - root - INFO - OCR Space processing image time: 1.775647s
+2017-10-25 10:42:30,396 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000024.png
+2017-10-25 10:42:30,397 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000024.png
+2017-10-25 10:42:32,521 - root - INFO - OCR Space processing image time: 2.12419s
+2017-10-25 10:42:32,521 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000023.png
+2017-10-25 10:42:32,521 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000023.png
+2017-10-25 10:42:34,380 - root - INFO - OCR Space processing image time: 1.85823s
+2017-10-25 10:42:34,380 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000029.png
+2017-10-25 10:42:34,380 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/BEEVA Coffee Time - Introducción a la visión artificial-J-MmcAUXtlw/images/frame_000029.png
+2017-10-25 10:42:36,126 - root - INFO - OCR Space processing image time: 1.74546s
+2017-10-25 10:42:36,126 - root - INFO - Total OCR time: 64.000926s
+2017-10-25 10:42:36,126 - root - INFO - Trying to detect passwords...
+2017-10-25 10:42:36,127 - root - INFO - Password detection time: 0.001373s
+2017-10-25 10:42:36,140 - root - INFO - Process finished!
+2017-10-25 10:42:36,140 - root - INFO - Total process time: 161.90917s

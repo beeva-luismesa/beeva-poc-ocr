@@ -1,1 +1,14 @@
+Big Data on AWS - Big Data AWS Services 
+AWS CloudSearch 
+Amazon CloudSearch is a Cloud search solution. 
+Features: 
+Free text, Boolean, and Faceted search 
+Autocomplete suggestions 
+Customizable relevance ranking and query-time rank 
+expressions 
+Field weighting 
+Geospatial search 
+Highlighting 
+Support for 34 languages 
+www.beeva.com 
 

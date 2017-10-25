@@ -1,1 +1,39 @@
+optional arguments: 
+-h - -help 
+- -debug 
+- -quiet 
+-v, - -verbose 
+--profUe PROFILE 
+show this help nessage and exit 
+toggle debug output 
+suppress al t output 
+toggle verbose output 
+use a specific profite from your credential file 
+-r REGION, --regton REGION 
+--no-vertfy-ssl 
+--version 
+use a specific region 
+do not verify AHS SSL certificates 
+show application/version info 
+To get started type 'eb tnit'. Then type 'eb create' and 'eb open' 
+bash-3.2$ cd node-project/ 
+bash-3.2$ eb init 
+Select a default region 
+1) us-east-l : US East (N. Vtrgtnia) 
+2) us-west-l : US Hest (N. California) 
+3) us-west-2 : US West (Oregon) 
+4) eu-west-l : EU (Ireland) 
+S) eu-central-l : EU (Frankfurt) 
+6) ap-southeast-l : Asia Pacific (Singapore) 
+7) ap-southeast-2 : Asia Pacific (Sydney) 
+8) ap-northeast-l : Asia Pacfftc (Tokyo) 
+9) sa-east-l : 
+South Arnertca (Sao Pauto) 
+(default is 3): 
+You have not yet set up your credentials or your credentials are incorrect 
+You must provtde your credenttals. 
+(aws-access-id): AKIAJXQL66HEEYCPDAHA 
+(aws-secret-key): Oj1SxGnEDNs/KW/01zRA/MXUQn1+FtqcRmsnF2Y 
+Enter Appltcation Nane 
+(default is "node-project"): 
 

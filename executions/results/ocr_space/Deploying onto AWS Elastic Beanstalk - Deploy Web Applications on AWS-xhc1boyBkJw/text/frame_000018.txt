@@ -1,1 +1,15 @@
+AWS 
+Create New Gm•p 
+Group Actions 
+o 
+Details 
+I Groue 
+Policies 
+Identity Providers 
+ACCOunt Settings 
+Credential Repon 
+Encryption Keys 
+Group Name 
+Inline Policy 
+Creation Time 
 

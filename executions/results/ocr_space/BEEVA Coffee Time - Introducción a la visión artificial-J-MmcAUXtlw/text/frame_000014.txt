@@ -1,1 +1,24 @@
+DE LA DESCRIPCIÓN AUTOMÁTICA 
+SIGNIFICADO DE LA FRASE CODIFICADO EN UN ÚNICO VECTOR 
+NeuralTalk 
+A. Karpathy 
+Codificador — 
+Descodificador 
+¿y SI CAMBIAMOS EL CODIFICADOR? 
+Language 
+Vis ion 
+Deep CNN Generaung 
+RNN 
+A group of people 
+shopping at an 
+outdoor market. 
+There are many 
+vegetables at the 
+fruit stand. 
+Traducción 
+automática 
+de textos 
+Descripción 
+de imágenes 
+11 
 

@@ -1,1 +1,10 @@
+Big Data on AWS - Big Data AWS Services 
+AWS Machine Learning - Steps 
+Train model 
+Evaluate & 
+Optimize 
+the model 
+www.beeva.com 
+Generate 
+predictions 
 

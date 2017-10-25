@@ -1,1 +1,26 @@
+Openstack introduction 
+iii. 
+v. 
+Topics of this course 
+What is OpenStack 
+What is a Cloud? 
+Cloud Architecture 
+Cloud Models 
+Cloud Capacity 
+OpenStack Capacity 
+vii. 
+VIII. 
+ix. 
+x. 
+XI. 
+xii. 
+OpenStack History 
+Openstack Services 
+Example deployment 
+topology 
+Deployment topology 
+Deployment types 
+Demo 
+www.beeva.com 
+Topics of this course 
 

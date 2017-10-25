@@ -1,1 +1,21 @@
+Openstack introduction 
+iv. Cloud Models 
+Software as a 
+Service (SaaS) 
+Platform as a 
+Service (PaaS) 
+Infrastructure as 
+a Service (laaS) 
+• Scalable; Multi-tenant; Metadata driven 
+configurability 
+adoption; proven business models 
+• Highly scalable; multi-tier architecture; Multi tenant 
+environments 
+• Developers can upload a configured applications and it 
+"runs" within the platform's framework 
+• Offers full control Of a companVs infrastructure; not 
+confined to applications or restrictive instances 
+• Sometimes comes with a price premium; can be 
+complex to build, manage and maintain 
+www.beeva.com 
 

@@ -1,1 +1,37 @@
+bash-3.2$ sudo pip instatt awsebcti 
+The directory /Users/Screencast/Ltbrary/Caches/p{p/http or its parent directory not owned by the current user and the cache has 
+been disabled. Please check the permtsstons and owner of that directory. If executtng pip with sudo, you may want sudo's -H flag. 
+The directory /Users/screencast/Ltbrary/Caches/ptD/httD or its parent dtrectorv is not owned by the current user and the cache has 
+been disabled. Please check the permtsstons and owner of that directory. If executtng pip with sudo, you may want sudo 's -H ftag. 
+Collecttng awsebcli 
+InsecurePlatfornHarntng: A true SSLContext obj 
+ect is not avatlabte. This prevents urllib3 from configurtng SSL appropriately and may cause certain SSL connections to fan. For more 
+information, see https://urtttb3.readthedocs.org/en/tatest/securtty.htnt#tnsecureptatforpuarning. 
+InsecurePlatformHarntng 
+Collecflng requests<2.7,>=2.6.1 (from awsebclt) 
+Downloadtn requests-2.6.2-py2. py3-none-any.whl (478kB) 
+4710 
+Collecttng (from awsebclt) 
+Collecting websocket-client<l (from awsebclD 
+Collecttng cement=2.4 (from awsebcli) 
+Col tecting pyyamb=3.11 (from awsebcti) 
+Collecttng (from awsebclD 
+Collecttng (from awsebclD 
+Collecting (from awsebcli) 
+Downloadtn 
+thon dateuttl-2.4.2- 
+2 p 3-none-any .whl (188kB) 
+49kB/s 
+Collecttng (from awsebclt) 
+Collecting (from awsebcli) 
+Downloadtng jnespath-e.7.1-py2.py3-none-any.whI 
+Cottecttng (from awsebcIO 
+Collecttng soo=1.3.e (from 
+Downloadtng six-1.9.e-py2.py3-none-any.whl 
+Collecttng backports.ssl-match-hostnane (from 
+Installing collected packages: requests, stx, dockerpty, backports.ssl-natch-hostnane, websocket-cltent, cenent, pyyanl, pathspec, text 
+table, python-dateutu, docker-py, jmespath, docopt, awsebclt 
+Successfully installed awsebcu-3.4.S backports.ssl-match-hostnane-3.4.e.2 docker-py-l.l.e dockerpty-e.3.4 docopt-e.6.2 jm 
+espath-e.7.1 pathspec-e.3.3 python-dateutU-2.4.2 pyyant-3.11 requests-2.6.2 stx-1.9.e texttable-e.8.3 websocket-client-e.32.e 
+bash-3.2$ 
 

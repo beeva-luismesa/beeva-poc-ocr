@@ -1,1 +1,16 @@
+Big Data on AWS - Big Data AWS Services 
+AWS EMR - Processing Layer - 
+EMRFS is an implementation of HDFS which 
+to store data on Amazon S3 
+Features: 
+Server-side and client-side encryption 
+EMRFS 
+allows EMR clusters 
+Allows working with encrypted data on EMR 
+Consistent View for EMRFS 
+Consistency checking for list and read-after-write (for new 
+put requests) for objects in Amazon S3. Enables that any 
+data stored in a Step is available from consequent steps. 
+EMRFS metadata in Amazon DynamoDB 
+www.beeva.com 
 

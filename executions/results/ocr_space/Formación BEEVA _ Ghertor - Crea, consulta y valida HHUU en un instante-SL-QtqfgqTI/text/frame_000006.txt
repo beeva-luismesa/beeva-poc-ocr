@@ -1,1 +1,9 @@
+BBVA 
+Ghertor / 06-11-2015 
+1 
+Dificultades con Cucumber en OP 
+Desde el punto de vista del POIBA (4/4): 
+'No tengo un mecanismo que valide mis HHUU/features antes de 
+que las compruebe QA. 
+www.beeva.com 
 

@@ -1,1 +1,12 @@
+Big Data on AWS - Big Data AWS Services 
+AWS Data Pipeline 
+Pipeline definition: specifies the business logic of your data 
+management. 
+Pipeline schedules & runs tasks: definition of the pipeline 
+execution time and editable configuration about the pipeline. 
+Task runner polls: available through a task runner application 
+that is executed on AWS EC2 or AWS EMR. 
+Data Pipeline Data Sources: available from the following 
+Amazon Web Services (DynamoDB, RDS, Redshift or S3). 
+www.beeva.com 
 

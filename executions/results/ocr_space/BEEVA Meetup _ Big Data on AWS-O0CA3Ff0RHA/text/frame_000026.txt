@@ -1,1 +1,35 @@
+Big Data on AWS - 
+Big Data AWS Services 
+E EVA 
+AWS 
+Amazon Kinesis Stream 
+Kinesis architecture 
+EC2 Instances 
+Client 
+Mobile Client 
+Trad't.onal 
+Server 
+AWS 
+Producers 
+sttara 1 
+Shard 2 
+Shard N 
+o 
+o 
+EC2 instance 
+O 
+o 
+EC2 instance 
+o 
+O 
+EC2 instance 
+o 
+o 
+EC2 instance 
+Consumers 
+Amazon S3 
+Amazon Elastic 
+MapReduce 
+Arruzon Redshift 
+www.beeva.com 
 

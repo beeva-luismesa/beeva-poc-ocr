@@ -1,1 +1,9 @@
+Openstack introduction 
+xi. Deployment types 
+Manual 
+Packstack 
+Configure + Automatic Deployment with automation tools(Ansible,puppet) 
+OpenStack-on-OpenStack (Openstack Director) 
+www.beeva.com 
+xi. Deployment types 
 

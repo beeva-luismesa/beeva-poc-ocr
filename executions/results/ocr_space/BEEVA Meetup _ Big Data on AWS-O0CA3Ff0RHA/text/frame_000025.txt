@@ -1,1 +1,12 @@
+Big Data on AWS - Big Data AWS Services 
+AWS Kinesis - Intermediate Storage 
+Amazon Kinesis is a platform for streaming data on AWS, 
+making it easy to load and analyze streaming data, and also 
+providing the ability for you to build custom streaming data 
+applications for specialized needs. 
+Several components: 
+Kinesis Streams 
+Kinesis Firehose 
+Kinesis Analytics 
+www.beeva.com 
 
