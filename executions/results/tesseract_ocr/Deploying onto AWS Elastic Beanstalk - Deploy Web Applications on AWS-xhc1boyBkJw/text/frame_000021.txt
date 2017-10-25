@@ -1,13 +1,43 @@
-(.
+ssh ºpens the SSH cllent to connect to an instance.
+status Gets envlrunnent lnfornatton and status.
 
->< …… ……n………………… …
+mp Swap: tm envlronnent (NME: vlth each other.
+temlnate 'Íernlnates the environmnt.
 
-gas… Beansl31k
+upgrade Updates the envíroment to the lost recent platform version.
+use Sets default environment.
 
-Loading... C
+optlnnal arguments:
 
- 
+-h. --help show this help nessage and exlt
+--debuu togale debug output
+--qutet suppress all output
 
-… w»=y
+—-verbose tmle verbose output
 
-m……—
+—-proftle PROFILE use a speclflc profile fron your credentlal fue
+-r REGION. --reglon REGION
+use ¡ speclflc reglnn
+--m-verlfy-ssl do nºt verify ¡HS SSL certificates
+--verston show appllcatlan/verston info
+
+To get started type 'eb lntt'. Then type 'eb :reate' and 'el: open'
+bash-3.25 cd nude—project!
+bash—3.25 eb lnlt
+
+Select ¡ default reglnn
+
+1) us-east-1 : US East (I. Vlrglnla)
+
+Z) us-nest-1 : US "est (N. Callfornla)
+!) us-uest-Z : U$ Nest (Oregon)
+
+4) eu-uest-1 : Eu (Ireland)
+
+!) eu-central-1 : a: (Frankfurt)
+
+6) ap-southeast-1 : Asia Pacific (Slngapore)
+1) ap—suutheast—Z Asta Paclflc (Sydney)
+¡) ap-northeast-1 . Asta Paclflc (Tokyo)
+!) sa-east-1 : South k|erlca (Sao Paulo)
+¡default ls 3):

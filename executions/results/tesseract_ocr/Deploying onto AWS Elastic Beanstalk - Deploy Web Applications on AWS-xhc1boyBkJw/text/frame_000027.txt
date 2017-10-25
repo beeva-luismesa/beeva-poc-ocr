@@ -1,52 +1,54 @@
-optlonal arnumnts:
+optlonal arguments:
 
--I|, --help shw thls help nessage and exlt
---debug toggle debug output
+-I|, —-help shw thls help nessage and exlt
+—-debug toggle debug output
 
--—qulet suppress all output
+--qulet suopress all output
 
--v, --verbose toggle verbose output
+.v, --verbose toggle verbose output
 
---proflle PRDFILE use ¡ speclflc profile from your credentlal fue
--r REGION, --regi.un REGION
-use a specific reglon
---m-vertfy-ssl do not verlfy AH5 SSI. certlflcates
---verslon shw appllcatlnn/verslon lnfo
+--proflle PROFILE use a speclflc proflle from your credentlal flle
+-r REGION, --reglon REGION
+use a specific region
+--nn-verlfy-ssl do not verify AHS SSL certlflcates
+--verslon show aopllcatton/vers'lon lnfo
 
-To get started type “eb lntt'. Then type 'eb create” ami 'el; open'
-bash-3.25 cd nude-project!
-bash-3.25 eb ln“
+To get started type “eb lnlt'. Then type 'eb <reate' ami 'el: open'
+bash-3.25 cd node-project]
+hash-3.15 eb lnlt
 
-Select a default region
+Select el default region
 
-1) us-east-1 : US East (II. Vlrglnla)
+1) us—east-1 : us East (M. Vtrglnla)
 
-:) us-uest-1 : US West (DI. Callfornla)
+2) us—uest-1 : US West (N. Callfornla)
 
-!) us-uest-Z : US West (Oregon)
+3) us-uest-2 : LIS Hest (Oregon)
 
-4) eu-uest-1 : su (Ireland)
+4) eu—uest-1 : EU (Ireland)
 
-5) eu—central-1 ' El! (Frankfurt)
+5) eu-central-1 - Eu (Frankfurt)
 
-5) ap-snutheast- Ash Paclflc (Singapore)
+¡) ap-southeast- ' Asta Paclflc (Slngapore)
 
-7) ¡p-southeast-2 Asla Paclflc (Sydney)
+1) ap-southeest-Z Aste Faclflc (Sydney)
 
-8) ap-northeast-1 : Asla Paclflc (Tokyo)
+8) ap-northeast—1 : Asta Faclflc (Tokyº)
 
-9) sa-east—1 : South Anerlca (sao Paulo)
+9) sa-east-1 : South Merka (Sao Paulo)
 
 (default ls 3):
 
-Van have not yet set up your credentlals or your credenthls are incorrect
-You must prwlde your credenthls.
+You have not yet set up your :redentlals or your eredentlals are *anorrect
+You must prwlde your credentlils.
 
-(aus-access—ld): AKMJXQL66HEEVCP…
+(aus-azcess-ld): AKIAJXQLSSHEEYCPDMA
 
-(aus-secret-key): o]I$(GnEDNs/M/oIlM/…n1+FtchnsanV
+(aus-secret-key): 0115xGnEDN5/mlounA/Mxlnnhth:msanV
 
-   
+ 
+ 
+ 
 
-Enter Application Nine
-(default ls "node-project"): |
+Enter Appllcatlon Nine
+(default ls "node-project"):

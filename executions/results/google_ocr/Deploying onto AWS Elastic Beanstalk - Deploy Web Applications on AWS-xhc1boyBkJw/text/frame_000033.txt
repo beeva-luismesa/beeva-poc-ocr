@@ -1,22 +1,33 @@
-bash-3.2$ ls
-README.md app.js package.json
-bash-3.2$ git init
-Initialized empty Git repository in JUsers/Screencast/Desktop/ Amazon/node-project/ .git/
-bash-3.2$ git add *
-bash-3. 2$ git commit - "Initial commit"
-master (root-commit) da55fc3] Initial commit
-Committer: Screencast<Screencast-MacBook-Pro. local
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-git config --global --edit
-After doing this, you may fix the identity used for this commit with:
-git commit -- amend -- reset-author
-3 files changed, 35 insertions(+)
-create mode 100644 README.md
-create mode 10644 app.js
-create mode 100644 package.json
-bash-3.25
+– C8 https://console. awsamazon.com/iamhome?region-us-west-2 groups/demoGroup
+T AWS Services v Edit
+Screencast
+Global
+Support
+Dashboard
+IAM > Groups > demoGroup
+- Summary
+Details
+Group ARN:
+arn:awsiam:815675479840:group/demoGroup
+Groups
+Users (in this group):
+Users
+Path:
+Roles
+Creation Time:
+2015-06-30 14:33 PDT
+Policies
+Identity providers
+- Users
+Account Settings
+A This group does not contain any users.
+Credential Report
+Add Users to Group
+Encryption Keys
+- Permissions
+Managed Policies
+Inline Policies
+There are no inline policies to show. To create one, click here.
+Q Feedback O English
+© 2008 - 2015, Amazon Web Services, Inc. or its affiliates. All rights reserved . Privacy Policy Terms of Use
 

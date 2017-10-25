@@ -1,1 +1,44 @@
+bash-3.25 sudo plp Lnsta'l'l msebcll
+The directory [Users/Screencast[Library/Caches/9Lp/http or its parent directory 15 no: wned by the current user and the cache has
+been dtsibled. Please check the permission: end runner of th¡t directory. If executlng pi.p with sudo, you my want suda's -H flag.
+The directory [Users/ScreencastlLibriry/Ca:he$lninlhttn or its parent directorv is not wued by the current user ¡ud the cache has
+beendtsahled. Please check the pernlsslons and owner of that directory. If executtng utp with sudo. you may want sudo's -H flag.
+cull.ecttng ausebc'li.
+lLtbr¡ry/Python/2.7/5(te-p¡eklgeslptp/_vendorlrequests/peckeges/urllthilutitlssl_.py:99: InseeureFlatformerning: A true SSLCOntext obj
+ect is not ¡vitluble. This prevents urllíb3 from mnñgurtng SSL appropriately and may ciuse certitn SSL connections to fail. For mre
+information, see https: ¡[urllth ,readthedocs.org/enllatest/securtty. henlitnsecurep1atformarntng .
 
+InsecurePhtformarnkng
+Collectlnn requests<l.7,>=1.5.1 (from msebclt)
+
+Dounloadin r uests-Z.6.Z- 2. 3—none-¡nymhl (470k5)
+
+me; I | 471—k5 206kB/s
+
+Collectlng dockerpty<9.4,>=0.3.2 (fran ¡usebeli)
+Collectlng uebsocket-ellentel.º,>=º.n.B (fran ausebclt)
+Collecttng :erent= .4 (from nsebc1,i)
+Cullecttng pyyanl>=3.11 (from wsebclí)
+€o'l'lecttng pathspec=e.3.3 (from ausebc'll)
+Collectlng texttableaa.9,>=a.a.1 (fran ausebclt)
+Collecttng python—dateutil<3.B.B,>=Z.1 (fran ensebcli)
+
+Dwnloadtn than dáteutil- .4.2- 2. 3-none-¡uy.th (188k5)
+
+mex | | 19sz 49ka/s
+
+Collecttng docker-py<1.z,>=1.1.o (from awsebell)
+Collectlng jnespith>=8.6.1 (fran wsebcll)
+
+Downloading jnespath-B.7.1-py2.py3-none»iny.nhl
+Collecttng docnpte0.1,>=6.6.1 (fran ausebclt)
+Collecttng sb(>=1.3.5 (from dockerptyd.4,>=8.3.Z->ausebell)
+
+Dºwnloading six-1.9.e-py2.pyB-nme—any.uhl
+Cnllecttng backports.ssl-natah-hostnine (from uebsocket-(Lient<l.º,>=º.11.0->wsebelí)
+Installtng collected packages: requests, slx, dockerpty. baekports.ssl-mtch-hostnme, websocket-cltent, cenent, pyyan'l, pathspec, text
+table, python-dateuttl. dncker-py, jhespath, docopt, ansebcl.l
+successfully ¡.nstilled ansebc1i._—3.4.5 Enekports.ssl-natch-h_ostnune-3.4.6.2 caen-1.4.9 doeker-í7y-1.1.O dockernty-B.3.4 .docopt-B.6.Z :ln
+;:v:th-eg7ií pithspec-O.3.S python—diteutil-Z.4.Z pyyanl-3.11 requests-2.6.2 six-1.9.6 texttible-G.B.3 uebsocket-cllent-B.BZ.O
+
+s -3.2

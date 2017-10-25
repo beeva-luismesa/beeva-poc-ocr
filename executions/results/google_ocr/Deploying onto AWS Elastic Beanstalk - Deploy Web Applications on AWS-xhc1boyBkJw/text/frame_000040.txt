@@ -1,2 +1,29 @@
-bash-3.2s I
+C B https://us-west-2.consoleaws.amazon.com/elasticbeanstalk/home?region-us-west-2/newApplication?applicationName =node-project
+T AWS
+Services v Edit
+Screencast
+Oregon
+Support
+Elastic Beanstalk node-project
+Create New Environment
+Application Info
+New Environment
+New Environment
+AWS Elastic Beanstalk has two types of environment tiers to support different types of web applications. Web servers are standard applications that listen for and then process HTTP requests,
+typically over port 80. Workers are specialized applications that have a background processing task that listens for messages on an Amazon SQS queue. Worker applications post those messages
+to your application by using HTTP .
+Web Server Environment
+Create web server
+Provides resources for an AWS Elastic Beanstalk web server in either a single instance or load-balancing, auto scaling environment.
+Learn more.
+Worker Environment
+Create worker
+Provides resources for an AWS Elastic Beanstalk worker application in either a single instance or load-balancing, auto scaling
+environment. Learn more.
+o
+Worker environments require additional permissions to access other AWS services. Learn more.
+Cancel Done
+Q Feedback e English
+O 2008 - 2015, Amazon Web Services, Inc. or its affiliates. All rights reserved.
+Privacy Policy Terms of Use
 

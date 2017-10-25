@@ -1,51 +1,54 @@
+optional arguments:
+
+-I|, —-help shw this help message and exit
+—-debug toggle debug output
+
 --qulet suppress all output
---verbose toggle verbose output
---proflle PROFILE use : speclfk proflle fran your credenthl flle
--r REGION, -—reglon REGION
-use ¡ speclflc reglon
---no-verlfy-ssl do not verle AMS SSL certlflcates
---verslon shou ¡ppllntton/verslon lnfo
 
- 
+-v, --verbose toggle verbose output
 
-To get started type 'el) lun“. Then tyoe 'eb create' and 'el: open'
-bash-3.25 cd node-project!
-bash-3.25 eb lnlt
+--profile PROFILE use a specific profile from yºur credential file
+-r REGION, --region REGION
+use a specific region
+--nn-verify-ssl do not verlfy AHS SSL certlficates
+--version shw application/Version info
 
-Select a default region
+To get started type “eh init'. Then type 'eb <reate' and 'el: open'
+hash-3.25 cd node-project]
+hash-3.15 eb inlt
 
-1) us-east-1 : us East (N. Vlrgtnla)
+Select el default region
 
-:) us-Hest-1 : US "est (N. cultfornh)
+1) us—east-1 : us East (M. Virginia)
 
-3) us-nest-Z : US "est (Oregon)
+2) us—uest-1 : US West (N. California)
 
-A) eu-nest-1 : eu (Ireland)
+3) us-uest-Z : US Hest (Oregon)
 
-5) eu-central-1 : Eu (Frankfurt)
+4) eu—uest-1 : EU (Ireland)
 
-5) ap-southeast-1 : Ash P¡clflc (Singapore)
+5) eu-central-1 - Eu (Frankfurt)
 
-7) ¡p-southeast-Z Ash Pa:lflc (Sydney)
+¡) ap-southeast- ' Asia Pacific (Singapore)
 
-8) ap-northeast—1 . Asta Paclflc (Tokyo)
+7) ap-southeast-Z Asia Pacific (Sydney)
 
-!) sa—east-1 : South Merlca (Sao Paulo)
+8) ap-northeast—1 : Asia Pacific (Tokyº)
+
+9) sa-east-1 : South Merica (Sao Paulo)
 
 (default ls 3):
 
-You hwe not yet set up your :redenthls or your credenthls ¡re incorrect
-You must prwlde your credentl¡ls.
+You have not yet set up your credentials or your credentials are incorrect
+You nust prwide your credentials.
 
-(aus-access-ld): AKIAJXQLSGWEEVCPDMA
+(aus-azcess-ld): AKIAJXQLSSHEEVCPDMA
 
-(aus-secret-key): o]I5x5nEDIs/M/ole…nhmeanV
+(aus-secret-key): aj15xansons/m/onnA/Mxmnprtqcmnm
 
+ 
+ 
  
 
 Enter Application Nine
-(default ls "nade—project'):
-Appltc=tlon node-project has been created.
-
-It ¡ppears you are using Ilode.js. Is this :orrect?
-(yla):
+(default ls "node-project"):

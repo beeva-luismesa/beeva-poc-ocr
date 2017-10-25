@@ -1,32 +1,35 @@
-– 4 x B https:/console.awsamazon.comiam/home?region-us-west-2nhome
-Q
-E
-T AWS Services Edit r
-Screencast
-Global
-Support
-Dashboard
-Welcome to Identity and Access Management
-Feature Spotlight
-Details
-Introduction to AWS IAM < 0
-IAM Resources
-Groups
-Users
-Security Status
-Roles
-Policies
-CD 000 1216
-Identity providers
-Account Settings
-Credential Report
-Additional Information
-IAM documentation
-Encryption Keys
-Web ldentity Federation Playground
-Policy Simulator
-Videos, IAM release history and additional
-resources
-0 2008 -2015, Amazon Web Services, Inc. or its affiliates. All rights reserved . Privacy Policy
-Terms of Use
+bash -3.2$ sudo pip install awsebcli
+The directory JUsers/Screencast/Library/caches/pip/http or its parent directory is not owned by the current user and the cache has
+been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag
+The directory /Users/screencast/Library/Caches/pip/http or its parent directory is not owned by the current user and the cache has
+been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo H flag
+Collecting awsebcli
+/Library/Python/2.7/site-packages/pip/vendor/requests/packages/urllib3/util/ss. py:90: InsecurePlatformWarning: A true SSLContext obj
+ect is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more
+information, see https://urllib3. read thedocs.org/en/latest/security.html#insecureplatform warning
+InsecurePlatformаrning
+Collecting requests<2.7,52.6.1 (from awsebcli)
+Downloading requests-2.6.2-py2.py3-none-any.whl (470kB)
+100% | 471B 206kB/s
+Collecting dockerpty<0.4,>=0.3.2 (from awSebcli)
+Collecting websocket-client<1.0,>=0.11.0 (from awsebcli)
+Collecting cement==2.4 (from awsebcli)
+Collecting pyyaml>=3.11 (from awsebcli)
+Collecting pathspec==0.3.3 (from awsebcli)
+Collecting texttable<0.9,>=0.8.1 (from awsebcli)
+Collecting python-dateutil<3.0.0,>=2.1 (from awsebcli)
+Downloading python dateutil-2.4.2-py2.py3-none-any.whl (188kB)
+100% 192kB 49kB/s
+Collecting docker-py<1.2,>=1.1.0 (from awsebcli)
+Collecting jmespath>=0.6.1 (from awsebcli)
+Downloading jmespath-0.7.1-py2.py3- none-any.whil
+Collecting docopt<0.7,>=0.6.1 (from awsebcli)
+Collecting six1.3.0 (from dockerpty<0.4,>=0.3.2-awsebcli)
+Downloading six-1.9.0-py2.py3-none-any, whil
+Collecting backports.ssl-match-hostname (from websocket-client<1.0,>=0.11.0->awsebcli)
+Installing collected packages : requests , six, dockerpty, backports.ssl-match-hostname, websocket-client, cement, pyyaml, pathspec, text
+table, python-dateutil, docker-py, jmespath, docopt, awsebcli
+Successfully installed awsebcli-3.4.5 backports.ssl-match-hostname-3.4.0.2 cement-2.4.0 docker-py-1.1.0 dockerpty-0.3.4 docopt-0.6.2 jm
+espath -0.71 pathspec-0.3.3 python-dateutil-2.4.2 pyyaml-3.11 requests-2.6.2 six-1.9.0 texttable-e.8.3 websocket-client-0.32.0
+bash-3.2s
 

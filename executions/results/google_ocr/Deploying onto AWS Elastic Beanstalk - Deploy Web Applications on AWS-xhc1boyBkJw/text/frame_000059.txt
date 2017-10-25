@@ -1,0 +1,22 @@
+bash-3.2$ ls
+README.md app.js package.json
+bash-3.2$ git init
+Initialized empty Git repository in Users/screencast/Desktop/ Amazon/node-project/ .git/
+bash-3.2$ git add *
+bash-3.2$ git commit - "Initial commit"
+(master (root-commit) da55fc3] Initial commit
+Committer: ScreencastScreencast-MacBook-Pro. local
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate
+You can suppress this message by setting then explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+git config --global --edit
+After doing this, you may fix the identity used for this commit with:
+git commit --amend -- reset-author
+3 files changed, 35 insertions(+)
+create mode 100644 README.md
+create mode 10644 app.js
+create mode 100644 package.json
+bash-3.25
+

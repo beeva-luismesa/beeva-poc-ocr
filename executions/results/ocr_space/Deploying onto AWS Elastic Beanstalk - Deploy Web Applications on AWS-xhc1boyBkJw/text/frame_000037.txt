@@ -1,32 +1,8 @@
-use 
-equire( "http" ) 
-mysql 
-equire( "nysql " 
-nysQlServer = nysql . 
-host: process.env. 
-user: process . env. 
-password: process. 
-port: process.env. 
-n; 
-RDS_HOSTNAME, 
-RDS_USERNAME, 
-env.RDS_PASSHORD, 
-RDS_PORT 
-mysqlServer . connect( ir 
-http . createServer(fL-- 
-n(request, 
-response 
-connec 
-onnec ted 
-response) 
-err 
-O RDS 
-. env. RDS_HOSTNAME ; 
-Conterv Type " 
-response.write( 
-response.end(); 
-I). listen( 
-text/plair 
-.env[ •rnsg']) 
-env.PORT I 
+ü AWS 
+Loading... O 
+EngWt 
+Or.n 
+htvzy PdEy 
+Stmort 
+T«rns of 
 

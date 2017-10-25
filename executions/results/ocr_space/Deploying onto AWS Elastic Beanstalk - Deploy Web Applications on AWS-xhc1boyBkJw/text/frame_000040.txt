@@ -1,2 +1,24 @@
-bash-3.2$ I 
+ü AWS 
+Elastic Beanstalk 
+Application Info 
+New Environment 
+F-—ck 
+Omon Stmort 
+Create New Environment 
+node-proiect • 
+New Environment 
+AWS Elastic Beanstalk has tWO types Of environment tiers to support different types Of web applications. Web servers are standard applications that listen for and then process HTTP requests. 
+typically over port 80. Workers are specialized applications that have a backgrouM processing task that lístens for messages on an Amazon SOS queue. Worker applicatlons post those messages 
+to Your application by using HTTP. 
+Web Server Environment 
+provides resource.s for an AWS Elastic Beanstalk web server in either a single instance or load-balancing, auto scaling environment. 
+Worker Environment• 
+Provides resources for an AWS Elastic Beanstalk worker application in either a single instance or load-balancing, auto scaling 
+environment. Leam more. 
+Create sev« 
+O 
+• Worker environments require additional permissions to access other AWS services. Leam more. 
+2008 2CIS. Amazon W05 Servces, Inc. or its afiliares. Al rights resorvM. 
+Rivzy Pdicy 
+T«rms 
 

@@ -1,0 +1,20 @@
+"Use strict'
+var http = require("http"),
+mysql = require("mysql"),
+mysqlServer = mysql.createConnection
+host: process.env.RDS_HOSTNAME,
+user: process. env.RDS_USERNAME,
+password: process.env.RDS_PASSWORD,
+port: process. env.RDS_PORT
+mysqlServer.connect(functionCert) {
+If (err )
+process, envſ' msg] = Unable to connect to RDS - + err;
+} else {
+process. envſ' msg'] = 'Success Connected to RDS via + process.env. RDS HOSTNAME;
+http.createServer(function(request, response) {
+response.writeHead(200, {
+"Content-Type": "text/plain"
+response.write(pros. envasg 'I);
+response.end();
+}).listent recess.env.PORT II 3000);
+

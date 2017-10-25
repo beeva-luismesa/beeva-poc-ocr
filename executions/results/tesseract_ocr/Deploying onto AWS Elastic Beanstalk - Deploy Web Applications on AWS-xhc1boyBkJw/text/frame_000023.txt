@@ -1,17 +1,43 @@
-AVIS … sa…slv urewnv Supvºn—-
-¡ …… …… le_l_9 »… W……
+ternlnate Ternlnates the ewtronnent.
+upgrade Updates the envíroment to the lost recent platfurn verslon.
 
-A» n…… |…
-| ” Apphcation 1nlormation
+use Sets default envlronnent.
+optional argurents:
+-I|, --help show thts help nesnge and exlt
+--debun tpggle debug output
+--qulet suppress all output
+-v, --verbose toggle verbose output
 
-New Envuenmem
+--proftle PRI)FILE use a speclftc profile fron your credentlal file
+-r REGION. --regtnn REGIDI
+use a specific region
+--no-verlfy-ssl do not verlfy AN5 SSL certlflcates
+--verslon shw appllcatlon/verslon info
 
-Íocvealea new apphcanan emefmeae¡awwsmyowappmalnn Leam move
+To get started type 'eb tnlt'. Then type “eb create' and 'el: open'
+bash-3.25 cd node-project]
+bash-3.25 eb lntt
 
-mmm.… nana …… :|c1e55 ma— ma characmrs … cannu' …… n e'
+Select ¡ default region
 
-Desmptmn vpu…a
+1) us-east-1 : US East (M. Vlrglnla)
 
-… m
+Z) us-uest-1 ' us "est (M. California)
 
-. F.udbuuk O En… m-=vwwv mefun
+3) us-uest-Z US "est (Oregon)
+
+4) eu-nest-1 : Eu (Ireland)
+
+5) eu-central-1 : E” (Frankfurt)
+
+5) ap-southeast-1 : Asta Patlftc (Singapore)
+1) ap-southeast-2 Asla Paclflc (Sydney)
+») ap-northeast-1 : Asta Paclflc (Tokyo)
+
+!) sa-east-1 : South Nnertca (Sao Paulo)
+(default ls 3):
+
+Van have not yet set up your credentlals or your eredenttals are incorrect
+You must prwtde your credenttals.
+(aus-access-id)' AK1AJXQLMEYCPDAHA
+(a»s-secret-key). .

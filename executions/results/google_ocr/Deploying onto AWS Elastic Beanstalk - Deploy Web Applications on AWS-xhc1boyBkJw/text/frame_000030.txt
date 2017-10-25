@@ -1,2 +1,16 @@
-bash-3.2s I
+– C8 https://console.awsamazon.com/iam home?region -us-west-2 groups
+T AWS Services v Edit
+Screencast
+Global
+Support
+Create New Group Wizardo Set Group Name
+Step 1: Group Name
+Specify a group name. Group names can be edited any time.
+Step 2: Attach Policy
+Group Name
+mygroup
+Step 3: Review
+Example: Developers or ProjectAlpha
+Maximum 128 characters
+Cancel Next Step
 

@@ -1,6 +1,45 @@
-Elastic Beanstalk 
-Loading... C 
-EngWt 
-htvzy PdEy 
-T«rns of 
+ssh 
+status 
+swap 
+terminate 
+upgrade 
+use 
+Opens the SSH cuent to connect to an tnstance. 
+Gets envtronnent tnfornatton and status. 
+Swaps two envü-onnent CNMEs wu•h each other. 
+Terminates the 
+Updates the to the nost recent ptatforn verston. 
+Sets default envtronnent. 
+optional arguyM1ts; 
+-h - -hetp 
+- -debug 
+- -quiet 
+- -verbose 
+-v, 
+--proftle PROFILE 
+show thts hetp and extt 
+toggte debug output 
+suppress au output 
+toggle verbose output 
+use a spectftc profite your credenttat ftle 
+-r REGION, --regun REGION 
+- -no-verify-sst 
+- -ver ston 
+use a spectftc region 
+do not verify AHS SSL certificates 
+show appucatton/verston info 
+To get started type 'eb Then type 'eb create' and 'eb open' 
+bash-3.2$ cd node-project/ 
+bash-3.2$ eb intt 
+Select a default regton 
+1) us-east-l : US East (N. Vfrgtnta) 
+2) us-west-l : US Hest (N. California) 
+3) us-west-2 : US Hest (Oregon) 
+4) eu-west-l : EU (Iretand) 
+S) eu-central-l : EU (Frankfurt) 
+6) ap-southeast-l : Asta Pactftc (Singapore) 
+7) ap-southeast-2 : Asta Pactftc (Sydney) 
+8) ap-northeast-l : Asta Pactftc (Tokyo) 
+9) sa-east-l : South (Sao Paulo) 
+default ts 3): 
 

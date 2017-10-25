@@ -1,0 +1,7 @@
+host: process.env.RDS_HOSTNAME, 
+user: process . env. RDS_USERNAHE, 
+password: process.env.RDS_PASSHORD, 
+port: process.env.RDS_PORT 
+- -pon! 
+' -'ter 
+

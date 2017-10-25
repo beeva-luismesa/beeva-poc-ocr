@@ -1,12 +1,55 @@
-AWS 
-screencast 
-Select users to add to the group demoGroup 
-Add Users to Group 
-User Name 
-NO records found. 
-Groups 
-Password 
-Access Keys 
-Showing O results 
-Creation Time 
+deptoy 
+events 
+tabs 
+ust 
+tocat 
+logs 
+open 
+platforn 
+prtntenv 
+scale 
+setenv 
+ssh 
+status 
+swap 
+terntnate 
+upgrade 
+use 
+Deptoys your source code to the envtronxit. 
+Gets recent events. 
+Initializes your dfrectory wtth the EB CLI. Creates the appucatton. 
+Extra experimental comands. 
+Runs comands on your tocar nachfrle. 
+Gets recent logs. 
+Opens the appttcation IAL tn a 
+Hanages platforns. 
+Shows the envtronxit vartabtes. 
+Changes the number of runnülg tnstances. 
+Sets envtronnent variables. 
+Opens the SSH client to connect to an instance. 
+Gets envfronrent tnfornatton and status. 
+Swaps two environment CNMEs wtth each other. 
+Terminates the 
+Updates the to the nost recent ptatforn verston. 
+Sets default envtronzlt. 
+opttonal 
+-h - -hetp 
+- -qutet 
+-v, - -verbose 
+--proftle PROFILE 
+show thts hetp nessage and exit 
+toggte debug output 
+suppress output 
+toggle verbose output 
+use a spectftc profite your credenttat file 
+-r REGION, --regton REGION 
+- -no-veñfy-ssl 
+- -verston 
+use a spectftc regton 
+do not vertfy AHS SSL certtftcates 
+show appltcatton/verston info 
+To get started type 'eb Then type 'eb create' and 'eb open' 
+bash-3.2$ cd node-project/ 
+bash-3.2$ eb intt 
+1 
 

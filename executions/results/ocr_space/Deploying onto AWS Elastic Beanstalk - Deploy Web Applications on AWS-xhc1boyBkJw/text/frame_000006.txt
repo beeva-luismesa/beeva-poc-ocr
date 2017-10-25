@@ -1,23 +1,37 @@
-ü AWS 
-Dashboard 
-Welcome to Identity and Access Management 
-Details 
-IAM Resources 
-U sers 
-Security Status 
-Policies 
-Identity Providers 
-"'CCOunt Settings 
-Credential Report 
-Encryption Keys 
-screencast 
-Feature Spotlight 
-Intmxtim to AWS IAM 
-Additional Information 
-AM documentation 
-Web Identity Federation Playground 
-policy Simulator 
-Videos. IAM release history and additional 
-resources 
-T«rrS CJ— 
+bash-3.2$ sudo pip instan awsebcti 
+The directory /Users/Screencast/Ltbrary/Caches/pip/http or its parent directory not owned by the current user and the cache has 
+been disabled. Please check the permtsstons and owner of that directory. If executtng pip with sudo, you may want sudo 's -H flag. 
+The directory /Users/screencast/Ltbrary/Caches/DiD/httD or tts parent dtrectorv is not owned bv the current user and the cache has 
+been disabled. Please check the permtsstons and owner of that directory. If executing pip wtth sudo, you may want sudo 's -H flag. 
+Collecttng awsebcli 
+InsecurePlatformHarntng: A true SSLContext obj 
+ect is not avatlabte. Thts prevents urllib3 fron configurtng SSL appropriately and may cause certain SSL connections to fan. For more 
+information, see https://urtIib3.readthedocs.org/en/tatest/securtty.htnt#insecureplatforwarning. 
+InsecurePlatfornHarning 
+Collecttng requests<2.7,>=2.6.1 (from awsebcli) 
+Downloadtn requests-2.6.2-py2. py3-none-any.whl (478kB) 
+4710 
+Collecttng (from awsebclt) 
+Collecttng websocket-client<l (from awsebclD 
+Collecttng cement=2.4 (fron awsebcli) 
+Collecttng pyyamb=3.11 (from awsebcti) 
+Collecttng pathspec==e.3.3 (from awsebclD 
+Collecttng (from awsebclD 
+Collecting (from awsebcli) 
+Downloadtn 
+thon dateuttl-2.4.2- 
+2. p 3-none-any .whl (188kB) 
+192kB 49kB/s 
+Collecttng (from awsebclt) 
+Collecting jnespath>=e.6.1 (from awsebcli) 
+Downloadtng jnespath-e.7.1-py2.py3-none-any.whl 
+Col lecting (from awsebclt) 
+Collecttng (from 
+Downloadtng six-1.9.e-py2.py3-none-any.whl 
+Collecttng backports.ssl-match-hostnane (from 
+Installtng collected packages: requests, six, dockerpty, backports.ssl-natch-hostname, websocket-cltent, cenent, pyyanl, pathspec, text 
+table, python-dateutil, docker-py, jmespath, docopt, awsebclt 
+Successfully tnstalled awsebclt-3.4.S backports.ssl-match-hostnane-3.4.e.2 cement-2.4.e docker-py-l.l.e dockerpty-e.3.4 docopt-e.6.2 jm 
+espath-e.7.1 pathspec-e.3.3 python-dateutU-2.4.2 pyyaml-3.11 requests-2.6.2 six-1.9.e texttable-e.8.3 websocket-client-e.32.e 
+bash-3.2$ I 
 

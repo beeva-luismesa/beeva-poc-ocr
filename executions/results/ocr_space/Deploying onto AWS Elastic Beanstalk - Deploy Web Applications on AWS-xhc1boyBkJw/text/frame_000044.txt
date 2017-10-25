@@ -1,43 +1,40 @@
-AWS v 
-Elastic Beanstalk 
-node-project 
-Dashboard 
-Configuration 
-Logs 
-Monitoring 
-Aarms 
-Events 
-Tags 
-node-proj ect 
-node-project-dev2 ( ) 
-Elastic Beanstalk is updating your environment. 
-TO cancel this operation select Abort Current Operation from the Actions dropdown. 
-Overview 
-Health 
-Updating 
-Run ning Version 
-Upload and Deploy 
-Create New Environment 
-Configuration 
-64bit Amazon Linux 2015.03 
-VI.4.3 running Node.js 
-Chan ge 
-Show Al 
-Recent Events 
-uTC-0700 
-2015-06-30 UTC-0700 
-2015-06-30 UTC-0700 
-2015-06-30 UTC-0700 
-2015-06-30 UTC-0700 
-INFO 
-INFO 
-INFO 
-INFO 
-INFO 
-Details 
-Successfully environment: node-proiect-dev2 
-Application available at 
-Adding instance 'i-08918bfe' to your environment. 
-Added EC2 instance 'i-08918bfe' to Auto scaling Group 'awseb-e-26hm5jtkkq-stack-AWSEBAutoSca1ingGroup-1 L4011Q9H4ZXH'. 
-Created CloudWatch alarm narned: awseb-e-26hm5jtkkq-stack-AWSEBCIoudwatcFAarmHigh-IIN21 MCAOTgN 
+opttonal arguments: 
+-h - -help 
+- -debug 
+- -quiet 
+-v, - -verbose 
+--profUe PROFILE 
+show this help nessage and exit 
+toggle debug output 
+suppress al t output 
+toggle verbose output 
+use a specific profite from your credential file 
+-r REGION, --regton REGION 
+--no-vertfy-ssl 
+--version 
+use a specific region 
+do not verify AHS SSL certificates 
+show application/version info 
+To get started type 'eb Then type 'eb create' and 'eb open' 
+bash-3.2$ cd node-project/ 
+bash-3.2$ eb init 
+Select a default region 
+1) us-east-l : US East (N. Virginia) 
+2) us-west-l : US Hest (N. California) 
+3) us-west-2 : US Hest (Oregon) 
+4) eu-west-l : 
+EU (Ireland) 
+S) eu-central-l : 
+EU (Frankfurt) 
+6) ap-southeast-l : Asia Pacific (Singapore) 
+7) ap-southeast-2 : Asia Pacific (Sydney) 
+8) ap-northeast-l : Asia Pacific (Tokyo) 
+9) sa-east-l : South Arnertca (Sao Paulo) 
+(default 3): 
+You have not yet set up your credentials or your credenttals are incorrect 
+You must provide your credentials. 
+(aws-access-id): AKIAJXQL66HEEYCPDAWA 
+(aws-secret-key): Oj1SxGnEDNs/KW/01zRA/MXUQn1+FtqcRmsnF2Y 
+Enter Appltcation Nane 
+(default "node-project"): I 
 

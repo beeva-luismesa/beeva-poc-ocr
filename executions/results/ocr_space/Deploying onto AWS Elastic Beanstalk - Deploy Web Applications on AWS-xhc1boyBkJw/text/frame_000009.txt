@@ -1,1 +1,39 @@
+AWS 
+Details 
+U sers\ 
+Policies 
+Identity Providers 
+AcC0unt Setti ngs 
+Credential Report 
+Encryption Keys 
+Note 
+The Password Policy page has been renamed to Account Settings. Click Account Settings to find Your account•s 
+password policy and other configuration options. 
+Welcome to Identity and Access Management 
+IAM users sign-in link: 
+https://screencast-signineaws.amazon.com/console 
+IAM Resources 
+Users: O 
+Groups: O 
+Customer Managed policies: O 
+Security Status 
+Delete Your root access keys 
+Activate MFA on your root account 
+Create individual AM users 
+use groups to assign permissions 
+Apply an IAM password policy 
+Customize I 
+Identity Providers: O 
+Copy Lin k 
+3 out Of 5 complete. 
+screencast 
+Feature Spotlight 
+Intmx:tim to AWS IAM 
+Additional Information 
+LAM documentation 
+Web Identity Playground 
+policy Simulator 
+Videos. IAM release history and additional 
+resources 
+T«rrs CJ• 
 

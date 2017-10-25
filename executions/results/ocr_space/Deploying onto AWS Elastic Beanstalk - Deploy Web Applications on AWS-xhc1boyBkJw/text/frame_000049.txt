@@ -1,0 +1,30 @@
+-r REGION, --regton REGION 
+- -no-veñfy-ssl 
+- -verston 
+use a spectftc regton 
+do not vertfy AHS SSL certiftcates 
+show appttcation/verston info 
+To get started type 'eb tntt'. Then type 'eb create' and 'eb open' 
+bash-3.2$ cd node-project/ 
+bash-3.2$ eb init 
+Select a default regton 
+1) us-east-l : US East (N. Vtrgtnta) 
+2) us-west-l : US Hest (N. Caltfornta) 
+3) us-west-2 : US Hest (Oregon) 
+4) eu-west-l : EU (Iretand) 
+S) eu-central-l : EU (Frankfurt) 
+6) ap-southeast-l : Asta Pactftc (Singapore) 
+7) ap-southeast-2 : Asta Pactftc (Sydney) 
+8) ap-northeast-l : Asta Pactftc (Tokyo) 
+9) sa-east-l : South (Sao Paulo) 
+(default ts 3): 
+You have not yet set up your credenttats or your credenttats are ülcorrect 
+You nust provue your 
+(aws-access-td): AKIAJXQL66HEEYCPDAHA 
+(aws-secret-key): Oj15xGnEDNs/"Y/01zRA/MXUQn1+FtqcRnsnF2Y 
+Enter Appucatton Nane 
+(default ts "node-project"): 
+Applicatton node-project has been created. 
+It appears you are Node.js. Is thts correct? 
+Do you want to set up SSH for your tnstances? 
+

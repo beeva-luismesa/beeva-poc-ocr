@@ -1,2 +1,23 @@
-bash-3.2s I
+– B https://console.awsamazon.com/iam/home?region-us-west-2 groups
+T AWS Services v Edit
+Screencast
+Global
+Support
+Dashboard
+Create New Group Group Actions -
+so O
+Details
+Grou
+Group Name
+Users
+Inline Policy
+Creation Time -
+Users
+Roles
+Policies
+Identity providers
+Account Settings
+Credential Report
+Encryption Keys
+© 2008 - 2015, Amazon Web Services, Inc. or its affiliates. All rights reserved. Privacy Policy Terms of Use
 

@@ -1,0 +1,43 @@
+AWS v 
+Elastic Beanstalk 
+node-project 
+Dashboard 
+Configuration 
+Logs 
+Monitoring 
+Aarms 
+Events 
+Tags 
+node-proj ect 
+node-project-dev2 ( ) 
+Elastic Beanstalk is updating your environment. 
+TO cancel this operation select Abort Current Operation from the Actions dropdown. 
+Overview 
+Health 
+Updating 
+Run ning Version 
+Upload and Deploy 
+Create New Environment 
+Configuration 
+64bit Amazon Linux 2015.03 
+VI.4.3 running Node.js 
+Chan ge 
+Show Al 
+Recent Events 
+uTC-0700 
+2015-06-30 UTC-0700 
+2015-06-30 UTC-0700 
+2015-06-30 UTC-0700 
+2015-06-30 UTC-0700 
+INFO 
+INFO 
+INFO 
+INFO 
+INFO 
+Details 
+Successfully environment: node-proiect-dev2 
+Application available at 
+Adding instance 'i-08918bfe' to your environment. 
+Added EC2 instance 'i-08918bfe' to Auto scaling Group 'awseb-e-26hm5jtkkq-stack-AWSEBAutoSca1ingGroup-1 L4011Q9H4ZXH'. 
+Created CloudWatch alarm narned: awseb-e-26hm5jtkkq-stack-AWSEBCIoudwatcFAarmHigh-IIN21 MCAOTgN 
+

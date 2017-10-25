@@ -1,45 +1,12 @@
-setenv 
-ssh 
-status 
-swap 
-terntnate 
-upgrade 
-use 
-Sets envtronnent vartables. 
-Opens the SSH cuent to connect to an tnstance. 
-Gets envfronnent tnformatton and status. 
-Swaps two envtronnent CNMEs wtth each other. 
-Ternülates the 
-Updates the to the most recent platfom verston. 
-Sets default envtronzlt. 
-opttonal arguxfts: 
-h - -hetp 
-- -quiet 
--v, - -verbose 
---profUe PROFILE 
-show thts hetp message and extt 
-toggte debug output 
-suppress alt output 
-toggte verbose output 
-use a spectftc profite your credenttat ftte 
--r REGION, --regton REGION 
-- -no-verffy-sst 
-- -verston 
-use a spectftc region 
-do not vertfy ANS SSL certtftcates 
-show appucatton/verston tnfo 
-To get started type 'eb intt'. Then type 'eb create' and 'eb open' 
-bash-3.2$ cd node-project/ 
-bash-3.2$ eb 
-Select a default regton 
-1) us-east-l : US East (N. Virginia) 
-2) us-west-l : US Hest (N. Caltfornta) 
-3) us-west-2 : US Hest (Oregon) 
-4) eu-west-l : EU (Ireland) 
-S) eu-central-l : EU (Frankfurt) 
-6) ap-southeast-l : Asta Pactftc (Stngapore) 
-7) ap-southeast-2 : Asta Pactftc (Sydney) 
-8) ap-northeast-l : Asta Pactftc (Tokyo) 
-9) sa-east-l : South (Sao Paulo) 
-(default ts 3): 
+AWS v 
+Your I User(s) have becn created successfully. 
+Create User 
+This is the last time these User security credentials Will be available for download. 
+You can manage and recreate these credentials any time. 
+Hide user Security Credentials 
+Access Key ID: 
+Secret Access Key: 
+AKIAJXQL66WEEYCPDAWA 
+oji5xGnEDNs,/KWY/olzRAMXUQn 1 *FtqcRmsnF2Y 
+Down load 
 

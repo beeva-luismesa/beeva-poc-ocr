@@ -1,42 +1,32 @@
-– C8 https://console. awsamazon.com/iam/home?region-us-west-2 groups/demoGroup
-T AWS Services Edit
-Screencast
-Global
-Support
-Dashboard
-IAM > Groups > demoGroup
-- Summary
-Details
-Group ARN:
-arna awsiam::815675479840:group/demoGroup
-Groups
-Users (in this group):
-Users
-Path:
-Roles
-Creation Time:
-2015-06-30 14:33 PDT
-Policies
-Identity providers
-- Users
-Account Settings
-This view shows all users in this group: 1 User
-Remove users from Group Add Users to Group
-Credential Report
-User
-Actions
-Encryption Keys
-& demoUser
-Remove User from Group
-- Permissions
-Managed Policies
-The following managed policies are attached to this group. You can attach up to 2 managed policies.
-Attach Policy
-Policy Name
-Actions
-T AWSElasticBeanstalkFullAccess
-Show Policy | Detach Policy Simulate Policy
-Inline Policies
-Feedback English
-O 2008 - 2015, Amazon Web Services, Inc. or its affiliates. All rights reserved. Privacy Policy Terms of Use
+setenv Sets environment variables.
+Ssh Opens the SSH client to connect to an instance.
+status Gets environment information and status.
+Swap Swaps two environment CNAMEs with each other.
+terminate Terminates the environment .
+upgrade Updates the environment to the most recent platform version.
+use Sets default environment.
+optional arguments:
+-h, --help show this help message and exit
+debug toggle debug output
+--quiet suppress all output
+-verbose toggle verbose output
+--profile PROFILEUse a specific profile from your credential file
+-T REGION, --region REGION
+use a specific region
+--no-verify-ssl do not verify AWS SSL certificates
+--version show application version info
+To get started type 'eb init '. Then type 'eb create' and 'eb open '
+bash-3.2$ cd node-project/
+bash-3.2$ eb init
+Select a default region
+1) US-east-1 : US East (N. Virginia )
+2) US-west-1 : US West (N. California)
+3) us-west-2 : Us West (Oregon)
+4) eu-west-1 : EU (Ireland)
+5) eu-central-1: EU (Frankfurt)
+6) ap-southeast-1: Asia Pacific (Singapore)
+7) ap-southeast-2 : Asia Pacific (Sydney)
+8) ap-northeast-1: Asia Pacific (Tokyo)
+9) sa-east-1 : South America (Sao Paulo)
+(default is 3): I
 

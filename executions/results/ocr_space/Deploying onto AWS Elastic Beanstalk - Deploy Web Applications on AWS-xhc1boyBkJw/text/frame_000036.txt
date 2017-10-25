@@ -1,28 +1,6 @@
-'use strict' ; 
-var http = require("http"), 
-nysqt = 
-mysqtServer = mysqt. 
-host: 
-process.env. 
-user: process.env. 
-password: process. 
-port: process. 
-env. 
-RDS_HOSTNAME, 
-RDS_USERUME, 
-env. RDS_PASSHORD , 
-RDS_PORT 
-nysqlServer. { 
-tf (err) { 
-process.env[ 'nsg'] = 'Unabte to connect to RDS - 
-} else { 
-+ err; 
-process.env[ 'nsg'] = 'Success! Connected to RDS vta ' + process.env.RDS_HOSTNAME; 
-http.createServer(functton(request, response) { 
-response.wrtteHead(2ee, { 
-• "Content-Type": "text/plain" 
-response.wrtte(process. env[ 'msg ' ] ) ; 
-response. end( ) ; 
-usten( 
-process.env.PORT II 3eee); 
+Elastic Beanstalk 
+Loading... C 
+EngWt 
+htvzy PdEy 
+T«rns of 
 

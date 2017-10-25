@@ -1,0 +1,51 @@
+C A https:/us-west-2.console.awsamazon.comelasticbeanstalk/home?region=us-west-28/environment/dashboard 17application Name=node-project&environmentld-e-26hm5jtikka
+QE
+T
+AWS r Services v Edit
+Screencast
+Oregon
+Support
+Elastic Beanstalk
+node-project
+Create New Environment
+node-project node-project-dev2 (node-project-dev2.elasticbeanstalk.com )
+Actions
+Dashboard
+U
+Configuration
+Elastic Beanstalk is updating your environment.
+To cancel this operation select Abort current Operation from the Actions dropdown.
+View Events
+Logs
+Monitoring
+Overview
+& Refresh
+Alarms
+Events
+Health
+Running version
+Updating
+da55
+Configuration
+64bit Amazon Linux 2015.03
+nodeo v1.4.3 running Nodejs
+Tags
+Monitor
+Upload and Deploy
+Change
+Recent Events
+Show All
+Time
+Type
+Details
+2015-06-30 15:51:02 UTC-0700 INFO
+Successfully launched environment: node-project-dev2
+2015-06-30 15:51:02 UTC-0700 INFO
+Application available at node-project-dev2.elasticbeanstalk.com.
+2015-06-30 15:50:43 UTC-0700 INFO
+Adding instance "-08918bfe' to your environment.
+2015-06-30 15:50:05 UTC-0700 INFO
+Added EC2 instance "1-08918bfe' to Auto Scaling Group 'awseb-e-26hm5jtkkg-stackAWSEBAutoScaling Group-L4OIIQ9H4ZXH".
+2015-06-30 15:48:39 UTC-0700 INFO
+Created CloudWatch alarm named: awseb-e- 26hm5jtkkg-stack-AWSEBCloudwatchAlarmHigh-l1N21 MCAOTON
+

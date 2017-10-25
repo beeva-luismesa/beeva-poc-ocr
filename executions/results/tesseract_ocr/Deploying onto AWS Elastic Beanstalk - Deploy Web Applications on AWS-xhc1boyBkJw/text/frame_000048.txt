@@ -1,0 +1,48 @@
+toggle verbose output
+--profile PROFILE use : specific profile fran your credential file
+-r REGION. -—regiun REGION
+use ¡ specific regiºn
+uno—verifytssl do not verify MIS SSL certificates
+--version show application/versiºn info
+
+To get started type 'eb init'. Then type “eb create' ¡nd 'eb upen'
+bash-3.25 cd node—project!
+bash-3.25 eb init
+
+Select ¡ default region
+
+1) us-east-1 : US East (N. virginia)
+
+Z) us-uest-1 : US Nest (II. California)
+
+!) us-uest-z : US "est (Oregon)
+
+4) eu-nest-1 : su (Ireland)
+
+5) eu-central-1 : a: (Frankfurt)
+
+6) ap-southeast-1 : Asia Pacific (Singapore)
+
+1) ¡p-southeast-z : Asia Pacific (Sydney)
+
+8) ¡p-northeast—1 : Asia Pacific (Tokyo)
+
+9) sa-east-1 : South America (Sao Paulo)
+
+(default is 3):
+
+You have not yet set up yuur credentials ur your credentials are incºrrect
+You must prwide your credenti¡ls.
+
+(aus-¡ccess-id): AKIAJXOLSSHE£VCPWA
+
+(aus-secret-key): 01IanEDHs/M/olzm/Mni+meanV
+Enter Application Nine
+
+(default is "node—project"):
+
+Application node-project has been created.
+
+It uppean you ¡re using Mode.js. Is this cºrrect?
+
+ivi"): y

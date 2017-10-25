@@ -1,0 +1,50 @@
+—r REGION. —-reginn REGIDII
+
+use a specific renton
+--m-vertfy-ssl do not verify AMS SSI. certificates
+--version show application/version lnfo
+
+To get started type 'eb lntt'. Then type “eb create' and 'eb npen'
+bash-3.25 cd nude-project]
+bash-3.25 eb ln“
+
+Select a default reglnn
+
+1) us-east-1 : us East (II. Vtrglnla)
+
+2) us-uest-1 ' US West (I. California)
+
+3) us-west-Z U$ ”est (Oregon)
+
+4) eu-uest-1 : Eu (Irehnd)
+
+!) eu-centraI-1 : su (Frankfurt)
+
+6) ap-southeast—1 : Asia Pacific (Singapore)
+
+7) ap-southeast—Z : Asia Pacific (Sydney)
+
+5) ap-northeast-1 : Asta Paclftc (Tokyo)
+
+!) sa-east-1 : South Mertn (Sao Paulo)
+
+(default 15 3):
+
+You have not yet set up your credenttals or yºur credentlals are incorrect
+Vou must provide your credenttals.
+
+(ws-access-td): AKIAML66HEEYCPWA
+
+(avs-secret-key): o;|15xun:nu:/m/onu/mnurumñn
+
+ 
+
+Enter Application Name
+(default ts "nude—prníect'):
+Application node-project has been created.
+
+It appears you are using Node.Js. 15 £th correct?
+(yin): y
+Do you want to set up SSH for your tnstances?
+
+iv/n): "

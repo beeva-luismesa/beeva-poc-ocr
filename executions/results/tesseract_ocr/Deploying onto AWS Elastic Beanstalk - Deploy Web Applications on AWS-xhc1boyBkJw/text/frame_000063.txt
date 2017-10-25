@@ -1,0 +1,41 @@
+'"…“ .» - --a—…—-- .
+
+'use strict';
+
+ 
+
+“… var http = require('httn"),
+
+. ” ' ||
+
+¡..-...… mysql = require( Mysql ),
+
+”… "y5q15erver = nysq1.cremconnemon((
+
+host: process.env.kns_m5'rme,
+user: Drucess.euv.kb5_ll$£k…i.
+password: pro:ess.env.nns_ussmnn,
+parc: prncess.env.nns_m1
+
+ 
+
+)):
+Hysq1.5erver.conuect(functian(err) (
+(f (err) (
+prn<ess.env['nsg'] 'unable to connect to ans - ' . err;
+) else (
+process.env['nsg'] 'Successl Connected to Rus vía ' ¡ nrocess.env.kns_"os…í;
+]
+)):
+
+http.createServer(functinn(request, response) (
+reswnse.urttenead(z.º. (
+”Content-Type ext/nlatn"
+));
+response.urtte(prauss.env['nsg'1);
+response.end();
+)).Hsten(prouss.euv.ka II 3600);
+
+ 
+
+w4 …… …...

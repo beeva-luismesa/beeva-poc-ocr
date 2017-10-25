@@ -1,11 +1,47 @@
-Pevmwsswons
+upgrade Updates the envlronnent to the ¡lost recent nlatforn verstnn.
 
-…u=r……… ,…n…u VL 'J.u'-'.'¿'LM .
+use Sets default envlronnent.
+optional arguments:
+th, -—heln show thls help nessage and exlt
+--debun toggle debug output
+--qulet suppress ¡ll output
+-v, —-verbose toggle verbose output
 
-¡ .:ccv.…v mms … J…
+——proflle PROFILE use ¡ spectflc profile fran your credentlal Flle
+-r REGION. --regton REGIDII
+use ¡ speclfle reglnn
+--m—verlfy-ssl do no! verle AHS SSL certlflutes
+--verslon sh… awltcatlonlverslon info
 
-5……w.4,…… - ¿M…—mun………u c……
+To get started type 'eb ln'Lt'. Then type 'eb :reate' ¡nd 'eb upen'
+bash-3.15 cd nude-project]
+bash-3.25 eb lnlt
 
-: mn!nsnr11h'thhn … ame
+Select ¡ default reglnn
 
-mm: ..…. F…er '
+1) us-east-1 : US E¡st (I. Vlrglnla)
+
+Z) us-uest-1 ' us "est (M. c¡llfomh)
+
+3) us-uest-Z us Nest (Oregon)
+
+4) eu-uest- su (Irehnd)
+
+5) eu-centril-1 ¡» (Frinkfurt)
+
+$) ¡p-southeast— : Asla Paclflc (Slngipore)
+
+1) ap-southeast-Z Asta Paclftc (Sydney)
+
+¡» =p-nnrtheast-1 : Asta Paclflc (Tokyo)
+
+!) sa-east-1 : South Merle! (Sao Piulo)
+
+(default is 3):
+
+You have not yet set up your credentlals or your credentlals are incorrect
+Von must prwlde your credent'lals.
+
+(avs-¡ccess-id): AK1AJXQLESHEEYCPMIA
+
+iaus-secret-key): º]!SxGnEDMS/mlnlzhA/…n1+7w:nmnnV

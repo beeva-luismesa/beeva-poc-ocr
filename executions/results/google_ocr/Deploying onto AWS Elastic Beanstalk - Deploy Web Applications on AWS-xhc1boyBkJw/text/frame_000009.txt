@@ -1,1 +1,49 @@
+– B https://console.awsamazon.com/iam/home?region-us-west-2home
+T AWS Services v Edit
+Screencast
+Global
+Support
+Dashboard
+Feature Spotlight
+O Note
+The Password Policy page has been renamed to Account Settings. Click Account Settings to find your account's
+password policy and other configuration options.
+Details
+Introduction to AWS IAM < 0
+Groups
+Users
+Welcome to Identity and Access Management
+Roles
+IAM users sign-in link:
+Policies
+https://screencast.signin.awsamazon.com/console
+Customize Copy Link
+Identity providers
+IAM Resources
+Account Settings
+Users: 0
+Roles: 2
+Credential Report
+Groups: 0
+Identity Providers: 0
+Additional Information
+Customer Managed Policies: 0
+IAM documentation
+Encryption keys
+Security Status
+3 out of 5 complete.
+Web ldentity Federation Playground
+Policy Simulator
+A
+Delete your root access keys
+Videos, IAM release history and additional
+resources
+Q
+Activate MFA on your root account
+A
+Create individual IAM users
+A
+Use groups to assign permissions
+Apply an IAM password policy
+© 2008 - 2015, Amazon Web Services, Inc. or its affiliates. All rights reserved . Privacy Policy Terms of Use
 

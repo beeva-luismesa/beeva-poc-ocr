@@ -1,0 +1,35 @@
+bash-3.25 "ls
+
+READIE.M app.js package.json
+
+hash-3.25 git intt
+
+1nittiltzed enpty Gtt repository in /Users/ScreencastlDesktop/Wzonlnode-nroject/.gtt/
+bash-3.25 git add *
+
+bash-3.25 glt count! -n "Intttal cmltt'
+
+[mister (root-com“) dessfc3] Intth1 :omlt
+
+C…itter: Screencast<Screencast—HacBook-Pro.locel>
+
+Your nare and email address were configured automatically based
+
+on your username and hostnam. Please check that they are accurate.
+You can suppress thts ness¡ge hy setting them expltctt1y. Run the
+follwtng cmnd ¡nd follw the instructtons in yuur editor to edit
+yºur configuration fue:
+
+gtt config --g'lubil --edtt
+
+After doing this, yºu May fix the identity used fºr this covl'llt with:
+gtt :omtt --anend --reset-author
+
+: files changed, 35 insertlons(+)
+
+create mde 186544 READHE.M
+
+create mde 180644 ¡pp.:ls
+
+create mde 190644 pickige.jsun
+hash-3.15

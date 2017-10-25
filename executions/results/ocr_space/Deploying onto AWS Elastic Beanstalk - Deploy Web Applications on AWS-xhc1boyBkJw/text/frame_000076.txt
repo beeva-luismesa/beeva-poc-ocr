@@ -1,0 +1,24 @@
+c 
+Tags 
+•.tps Wu west • 2 o ? reg - we&. - 2 
+Gzip compressio n: 
+N Ode command: 
+Specifies if gzip compression is enabled. 
+Command to start the Node.js application. If an empty string is specified. app.js is used. then server.is. then •npm start- in that order. 
+Log Options 
+The following settings control the log publication behavior. 
+Instance profile: aws-elasticbeanstaIk-ec2-roIe Refresh 
+The instance profile grants Your environment permissions under Your AWS account. Leam More. 
+Enable log file rotation to Amazon S3. It check%l, service logs are published to S3. 
+Static Files 
+To improve performance, you can configure Apache or Nginx to serve static files from a set of directories inside yaur web application. Leam more. 
+Virtual Path (Example: /assets) 
+Environment Properties 
+The following properties are passed into the application as environment variables. Leam more. 
+Property Name 
+Validating configuration changes... 
+Directory (Examp"e: /static/assets) 
+Property Value 
+Q Fe—k 
+Inc its AJ' rights 
+

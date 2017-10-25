@@ -1,81 +1,22 @@
-deploy
-events
-tnit
-labs
-list
-local
-logs
-open
-platform
-Prtntenv
-scale
-setenv
-ssh
-status
-nap
-temln¡te
-upgrade
-use
+4» c ¡… ……….………M…… … …… x
 
-Deplnys your source code to the environmnt.
+   
 
-Gets recent events.
-
-Intthltzes your directory with the EB CLL creates the application.
-Extra experimental covnands.
-
-Lists all environments.
-
-Runs cmnds on your local nachine.
-
-Gets recent logs.
-
-ºpens the application ll¡L in a browser.
-
-nanages platforms.
-
-shows the envtronnent varlahles.
-
-Change: the nunber of running instantes.
-
-Sets envíronnent variables.
-
-ºpens the SSH client to connect to an instance.
-
-Gets envlronnent lnfornatton and status.
-
-Swlps tm ewtronnent CNMEs wlth each other.
-
-'Íernlnates the environnent.
-
-Updates the envtronnent to the post recent platforn verston.
-Sets default envlronnent.
-
-optional arguments:
-
--h. --help
---debug
-ulet
+AVIS … Screenasl … mon.
 
  
 
-show this help nessage and exit
-toggle debug output
-suppress au output
+su…n …
 
---verbose tmle verbose output
+v… ¡ u…¡sx …… bean m.… =uc….m||y.
+…. … m. |… …. m… u… ..…m credenuzls wm u. lvz|lahll … nuwnlnad.
 
--—proñle PROFILE use a specific profile fron your credenttal fue
--r REGION, ——region REGIDII
+ 
 
-use a specific regtnn
+… can manage … vecveale mese meaemws … me
+' me Usev Sec..my creaemws
 
---m-verlfy-ssl do not verle ¡HS SSL certtftcntes
+¡ u…an
 
-- -version
-
-show application/version info
-
-To get started type 'eb lntt'. Then type 'eb create' and 'eb upen'
-bash-3.25 cd nude-project]
-¡ash-3.25 eb [nit
+…x…n …Nxoussmsvcnmwn
+s.… ¡¿un … ousxsnenNs/W/ouwmxuam.nqcnmsnm

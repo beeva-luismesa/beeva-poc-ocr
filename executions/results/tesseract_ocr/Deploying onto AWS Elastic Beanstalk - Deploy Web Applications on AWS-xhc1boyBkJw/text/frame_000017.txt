@@ -1,54 +1,82 @@
+console
+create
+deploy
+events
+init
+labs
+ltst
+local
+logs
+open
+platforn
+printenv
+scale
+setenv
+ssh
+status
+saap
+terninate
+upgrade
+use
+
+Opens the environnent in the AVS Elastic Beanstalk Managemnt Console.
+creates a new envtronnent.
+
+Deploys your source code to the envtronnent.
+
+Gets recent events.
+
+Initializes your directory ulth the EB CLI. creates the application.
+Extra experimental comands.
+
+Lists all envtronnents.
+
+Runs cornands on your local nachtne.
+
+Gets recent logs.
+
+ºpens the application IRL in a browser.
+
+Manage: platforms.
+
+Shws the environnent variables.
+
+Ú1anges the nunber of running instances.
+
+Sets environment variables.
+
+ºpens the SSH client to connect to an instance.
+
+Gets environment tnfornatton and status.
+
+Snaps tuo environnent MES wlth each other.
+
+Ternlnates the environnent.
+
+Updates the envtroment to the Host recent platforn verslnn.
+
+Sets default envtronnent.
+
 optional arguments:
 
--I|, —-help shw this help message and exit
-—-debug toggle debug output
+-h, --help shou thts help nessage and extt
+--debug toggle debug output
 
---qulet suppress all output
+-—qutet suppress all output
 
--v, --verbose toggle verbose output
+-v. --verhose toggle verbose output
 
---profile PROFILE use a specific profile from yºur credential file
--r REGION, --region REGION
+--proftle PROFILE use a speclftc profile fran your credenttal fue
+-r REGION, -—regton REGIDI
+
 use a specific region
---nn-verify-ssl do not verlfy AHS SSL certlficates
---version shw application/Version info
 
-To get started type “eh init'. Then type 'eb <reate' and 'el: open'
-hash-3.25 cd node-project]
-hash-3.15 eb inlt
+—-no-verify—ssl do not verlfy AMS SSL certificates
 
-Select el default region
+- -verslon
 
-1) us—east-1 : us East (M. Virginia)
+shou application/verslnn info
 
-2) us—uest-1 : US West (N. California)
+To get started type 'eb intt'. Then type “eb create' and 'el) open'
 
-3) us-uest-Z : US Hest (Oregon)
-
-4) eu—uest-1 : EU (Ireland)
-
-5) eu-central-1 - Eu (Frankfurt)
-
-¡) ap-southeast- ' Asia Pacific (Singapore)
-
-7) ap-southeast-Z Asia Pacific (Sydney)
-
-8) ap-northeast—1 : Asia Pacific (Tokyº)
-
-9) sa-east-1 : South Merica (Sao Paulo)
-
-(default ls 3):
-
-You have not yet set up your credentials or your credentials are incorrect
-You nust prwide your credentials.
-
-(aus-azcess-ld): AKIAJXQLSSHEEVCPDMA
-
-(aus-secret-key): aj15xansons/m/onnA/Mxmnprtqcmnm
-
- 
- 
- 
-
-Enter Application Nine
-(default ls "node-project"):
+bash-3.25 I

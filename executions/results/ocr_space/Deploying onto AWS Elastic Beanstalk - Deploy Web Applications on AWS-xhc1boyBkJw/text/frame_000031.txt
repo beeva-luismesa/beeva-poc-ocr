@@ -1,1 +1,58 @@
+AWS 
+Create New Group Wizard 
+Step I: Group Narne 
+Step 2: Attach policy 
+Step 3: Review 
+Attach Policy 
+Select up to two policies to attach to the group. 
+Filter: 
+Policy Type • 
+Policy Name 
+AdministratorAzcess 
+AmazonAppStreamF u I Access 
+AmazonAp pSt ream ReadO n VAccess 
+eloperAuthentica.. , 
+Amazon Cog nito Poweruser 
+Amazon Cog O nly 
+Amazon DynamoDBFuIIAozess 
+Amazon DynamoD B R eadOntyAzcess 
+Amazon EC2 , 
+Amazon EC2ContainerServiceF ullAcc.. 
+Amazon EC2 ContainerSeNiceRole 
+Amazon EC2 F ullAccess 
+Amazon EC2 eadOnIyAccess 
+Creation Time 
+2015-02-06 10:39 PST 
+2015-02-06 10:40 PST 
+2015-02-06 10:40 PST 
+2015-03-24 10:22 PDT 
+2015-03-24 10:14 PDT 
+2015-03-24 10:06 PDT 
+2015-02-06 10:40 PST 
+2015-02-06 10:40 PST 
+2015-02-06 10:40 PST 
+2015-03-19 11:45 PDT 
+2015-04-24 09:54 PDT 
+2015-04-09 09:14 PDT 
+2015-02-06 10:40 PST 
+2015-02-0610:40 PST 
+Showing 134 results 
+Edited Time 
+2015-02-06 10:39 PST 
+2015-02-06 10:40 PST 
+2015-02-06 10:40 PST 
+2015-03-24 10:22 PDT 
+2015-03-24 10:14 PDT 
+2015-03-24 10:06 PDT 
+2015-02-06 10:40 PST 
+2015-02-06 10:40 PST 
+2015-02-06 10:40 PST 
+2015-03-19 11:45 
+2015-04-24 0954 PDT 
+2015-04-09 09:14 PDT 
+2015-02-06 10:40 PST 
+2015-02-0610:40 PST 
+Cancel 
+Previous 
+Next Step 
 

@@ -1,9 +1,23 @@
-AWS 
-Create User 
+ü AWS 
+Dashboard 
+Welcome to Identity and Access Management 
+Details 
+IAM Resources 
+U sers 
+Security Status 
+Policies 
+Identity Providers 
+"'CCOunt Settings 
+Credential Report 
+Encryption Keys 
 screencast 
-user Names: 
-Maximum 64 charact%s each 
-Generate an access key for each user 
-users need access keys to make secure REST or Querv protocol requests to AWS service APIS. 
-For users Who need access to the AWS Management Console, create a password in the Users panel alter completing this Wizard. 
+Feature Spotlight 
+Intmxtim to AWS IAM 
+Additional Information 
+AM documentation 
+Web Identity Federation Playground 
+policy Simulator 
+Videos. IAM release history and additional 
+resources 
+T«rrS CJ— 
 

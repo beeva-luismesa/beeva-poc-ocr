@@ -1,30 +1,32 @@
-C B https://us-west-2.consoleaws.amazon.com/elasticbeanstalkhome?region-us-west-20/getting startedrapplicationNameFilter
-QE
-AWS Services v Edit
-Screencast
-Oregon
-Support
-Elastic Beanstalk
-Create New Application
-ONN
-JD 60
-A
-Welcome to AWS Elastic Beanstalk
-With Elastic Beanstalk, you can deploy, monitor, and scale an application quickly and easily. Let us do the heavy lifting so you
-can focus on your business.
-Moolinebackend series
-Dashboard
-me more
-To deploy your existing web application, create an application source bundle and then create a new application. If you're using
-Git and would prefer to use it with our command line toolplease see Getting Started with the EB CLI.
-53.6 148K 65% 354KB 12KB
-To deploy a sample application with just one click, select a platform and click Launch Now.
-Select a platform
-Looking for a different platform? Let us know.
-Launch Now
-Get Started in Three Easy Steps
-Select a Platform
-Upload an Application or Use a Sample
-Run it!
-Waiting for console.aws.amazon.com.
+Swap Swaps two environment CNAMEs with each other.
+terminate Terminates the environment .
+upgrade Updates the environment to the most recent platform version.
+use Sets default environment.
+optional arguments:
+-h, --help show this help message and exit
+--debug toggle debug output
+-quiet suppress all output
+-v, --verbose toggle verbose output
+-- profile PROFILEUse a specific profile from your credential file
+- T REGION, --region REGION
+use a specific region
+--no-verify-ssl do not verify AWS SSL certificates
+--version show application/version info
+To get started type 'eb init '. Then type 'eb create' and 'eb open '
+bash-3.2$ cd node-project/
+bash-3.2$ eb init
+Select a default region
+1) US-east-1: US East (N. Virginia)
+2) us-west-1: US West (N. California)
+3) us-west-2 : Us West (Oregon)
+4) eu-west-1 : EU (Ireland)
+5) eu-central-1 : EU (Frankfurt)
+6) ap-southeast-1: Asia Pacific (Singapore)
+7) ap-southeast-2 Asia Pacific (Sydney)
+8) ap-northeast-1: Asia Pacific (Tokyo)
+9) sa-east-1 : South America (Sao Paulo)
+(default is 3):
+You have not yet set up your credentials or your credentials are incorrect
+You must provide your credentials.
+(awS-access-id):
 

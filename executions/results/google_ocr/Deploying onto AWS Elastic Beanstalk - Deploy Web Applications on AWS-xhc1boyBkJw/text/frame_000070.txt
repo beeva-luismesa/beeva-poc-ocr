@@ -1,0 +1,4 @@
+– C D node-project-dev2.elasticbeanstalkcom
+Q AF
+Success Connected to RDS via aamhyosq5h226y.cyq5lg4z71ki.us-west-2.rds.amazonas.com
+

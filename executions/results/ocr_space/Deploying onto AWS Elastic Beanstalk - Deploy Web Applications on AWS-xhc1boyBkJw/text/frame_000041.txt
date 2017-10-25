@@ -1,3 +1,29 @@
-Q01 
-Success! Connected to RDS via .rds . amazonaws . com 
+Applicatian Inti 
+I New Environment 
+—nvironment Type 
+Application Versic - 
+=nvironment Infc 
+Configuration Details 
+¿nvironment Tags 
+Review Informatian 
+New Environment 
+AWS Elastic Beanstalk has 
+typically over part 30. Workers 
+to your application by using 
+Web Server Envi 
+earn more. 
+Worker Environm 
+Provides resources for 
+environment. Leam 
+O Worker 
+Permissions 
+Web server environments require permissions to save logs to Amazon Sa and 
+Publish metrics to Amazon CloudWatch. Select an existing IAM instance profile With 
+the appropriate permissions or create a new one- Leam more. 
+Select an AM profile: @ Create an IAM role and instance profile. 
+ard applications that listen for and then process HTTP requests. 
+on an Amazon SOS queue. Worker applications post those messages 
+Profile name 
+Select an existing IAM instance profile. 
+Filter: 
 

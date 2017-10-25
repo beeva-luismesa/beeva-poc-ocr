@@ -1,1 +1,14 @@
+ü AWS v 
+Create New Group Wizard 
+Step I: Group Name 
+Step 2: Attach policy 
+Step 3: Review 
+screencast 
+Set Group Name 
+Specify a group name. Group names can edited any time. 
+Group N ame: 
+mvgraup 
+OOVOlopors 
+Maximum 128 charactrs 
+Next 
 

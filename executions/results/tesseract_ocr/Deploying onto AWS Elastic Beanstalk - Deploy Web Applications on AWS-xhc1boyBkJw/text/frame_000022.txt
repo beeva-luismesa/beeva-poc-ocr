@@ -1,40 +1,47 @@
-(- c …… …s…-7c…a…………… ……
+swap swaps tuo envlrunnent MES with and) other.
+temlnate Terntnates the environnent.
+upgrade Updates the enviroment to the post recent platforn verslnn.
 
-¡ws — s.…
+use Sets default environnent.
+optional argumts:
+-h, --help shou thu help nessage and exlt
+--debug tmle debug ºutput
+-—qulet suppress all output
 
-¡ …… ……
-
-º“ka &…
-Wi“:
-
-:
-
- 
-
- 
-
- 
-
- 
-
-s..an
+--verbose taggle verbose output
+- profile PROFILE use a specific pruftle fran your eredentlal ftle
+-r REGION, -—regton REGION
+use a specific region
+--no-verify-ssl dº not vertfy MIS SSL certlflcates
+--verslon shou appltcation/verslnn info
 
  
 
-cum mw Aºplw¡nnn
+ 
 
-Welcome to AWS Elastic Beanstalk -
+To get started type 'eb tntt'. Then type 'eb ereate' ami 'el: open'
+bash-3.2$ cd node-nrojectl
+bash-3.25 eb lnlt
 
-w… E155uc Eeanslz1k… … … dlpluy m…… … …… ¡n ¡pphunun …a… … Easdy … us de me heavy hmng se …
-… locus en Yo… busmess
+Select a default region
 
-m aapawya… nx|¡(mq wlh :pphcihun mame … :uphczuun …… …an … man …… a …… npuhmuun u you'va ……
-Gu … wou1d pve!ev lo use .: …… om command hne mm… paezse see Germg sxsmm …… me ¡a c.w
+1) us-east-1 : us East (M. Vlrglnla)
 
-to demo» ¡ savae …u.…a… …… …sv … pucx selecx .; p1¡lvovm … :… …… Now
+:) us-uest-1 - US Nest (DI. caltfnrnta)
 
-Se1ecl a ¡: aworm : lookwg (cv ¿ (wl'evem ¡) av<m7 … …s ……
+3) us-nest-2 : US "est (Oregon)
 
-Get Started in Three Easy Steps
+4) eu-nest-1 : El! (Ireland)
 
-Select a Platform Upluad an Apphcahon or Use a Sampwe n… w
+5) eu-central-1 : su (Frankfurt)
+
+5) ap-southeast-1 : Asta Pactftc (Singapore)
+1) ap-southeast—Z Asta Pa:tflc (Sydney)
+8) ap-northeast—1 : Asla Paelflc (Tokyo)
+
+9) sa—east—1 : South America (sao Paulo)
+(default 15 3):
+
+You have nºt yet set up your credentlals ur your :redentlals are incºrrect
+You must prwtde ur credenttals.
+(a»s-access-td):

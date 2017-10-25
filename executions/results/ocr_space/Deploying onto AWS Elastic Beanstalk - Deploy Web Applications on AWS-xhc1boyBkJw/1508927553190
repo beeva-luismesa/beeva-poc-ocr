@@ -1,0 +1,270 @@
+2017-10-25 12:32:33,190 - root - INFO - Params <Namespace(lang='spa', ocr='ocr-space', output_path='/home/luismesa/demo_ocr/results/ocr_space', scene_threshold=0.05, video='https://www.youtube.com/watch?v=xhc1boyBkJw')>
+2017-10-25 12:32:33,191 - root - INFO - Starting process
+2017-10-25 12:32:33,199 - root - INFO - It's a youtube video! Here we go!
+2017-10-25 12:32:33,199 - root - INFO - Getting info from youtube...
+2017-10-25 12:32:34,243 - root - INFO - Total info time: 1.044308s
+2017-10-25 12:32:34,243 - root - INFO - Downloading from youtube...
+2017-10-25 12:32:38,000 - root - INFO - Total download time: 3.756535s
+2017-10-25 12:32:38,001 - root - INFO - Generating frames from video ./Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw.mp4
+2017-10-25 12:32:38,001 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw.mp4" -vf "select=gt(scene\,0.05)" -vsync vfr "/home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_%06d.png" -qscale 0
+2017-10-25 12:33:04,090 - root - INFO - FFMPEG time: 26.088619s
+2017-10-25 12:33:04,090 - root - INFO - Performing OCR with ocr-space
+2017-10-25 12:33:04,090 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images
+2017-10-25 12:33:04,090 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/text
+2017-10-25 12:33:04,090 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000062.png
+2017-10-25 12:33:04,090 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000062.png
+2017-10-25 12:33:05,695 - root - INFO - OCR Space processing image time: 1.604396s
+2017-10-25 12:33:05,696 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000001.png
+2017-10-25 12:33:05,696 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000001.png
+2017-10-25 12:33:06,713 - root - INFO - OCR Space processing image time: 1.016689s
+2017-10-25 12:33:06,714 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000072.png
+2017-10-25 12:33:06,714 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000072.png
+2017-10-25 12:33:11,943 - root - INFO - OCR Space processing image time: 5.228444s
+2017-10-25 12:33:11,943 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000027.png
+2017-10-25 12:33:11,943 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000027.png
+2017-10-25 12:33:13,900 - root - INFO - OCR Space processing image time: 1.95694s
+2017-10-25 12:33:13,901 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000050.png
+2017-10-25 12:33:13,901 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000050.png
+2017-10-25 12:33:15,113 - root - INFO - OCR Space processing image time: 1.211658s
+2017-10-25 12:33:15,114 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000035.png
+2017-10-25 12:33:15,114 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000035.png
+2017-10-25 12:33:16,804 - root - INFO - OCR Space processing image time: 1.689949s
+2017-10-25 12:33:16,805 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000065.png
+2017-10-25 12:33:16,805 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000065.png
+2017-10-25 12:33:18,506 - root - INFO - OCR Space processing image time: 1.700247s
+2017-10-25 12:33:18,506 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000051.png
+2017-10-25 12:33:18,507 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000051.png
+2017-10-25 12:33:19,805 - root - INFO - OCR Space processing image time: 1.298635s
+2017-10-25 12:33:19,806 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000057.png
+2017-10-25 12:33:19,806 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000057.png
+2017-10-25 12:33:23,236 - root - INFO - OCR Space processing image time: 3.429345s
+2017-10-25 12:33:23,237 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000044.png
+2017-10-25 12:33:23,238 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000044.png
+2017-10-25 12:33:25,227 - root - INFO - OCR Space processing image time: 1.988741s
+2017-10-25 12:33:25,227 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000049.png
+2017-10-25 12:33:25,227 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000049.png
+2017-10-25 12:33:27,210 - root - INFO - OCR Space processing image time: 1.982595s
+2017-10-25 12:33:27,211 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000063.png
+2017-10-25 12:33:27,211 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000063.png
+2017-10-25 12:33:29,465 - root - INFO - OCR Space processing image time: 2.25338s
+2017-10-25 12:33:29,466 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000034.png
+2017-10-25 12:33:29,466 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000034.png
+2017-10-25 12:33:30,998 - root - INFO - OCR Space processing image time: 1.531868s
+2017-10-25 12:33:30,998 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000068.png
+2017-10-25 12:33:30,998 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000068.png
+2017-10-25 12:33:32,313 - root - INFO - OCR Space processing image time: 1.314771s
+2017-10-25 12:33:32,314 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000064.png
+2017-10-25 12:33:32,314 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000064.png
+2017-10-25 12:33:33,920 - root - INFO - OCR Space processing image time: 1.605702s
+2017-10-25 12:33:33,921 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000059.png
+2017-10-25 12:33:33,921 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000059.png
+2017-10-25 12:33:35,641 - root - INFO - OCR Space processing image time: 1.719867s
+2017-10-25 12:33:35,642 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000075.png
+2017-10-25 12:33:35,642 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000075.png
+2017-10-25 12:33:37,250 - root - INFO - OCR Space processing image time: 1.607422s
+2017-10-25 12:33:37,251 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000021.png
+2017-10-25 12:33:37,251 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000021.png
+2017-10-25 12:33:39,252 - root - INFO - OCR Space processing image time: 2.000853s
+2017-10-25 12:33:39,253 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000070.png
+2017-10-25 12:33:39,253 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000070.png
+2017-10-25 12:33:40,814 - root - INFO - OCR Space processing image time: 1.560748s
+2017-10-25 12:33:40,815 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000058.png
+2017-10-25 12:33:40,815 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000058.png
+2017-10-25 12:33:42,911 - root - INFO - OCR Space processing image time: 2.096247s
+2017-10-25 12:33:42,912 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000042.png
+2017-10-25 12:33:42,912 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000042.png
+2017-10-25 12:33:44,690 - root - INFO - OCR Space processing image time: 1.777597s
+2017-10-25 12:33:44,691 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000033.png
+2017-10-25 12:33:44,691 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000033.png
+2017-10-25 12:33:46,305 - root - INFO - OCR Space processing image time: 1.613939s
+2017-10-25 12:33:46,306 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000018.png
+2017-10-25 12:33:46,306 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000018.png
+2017-10-25 12:33:48,706 - root - INFO - OCR Space processing image time: 2.399217s
+2017-10-25 12:33:48,706 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000074.png
+2017-10-25 12:33:48,706 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000074.png
+2017-10-25 12:33:50,521 - root - INFO - OCR Space processing image time: 1.81446s
+2017-10-25 12:33:50,522 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000020.png
+2017-10-25 12:33:50,522 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000020.png
+2017-10-25 12:33:52,582 - root - INFO - OCR Space processing image time: 2.060014s
+2017-10-25 12:33:52,583 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000015.png
+2017-10-25 12:33:52,583 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000015.png
+2017-10-25 12:33:53,482 - root - INFO - OCR Space processing image time: 0.898257s
+2017-10-25 12:33:53,483 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000078.png
+2017-10-25 12:33:53,483 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000078.png
+2017-10-25 12:33:55,388 - root - INFO - OCR Space processing image time: 1.904891s
+2017-10-25 12:33:55,389 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000037.png
+2017-10-25 12:33:55,389 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000037.png
+2017-10-25 12:33:56,830 - root - INFO - OCR Space processing image time: 1.440574s
+2017-10-25 12:33:56,830 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000048.png
+2017-10-25 12:33:56,831 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000048.png
+2017-10-25 12:33:58,595 - root - INFO - OCR Space processing image time: 1.763658s
+2017-10-25 12:33:58,595 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000012.png
+2017-10-25 12:33:58,596 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000012.png
+2017-10-25 12:34:01,053 - root - INFO - OCR Space processing image time: 2.457207s
+2017-10-25 12:34:01,053 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000010.png
+2017-10-25 12:34:01,053 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000010.png
+2017-10-25 12:34:03,034 - root - INFO - OCR Space processing image time: 1.980932s
+2017-10-25 12:34:03,035 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000014.png
+2017-10-25 12:34:03,035 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000014.png
+2017-10-25 12:34:03,917 - root - INFO - OCR Space processing image time: 0.881266s
+2017-10-25 12:34:03,917 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000046.png
+2017-10-25 12:34:03,917 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000046.png
+2017-10-25 12:34:05,890 - root - INFO - OCR Space processing image time: 1.972016s
+2017-10-25 12:34:05,890 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000040.png
+2017-10-25 12:34:05,891 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000040.png
+2017-10-25 12:34:07,878 - root - INFO - OCR Space processing image time: 1.98709s
+2017-10-25 12:34:07,879 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000003.png
+2017-10-25 12:34:07,879 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000003.png
+2017-10-25 12:34:08,774 - root - INFO - OCR Space processing image time: 0.895392s
+2017-10-25 12:34:08,775 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000076.png
+2017-10-25 12:34:08,775 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000076.png
+2017-10-25 12:34:10,312 - root - INFO - OCR Space processing image time: 1.53644s
+2017-10-25 12:34:10,312 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000039.png
+2017-10-25 12:34:10,313 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000039.png
+2017-10-25 12:34:11,930 - root - INFO - OCR Space processing image time: 1.617502s
+2017-10-25 12:34:11,931 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000007.png
+2017-10-25 12:34:11,931 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000007.png
+2017-10-25 12:34:13,359 - root - INFO - OCR Space processing image time: 1.427707s
+2017-10-25 12:34:13,360 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000069.png
+2017-10-25 12:34:13,360 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000069.png
+2017-10-25 12:34:14,811 - root - INFO - OCR Space processing image time: 1.451555s
+2017-10-25 12:34:14,812 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000071.png
+2017-10-25 12:34:14,812 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000071.png
+2017-10-25 12:34:16,760 - root - INFO - OCR Space processing image time: 1.948021s
+2017-10-25 12:34:16,761 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000031.png
+2017-10-25 12:34:16,761 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000031.png
+2017-10-25 12:34:18,777 - root - INFO - OCR Space processing image time: 2.016059s
+2017-10-25 12:34:18,778 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000002.png
+2017-10-25 12:34:18,778 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000002.png
+2017-10-25 12:34:20,101 - root - INFO - OCR Space processing image time: 1.323252s
+2017-10-25 12:34:20,102 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000060.png
+2017-10-25 12:34:20,102 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000060.png
+2017-10-25 12:34:21,495 - root - INFO - OCR Space processing image time: 1.392896s
+2017-10-25 12:34:21,496 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000008.png
+2017-10-25 12:34:21,496 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000008.png
+2017-10-25 12:34:23,137 - root - INFO - OCR Space processing image time: 1.641247s
+2017-10-25 12:34:23,138 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000036.png
+2017-10-25 12:34:23,138 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000036.png
+2017-10-25 12:34:24,644 - root - INFO - OCR Space processing image time: 1.505649s
+2017-10-25 12:34:24,645 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000055.png
+2017-10-25 12:34:24,645 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000055.png
+2017-10-25 12:34:26,057 - root - INFO - OCR Space processing image time: 1.412411s
+2017-10-25 12:34:26,058 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000009.png
+2017-10-25 12:34:26,058 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000009.png
+2017-10-25 12:34:27,832 - root - INFO - OCR Space processing image time: 1.773222s
+2017-10-25 12:34:27,832 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000054.png
+2017-10-25 12:34:27,832 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000054.png
+2017-10-25 12:34:28,754 - root - INFO - OCR Space processing image time: 0.921298s
+2017-10-25 12:34:28,754 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000006.png
+2017-10-25 12:34:28,755 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000006.png
+2017-10-25 12:34:31,092 - root - INFO - OCR Space processing image time: 2.336755s
+2017-10-25 12:34:31,093 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000073.png
+2017-10-25 12:34:31,093 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000073.png
+2017-10-25 12:34:32,968 - root - INFO - OCR Space processing image time: 1.874856s
+2017-10-25 12:34:32,968 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000047.png
+2017-10-25 12:34:32,968 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000047.png
+2017-10-25 12:34:34,986 - root - INFO - OCR Space processing image time: 2.017943s
+2017-10-25 12:34:34,987 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000077.png
+2017-10-25 12:34:34,987 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000077.png
+2017-10-25 12:34:36,859 - root - INFO - OCR Space processing image time: 1.872125s
+2017-10-25 12:34:36,860 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000019.png
+2017-10-25 12:34:36,860 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000019.png
+2017-10-25 12:34:39,140 - root - INFO - OCR Space processing image time: 2.280687s
+2017-10-25 12:34:39,141 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000022.png
+2017-10-25 12:34:39,141 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000022.png
+2017-10-25 12:34:40,943 - root - INFO - OCR Space processing image time: 1.801668s
+2017-10-25 12:34:40,944 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000030.png
+2017-10-25 12:34:40,944 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000030.png
+2017-10-25 12:34:42,180 - root - INFO - OCR Space processing image time: 1.235728s
+2017-10-25 12:34:42,180 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000066.png
+2017-10-25 12:34:42,180 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000066.png
+2017-10-25 12:34:43,457 - root - INFO - OCR Space processing image time: 1.2765s
+2017-10-25 12:34:43,458 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000016.png
+2017-10-25 12:34:43,458 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000016.png
+2017-10-25 12:34:44,691 - root - INFO - OCR Space processing image time: 1.232953s
+2017-10-25 12:34:44,692 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000045.png
+2017-10-25 12:34:44,692 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000045.png
+2017-10-25 12:34:46,341 - root - INFO - OCR Space processing image time: 1.648889s
+2017-10-25 12:34:46,342 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000028.png
+2017-10-25 12:34:46,342 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000028.png
+2017-10-25 12:34:48,134 - root - INFO - OCR Space processing image time: 1.791986s
+2017-10-25 12:34:48,135 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000067.png
+2017-10-25 12:34:48,135 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000067.png
+2017-10-25 12:34:49,037 - root - INFO - OCR Space processing image time: 0.902281s
+2017-10-25 12:34:49,038 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000056.png
+2017-10-25 12:34:49,038 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000056.png
+2017-10-25 12:34:50,304 - root - INFO - OCR Space processing image time: 1.265722s
+2017-10-25 12:34:50,305 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000032.png
+2017-10-25 12:34:50,305 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000032.png
+2017-10-25 12:34:51,728 - root - INFO - OCR Space processing image time: 1.422883s
+2017-10-25 12:34:51,729 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000013.png
+2017-10-25 12:34:51,729 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000013.png
+2017-10-25 12:34:53,247 - root - INFO - OCR Space processing image time: 1.517738s
+2017-10-25 12:34:53,247 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000011.png
+2017-10-25 12:34:53,247 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000011.png
+2017-10-25 12:34:54,984 - root - INFO - OCR Space processing image time: 1.736347s
+2017-10-25 12:34:54,984 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000005.png
+2017-10-25 12:34:54,984 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000005.png
+2017-10-25 12:34:58,640 - root - INFO - OCR Space processing image time: 3.655084s
+2017-10-25 12:34:58,640 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000038.png
+2017-10-25 12:34:58,641 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000038.png
+2017-10-25 12:35:01,017 - root - INFO - OCR Space processing image time: 2.376158s
+2017-10-25 12:35:01,017 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000052.png
+2017-10-25 12:35:01,018 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000052.png
+2017-10-25 12:35:02,033 - root - INFO - OCR Space processing image time: 1.015006s
+2017-10-25 12:35:02,033 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000026.png
+2017-10-25 12:35:02,033 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000026.png
+2017-10-25 12:35:04,007 - root - INFO - OCR Space processing image time: 1.973772s
+2017-10-25 12:35:04,008 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000061.png
+2017-10-25 12:35:04,008 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000061.png
+2017-10-25 12:35:05,918 - root - INFO - OCR Space processing image time: 1.909583s
+2017-10-25 12:35:05,918 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000017.png
+2017-10-25 12:35:05,918 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000017.png
+2017-10-25 12:35:08,322 - root - INFO - OCR Space processing image time: 2.40431s
+2017-10-25 12:35:08,323 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000043.png
+2017-10-25 12:35:08,323 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000043.png
+2017-10-25 12:35:09,817 - root - INFO - OCR Space processing image time: 1.493247s
+2017-10-25 12:35:09,817 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000004.png
+2017-10-25 12:35:09,818 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000004.png
+2017-10-25 12:35:13,325 - root - INFO - OCR Space processing image time: 3.507149s
+2017-10-25 12:35:13,325 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000025.png
+2017-10-25 12:35:13,326 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000025.png
+2017-10-25 12:35:15,282 - root - INFO - OCR Space processing image time: 1.95617s
+2017-10-25 12:35:15,283 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000024.png
+2017-10-25 12:35:15,283 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000024.png
+2017-10-25 12:35:17,540 - root - INFO - OCR Space processing image time: 2.257238s
+2017-10-25 12:35:17,541 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000053.png
+2017-10-25 12:35:17,541 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000053.png
+2017-10-25 12:35:18,819 - root - INFO - OCR Space processing image time: 1.277236s
+2017-10-25 12:35:18,819 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000023.png
+2017-10-25 12:35:18,819 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000023.png
+2017-10-25 12:35:20,932 - root - INFO - OCR Space processing image time: 2.112195s
+2017-10-25 12:35:20,932 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000029.png
+2017-10-25 12:35:20,933 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000029.png
+2017-10-25 12:35:22,507 - root - INFO - OCR Space processing image time: 1.574275s
+2017-10-25 12:35:22,507 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000041.png
+2017-10-25 12:35:22,508 - root - INFO - Calling OCR Space with image: /home/luismesa/demo_ocr/results/ocr_space/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000041.png
+2017-10-25 12:35:24,267 - root - INFO - OCR Space processing image time: 1.758788s
+2017-10-25 12:35:24,267 - root - INFO - Total OCR time: 140.17709s
+2017-10-25 12:35:24,267 - root - INFO - Trying to detect passwords...
+2017-10-25 12:35:24,269 - root - INFO - Potential passwords found in frame_000027: [AKIAJXQL66HEEYCPDAHA]
+2017-10-25 12:35:24,270 - root - INFO - Potential passwords found in frame_000035: [demoGr0up]
+2017-10-25 12:35:24,271 - root - INFO - Potential passwords found in frame_000044: [AKIAJXQL66HEEYCPDAWA]
+2017-10-25 12:35:24,272 - root - INFO - Potential passwords found in frame_000049: [AKIAJXQL66HEEYCPDAHA]
+2017-10-25 12:35:24,275 - root - INFO - Potential passwords found in frame_000033: [demoGr0up]
+2017-10-25 12:35:24,275 - root - INFO - Potential passwords found in frame_000074: [3eanstalk]
+2017-10-25 12:35:24,276 - root - INFO - Potential passwords found in frame_000048: [AKIA3XQL66HEEYCPDAHA]
+2017-10-25 12:35:24,276 - root - INFO - Potential passwords found in frame_000012: [AKIAJXQL66WEEYCPDAWA]
+2017-10-25 12:35:24,276 - root - INFO - Potential passwords found in frame_000046: [AKIA3XQL66HEEYCPDAHA]
+2017-10-25 12:35:24,277 - root - INFO - Potential passwords found in frame_000031: [EC2ContainerServiceF]
+2017-10-25 12:35:24,278 - root - INFO - Potential passwords found in frame_000047: [AKIAJXQL66HEEYCPDAHA]
+2017-10-25 12:35:24,278 - root - INFO - Potential passwords found in frame_000045: [AKIAJXQL66HEEYCPDAHA]
+2017-10-25 12:35:24,278 - root - INFO - Potential passwords found in frame_000028: [AKIAJXQL66HEEYCPDAHA]
+2017-10-25 12:35:24,279 - root - INFO - Potential passwords found in frame_000013: [AKIAJXQL66WEEYCPDAWA, *FtqcRmsnF2Y]
+2017-10-25 12:35:24,279 - root - INFO - Potential passwords found in frame_000026: [AKIAJXQL66HEEYCPDAHA]
+2017-10-25 12:35:24,280 - root - INFO - Potential passwords found in frame_000025: [AKIAJXQL66HEEYCPDAHA]
+2017-10-25 12:35:24,280 - root - INFO - Potential passwords found in frame_000024: [AKIAJXQL66HEEYCPDAHA]
+2017-10-25 12:35:24,280 - root - INFO - Potential passwords found in frame_000023: [AKIAJXQL66HEEYCPDAHA]
+2017-10-25 12:35:24,280 - root - INFO - Password detection time: 0.012605s
+2017-10-25 12:35:24,283 - root - INFO - Process finished!
+2017-10-25 12:35:24,283 - root - INFO - Total process time: 171.09234s

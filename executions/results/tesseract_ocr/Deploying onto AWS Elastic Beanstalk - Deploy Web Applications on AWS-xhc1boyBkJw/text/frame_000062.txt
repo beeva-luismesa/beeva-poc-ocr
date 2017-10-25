@@ -1,0 +1,40 @@
+_» . …»»… .
+
+' use strict';
+
+ 
+
+º…“ Ver http = require("http"), ?
+=”. . " u
+
+…,…,,… mysql = requtre( mysql ),
+
+ººº—… mysqlserver = nysq1.createconnectlon((
+
+host: process.euv.nns_nosmme,
+user: nrxess.euv.nns_ussnumi,
+password: nfocess.env.nns_nssnonb,
+port: nrncess.env.nns_ka
+
+));
+nysq15erver.conuect(functinn(err) (
+u (err) (
+prmss.env['nsg'] 'Unable to connect to uns - ' > err;
+) else (
+procus.env['nsg'] : '5uccess! Connected te nos via ' 4 prxess.env.kus_uosrnmi;
+)
+)):
+
+http.creat=5erver(functton(request, response) (
+response.urtteHead(z", (
+"Cºntent-Type
+));
+response.write(nracess.env['nsg'l);
+r:sponse.eud():
+)).1tsteu(prxess.euv.vow II Jm);
+
+ 
+
+ext/plain "
+
+… … … . ……… ¡, ……

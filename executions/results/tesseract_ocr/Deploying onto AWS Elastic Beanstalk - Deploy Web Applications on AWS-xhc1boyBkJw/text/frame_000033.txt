@@ -1,35 +1,29 @@
-bash-3.25 ls
+4» c ¡»… ……….………W………
 
-READIE.M app. js package.json
+ 
 
-hash-3.25 git in“
+ 
 
-Initialized enoty GU: repository in [Users/Screencastlbesktop/Wzonlnode-project/.th/
-bash-3.25 git add *
+   
 
-hash-3.25 gu comtt -n "Inlttal conll.t'
+AVIS … Screenast * GWoh¡ sunno?! *
+Das…… .… > a…… > uamquuv
+* — Summary
+G.… … . … … …… 81557547sam g……=…ue……g
+Useu(1n lhls gvuunlv D
+m.: /
+…; emanan …… …… 30 u 33 pm
+.
+……
+me… …… — Users
+…… s…… A "us …… a… … conla… w ……
+…e… nº… … u…… …
+Encrypnnn …; — Pemss…ns
+Manager! Pohcles ,.
+Wwe Pol|cwes A
 
-[master (root-comu) dassfc3] Initial com“
+Theveaveno "¡me p…esm show Tocvealeane… 010ka
 
-C…itter: Screencast<Screencast—HacBook-Pro.local>
+mm, Vil—Y ¡… a ….
 
-Your nan and email address were configured automatically based
-
-on your username and hostnam4 Please check that they are accurate.
-You can suppress this message hy setting then expllctt1y. Run the
-following covnand and follw the instructions in your editor to edit
-your configuration fue:
-
-gu: config --g'lobal --edlt
-
-After doing this. you may fix the identity used for this comtt utth:
-gh: corn“: --amnd --reset-author
-
-: files changed, 35 lnserttons(+)
-
-create node 186544 READHE.M
-
-create node 180644 app.:ls
-
-create node 190644 package.jsun
-hash-3.25
+Q Mn… 9 Emu.

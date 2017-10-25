@@ -1,58 +1,9 @@
-create 
-deptoy 
-events 
-init 
-tabs 
-ust 
-local 
-togs 
-open 
-ptatform 
-prültenv 
-scale 
-ssh 
-status 
-swap 
-terntnate 
-upgrade 
-use 
-Creates a new envfronrent. 
-Deploys your source code to the envtronxlt. 
-Gets recent events. 
-Inttialtzes your directory with the EB CLI. Creates the appttcatton. 
-Extra expertnentat cnands. 
-Ltsts au envtronnents. 
-Runs comands on your local nachüle. 
-Gets recent logs. 
-Opens the appucatton IAL a . 
-Manages platforns. 
-Shows the envü-onment vartables. 
-Changes the number of running tnstances. 
-Sets envfronnent vartables. 
-Opens the SSH cuent to connect to an tnstance. 
-Gets envfronnent tnfornatton and status. 
-Swaps two envtronment CNMEs wW1 each other. 
-Ternüiates the 
-Updates the envtronx•lt to the most recent ptatfom verston. 
-Sets default envtron*nt. 
-optional arguz•tts: 
-h - -hetp 
-show thts hetp nessage and extt 
-- -debug 
-toggte debug output 
-- -qutet 
-suppress au output 
--v, - -verbose 
-toggte verbose output 
---proftte PROFILE 
-use a spectftc profite your credenttat ftte 
--r REGION, --regton REGION 
-use a spectftc regton 
-- -no-verify-sst 
-do not verify ANS SSL certificates 
-- -ver ston 
-show appttcatton/verston 
-To get started type 'eb Then type 'eb create' and 'eb open' 
-bash-3.2$ cd node-project/ 
-bash-3.2$ I 
+AWS 
+Create User 
+screencast 
+user Names: 
+Maximum 64 charact%s each 
+Generate an access key for each user 
+users need access keys to make secure REST or Querv protocol requests to AWS service APIS. 
+For users Who need access to the AWS Management Console, create a password in the Users panel alter completing this Wizard. 
 

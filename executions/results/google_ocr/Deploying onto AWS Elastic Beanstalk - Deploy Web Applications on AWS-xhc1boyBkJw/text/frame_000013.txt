@@ -1,32 +1,17 @@
-setenv Sets environment variables.
-Ssh Opens the SSH client to connect to an instance.
-status Gets environment information and status.
-Swap Swaps two environment CNAMEs with each other.
-terminate Terminates the environment .
-upgrade Updates the environment to the most recent platform version.
-use Sets default environment.
-optional arguments:
--h, --help show this help message and exit
-debug toggle debug output
---quiet suppress all output
--verbose toggle verbose output
---profile PROFILEUse a specific profile from your credential file
--T REGION, --region REGION
-use a specific region
---no-verify-ssl do not verify AWS SSL certificates
---version show application version info
-To get started type 'eb init '. Then type 'eb create' and 'eb open '
-bash-3.2$ cd node-project/
-bash-3.2$ eb init
-Select a default region
-1) US-east-1 : US East (N. Virginia )
-2) US-west-1 : US West (N. California)
-3) us-west-2 : Us West (Oregon)
-4) eu-west-1 : EU (Ireland)
-5) eu-central-1: EU (Frankfurt)
-6) ap-southeast-1: Asia Pacific (Singapore)
-7) ap-southeast-2 : Asia Pacific (Sydney)
-8) ap-northeast-1: Asia Pacific (Tokyo)
-9) sa-east-1 : South America (Sao Paulo)
-(default is 3): I
+- ECB https://console.awsamazon.com/iam/homepraioneus-west 2Husers
+Q
+E
+TAWS Services YEdit
+Screencast
+Global
+Support
+Create User
+Q Your 1 User(s) have been created successfully.
+This is the last time these User security credentials will be available for download.
+You can manage and recreate these credentials any time.
+Hide User Security Credentials
+o demoUser
+Access Key ID: AKIAJXQL66WEEYCPDAWA
+Secret Access Key: Oj15XGnEDNs/KWY/olzRAMXUQn1+FtacRmsn F2Y
+Close Download Credentials
 

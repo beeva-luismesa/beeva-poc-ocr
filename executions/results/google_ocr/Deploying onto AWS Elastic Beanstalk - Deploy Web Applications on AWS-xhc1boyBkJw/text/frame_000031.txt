@@ -1,1 +1,66 @@
+B https:/console
+a.com/iamhome?region
+T AWS Services v Edit
+Screencast
+Global
+Support
+Create New Group Wizard
+Attach Policy
+Step 1: Group Name
+Select up to two policies to attach to the group.
+Step 2: Attach Policy
+Step 3: Review
+FilterPolicy Type
+Search
+Showing 134 results
+Policy Name -
+Attached Entities
+Creation Time -
+Edited Time -
+AdministratorAccess
+2015-02-06 10:39 PST
+2015-02-06 10:39 PST
+Amazontpsteamrunneces
+o
+2015-02-06 10:40 PST
+2015-02-06 10:40 PST
+AmazonAppStreamReadOnlyAccess
+2015-02-06 10:40 PST
+2015-02-06 10:40 PST
+Amazoncognito Developer Authentica.
+2015-03-24 1022 PDT
+2015-03-24 10:22 PDT
+AmazoncognitoPowerUser
+2015-03-24 10:14 PDT
+2015-03-24 10:14 PDT
+AmazoncognitoReadOnly
+2015-03-24 10:06 PDT
+2015-03-24 10:06 PDT
+AmazonDynamoDBFullAccess
+2015-02-06 10:40 PST
+2015-02-06 10:40 PST
+AmazonDynamoDBFullAccesswithD.
+2015-02-06 10:40 PST
+2015-02-06 10:40 PST
+AmazonDynamoDBReadOnly Accesso
+2015-02-06 10:40 PST
+2015-02-06 10:40 PST
+Amazon EC2ContainerServiceforEC2
+2015-03-19 11:45 PDT
+2015-03-1911:45 PDT
+Amazon EC2Container ServiceFullAcc.
+2015-04-24 09:54 PDT
+2015-04-24 09:54 PDT
+Amazon EC2ContainerService Role
+2015-04-09 09:14 PDT
+2015-04-09 09:14 PDT
+Amazon EC2FullAccess
+2015-02-06 10:40 PST
+2015-02-06 10:40 PST
+AmazonEC2ReadOnlyAccess
+o
+2015-02-06 10:40 PST
+2015-02-06 10:40 PST
+Cancel Previous
+Next Step
 

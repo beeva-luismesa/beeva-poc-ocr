@@ -1,27 +1,6 @@
-– B https://console.awsamazon.com/iam/home?region-us-west-2tusers
-T AWS Services v Edit
-Screencast
-Global
-Support
-Dashboard
-Create New Users
-User Actions -
-•
-so
-Details
-Search
-Groups
-User Name
-Groups
-Password
-Password Last used a
-Access Keys
-Creation Time -
-Roles
-Policies
-Identity providers
-Account Settings
-Credential Report
-Encryption keys
-© 2008 - 2015, Amazon Web Services, Inc. or its affiliates. All rights reserved . Privacy Policy Terms of Use
+– 4 x 8 httpsi console.awsamazon.comiamhome?region -us-west-2
+Q
+E
+Privacy Policy
+Terms of Use
 

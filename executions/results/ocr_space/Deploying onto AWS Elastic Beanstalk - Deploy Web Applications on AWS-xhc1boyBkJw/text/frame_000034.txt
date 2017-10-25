@@ -1,24 +1,12 @@
-bash-3.2$ ts 
-README.md 
-app.js 
-bash-3.2$ gtt init 
-package. json 
-Inittaltzed enpty Git repository in /Users/screencast/Desktop/Anazon/node-project/ .gtt/ 
-bash-3.2$ gtt add * 
-bash-3.2$ git cornrKt -m "Initial corgrü•" 
-[master (root-comtt) da5Sfc3] Inittal cormtt 
-Comitter: Screencast<Screencast-MacBook-Pro. tocab 
-Your nane and email address were configured automatically based 
-on your username and hostname. Please check that they are accurate. 
-You can suppress this message by setting them explicitly. Run the 
-following comnand and follow the instructions tn your editor to edit 
-your configuration file: 
-git config --global --edtt 
-After dotng thts, you nay ftx the identtty used for this connit with: 
-git --amend - -reset-author 
-3 files changed, 35 insertions(+) 
-create rrnde 10644 README.md 
-create rode 186644 app. js 
-create mode 190644 package.json 
-bash-3.2$ 
+AWS 
+screencast 
+Select users to add to the group demoGroup 
+Add Users to Group 
+User Name 
+NO records found. 
+Groups 
+Password 
+Access Keys 
+Showing O results 
+Creation Time 
 

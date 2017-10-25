@@ -1,0 +1,26 @@
+c 
+Alarms 
+Tags 
+h : •.ps Wu west • 2 aws. amazon stalk•'h o 
+Node versio n: 
+Gzip compression: 
+N ode command: 
+Log Options 
+0.12.4 
+false 
+Version Of Node.js. 
+Specifies it gzip compression ís enabled. 
+Command to Start the Node.js application. If an string is specified, app.js is used, then server.js, then •npm start• in that order. 
+The fob.ving settings control the log publication behavior. 
+Instance profile: aWs-eIasticbeanstalk•ec2-role Refresh C 
+The instance profile grants your envirotunent pennissions under your AWS account. Leam More. 
+Enable log file rotation to Amazon S3. If service logs are published to SS. 
+Static Files 
+TO improve performance, You can configure Apache or Nginx to serve static files from a set Of directories inside Your web application. Leam more. 
+Virtual path (ExampÊ: /assets) 
+Environment Properties 
+The following properties are passed into the application as environment variables. Leam more. 
+property 
+Directory (Exarnp•e: /staticJassets) 
+property Value 
+

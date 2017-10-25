@@ -1,0 +1,26 @@
+"I node-project
+'use strict';
+A glignore
+app is
+A package son
+var http = require("http") ,
+mysql = require("mysql") ,
+mysqlServer = mysql.createConnectionſ
+host : process .env.RDS _HOSTNAME ,
+user: process . env.RDS _USERNAME,
+password: process, env.RDS_PASSWORD,
+port: process. env.RDS _PORT
+});
+mysqlServer.connect(function(err)
+if (err) {
+process .envſ' msg'] = 'Unable to connect to RDS + err ;
+} else {
+process .envſ' msg'] ='Success Connected to RDS via + process.env.RDS_HOSTNAME;
+http.createServer (function(request, response)
+response.writeHead (200,
+"Content-Type": "text/plain"
+response.write(process. env[' msg'J) ;
+response.end();
+}).listencprocess . env.PORT TI 3000) ;
+USTEFBavascript in master
+

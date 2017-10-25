@@ -1,7 +1,24 @@
-host: process.env.RDS_HOSTNAME, 
-user: process . env. RDS_USERNAHE, 
-password: process.env.RDS_PASSHORD, 
-port: process.env.RDS_PORT 
-- -pon! 
-' -'ter 
+AWS 
+Elastic Beanstalk 
+53.6 
+Omon Amort 
+Create New Application 
+148K 
+65% 
+354KB 
+12KB 
+Welcome to AWS Elastic Beanstalk 
+With Elastic 3eanstalk, you can deploy, monitor, and scale an application quickly and easily. Let us do the heavy lifting so you 
+can focus on Your business. 
+TO deploy your existing web application, Create an application sourCe bundle and then create a new application. If you' re using 
+Git and would prefer to use it with Our command line tool. please see Getting Staned with the EB CLI. 
+To deploy a sample application with just one click, select a platform and click Launch Now. 
+Select a platform 
+Get Started in Three Easy Steps 
+Upload an Application or Use a Sample 
+Looking tor a different platform? Let us know 
+6 
+o 
+Select a Platform 
+Run it! 
 

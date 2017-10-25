@@ -1,0 +1,35 @@
+AWS v 
+El astic Beanstalk node-project • 
+node-project node-project-dev2 (node-proiect-devzelasticbeanstalk.com) 
+Create New Environment 
+Dashboard 
+Configuratiog 
+Logs 
+Monitoring 
+Aarms 
+Events 
+Tags 
+Web Tier 
+Scaling 
+Environment t-ype: Load bala,rced. auto scaling 
+Scale based on Average netwark out 
+Add instance when > 6000000 
+Remove instance when < 2000000 
+Software Configuration 
+Log publication: Off 
+Gzip compression: false 
+Node version: O. 12A 
+Proxy Server: 
+Data Tier 
+Instances 
+t-ype: tl. micro 
+Zonas: Any 
+Updates and Deployments 
+ApplicaUon deployment batCh 
+Rolling updates are enabled 
+Rolling update type: Health 
+Max batCh Size: I 
+Minimum in I 
+Notifications 
+N Off 
+

@@ -1,64 +1,51 @@
-c ¡… ……¡………………w
+setenv Sets environment variables.
 
- 
+ssh ºpens the SSH client to connect to an instance.
+status Gets environment infornatinn and status.
+swap Suaps tuo environnent CNME5 with each other.
 
-AVIS …
+terninate Terninates the environnent.
+upgrade Updates the envirorrnnt to the host recent platforn verslnn.
 
-pas…… … > Gmups > unmquun
+use Sets default envirunnent.
 
-* — Summary
+optional argumts:
+-h, --help show this help nessage and exit
+--debun toggle debug output
 
-   
+niet suppress all output
+--verbose toggle verbose output
 
-e…um .
-e.….
-Usel$(1n nus gveun)v 1
-Users Path: /
-a… Cm=hun 1… 2015 nsdu —». ns Pm
-Fuhm=s
-menttty vawaers . Users
-Accuum Semngs Íms vmw shows a“ users … … …… ¡ u…
+--pmfile PRDFILE use a specific prnfik from your credential file
+-r REGION. --region REGION
 
-…de… me…
-
-u…
-
-Encvypnnn Keys .; demnusev
-
-— Pemussmns
-
-Managed Puhclss
-
-… … … 315575475Mu gmuv/dennGmup
-
-Acuun¡
-
-Remove Usen… Gmuv
-
-… munwmq manaued names are attached … ws Qmup … … au… … … 2 ma"aged guhc1:5
-
-A… vom
-
-Pnh=y szn
-
-Awsmsucae…mxr…mess;
+use a specific regiºn
+-—no-verify-ssl do not verify AMS SSL certificates
+--version shw application/version info
 
  
 
  
 
-Q Mana: % Emu.
+To get started type 'eb init'. Then type 'eb create' and 'el: open'
+bash-3.25 cd node-project]
+bash-3.25 eb ini!
 
-Acnans
+Select ¡ default region
 
-su… muy mecnPoh<:y 1 s…… Pahcy
+1) us-ea5t-1 : US East (N. Virginia)
 
- 
+Z) us-uest-1 : US Nest (Il. California)
 
- 
+3) us-uest-1 : US West (Oregºn)
 
-screenusu mon. summ—
+A) eu-nest-1 : a: (Ireland)
 
-…u...……w …….…rmp
+!) eu-central-1 : El! (Frankfurt)
 
-…… m……-
+5) ap—southeast—l Asia Pacific (Singapore)
+1) ap-southeast-z Asia Pacific (Sydney)
+!) ap-northeast-1 . Asia Pacific (Tokyo)
+
+9) sa-east-1 ' South America (Sao Paulo)
+(default is 3 .

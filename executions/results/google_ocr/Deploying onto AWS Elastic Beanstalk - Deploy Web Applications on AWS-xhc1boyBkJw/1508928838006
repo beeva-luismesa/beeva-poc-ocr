@@ -1,0 +1,347 @@
+2017-10-25 12:53:58,007 - root - INFO - Params <Namespace(lang='spa', ocr='google-cloud-vision', output_path='/home/luismesa/demo_ocr/results/google_ocr', scene_threshold=0.05, video='https://www.youtube.com/watch?v=xhc1boyBkJw')>
+2017-10-25 12:53:58,007 - root - INFO - Starting process
+2017-10-25 12:53:58,015 - root - INFO - It's a youtube video! Here we go!
+2017-10-25 12:53:58,015 - root - INFO - Getting info from youtube...
+2017-10-25 12:53:59,155 - root - INFO - Total info time: 1.139824s
+2017-10-25 12:53:59,155 - root - INFO - Downloading from youtube...
+2017-10-25 12:54:11,637 - root - INFO - Total download time: 12.48226s
+2017-10-25 12:54:11,638 - root - INFO - Generating frames from video ./Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw.mp4
+2017-10-25 12:54:11,638 - root - INFO - Calling ffmpeg command: ffmpeg -i "/home/luismesa/repo/beeva-poc-ocr/beeva-poc-ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw.mp4" -vf "select=gt(scene\,0.05)" -vsync vfr "/home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_%06d.png" -qscale 0
+2017-10-25 12:54:40,163 - root - INFO - FFMPEG time: 28.524355s
+2017-10-25 12:54:40,163 - root - INFO - Performing OCR with google-cloud-vision
+2017-10-25 12:54:40,163 - root - INFO - Images subfolder will be: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images
+2017-10-25 12:54:40,163 - root - INFO - Text subfolder will be: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/text
+2017-10-25 12:54:40,164 - googleapiclient.discovery - INFO - URL being requested: GET https://www.googleapis.com/discovery/v1/apis/vision/v1/rest
+2017-10-25 12:54:40,377 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000062.png
+2017-10-25 12:54:40,377 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000062.png
+2017-10-25 12:54:40,388 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:54:41,800 - root - INFO - OCR Cloud Vision processing image time: 1.42262s
+2017-10-25 12:54:41,801 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000001.png
+2017-10-25 12:54:41,801 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000001.png
+2017-10-25 12:54:41,802 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:54:42,509 - root - INFO - OCR Cloud Vision processing image time: 0.707397s
+2017-10-25 12:54:42,509 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000072.png
+2017-10-25 12:54:42,509 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000072.png
+2017-10-25 12:54:42,515 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:54:44,339 - root - INFO - OCR Cloud Vision processing image time: 1.83005s
+2017-10-25 12:54:44,341 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000027.png
+2017-10-25 12:54:44,342 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000027.png
+2017-10-25 12:54:44,350 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:54:45,903 - root - INFO - OCR Cloud Vision processing image time: 1.560797s
+2017-10-25 12:54:45,906 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000050.png
+2017-10-25 12:54:45,906 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000050.png
+2017-10-25 12:54:45,906 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:54:46,685 - root - INFO - OCR Cloud Vision processing image time: 0.779278s
+2017-10-25 12:54:46,685 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000035.png
+2017-10-25 12:54:46,686 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000035.png
+2017-10-25 12:54:46,691 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:54:48,220 - root - INFO - OCR Cloud Vision processing image time: 1.534192s
+2017-10-25 12:54:48,221 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000065.png
+2017-10-25 12:54:48,221 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000065.png
+2017-10-25 12:54:48,223 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:54:49,737 - root - INFO - OCR Cloud Vision processing image time: 1.516016s
+2017-10-25 12:54:49,738 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000051.png
+2017-10-25 12:54:49,739 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000051.png
+2017-10-25 12:54:49,740 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:54:50,615 - root - INFO - OCR Cloud Vision processing image time: 0.876393s
+2017-10-25 12:54:50,616 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000057.png
+2017-10-25 12:54:50,616 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000057.png
+2017-10-25 12:54:50,626 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:54:52,189 - root - INFO - OCR Cloud Vision processing image time: 1.572718s
+2017-10-25 12:54:52,190 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000044.png
+2017-10-25 12:54:52,190 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000044.png
+2017-10-25 12:54:52,195 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:54:53,788 - root - INFO - OCR Cloud Vision processing image time: 1.597267s
+2017-10-25 12:54:53,789 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000049.png
+2017-10-25 12:54:53,789 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000049.png
+2017-10-25 12:54:53,793 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:54:56,482 - root - INFO - OCR Cloud Vision processing image time: 2.692605s
+2017-10-25 12:54:56,483 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000063.png
+2017-10-25 12:54:56,484 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000063.png
+2017-10-25 12:54:56,486 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:54:57,808 - root - INFO - OCR Cloud Vision processing image time: 1.324706s
+2017-10-25 12:54:57,810 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000034.png
+2017-10-25 12:54:57,810 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000034.png
+2017-10-25 12:54:57,811 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:54:59,089 - root - INFO - OCR Cloud Vision processing image time: 1.279576s
+2017-10-25 12:54:59,091 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000068.png
+2017-10-25 12:54:59,091 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000068.png
+2017-10-25 12:54:59,092 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:54:59,827 - root - INFO - OCR Cloud Vision processing image time: 0.736546s
+2017-10-25 12:54:59,828 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000064.png
+2017-10-25 12:54:59,828 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000064.png
+2017-10-25 12:54:59,832 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:01,398 - root - INFO - OCR Cloud Vision processing image time: 1.57006s
+2017-10-25 12:55:01,399 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000059.png
+2017-10-25 12:55:01,399 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000059.png
+2017-10-25 12:55:01,402 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:02,828 - root - INFO - OCR Cloud Vision processing image time: 1.42875s
+2017-10-25 12:55:02,829 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000075.png
+2017-10-25 12:55:02,829 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000075.png
+2017-10-25 12:55:02,831 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:04,582 - root - INFO - OCR Cloud Vision processing image time: 1.752612s
+2017-10-25 12:55:04,583 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000021.png
+2017-10-25 12:55:04,583 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000021.png
+2017-10-25 12:55:04,587 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:07,225 - root - INFO - OCR Cloud Vision processing image time: 2.64132s
+2017-10-25 12:55:07,226 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000070.png
+2017-10-25 12:55:07,226 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000070.png
+2017-10-25 12:55:07,227 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:08,300 - root - INFO - OCR Cloud Vision processing image time: 1.073378s
+2017-10-25 12:55:08,301 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000058.png
+2017-10-25 12:55:08,301 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000058.png
+2017-10-25 12:55:08,306 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:09,673 - root - INFO - OCR Cloud Vision processing image time: 1.371672s
+2017-10-25 12:55:09,674 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000042.png
+2017-10-25 12:55:09,674 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000042.png
+2017-10-25 12:55:09,676 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:11,156 - root - INFO - OCR Cloud Vision processing image time: 1.48163s
+2017-10-25 12:55:11,157 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000033.png
+2017-10-25 12:55:11,157 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000033.png
+2017-10-25 12:55:11,159 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:12,461 - root - INFO - OCR Cloud Vision processing image time: 1.30373s
+2017-10-25 12:55:12,462 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000018.png
+2017-10-25 12:55:12,462 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000018.png
+2017-10-25 12:55:12,467 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:15,257 - root - INFO - OCR Cloud Vision processing image time: 2.794119s
+2017-10-25 12:55:15,261 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000074.png
+2017-10-25 12:55:15,261 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000074.png
+2017-10-25 12:55:15,264 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:16,974 - root - INFO - OCR Cloud Vision processing image time: 1.713087s
+2017-10-25 12:55:16,976 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000020.png
+2017-10-25 12:55:16,977 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000020.png
+2017-10-25 12:55:16,981 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:19,589 - root - INFO - OCR Cloud Vision processing image time: 2.61282s
+2017-10-25 12:55:19,591 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000015.png
+2017-10-25 12:55:19,591 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000015.png
+2017-10-25 12:55:19,592 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:20,281 - root - INFO - OCR Cloud Vision processing image time: 0.68995s
+2017-10-25 12:55:20,282 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000078.png
+2017-10-25 12:55:20,282 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000078.png
+2017-10-25 12:55:20,289 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:22,156 - root - INFO - OCR Cloud Vision processing image time: 1.873682s
+2017-10-25 12:55:22,158 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000037.png
+2017-10-25 12:55:22,158 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000037.png
+2017-10-25 12:55:22,159 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:23,604 - root - INFO - OCR Cloud Vision processing image time: 1.446458s
+2017-10-25 12:55:23,605 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000048.png
+2017-10-25 12:55:23,605 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000048.png
+2017-10-25 12:55:23,612 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:26,025 - root - INFO - OCR Cloud Vision processing image time: 2.420203s
+2017-10-25 12:55:26,027 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000012.png
+2017-10-25 12:55:26,027 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000012.png
+2017-10-25 12:55:26,030 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:27,347 - root - INFO - OCR Cloud Vision processing image time: 1.320005s
+2017-10-25 12:55:27,348 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000010.png
+2017-10-25 12:55:27,348 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000010.png
+2017-10-25 12:55:27,350 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:28,448 - root - INFO - OCR Cloud Vision processing image time: 1.100295s
+2017-10-25 12:55:28,449 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000014.png
+2017-10-25 12:55:28,449 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000014.png
+2017-10-25 12:55:28,451 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:29,107 - root - INFO - OCR Cloud Vision processing image time: 0.657888s
+2017-10-25 12:55:29,108 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000046.png
+2017-10-25 12:55:29,108 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000046.png
+2017-10-25 12:55:29,113 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:31,705 - root - INFO - OCR Cloud Vision processing image time: 2.597509s
+2017-10-25 12:55:31,707 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000040.png
+2017-10-25 12:55:31,707 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000040.png
+2017-10-25 12:55:31,709 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:33,466 - root - INFO - OCR Cloud Vision processing image time: 1.759639s
+2017-10-25 12:55:33,468 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000003.png
+2017-10-25 12:55:33,468 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000003.png
+2017-10-25 12:55:33,469 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:34,667 - root - INFO - OCR Cloud Vision processing image time: 1.199181s
+2017-10-25 12:55:34,668 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000076.png
+2017-10-25 12:55:34,668 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000076.png
+2017-10-25 12:55:34,673 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:36,783 - root - INFO - OCR Cloud Vision processing image time: 2.114762s
+2017-10-25 12:55:36,785 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000039.png
+2017-10-25 12:55:36,785 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000039.png
+2017-10-25 12:55:36,786 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:38,322 - root - INFO - OCR Cloud Vision processing image time: 1.53724s
+2017-10-25 12:55:38,323 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000007.png
+2017-10-25 12:55:38,323 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000007.png
+2017-10-25 12:55:38,324 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:39,378 - root - INFO - OCR Cloud Vision processing image time: 1.054648s
+2017-10-25 12:55:39,378 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000069.png
+2017-10-25 12:55:39,379 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000069.png
+2017-10-25 12:55:39,381 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:40,614 - root - INFO - OCR Cloud Vision processing image time: 1.235071s
+2017-10-25 12:55:40,615 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000071.png
+2017-10-25 12:55:40,615 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000071.png
+2017-10-25 12:55:40,619 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:42,230 - root - INFO - OCR Cloud Vision processing image time: 1.614532s
+2017-10-25 12:55:42,231 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000031.png
+2017-10-25 12:55:42,231 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000031.png
+2017-10-25 12:55:42,238 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:44,218 - root - INFO - OCR Cloud Vision processing image time: 1.986616s
+2017-10-25 12:55:44,220 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000002.png
+2017-10-25 12:55:44,220 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000002.png
+2017-10-25 12:55:44,221 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:44,971 - root - INFO - OCR Cloud Vision processing image time: 0.750679s
+2017-10-25 12:55:44,971 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000060.png
+2017-10-25 12:55:44,971 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000060.png
+2017-10-25 12:55:44,972 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:45,744 - root - INFO - OCR Cloud Vision processing image time: 0.772448s
+2017-10-25 12:55:45,744 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000008.png
+2017-10-25 12:55:45,744 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000008.png
+2017-10-25 12:55:45,747 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:47,024 - root - INFO - OCR Cloud Vision processing image time: 1.279617s
+2017-10-25 12:55:47,025 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000036.png
+2017-10-25 12:55:47,025 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000036.png
+2017-10-25 12:55:47,026 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:48,172 - root - INFO - OCR Cloud Vision processing image time: 1.1473s
+2017-10-25 12:55:48,173 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000055.png
+2017-10-25 12:55:48,173 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000055.png
+2017-10-25 12:55:48,175 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:48,989 - root - INFO - OCR Cloud Vision processing image time: 0.816159s
+2017-10-25 12:55:48,989 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000009.png
+2017-10-25 12:55:48,990 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000009.png
+2017-10-25 12:55:48,992 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:50,568 - root - INFO - OCR Cloud Vision processing image time: 1.578155s
+2017-10-25 12:55:50,572 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000054.png
+2017-10-25 12:55:50,572 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000054.png
+2017-10-25 12:55:50,574 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:51,276 - root - INFO - OCR Cloud Vision processing image time: 0.703643s
+2017-10-25 12:55:51,276 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000006.png
+2017-10-25 12:55:51,276 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000006.png
+2017-10-25 12:55:51,291 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:54,236 - root - INFO - OCR Cloud Vision processing image time: 2.959554s
+2017-10-25 12:55:54,240 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000073.png
+2017-10-25 12:55:54,241 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000073.png
+2017-10-25 12:55:54,243 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:56,258 - root - INFO - OCR Cloud Vision processing image time: 2.017668s
+2017-10-25 12:55:56,261 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000047.png
+2017-10-25 12:55:56,261 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000047.png
+2017-10-25 12:55:56,265 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:55:58,890 - root - INFO - OCR Cloud Vision processing image time: 2.628951s
+2017-10-25 12:55:58,891 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000077.png
+2017-10-25 12:55:58,892 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000077.png
+2017-10-25 12:55:58,895 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:00,663 - root - INFO - OCR Cloud Vision processing image time: 1.770953s
+2017-10-25 12:56:00,666 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000019.png
+2017-10-25 12:56:00,666 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000019.png
+2017-10-25 12:56:00,671 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:03,327 - root - INFO - OCR Cloud Vision processing image time: 2.660649s
+2017-10-25 12:56:03,329 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000022.png
+2017-10-25 12:56:03,329 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000022.png
+2017-10-25 12:56:03,333 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:06,383 - root - INFO - OCR Cloud Vision processing image time: 3.053314s
+2017-10-25 12:56:06,387 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000030.png
+2017-10-25 12:56:06,388 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000030.png
+2017-10-25 12:56:06,389 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:07,594 - root - INFO - OCR Cloud Vision processing image time: 1.206537s
+2017-10-25 12:56:07,595 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000066.png
+2017-10-25 12:56:07,595 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000066.png
+2017-10-25 12:56:07,598 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:08,900 - root - INFO - OCR Cloud Vision processing image time: 1.304092s
+2017-10-25 12:56:08,901 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000016.png
+2017-10-25 12:56:08,901 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000016.png
+2017-10-25 12:56:08,902 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:09,984 - root - INFO - OCR Cloud Vision processing image time: 1.082855s
+2017-10-25 12:56:09,984 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000045.png
+2017-10-25 12:56:09,984 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000045.png
+2017-10-25 12:56:09,989 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:13,051 - root - INFO - OCR Cloud Vision processing image time: 3.066365s
+2017-10-25 12:56:13,052 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000028.png
+2017-10-25 12:56:13,052 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000028.png
+2017-10-25 12:56:13,056 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:14,777 - root - INFO - OCR Cloud Vision processing image time: 1.724843s
+2017-10-25 12:56:14,779 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000067.png
+2017-10-25 12:56:14,779 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000067.png
+2017-10-25 12:56:14,780 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:15,549 - root - INFO - OCR Cloud Vision processing image time: 0.770422s
+2017-10-25 12:56:15,550 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000056.png
+2017-10-25 12:56:15,550 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000056.png
+2017-10-25 12:56:15,552 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:16,713 - root - INFO - OCR Cloud Vision processing image time: 1.16302s
+2017-10-25 12:56:16,714 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000032.png
+2017-10-25 12:56:16,714 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000032.png
+2017-10-25 12:56:16,717 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:17,900 - root - INFO - OCR Cloud Vision processing image time: 1.186648s
+2017-10-25 12:56:17,901 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000013.png
+2017-10-25 12:56:17,901 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000013.png
+2017-10-25 12:56:17,904 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:19,208 - root - INFO - OCR Cloud Vision processing image time: 1.306561s
+2017-10-25 12:56:19,209 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000011.png
+2017-10-25 12:56:19,209 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000011.png
+2017-10-25 12:56:19,211 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:20,388 - root - INFO - OCR Cloud Vision processing image time: 1.179399s
+2017-10-25 12:56:20,389 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000005.png
+2017-10-25 12:56:20,389 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000005.png
+2017-10-25 12:56:20,398 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:23,167 - root - INFO - OCR Cloud Vision processing image time: 2.777551s
+2017-10-25 12:56:23,170 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000038.png
+2017-10-25 12:56:23,170 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000038.png
+2017-10-25 12:56:23,173 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:24,862 - root - INFO - OCR Cloud Vision processing image time: 1.691867s
+2017-10-25 12:56:24,863 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000052.png
+2017-10-25 12:56:24,864 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000052.png
+2017-10-25 12:56:24,864 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:25,665 - root - INFO - OCR Cloud Vision processing image time: 0.801179s
+2017-10-25 12:56:25,665 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000026.png
+2017-10-25 12:56:25,665 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000026.png
+2017-10-25 12:56:25,674 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:27,526 - root - INFO - OCR Cloud Vision processing image time: 1.860383s
+2017-10-25 12:56:27,527 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000061.png
+2017-10-25 12:56:27,527 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000061.png
+2017-10-25 12:56:27,530 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:28,810 - root - INFO - OCR Cloud Vision processing image time: 1.282148s
+2017-10-25 12:56:28,811 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000017.png
+2017-10-25 12:56:28,811 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000017.png
+2017-10-25 12:56:28,816 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:31,514 - root - INFO - OCR Cloud Vision processing image time: 2.703313s
+2017-10-25 12:56:31,516 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000043.png
+2017-10-25 12:56:31,516 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000043.png
+2017-10-25 12:56:31,518 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:32,463 - root - INFO - OCR Cloud Vision processing image time: 0.946423s
+2017-10-25 12:56:32,463 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000004.png
+2017-10-25 12:56:32,463 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000004.png
+2017-10-25 12:56:32,480 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:35,218 - root - INFO - OCR Cloud Vision processing image time: 2.754463s
+2017-10-25 12:56:35,222 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000025.png
+2017-10-25 12:56:35,222 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000025.png
+2017-10-25 12:56:35,226 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:38,128 - root - INFO - OCR Cloud Vision processing image time: 2.905877s
+2017-10-25 12:56:38,129 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000024.png
+2017-10-25 12:56:38,129 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000024.png
+2017-10-25 12:56:38,134 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:41,260 - root - INFO - OCR Cloud Vision processing image time: 3.130522s
+2017-10-25 12:56:41,261 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000053.png
+2017-10-25 12:56:41,261 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000053.png
+2017-10-25 12:56:41,262 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:41,941 - root - INFO - OCR Cloud Vision processing image time: 0.679453s
+2017-10-25 12:56:41,941 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000023.png
+2017-10-25 12:56:41,941 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000023.png
+2017-10-25 12:56:41,950 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:44,836 - root - INFO - OCR Cloud Vision processing image time: 2.894478s
+2017-10-25 12:56:44,837 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000029.png
+2017-10-25 12:56:44,837 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000029.png
+2017-10-25 12:56:44,839 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:46,077 - root - INFO - OCR Cloud Vision processing image time: 1.239236s
+2017-10-25 12:56:46,078 - root - INFO - Processing image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000041.png
+2017-10-25 12:56:46,078 - root - INFO - Calling Google cloud vision with image: /home/luismesa/demo_ocr/results/google_ocr/Deploying onto AWS Elastic Beanstalk - Deploy Web Applications on AWS-xhc1boyBkJw/images/frame_000041.png
+2017-10-25 12:56:46,083 - googleapiclient.discovery - INFO - URL being requested: POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAdNoP9MXjnYVzYzMli1Kbzw_AbCZyKXf4&alt=json
+2017-10-25 12:56:47,555 - root - INFO - OCR Cloud Vision processing image time: 1.476897s
+2017-10-25 12:56:47,556 - root - INFO - Total OCR time: 127.179169s
+2017-10-25 12:56:47,556 - root - INFO - Trying to detect passwords...
+2017-10-25 12:56:47,557 - root - INFO - Potential passwords found in frame_000027: [AKIAJXQL66WEEYCPDAWA]
+2017-10-25 12:56:47,557 - root - INFO - Potential passwords found in frame_000044: [AKIAJXQL66WEEYCPDAWA]
+2017-10-25 12:56:47,558 - root - INFO - Potential passwords found in frame_000049: [AKIAJXQL66WEEYCPDAWA]
+2017-10-25 12:56:47,559 - root - INFO - Potential passwords found in frame_000078: [17application]
+2017-10-25 12:56:47,560 - root - INFO - Potential passwords found in frame_000048: [AKIAJXQL66WEEYCPDANA]
+2017-10-25 12:56:47,560 - root - INFO - Potential passwords found in frame_000012: [AKIAJXQL66WEEYCPDAWA]
+2017-10-25 12:56:47,560 - root - INFO - Potential passwords found in frame_000046: [AKIAJXQL66WEEYCPDANA]
+2017-10-25 12:56:47,561 - root - INFO - Potential passwords found in frame_000031: [EC2ContainerServiceforEC2, EC2Container, EC2ContainerService, EC2FullAccess, AmazonEC2ReadOnlyAccess]
+2017-10-25 12:56:47,562 - root - INFO - Potential passwords found in frame_000047: [AKIAJXQL66WEEYCPDANA]
+2017-10-25 12:56:47,563 - root - INFO - Potential passwords found in frame_000045: [AKIAJXQL66WEEYCPDANA]
+2017-10-25 12:56:47,563 - root - INFO - Potential passwords found in frame_000028: [AKIAJXQL66WEEYCPDAWA]
+2017-10-25 12:56:47,564 - root - INFO - Potential passwords found in frame_000013: [AKIAJXQL66WEEYCPDAWA]
+2017-10-25 12:56:47,565 - root - INFO - Potential passwords found in frame_000026: [AKIAJXQL66WEEYCPDAWA]
+2017-10-25 12:56:47,566 - root - INFO - Potential passwords found in frame_000025: [AKIAJXQL66WEEYCPDANA]
+2017-10-25 12:56:47,566 - root - INFO - Potential passwords found in frame_000024: [AKIAJXQL66WEEYCPDAWA]
+2017-10-25 12:56:47,567 - root - INFO - Potential passwords found in frame_000023: [AKIAJXQL66WEEYCPDANA]
+2017-10-25 12:56:47,567 - root - INFO - Password detection time: 0.010691s
+2017-10-25 12:56:47,570 - root - INFO - Process finished!
+2017-10-25 12:56:47,570 - root - INFO - Total process time: 169.5631s

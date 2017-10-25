@@ -1,35 +1,25 @@
-bash-3.25 ls
+4» c ¡… …….¡…………w …… …… … …
 
-README.M app. js package.json
+ 
 
-hash-3.25 git in“
+   
 
-1nittilized enpty Git repository in [Users/ScreencastlDesktop/Wzonlnode-nroject/.gtt/
-bash-3.25 gl: add '
+ 
 
-hash-3.25 gu comi! -n "Inlttal cmltt'
+AVIS …
 
-[mister (root-cum“) dassfc3] Intth1. com“:
+ 
 
-C…itter: Screencast<Screencast—HacBook-Pro.local>
+Screenast … swon. su…n …
 
-Your nave and email address were configured autmattca1.ly based
+5e1ec1usevsm add … me gvoup uemoGroup
 
-on your username and hostnam. Please check that they are accurate.
-You can suppress this ness¡ge hy setting then expllctt1y. Run the
-follwing cmnd ¡nd follw the instructions in yuur editºr to edit
-yºur configuration fue:
+ 
 
-gu: config --g'lobil --edlt
+su…… u …su…
 
-After doing this, yuu May fix the identity used for this covl'llt with:
-glt corn“: --amnd --reset-author
+un Nlme : Groups Passqu P¡s=weid um Used : Acces: Keys emu… me :
 
-: files changed, 35 inserttons(+)
+No vecevds ¡…a
 
-create node 186544 READHE.M
-
-create mde 180644 ¡pp.:ls
-
-create mde 190644 pickige.jsun
-hash-3.15
+…… ñ

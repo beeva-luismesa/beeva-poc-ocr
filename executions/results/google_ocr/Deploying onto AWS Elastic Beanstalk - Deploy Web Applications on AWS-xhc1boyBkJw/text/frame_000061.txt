@@ -1,0 +1,28 @@
+I node-project
+gitignore
+D app is
+A package son
+'use strict ';
+var http = require("http") ,
+mysql = require("mysql") ,
+mysqlServer = mysql.createConnectionſ
+host: process.env. RDS_HOSTNAME,
+I READMEnd
+user: process. env.RDS_USERNAME,
+password: process. env.RDS_PASSWORD,
+port: process. env.RDS_PORT
+});
+mysqlServer.connect(function(err)
+if (err) {
+process .env[' msg'] = 'Unable to connect to RDS - T+ err ;
+} else {
+process, envſ' msg'] = 'Success Connected to RDS via + process.env.RDSHOSTNAME;
+http.createServer (function(request, response)
+response.writeHead (200,
+"Content-Type ": " text/plain "
+response.write(process.env[' msg']) ;
+response.end();
+}).listencprocess.env.PORT TI 3000) ;
+app is 261
+uts avaScript muster
+

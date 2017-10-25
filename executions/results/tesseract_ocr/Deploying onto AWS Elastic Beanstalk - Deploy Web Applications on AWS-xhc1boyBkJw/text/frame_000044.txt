@@ -1,38 +1,54 @@
-(- e … …….……………… … …… … a… … …… .
-AWS v … S(reenzwslv oreqnnv supwn
+optional argumnts:
 
-¡ E…a…… ………m . e..... … E……….
-node¿pruject » node—projecl—dev2 ………………S…………… …… .
+-h, --help shw this help message and exit
+--debug toggie debug output
 
-Dashboard
+--quiet suppress au output
 
-º E|uuc Buan B und-img your Invlmnmnnl
-Configuralmn To cauce! ¡ms eperauon sea… A… c…… co…… 4… me Amiansdmvdawn
-w.ws….
-Legs
->.
-… …
-Mº te º Overvwew CRelvesh
-Alavms
-…...……,v…… ……m…
+Av, --verbose toggle verbose output
+
+--profi1.e PROFILE use a specific profile from your credentiai file
+-r REGION, --region REGION
+
+use a specifi( region
+——nn—verify—ssl do not verify AMS SSL certificates
+--version show application/version info
+
+To get started type 'eb init'. Then type 'eb <reate' and '=b upen'
+hash—3.25 cd node-project]
+hash- .2$ eb init
 
  
 
-Events “ Nenlm
-Uvuxunw m5 …… Amazºn …… 2… 03
-Tags n.dc … 43yur'mng ……
-cn=…g=
-Recent Events Show All
+Select ¡ default region
+
+1) us—east—1 US East (M. Virginia)
+
+:) us-uest-1 5 West (N. California)
+
+3) us-uest-Z 5 West (Oregon)
+
+4) eu—west-1 . su (Ireland)
+
+5) eu-centra'L-1 - Eu (Frankfurt)
+
+5) ap-southeast-1 Asia Pacific (Singapore)
+
+7) ap-southeast-Z Asia Pacific (Sydney)
+
+¡) ap>northeast-1 . Asia Pacific (Tokyo)
+
+9) sa-east-1 , South America (Sao Paulo)
+
+(default is 3):
+
+Von have not yet set up your credentials or your credentials are incorrect
+You must provide your credentiiis.
+
+(aus-access-id): AKIAJXQL56HEEVCPDAHA _
+(ans—secret—key): 0115x6n50Ns/MIoIIRA/HXUQn1+thcRManV
 
    
 
-…… r… n……
-2n157u5.30 rs 51 ni mo…; wm s………uy …… ………mm más ……m…
-
-mm… 561 ¡12 ummm wo ……c.… ……e a! …e…pm……z …as…c……… …
-
-zmsrnerso 15 su 4… urcmoa wro Addwg …a… memºry … yo… amo……
-
-zmsraersox55nnsmcro7oo wo AddedEC?1nslavme'vu&91ste loAulo$cahng6voup awsebre726. 5,:…s…x…Awsea…os…ge…p…ouongxu
-
-2U15706730'545 35 ummm wro Created cm…awmn aVavm named swsebreiñhm5|1kqustack/¡WSEBCVWGWSICMWSVMHWQHJ1N21MCAOTEN
+Enter App1ication Nine
+(default is "node-Drnject”): '

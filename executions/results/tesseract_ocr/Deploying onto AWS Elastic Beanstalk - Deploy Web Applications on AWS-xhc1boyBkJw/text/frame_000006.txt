@@ -1,41 +1,44 @@
-| ……
+bash-3.25 sudo pip install 345:ch
+The directory [Users[Screencastllerary/Caches/nlp/http or its parent directory is no: wned by the current user and the cache has
+been disibied. Please check the pernissions and wner of th¡t directory. If executing pip with sudo, you hay un: suda's -H flag.
+The directory [Users/ScreencastlLibriry/Cach!$lnínlhttn ºr its parent directorv is not wned by the current user ¡nd the cache has
+beendisahied. Please check the pernisslons and owner of that directory. If executing pin with sudo, you may want sudo's -H flag.
+culiecting ausebc'lt
+[Libriry/Python/2.7/site-p¡cklgeslpipl_vendorlrequests/packages/urllihilutitlssi_.py:99: InsecureFlatformarning: A true SSLCOntext obj
+ect is not ¡vnilnble. This prevents urllib3 from cunfiguring SSL appropriately and may ciuse certiin SSL connections to fail. For mre
+infornation, see https: //urllib3 ,readthedocs.org/enllatest/security. htnlitnsecurep1atformarntng .
 
-J— u
+InsecurePhtformarning
+Collectinn requests<l.7,>=1.5.1 (from ausebcli)
 
- 
+Dounioadin r uests-Z.6.Z- 2. 3—none-¡nymhl (470k8)
 
-s…»;
-……
+me; I | 411—kB 206k5/5
 
-…s
+Collecting dockerpty<a.4,>=a.3.z (fran msebcli)
+Collecting uehsacket-ciientsl.D,>=O.11.B (fran ausehcii)
+Collectiny cenent= .4 (from nsebcii)
+Collecting pyyani>=3.11 (from wsebcli)
+Collecttng pathspec=6.3.3 (from awsebclt)
+Coilecting texttableaa.9,>=e.a.1 (fran ausebcli)
+Collecting pythun—dateutil<3.B.B,>=2.1 (fran ansebcli)
 
-Fuhc1=s
+Downloadin than dáteutil- .4.2- 2. 3-none-¡ny.uhl (188k5)
 
-…en… p……
-…… Semngs
+mex | | 19sz 49kB/s
 
-Cm9n1151R9wn
+Cn'liecting docker-py<l.z,>=1.1.o (from awsebcli)
+Colle¿ting jnespith>=8.6.1 (fran Iusebcli)
 
-Enchpnnn Keys
+Downloading jnespath»9.7.1-py2.py3-uone»iny.uhl
+Collecttng docnpte0.1,>=0.6.1 (fran ausebclt)
+Collecting sb(>=1.3.9 (fran dockerphyd.4,>=8.3.Z->avsebeil)
 
-Welcome to Identity and Access Management
-IAM Resuuvces
+Dwnipading six-1.9.e-py2.pyz-nme—any.uhl
+Cnllecting backports. ssl-natch- hostnine (from uebsocket-(Lient<l. 6, >=!. 11. 6- >wsebcli)
+Installing collected packages: requests, six, dockerpty. backports. ssl- natch- hnstnane, websocket- -cltent, cenent, pyyan'l, pathspec, text
+table, python- dateuti'l, dncker- -py, jhespath, docopt, ansebcii
+Successfuiiy instiiied ausebcii- 3. 4. 5 hackports. ssl- ilatch- hostnune- !. 4. e. : c'einent-l 4.B dpcker- -[7y- -.1 1. B dockerpty- -9. 3. 4 doc0pt- -B. 6. 2 :la
+;:v=th 657.1 pithspec- -9. 3.3 python— —d¡teuti1—- ¡. 4. 2 pyyanl-3.11 requests- -2. 6. 2 six-1;9. e texttible-G. !. 3 uebsocket- client- 9. 32. 9
 
-Securwa Status
-
- 
-
-Screenusl … me… $unno'! …
-
-Feature Spolhght
-
- 
-
-Addmonaw |nfannatmn
-
-… documenx¡uon
-wm mmmy m…… Fvuygmund
-
-Penw Simula¡or
-
-Vmeas … re1ease msmry …: udcmcna!
+s 3 2

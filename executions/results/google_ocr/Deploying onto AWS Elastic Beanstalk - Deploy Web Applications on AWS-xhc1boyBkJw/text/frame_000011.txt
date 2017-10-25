@@ -1,33 +1,13 @@
-create Creates a new environment.
-deploy Deploys your source code to the environment.
-events Gets recent events.
-init Initializes your directory with the EB CLI. Creates the application.
-labs Extra experimental commands.
-list Lists all environments.
-local Runs commands on your local machine.
-logs Gets recent logs.
-open Opens the application URL in a browser.
-platform Manages platforms .
-printenvShows the environment variables.
-scale Changes the number of running instances.
-setenv Sets environment variables.
-sh Opens the SSH client to connect to an instance.
-status Gets environment information and status.
-SWaP Swaps two environment CNAMEs with each other.
-terminate Terminates the environment .
-upgradeUpdates the environment to the most recent platform version.
-se Sets default environment.
-optional arguments:
--h, --help show this help message and exit
-debug toggle debug output
--quiet suppress all output
--v, --verbose toggle verbose output
---profile PROFILEUse a specific profile from your credential file
-- A REGION, --region REGION
-use a specific region
--- no-verify-ssl do not verify AWS SSL certificates
---version show application version info
-To get started type 'eb init '. Then type 'eb create' and 'eb open
-bash-3.2$ cd node-project/
-bash-3.25 I
+– C B https://console.awsamazon.com/iam/home?region-us-west-2 users
+T AWS Services v Edit
+Screencast
+Global
+Support
+Enter User Names:
+Create User
+Maximum 64 characters each
+- Generate an access key for each user
+Users need access keys to make secure REST or Query protocol requests to AWS service APIs.
+For users who need access to the AWS Management Console, create a password in the Users panel after completing this wizard.
+Cancel create
 

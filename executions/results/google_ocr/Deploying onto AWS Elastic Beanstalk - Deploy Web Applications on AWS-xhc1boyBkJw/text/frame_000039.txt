@@ -1,1 +1,21 @@
+– C B https://us-west-2.console.aws.amazon.com/elasticbeanstalk/home?region-us-west-2/newApplication
+AWS Services v Edit
+Screencast
+Oregon
+Support
+Elastic Beanstalk
+Create New Application
+Application Info
+Application Information
+New Environment
+To create a new application, enter the details of your application. Learn more.
+Application name:
+Must be less than 100 characters and cannot contain a /
+Description:
+Optional
+Cancel Nased
+Q FeedbackO English
+O 2008 - 2015, Amazon Web Services, Inc. or its affiliates. All rights reserved.
+Privacy Policy Terms of Use
+melasticbeanstalk/home?regonious
 

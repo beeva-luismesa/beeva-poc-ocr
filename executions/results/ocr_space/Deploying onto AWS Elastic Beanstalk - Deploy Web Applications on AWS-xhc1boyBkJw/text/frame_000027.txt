@@ -1,38 +1,38 @@
-opttonal arguvents: 
+optional arguments: 
 -h - -help 
 - -debug 
-- -qutet 
+- -quiet 
 -v, - -verbose 
---profUe PROFILE 
-show thts help and e»dt 
-toggte debug output 
+--profile PROFILE 
+show thts help message and exit 
+toggle debug output 
 suppress al t output 
-toggte verbose output 
-use a spectftc profite from your credenttal ftle 
--r REGION, --region REGION 
---no-vertfy-sst 
-- -verston 
-use a spectftc regton 
-do not vertfy AHS SSL certtftcates 
-show appucatton/verston tnfo 
-To get started type 'eb Then type 'eb create' and 'eb open' 
+toggle verbose output 
+use a specific profite from your credential file 
+-r REGION, --regton REGION 
+--no-vertfy-ssl 
+--version 
+use a specific region 
+do not verify AHS SSL certificates 
+show application/version info 
+To get started type 'eb init'. Then type 'eb create' and 'eb open' 
 bash-3.2$ cd node-project/ 
-bash-3.2$ eb tntt 
+bash-3.2$ eb init 
 Select a default regton 
-1) us-east-l : US East (N. Vtrgtnta) 
-2) us-west-l : US Hest (N. Caltfornta) 
-3) us-west-2 : US Hest (Oregon) 
-4) eu-west-l : EU (Iretand) 
-5) eu-central-l : EU (Frankfurt) 
-6) ap-southeast-l : Asta Pactftc (Sülgapore) 
-7) ap-southeast-2 : Asta Pactftc (Sydney) 
-8) ap-northeast-l : Asta Pacific (Tokyo) 
-9) sa-east-l : South (Sao Paulo) 
-(default ts 3): 
-You have not yet set up your credenttals or your credenttals are ü"correct 
-You nust provide your credentiats. 
-(aws-access-td): AKIAJXQL66HEEYCPDAHA 
-(aws-secret-key): Oj15xGnEDNs/KW/01zRA/MXIRn1+FtqcRrsnF2Y 
-Enter Appucatton Nane 
-(default ts "node-project"): I 
+1) us-east-l : US East (N. Vtrgtnia) 
+2) us-west-l : US Hest (N. California) 
+3) us-west-2 : US West (Oregon) 
+4) eu-west-l : EU (Ireland) 
+S) eu-central-l : EU (Frankfurt) 
+6) ap-southeast-l : Asia Pactftc (Singapore) 
+7) ap-southeast-2 : Asia Pacific (Sydney) 
+8) ap-northeast-l : Asia Pactfic (Tokyo) 
+9) sa-east-l : South America (Sao Pauto) 
+(default 3): 
+You have not yet set up your credentials or your credenttals are incorrect 
+You must provtde your credenttals. 
+(aws-access-id): AKIAJXQL66HEEYCPDAHA 
+(aws-secret-key): Oj1SxGnEDNs/KW/01zRA/MXUQn1+FtqcRmsnF2Y 
+Enter Appltcation Nane 
+(default is "node-project"): 
 

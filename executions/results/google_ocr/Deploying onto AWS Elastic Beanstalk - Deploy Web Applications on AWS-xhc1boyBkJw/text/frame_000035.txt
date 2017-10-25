@@ -1,1 +1,42 @@
+– C8 https://console. awsamazon.com/iam/home?region-us-west-2 groups/demoGroup
+T AWS Services Edit
+Screencast
+Global
+Support
+Dashboard
+IAM > Groups > demoGroup
+- Summary
+Details
+Group ARN:
+arna awsiam::815675479840:group/demoGroup
+Groups
+Users (in this group):
+Users
+Path:
+Roles
+Creation Time:
+2015-06-30 14:33 PDT
+Policies
+Identity providers
+- Users
+Account Settings
+This view shows all users in this group: 1 User
+Remove users from Group Add Users to Group
+Credential Report
+User
+Actions
+Encryption Keys
+& demoUser
+Remove User from Group
+- Permissions
+Managed Policies
+The following managed policies are attached to this group. You can attach up to 2 managed policies.
+Attach Policy
+Policy Name
+Actions
+T AWSElasticBeanstalkFullAccess
+Show Policy | Detach Policy Simulate Policy
+Inline Policies
+Feedback English
+O 2008 - 2015, Amazon Web Services, Inc. or its affiliates. All rights reserved. Privacy Policy Terms of Use
 

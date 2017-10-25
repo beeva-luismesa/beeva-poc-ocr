@@ -1,0 +1,27 @@
+C A https://us-west-2.consoleawsamazon.com/elasticbeanstalk /home?region-us-west-28/environment/configuration?applicationName=node-project&environmentid=e-26hm5jtkk@peditcontainer
+QE
+Events
+Gzip compression: false
+4 Specifies if gzip compression is enabled.
+Tags
+Node command
+Command to start the Node.js application. If an empty string is specified, appjs is used, then serverjs, then "npm start in that order.
+Log Options
+The following settings control the log publication behavior.
+Instance profile: (-role & Refresh a
+aws-elasticbeanstalkec2-
+The instance profile grants your environment specific permissions under your AWS accountLearn More
+Enable log file rotation to Amazon S3. If checked, service logs are published to S3.
+Static Files
+To improve performance, you can configure Apache or Ngin to serve static files from a set of directories inside your web application. Learn more.
+Virtual Path (Example: /assets)
+Directory (Example: /static/assets)
+Environment Properties
+The following properties are passed into the application as environment variables. Learn more.
+Property Name
+Property Value
+Validating configuration changes...
+Cancel OADy
+Q Feedback O English
+O 2008 - 2015, Amazon Web Services, Inc. or its affiliates. All rights reserved. Privacy Policy Terms of Use
+
