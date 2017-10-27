@@ -121,8 +121,27 @@ Installed as a dependency, or requirement, in another python module, you only ha
 poc_ocr = PoCOCR("/path/to/settings.py")
 poc_ocr.run('https://www.youtube.com/watch?v=nHc288IPFzk', '/home/my_user/desktop', 0.1, 'ocr-space', 'spa')
 ```
+
+Initial Release
+
+## Next steps
+
+### Password recognition
+
+#### Regexps
+
+More password patterns could be included in module configuration. I suggest to take a look to this repo: [git-secrets](https://github.com/awslabs/git-secrets). It contain some patterns and key-words to identify AWS credentials among others.
+
+#### Key-words
+
+Maybe we could use more regexps to find passwords but, in my humble opinion, could be better putting all the muscle in creating a dictionary for identifiying key-words or password topics in a slide. Words like: user, password, key, etc. The module could warn about frames containing this key-words.
+
+### Frames extraction
+
+#### Google Cloud Video Intelligence
+
+It would be interesting to explore [Google Cloud Video Intelligence](https://cloud.google.com/video-intelligence) capabilities for shots (scene detection) in order to extract video frames and process it with Google Cloud Vision.
+
 ## Changelog
 
 v1.0.0
-
-Initial Release
